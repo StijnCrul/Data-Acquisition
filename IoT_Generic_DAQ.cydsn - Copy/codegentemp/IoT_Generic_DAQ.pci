@@ -1,0 +1,31 @@
+# IoT_Generic_DAQ
+# 2019-12-09 09:09:23Z
+
+dont_use_location BLE -1 -1 0
+dont_use_location p4blecell -1 -1 0
+set_location "ClockGenBlock" CLK_GEN -1 -1 0
+set_io "CY_CPUSS_SWJ_SWCLK_TCLK(0)" iocell 6 7
+set_io "CY_CPUSS_SWJ_SWDIO_TMS(0)" iocell 6 6
+set_io "GREEN_PIN(0)" iocell 1 1
+set_io "\UART:tx(0)\" iocell 5 1
+set_io "\UART:rx(0)\" iocell 5 0
+set_io "RED_PIN(0)" iocell 0 3
+set_io "A0(0)" iocell 10 0
+set_io "BLUE_PIN(0)" iocell 11 1
+set_io "\mI2C:scl(0)\" iocell 6 0
+set_io "\mI2C:sda(0)\" iocell 6 1
+set_io "A1(0)" iocell 10 1
+set_io "A2(0)" iocell 10 2
+set_io "A3(0)" iocell 10 3
+set_io "O_0(0)" iocell 13 6
+set_io "O_1(0)" iocell 6 3
+set_io "O_2(0)" iocell 9 7
+set_io "O_3(0)" iocell 13 7
+set_io "O_7(0)" iocell 10 4
+set_io "O_4(0)" iocell 9 6
+set_io "O_5(0)" iocell 6 2
+set_io "O_6(0)" iocell 10 5
+set_io "O_6(1)" iocell 10 6
+set_io "O_8(0)" iocell 9 5
+set_io "O_9(0)" iocell 9 4
+set_location "\ADC:SAR\" SARADC -1 -1 0

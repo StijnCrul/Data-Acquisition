@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<fileSet version="1" anchorPath="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp" xsi:schemaLocation="http://cypress.com/xsd/cypathdictionary cypathdictionary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cypathdictionary">
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter_cfg.h" value="HEADER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter_sysint_cfg.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter_sysint_cfg.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Pins and Interrupts" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter_amux.c" value="SOURCE_C;CortexM0p,CortexM4;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter_cfg.c" value="SOURCE_C;CortexM0p;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cymetadata.c" value="SOURCE_C;CortexM0p,CortexM4;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cydevice_trm.h" value="HEADER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cydevicegnu_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cydevicerv_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cydeviceiar_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter_gpio.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cyfitter_sysint.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\UART.c" value="SOURCE_C;CortexM0p,CortexM4;;;;UART" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\UART.h" value="HEADER;;;;;UART" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADC.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADC.h" value="HEADER;;;;;ADC" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADC_INT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADC_INIT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADC_PM.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\mI2C.c" value="SOURCE_C;CortexM0p,CortexM4;;;;mI2C" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\mI2C.h" value="HEADER;;;;;mI2C" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCSOCCounter.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADCSOCCounter" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCSOCCounter.h" value="HEADER;;;;;ADCSOCCounter" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCCounterClk.h" value="HEADER;;;;;ADCCounterClk" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_0.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADCDMA_0" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_0.h" value="HEADER;;;;;ADCDMA_0" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_1.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADCDMA_1" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_1.h" value="HEADER;;;;;ADCDMA_1" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_2.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADCDMA_2" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_2.h" value="HEADER;;;;;ADCDMA_2" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_3.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADCDMA_3" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADCDMA_3.h" value="HEADER;;;;;ADCDMA_3" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\UARTDMA.c" value="SOURCE_C;CortexM0p,CortexM4;;;;UARTDMA" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\UARTDMA.h" value="HEADER;;;;;UARTDMA" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T1.c" value="SOURCE_C;CortexM0p,CortexM4;;;;T1" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T1.h" value="HEADER;;;;;T1" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T0.c" value="SOURCE_C;CortexM0p,CortexM4;;;;T0" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T0.h" value="HEADER;;;;;T0" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T2.c" value="SOURCE_C;CortexM0p,CortexM4;;;;T2" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T2.h" value="HEADER;;;;;T2" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T3.c" value="SOURCE_C;CortexM0p,CortexM4;;;;T3" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\T3.h" value="HEADER;;;;;T3" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\SRClk.h" value="HEADER;;;;;SRClk" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\I2CDMA.c" value="SOURCE_C;CortexM0p,CortexM4;;;;I2CDMA" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\I2CDMA.h" value="HEADER;;;;;I2CDMA" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\ADC_intSarClock.h" value="HEADER;;;;;ADC_intSarClock" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\mI2C_SCBCLK.h" value="HEADER;;;;;mI2C_SCBCLK" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\project.h" value="OTHER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cycodeshareimport.ld" value="OTHER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cycodeshareexport.ld" value="OTHER;;;;;" />
+  <file name="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\codegentemp\cycodeshareimport.scat" value="OTHER;;;;;" />
+</fileSet>
