@@ -7,7 +7,7 @@ The DAQ is highly flexible and reconfigurable. By default, it functions as a ser
 * 4 analog inputs with reconfigurable sample rate and buffer sizes.
 * A library for the [Si7021](https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf) temperature/humidity sensor by Silicon Labs
 * A library for the [LSM303DLHC](https://www.st.com/resource/en/datasheet/lsm303dlhc.pdf) eCompass.
-* By default, the configuration uses our inhome developed sensor board available at: todo
+* By default, the configuration uses our inhome developed sensor board available [here](https://github.com/DRAMCO/Sensors_commissioning_mega_PCB)
 
 ![daq](/Images/daq.png)
 
