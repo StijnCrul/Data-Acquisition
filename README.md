@@ -66,7 +66,14 @@ The project is split up into 4 schematics: one for the ADC and communication blo
 
 ![schematic_control](/Images/schematic_control_timers.png)
 
-
-
+# How to cite
+```latex
+@misc{crulDAQ,
+author =   {Crul, Stijn and Raes, Willem},
+title =    {{Generic IoT DAQ}},
+doi = {10.5281/zenodo.3568053},
+howpublished = {\url{https://github.com/StijnCrul/Data-Acquisition}},
+}
+```
 
 

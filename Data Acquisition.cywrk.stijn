@@ -13,12 +13,11 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Pins">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)">
 <ExpandedNodeIds>
 <v>Data Acquisition</v>
 <v>Data Acquisition\IoT_Generic_DAQ</v>
 <v>Data Acquisition\IoT_Generic_DAQ\TopDesign</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Pins</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Analog</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\DMA</v>
@@ -26,7 +25,6 @@
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Interrupts</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\System</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Directives</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM GCC Generic</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM GCC Generic\cy8c6xx7_cm0plus.ld</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM IAR Generic</v>
@@ -75,12 +73,10 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\Si7021.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\wait.c</v>
-<v>Data Acquisition\IoT_Generic_DAQ\Shared Files</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files\cyapicallbacks.h</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files\stdio_user.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files\stdio_user.h</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files\system_psoc6.h</v>
-<v>Data Acquisition\IoT_Generic_DAQ\Generated_Source</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Generated_Source\PSoC6</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -88,30 +84,7 @@
 <v>Data Acquisition\IoT_Generic_DAQ</v>
 <v>Data Acquisition\IoT_Generic_DAQ\TopDesign</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Pins</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Analog</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\DMA</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Clocks</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Interrupts</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\System</v>
-<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Directives</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM GCC Generic</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM GCC Generic\cy8c6xx7_cm0plus.ld</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM IAR Generic</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM IAR Generic\cy8c6xx7_cm0plus.icf</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM MDK Generic</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\ARM MDK Generic\cy8c6xx7_cm0plus.scat</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Header Files</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\ARM GCC Generic</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\ARM GCC Generic\startup_psoc6_01_cm0plus.S</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\ARM IAR Generic</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\ARM IAR Generic\startup_psoc6_01_cm0plus.s</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\ARM MDK Generic</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\ARM MDK Generic\startup_psoc6_01_cm0plus.s</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\main_cm0p.c</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)\Source Files\system_psoc6_cm0plus.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\ARM GCC Generic</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\ARM GCC Generic\cy8c6xx7_cm4_dual.ld</v>
@@ -137,6 +110,15 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\analog.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\blink.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\i2c.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\LSM303DLHC.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\main_cm4.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\serial.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\Si7021.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\wait.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Generated_Source</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
