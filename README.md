@@ -7,6 +7,9 @@ The DAQ is highly flexible and reconfigurable. By default, it functions as a ser
 * 4 analog inputs with reconfigurable sample rate and buffer sizes.
 * A library for the [Si7021](https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf) temperature/humidity sensor by Silicon Labs
 * A library for the [LSM303DLHC](https://www.st.com/resource/en/datasheet/lsm303dlhc.pdf) eCompass.
+* By default, the configuration uses our inhome developed sensor board available at: todo
+
+![daq](/Images/daq.png)
 
 # Getting started
 ## Prerequisites
@@ -20,12 +23,41 @@ To reconfigure the DAQ, you require [PSoC Creator](https://www.cypress.com/produ
 
 * Upload the project. Choose the M4 to upload to.
 
+![Program application](/Images/program.png)
+
 ## Configuring the DAQ 
 * You can choose which channels and sensors you want to use by commenting or uncommenting the tasks in the main_cm4.c file.
 * By default, only sample task 0 is enabled.
 * Sample frequencies can be changed by opening TopDesign.cysch and changing the "Compare or Capture" value of the relevant timer.
 
+## Default settings
+By default all analog channels are configured to send frames of 1024 samples each second. The samplefrequency is 44100 kHz. The accelerometer samples at 1 kHz and sends a frame of 1000 samples each second. The Si7021 sends one sample every minute.
+
 # Documentation
-Schematic
-pins
-DMA configuration
+
+## Pinout
+The default pinout is depicted in the image below. A0 to A3 are the analog inputs and correspond to the same Arduino inputs. O_0 to O_9 are debug outputs. The I2C and UART pins are for communication. All pins can be changed depending on the needs of your application. 
+
+![Pinout](/Images/pinout.png)
+
+## Simplified Schematic
+
+![simplified_schematic](/Images/genericdaqschematic.pdf)
+
+## DMA setup
+
+## PSoC Creator schematics
+The project is split up into 4 schematics: one for the ADC and communication blocks, one for the DMA channels, one for the timers and one for the timer logic.
+
+![schematic_adc](/Images/schematic_adc.png)
+
+![schematic_dma](/Images/schematic_dma.png)
+
+![schematic_timers](/Images/schematic_timers.png)
+
+![schematic_control](/Images/schematic_control_timers.png)
+
+
+
+
+
