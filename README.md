@@ -27,7 +27,10 @@ To reconfigure the DAQ, you require [PSoC Creator](https://www.cypress.com/produ
 
 ## Configuring the DAQ 
 * You can choose which channels and sensors you want to use by commenting or uncommenting the tasks in the main_cm4.c file.
-* By default, only sample task 0 is enabled.
+* By default, only one analog channel is enabled.
+
+![default_tasks](/Images/default_tasks.png)
+
 * Sample frequencies can be changed by opening TopDesign.cysch and changing the "Compare or Capture" value of the relevant timer.
 
 ## Default settings
@@ -42,9 +45,11 @@ The default pinout is depicted in the image below. A0 to A3 are the analog input
 
 ## Simplified Schematic
 
-![simplified_schematic](/Images/genericdaqschematic.pdf)
+![simplified_schematic](/Images/simplified_schematic.png)
 
 ## DMA setup
+
+![dma_config](/Images/dma_config.png)
 
 ## PSoC Creator schematics
 The project is split up into 4 schematics: one for the ADC and communication blocks, one for the DMA channels, one for the timers and one for the timer logic.
