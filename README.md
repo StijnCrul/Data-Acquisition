@@ -15,7 +15,7 @@ To reconfigure the DAQ, you require [PSoC Creator](https://www.cypress.com/produ
 * Download and unzip the workspace from this repo.
 * Open PSoC Creator and open the workspace by clicking File -> Open -> Project/Workspace. 
 * Build the project by clicking the generate application button.
-![Generate application](/images/generate_application.png)
+![Generate application](/Images/generate_application.png)
 * Upload the project. Choose the M4 to upload to.
 
 ## Configuring the DAQ 
