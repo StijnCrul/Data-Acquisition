@@ -45,9 +45,13 @@ The default pinout is depicted in the image below. A0 to A3 are the analog input
 
 ## Simplified Schematic
 
+The schematic shows the functionality of the DAQ in its default configuration. I2C sensors are controlled by the bus. Analog sensors are controlled by digital control logic. Timers are used to determine the sample rate for each channel. Once a timer generates an interrupt, the control logic sets the analog multiplexer and trigger the start of conversion for the ADC. Once a conversion is finished. A DMA channel copies the result to a buffer.
+
 ![simplified_schematic](/Images/simplified_schematic.png)
 
-## DMA setup
+## DMA setup to the Serial channel
+
+Once a sensor's buffer is full, its respective DMA channel generates an interrupt that enables the serial DMA channel. The serial DMA channel contains 2 descriptors per sensor. One to send some command bytes and one to send the actual buffer. Once the descriptor for the command bytes is finished, it chains to the descriptor for the gathered sensor data. This is illustrated in the image below.
 
 ![dma_config](/Images/dma_config.png)
 
