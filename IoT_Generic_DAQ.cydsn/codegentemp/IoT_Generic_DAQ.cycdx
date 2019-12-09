@@ -29,16 +29,16 @@
   <block name="T1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="TCPWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
-  <block name="or_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SRClk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="or_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="or_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="or_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="or_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="I2CDMA" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="DW" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
   <block name="I2C_DMA_INT" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SRClk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="or_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="or_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="or_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="T3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="TCPWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>

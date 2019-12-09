@@ -92,9 +92,9 @@ int main(void){
     
     
     // Create tasks for analog channels. Reduce priority for lower speeds
-    //xTaskCreate(ADCSampleTask, "ADCSampleTask0", 100, (void*) &channel0, 5, NULL);
+    xTaskCreate(ADCSampleTask, "ADCSampleTask0", 100, (void*) &channel0, 5, NULL);
     //xTaskCreate(ADCSampleTask, "ADCSampleTask1", 100, (void*) &channel1, 5, NULL);
-    xTaskCreate(ADCSampleTask, "ADCSampleTask2", 100, (void*) &channel2, 5, NULL);
+    //xTaskCreate(ADCSampleTask, "ADCSampleTask2", 100, (void*) &channel2, 5, NULL);
     //xTaskCreate(ADCSampleTask, "ADCSampleTask3", 100, (void*) &channel3, 5, NULL);
     
     

@@ -2,7 +2,7 @@
 --	Conversion of IoT_Generic_DAQ.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Mon Dec 09 10:09:08 2019
+--	Mon Dec 09 11:43:51 2019
 --
 
 USE cypress.cypress.all;

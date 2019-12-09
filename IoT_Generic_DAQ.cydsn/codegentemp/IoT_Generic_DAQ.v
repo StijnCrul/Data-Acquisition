@@ -1,6 +1,6 @@
 // ======================================================================
 // IoT_Generic_DAQ.v generated from TopDesign.cysch
-// 12/09/2019 at 10:08
+// 12/09/2019 at 11:43
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -2321,7 +2321,7 @@ module top ;
 
           wire  Net_1626;
           wire  Net_1625;
-          wire  Net_1616;
+          wire  Net_1698;
           wire  Net_1537;
           wire  eos;
           wire  Net_1536;
@@ -3459,16 +3459,10 @@ module top ;
     // -- SRFF End --
 
 
-    assign r0 = s1 | s2 | s3;
+    assign reload = s0 | s1 | s2 | s3;
 
 
     assign r1 = s0 | s2 | s3;
-
-
-    assign r2 = s0 | s1 | s3;
-
-
-    assign r3 = s0 | s1 | s2;
 
 
 	cy_clock_v1_0
@@ -3483,7 +3477,13 @@ module top ;
 
 
 
-    assign reload = s0 | s1 | s2 | s3;
+    assign r3 = s0 | s1 | s2;
+
+
+    assign r2 = s0 | s1 | s3;
+
+
+    assign r0 = s1 | s2 | s3;
 
     DMA_PDL_v2_0_13 I2CDMA (
         .tr_in(1'b0),

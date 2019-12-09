@@ -4016,53 +4016,53 @@ OUTPUT(C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\Io
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\T3.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\T2.o
 
-.debug_line     0x00000000     0xdd20
+.debug_line     0x00000000     0xdd22
  .debug_line    0x00000000       0x8e .\CortexM4\ARM_GCC_541\Debug\startup_psoc6_01_cm4.o
- .debug_line    0x0000008e      0x43d .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
- .debug_line    0x000004cb      0x411 .\CortexM4\ARM_GCC_541\Debug\system_psoc6_cm4.o
- .debug_line    0x000008dc      0x699 .\CortexM4\ARM_GCC_541\Debug\i2c.o
- .debug_line    0x00000f75      0x7ca .\CortexM4\ARM_GCC_541\Debug\analog.o
- .debug_line    0x0000173f      0x6e0 .\CortexM4\ARM_GCC_541\Debug\serial.o
- .debug_line    0x00001e1f      0x417 .\CortexM4\ARM_GCC_541\Debug\stdio_user.o
- .debug_line    0x00002236      0x24f .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
- .debug_line    0x00002485      0x141 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
- .debug_line    0x000025c6      0x772 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
- .debug_line    0x00002d38      0x38f .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
- .debug_line    0x000030c7      0x3f5 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
- .debug_line    0x000034bc      0x653 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
- .debug_line    0x00003b0f      0x2e1 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
- .debug_line    0x00003df0      0x481 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
- .debug_line    0x00004271       0x89 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
- .debug_line    0x000042fa      0xa8b .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
- .debug_line    0x00004d85      0x17f .\CortexM4\ARM_GCC_541\Debug\cy_device.o
- .debug_line    0x00004f04      0x736 .\CortexM4\ARM_GCC_541\Debug\cy_sar.o
- .debug_line    0x0000563a      0x4c4 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
- .debug_line    0x00005afe     0x1168 .\CortexM4\ARM_GCC_541\Debug\cy_scb_i2c.o
- .debug_line    0x00006c66      0xbde .\CortexM4\ARM_GCC_541\Debug\cy_scb_uart.o
- .debug_line    0x00007844      0x5c5 .\CortexM4\ARM_GCC_541\Debug\cy_dma.o
- .debug_line    0x00007e09      0x2b7 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
- .debug_line    0x000080c0      0x2b7 .\CortexM4\ARM_GCC_541\Debug\list.o
- .debug_line    0x00008377      0xb15 .\CortexM4\ARM_GCC_541\Debug\queue.o
- .debug_line    0x00008e8c      0xe19 .\CortexM4\ARM_GCC_541\Debug\tasks.o
- .debug_line    0x00009ca5      0x5a9 .\CortexM4\ARM_GCC_541\Debug\timers.o
- .debug_line    0x0000a24e      0x480 .\CortexM4\ARM_GCC_541\Debug\port.o
- .debug_line    0x0000a6ce      0x2ef .\CortexM4\ARM_GCC_541\Debug\heap_1.o
- .debug_line    0x0000a9bd      0x36e .\CortexM4\ARM_GCC_541\Debug\retarget.o
- .debug_line    0x0000ad2b      0x660 .\CortexM4\ARM_GCC_541\Debug\ADC.o
- .debug_line    0x0000b38b      0x312 .\CortexM4\ARM_GCC_541\Debug\ADC_INT.o
- .debug_line    0x0000b69d      0x245 .\CortexM4\ARM_GCC_541\Debug\ADC_INIT.o
- .debug_line    0x0000b8e2      0x351 .\CortexM4\ARM_GCC_541\Debug\UART.o
- .debug_line    0x0000bc33      0x353 .\CortexM4\ARM_GCC_541\Debug\mI2C.o
- .debug_line    0x0000bf86      0x299 .\CortexM4\ARM_GCC_541\Debug\ADCSOCCounter.o
- .debug_line    0x0000c21f      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_0.o
- .debug_line    0x0000c578      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_1.o
- .debug_line    0x0000c8d1      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_2.o
- .debug_line    0x0000cc2a      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_3.o
- .debug_line    0x0000cf83      0x365 .\CortexM4\ARM_GCC_541\Debug\UARTDMA.o
- .debug_line    0x0000d2e8      0x28e .\CortexM4\ARM_GCC_541\Debug\T1.o
- .debug_line    0x0000d576      0x28e .\CortexM4\ARM_GCC_541\Debug\T0.o
- .debug_line    0x0000d804      0x28e .\CortexM4\ARM_GCC_541\Debug\T3.o
- .debug_line    0x0000da92      0x28e .\CortexM4\ARM_GCC_541\Debug\T2.o
+ .debug_line    0x0000008e      0x43f .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
+ .debug_line    0x000004cd      0x411 .\CortexM4\ARM_GCC_541\Debug\system_psoc6_cm4.o
+ .debug_line    0x000008de      0x699 .\CortexM4\ARM_GCC_541\Debug\i2c.o
+ .debug_line    0x00000f77      0x7ca .\CortexM4\ARM_GCC_541\Debug\analog.o
+ .debug_line    0x00001741      0x6e0 .\CortexM4\ARM_GCC_541\Debug\serial.o
+ .debug_line    0x00001e21      0x417 .\CortexM4\ARM_GCC_541\Debug\stdio_user.o
+ .debug_line    0x00002238      0x24f .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
+ .debug_line    0x00002487      0x141 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x000025c8      0x772 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_line    0x00002d3a      0x38f .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_line    0x000030c9      0x3f5 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_line    0x000034be      0x653 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_line    0x00003b11      0x2e1 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_line    0x00003df2      0x481 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_line    0x00004273       0x89 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
+ .debug_line    0x000042fc      0xa8b .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_line    0x00004d87      0x17f .\CortexM4\ARM_GCC_541\Debug\cy_device.o
+ .debug_line    0x00004f06      0x736 .\CortexM4\ARM_GCC_541\Debug\cy_sar.o
+ .debug_line    0x0000563c      0x4c4 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_line    0x00005b00     0x1168 .\CortexM4\ARM_GCC_541\Debug\cy_scb_i2c.o
+ .debug_line    0x00006c68      0xbde .\CortexM4\ARM_GCC_541\Debug\cy_scb_uart.o
+ .debug_line    0x00007846      0x5c5 .\CortexM4\ARM_GCC_541\Debug\cy_dma.o
+ .debug_line    0x00007e0b      0x2b7 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_line    0x000080c2      0x2b7 .\CortexM4\ARM_GCC_541\Debug\list.o
+ .debug_line    0x00008379      0xb15 .\CortexM4\ARM_GCC_541\Debug\queue.o
+ .debug_line    0x00008e8e      0xe19 .\CortexM4\ARM_GCC_541\Debug\tasks.o
+ .debug_line    0x00009ca7      0x5a9 .\CortexM4\ARM_GCC_541\Debug\timers.o
+ .debug_line    0x0000a250      0x480 .\CortexM4\ARM_GCC_541\Debug\port.o
+ .debug_line    0x0000a6d0      0x2ef .\CortexM4\ARM_GCC_541\Debug\heap_1.o
+ .debug_line    0x0000a9bf      0x36e .\CortexM4\ARM_GCC_541\Debug\retarget.o
+ .debug_line    0x0000ad2d      0x660 .\CortexM4\ARM_GCC_541\Debug\ADC.o
+ .debug_line    0x0000b38d      0x312 .\CortexM4\ARM_GCC_541\Debug\ADC_INT.o
+ .debug_line    0x0000b69f      0x245 .\CortexM4\ARM_GCC_541\Debug\ADC_INIT.o
+ .debug_line    0x0000b8e4      0x351 .\CortexM4\ARM_GCC_541\Debug\UART.o
+ .debug_line    0x0000bc35      0x353 .\CortexM4\ARM_GCC_541\Debug\mI2C.o
+ .debug_line    0x0000bf88      0x299 .\CortexM4\ARM_GCC_541\Debug\ADCSOCCounter.o
+ .debug_line    0x0000c221      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_0.o
+ .debug_line    0x0000c57a      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_1.o
+ .debug_line    0x0000c8d3      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_2.o
+ .debug_line    0x0000cc2c      0x359 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_3.o
+ .debug_line    0x0000cf85      0x365 .\CortexM4\ARM_GCC_541\Debug\UARTDMA.o
+ .debug_line    0x0000d2ea      0x28e .\CortexM4\ARM_GCC_541\Debug\T1.o
+ .debug_line    0x0000d578      0x28e .\CortexM4\ARM_GCC_541\Debug\T0.o
+ .debug_line    0x0000d806      0x28e .\CortexM4\ARM_GCC_541\Debug\T3.o
+ .debug_line    0x0000da94      0x28e .\CortexM4\ARM_GCC_541\Debug\T2.o
 
 .debug_info     0x00000000    0x2c88d
  .debug_info    0x00000000       0x98 .\CortexM4\ARM_GCC_541\Debug\startup_psoc6_01_cm4.o
@@ -4297,94 +4297,94 @@ OUTPUT(C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\Io
  .debug_ranges  0x00001340       0x20 .\CortexM4\ARM_GCC_541\Debug\T3.o
  .debug_ranges  0x00001360       0x20 .\CortexM4\ARM_GCC_541\Debug\T2.o
 
-.debug_str      0x00000000     0xb192
- .debug_str     0x00000000      0xfc8 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
-                               0x1084 (size before relaxing)
- .debug_str     0x00000fc8     0x1b0e .\CortexM4\ARM_GCC_541\Debug\system_psoc6_cm4.o
+.debug_str      0x00000000     0xb1ef
+ .debug_str     0x00000000      0xfd0 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
+                               0x108c (size before relaxing)
+ .debug_str     0x00000fd0     0x1b63 .\CortexM4\ARM_GCC_541\Debug\system_psoc6_cm4.o
                                0x231f (size before relaxing)
- .debug_str     0x00002ad6      0xd09 .\CortexM4\ARM_GCC_541\Debug\i2c.o
+ .debug_str     0x00002b33      0xd09 .\CortexM4\ARM_GCC_541\Debug\i2c.o
                                0x2cc2 (size before relaxing)
- .debug_str     0x000037df      0x301 .\CortexM4\ARM_GCC_541\Debug\analog.o
+ .debug_str     0x0000383c      0x301 .\CortexM4\ARM_GCC_541\Debug\analog.o
                                0x27cc (size before relaxing)
- .debug_str     0x00003ae0      0x491 .\CortexM4\ARM_GCC_541\Debug\serial.o
+ .debug_str     0x00003b3d      0x491 .\CortexM4\ARM_GCC_541\Debug\serial.o
                                0x2c2c (size before relaxing)
- .debug_str     0x00003f71       0x8c .\CortexM4\ARM_GCC_541\Debug\stdio_user.o
+ .debug_str     0x00003fce       0x8c .\CortexM4\ARM_GCC_541\Debug\stdio_user.o
                                0x1130 (size before relaxing)
- .debug_str     0x00003ffd       0x4a .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
+ .debug_str     0x0000405a       0x4a .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
                                0x1847 (size before relaxing)
- .debug_str     0x00004047       0x30 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
+ .debug_str     0x000040a4       0x30 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
                                 0x1d7 (size before relaxing)
- .debug_str     0x00004077     0x1004 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_str     0x000040d4     0x1004 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
                                0x2cec (size before relaxing)
- .debug_str     0x0000507b      0x114 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_str     0x000050d8      0x114 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
                                 0x981 (size before relaxing)
- .debug_str     0x0000518f      0x110 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_str     0x000051ec      0x110 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
                                 0xafc (size before relaxing)
- .debug_str     0x0000529f      0x38d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_str     0x000052fc      0x38d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
                                0x2053 (size before relaxing)
- .debug_str     0x0000562c       0xba .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_str     0x00005689       0xba .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
                                0x1961 (size before relaxing)
- .debug_str     0x000056e6      0xa90 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_str     0x00005743      0xa90 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
                                0x1c5c (size before relaxing)
- .debug_str     0x00006176     0x129a .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_str     0x000061d3     0x129a .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
                                0x2ab0 (size before relaxing)
- .debug_str     0x00007410       0x69 .\CortexM4\ARM_GCC_541\Debug\cy_device.o
+ .debug_str     0x0000746d       0x69 .\CortexM4\ARM_GCC_541\Debug\cy_device.o
                                 0x7e5 (size before relaxing)
- .debug_str     0x00007479      0x95d .\CortexM4\ARM_GCC_541\Debug\cy_sar.o
+ .debug_str     0x000074d6      0x95d .\CortexM4\ARM_GCC_541\Debug\cy_sar.o
                                0x1455 (size before relaxing)
- .debug_str     0x00007dd6      0x1c4 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_str     0x00007e33      0x1c4 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
                                 0xcd6 (size before relaxing)
- .debug_str     0x00007f9a      0x942 .\CortexM4\ARM_GCC_541\Debug\cy_scb_i2c.o
+ .debug_str     0x00007ff7      0x942 .\CortexM4\ARM_GCC_541\Debug\cy_scb_i2c.o
                                0x1a66 (size before relaxing)
- .debug_str     0x000088dc      0x715 .\CortexM4\ARM_GCC_541\Debug\cy_scb_uart.o
+ .debug_str     0x00008939      0x715 .\CortexM4\ARM_GCC_541\Debug\cy_scb_uart.o
                                0x168f (size before relaxing)
- .debug_str     0x00008ff1      0x20c .\CortexM4\ARM_GCC_541\Debug\cy_dma.o
+ .debug_str     0x0000904e      0x20c .\CortexM4\ARM_GCC_541\Debug\cy_dma.o
                                 0xf4a (size before relaxing)
- .debug_str     0x000091fd       0xb5 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_str     0x0000925a       0xb5 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
                                 0x4da (size before relaxing)
- .debug_str     0x000092b2      0x167 .\CortexM4\ARM_GCC_541\Debug\list.o
+ .debug_str     0x0000930f      0x167 .\CortexM4\ARM_GCC_541\Debug\list.o
                                 0x363 (size before relaxing)
- .debug_str     0x00009419      0x522 .\CortexM4\ARM_GCC_541\Debug\queue.o
+ .debug_str     0x00009476      0x522 .\CortexM4\ARM_GCC_541\Debug\queue.o
                                 0x80d (size before relaxing)
- .debug_str     0x0000993b      0xa14 .\CortexM4\ARM_GCC_541\Debug\tasks.o
+ .debug_str     0x00009998      0xa14 .\CortexM4\ARM_GCC_541\Debug\tasks.o
                                 0xe04 (size before relaxing)
- .debug_str     0x0000a34f      0x440 .\CortexM4\ARM_GCC_541\Debug\timers.o
+ .debug_str     0x0000a3ac      0x440 .\CortexM4\ARM_GCC_541\Debug\timers.o
                                 0x7a1 (size before relaxing)
- .debug_str     0x0000a78f      0x236 .\CortexM4\ARM_GCC_541\Debug\port.o
+ .debug_str     0x0000a7ec      0x236 .\CortexM4\ARM_GCC_541\Debug\port.o
                                 0x4ed (size before relaxing)
- .debug_str     0x0000a9c5       0xc3 .\CortexM4\ARM_GCC_541\Debug\heap_1.o
+ .debug_str     0x0000aa22       0xc3 .\CortexM4\ARM_GCC_541\Debug\heap_1.o
                                 0x2ea (size before relaxing)
- .debug_str     0x0000aa88       0x50 .\CortexM4\ARM_GCC_541\Debug\retarget.o
+ .debug_str     0x0000aae5       0x50 .\CortexM4\ARM_GCC_541\Debug\retarget.o
                                 0xdad (size before relaxing)
- .debug_str     0x0000aad8      0x30a .\CortexM4\ARM_GCC_541\Debug\ADC.o
+ .debug_str     0x0000ab35      0x30a .\CortexM4\ARM_GCC_541\Debug\ADC.o
                                0x226b (size before relaxing)
- .debug_str     0x0000ade2       0x65 .\CortexM4\ARM_GCC_541\Debug\ADC_INT.o
+ .debug_str     0x0000ae3f       0x65 .\CortexM4\ARM_GCC_541\Debug\ADC_INT.o
                                 0xca5 (size before relaxing)
- .debug_str     0x0000ae47       0x30 .\CortexM4\ARM_GCC_541\Debug\ADC_INIT.o
+ .debug_str     0x0000aea4       0x30 .\CortexM4\ARM_GCC_541\Debug\ADC_INIT.o
                                 0x976 (size before relaxing)
- .debug_str     0x0000ae77       0x42 .\CortexM4\ARM_GCC_541\Debug\UART.o
+ .debug_str     0x0000aed4       0x42 .\CortexM4\ARM_GCC_541\Debug\UART.o
                                0x1ff7 (size before relaxing)
- .debug_str     0x0000aeb9       0x36 .\CortexM4\ARM_GCC_541\Debug\mI2C.o
+ .debug_str     0x0000af16       0x36 .\CortexM4\ARM_GCC_541\Debug\mI2C.o
                                0x1e69 (size before relaxing)
- .debug_str     0x0000aeef       0x51 .\CortexM4\ARM_GCC_541\Debug\ADCSOCCounter.o
+ .debug_str     0x0000af4c       0x51 .\CortexM4\ARM_GCC_541\Debug\ADCSOCCounter.o
                                 0x4c7 (size before relaxing)
- .debug_str     0x0000af40       0x56 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_0.o
+ .debug_str     0x0000af9d       0x56 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_0.o
                                 0xd90 (size before relaxing)
- .debug_str     0x0000af96       0x50 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_1.o
+ .debug_str     0x0000aff3       0x50 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_1.o
                                 0xd90 (size before relaxing)
- .debug_str     0x0000afe6       0x50 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_2.o
+ .debug_str     0x0000b043       0x50 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_2.o
                                 0xd90 (size before relaxing)
- .debug_str     0x0000b036       0x50 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_3.o
+ .debug_str     0x0000b093       0x50 .\CortexM4\ARM_GCC_541\Debug\ADCDMA_3.o
                                 0xd90 (size before relaxing)
- .debug_str     0x0000b086       0x4c .\CortexM4\ARM_GCC_541\Debug\UARTDMA.o
+ .debug_str     0x0000b0e3       0x4c .\CortexM4\ARM_GCC_541\Debug\UARTDMA.o
                                0x1155 (size before relaxing)
- .debug_str     0x0000b0d2       0x30 .\CortexM4\ARM_GCC_541\Debug\T1.o
+ .debug_str     0x0000b12f       0x30 .\CortexM4\ARM_GCC_541\Debug\T1.o
                                 0x49b (size before relaxing)
- .debug_str     0x0000b102       0x30 .\CortexM4\ARM_GCC_541\Debug\T0.o
+ .debug_str     0x0000b15f       0x30 .\CortexM4\ARM_GCC_541\Debug\T0.o
                                 0x49b (size before relaxing)
- .debug_str     0x0000b132       0x30 .\CortexM4\ARM_GCC_541\Debug\T3.o
+ .debug_str     0x0000b18f       0x30 .\CortexM4\ARM_GCC_541\Debug\T3.o
                                 0x49b (size before relaxing)
- .debug_str     0x0000b162       0x30 .\CortexM4\ARM_GCC_541\Debug\T2.o
+ .debug_str     0x0000b1bf       0x30 .\CortexM4\ARM_GCC_541\Debug\T2.o
                                 0x49b (size before relaxing)
 
 .debug_frame    0x00000000     0x60b0
