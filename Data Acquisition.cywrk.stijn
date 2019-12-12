@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr">
 <ExpandedNodeIds>
 <v>Data Acquisition</v>
 <v>Data Acquisition\IoT_Generic_DAQ</v>
@@ -335,7 +335,6 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\mI2C.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
-<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -431,6 +430,7 @@
 <OpenDocs>
 <name v=".\IoT_Generic_DAQ.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\IoT_Generic_DAQ.cydsn\main_cm4.c" />
+<name v=".\IoT_Generic_DAQ.cydsn\IoT_Generic_DAQ.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -438,7 +438,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1232, 701" SelectedTabbedMdiWindow="45173a76-f31b-4dc7-819c-93b5f4538845"><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\TopDesign\TopDesign.cysch" Guid="45173a76-f31b-4dc7-819c-93b5f4538845" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9c7a3359-5237-454d-aa7f-9b2256a73ea0" /><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\main_cm4.c" Guid="5c70328f-ef2a-4a44-ab31-d6920230c547" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1594, 830" SelectedTabbedMdiWindow="d679a005-cbeb-4eea-bb14-0844e1a6a013"><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\TopDesign\TopDesign.cysch" Guid="45173a76-f31b-4dc7-819c-93b5f4538845" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9c7a3359-5237-454d-aa7f-9b2256a73ea0" /><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\main_cm4.c" Guid="5c70328f-ef2a-4a44-ab31-d6920230c547" /><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\IoT_Generic_DAQ.cydwr" Guid="d679a005-cbeb-4eea-bb14-0844e1a6a013" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
