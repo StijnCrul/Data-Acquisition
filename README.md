@@ -60,7 +60,7 @@ To reconfigure the DAQ, you require [PSoC Creator](https://www.cypress.com/produ
 
 ![adc](/Images/adc.png)
 
-* The dropdown menu "Vref select:" is used to change the reference voltage to the most adequate option for you application.
+* The dropdown menu "Vref select:" is used to change the reference voltage to the most adequate option for your application.
 
 ![adc_options](/Images/adc_options.png)
 
