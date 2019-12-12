@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ\TopDesign">
 <ExpandedNodeIds>
 <v>Data Acquisition</v>
 <v>Data Acquisition\IoT_Generic_DAQ</v>
@@ -335,6 +335,7 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\mI2C.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

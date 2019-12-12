@@ -56,6 +56,14 @@ To reconfigure the DAQ, you require [PSoC Creator](https://www.cypress.com/produ
 
 * Sample frequencies can be changed by opening TopDesign.cysch and changing the "Compare or Capture" value of the relevant timer.
 
+* Quantization noise can be reduced by selecting an adequate reference voltage for the ADC. This can be selected by double clicking the ADC in the "ADC + Comm" schematic page.
+
+![adc](/Images/adc.png)
+
+* The dropdown menu "Vref select:" is used to change the reference voltage to the most adequate option for you application.
+
+![adc_options](/Images/adc_options.png)
+
 <a id="default-settings"></a>
 ## Default settings
 By default all analog channels are configured to send frames of 1024 samples each second. The samplefrequency is 44100 kHz. The accelerometer samples at 1 kHz and sends a frame of 1000 samples each second. The Si7021 sends one sample every minute.
