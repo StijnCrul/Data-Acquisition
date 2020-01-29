@@ -14,7 +14,7 @@
 * the software package with which this file was provided.
 ********************************************************************************/
 
-#include "cy8c6247bzi_d54.h"
+#include "cy8c6347bzi_bld53.h"
 #include "cy_dma.h"
 #include "cy_efuse.h"
 #include "cy_flash.h"
@@ -44,12 +44,13 @@
 #include "cy_trigmux.h"
 #include "cy_wdt.h"
 #include "cy_device.h"
+#include "ble/cy_ble_clk.h"
 #if ((__CORTEX_M == 0) || (__CORTEX_M == 4))
     #include "psoc6_01_config.h"
 #endif /*(__CORTEX_M == 0) || (__CORTEX_M == 4)*/
 #include "cy_device_headers.h"
 #if ((__CORTEX_M == 0) || (__CORTEX_M == 4))
-    #include "gpio_psoc6_01_124_bga.h"
+    #include "gpio_psoc6_01_116_bga_ble.h"
 #endif /*(__CORTEX_M == 0) || (__CORTEX_M == 4)*/
 #include "cyip_backup.h"
 #include "cyip_ble.h"

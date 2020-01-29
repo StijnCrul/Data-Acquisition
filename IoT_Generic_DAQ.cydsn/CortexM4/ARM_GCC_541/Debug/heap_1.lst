@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
   16:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c ****  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
   17:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c ****  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
   18:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c ****  * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 2
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 2
 
 
   19:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c ****  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
   37              		.cfi_startproc
   38              		@ args = 0, pretend = 0, frame = 16
   39              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 3
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 3
 
 
   40 0000 80B5     		push	{r7, lr}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
   74 0034 124B     		ldr	r3, .L6
   75 0036 1A60     		str	r2, [r3]
   76              	.L3:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 4
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 4
 
 
   92:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 		}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  110:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 		if( pvReturn == NULL )
  111:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 		{
  112:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 			extern void vApplicationMallocFailedHook( void );
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 5
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 5
 
 
  113:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 			vApplicationMallocFailedHook();
@@ -261,7 +261,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  122              	.L7:
  123 007e 00BF     		.align	2
  124              	.L6:
- 125 0080 04280000 		.word	pucAlignedHeap.12126
+ 125 0080 04280000 		.word	pucAlignedHeap.11756
  126 0084 08000000 		.word	ucHeap+8
  127 0088 00280000 		.word	xNextFreeByte
  128              		.cfi_endproc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  127:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 	( void ) pv;
  128:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 
  129:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 	/* Force an assert as it is invalid to call this function. */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 6
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 6
 
 
  130:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** 	configASSERT( pv == NULL );
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
   47:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** #define portCHAR		char
   48:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** #define portFLOAT		float
   49:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** #define portDOUBLE		double
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 7
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 7
 
 
   50:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** #define portLONG		long
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  104:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** #define portEXIT_CRITICAL()						vPortExitCritical()
  105:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** 
  106:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** /*-----------------------------------------------------------*/
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 8
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 8
 
 
  107:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  163 0012 83F31188 		msr basepri, r3											
  164 0016 BFF36F8F 		isb														
  165 001a BFF34F8F 		dsb														
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 9
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 9
 
 
  166              	
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  138:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\portable\MemMang/heap_1.c **** }
  213              		.loc 1 138 0
  214 000a 00BF     		nop
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 10
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 10
 
 
  215 000c BD46     		mov	sp, r7
@@ -598,14 +598,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  263              	.L17:
  264 0018 00280000 		.word	xNextFreeByte
  265              		.cfi_endproc
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 11
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 11
 
 
  266              	.LFE139:
  267              		.size	xPortGetFreeHeapSize, .-xPortGetFreeHeapSize
  268              		.bss
  269              		.align	2
- 270              	pucAlignedHeap.12126:
+ 270              	pucAlignedHeap.11756:
  271 2804 00000000 		.space	4
  272              		.text
  273              	.Letext0:
@@ -620,10 +620,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  282 0006 00000000 		.4byte	.Ldebug_abbrev0
  283 000a 04       		.byte	0x4
  284 000b 01       		.uleb128 0x1
- 285 000c 7D000000 		.4byte	.LASF26
+ 285 000c 71000000 		.4byte	.LASF26
  286 0010 0C       		.byte	0xc
- 287 0011 4F010000 		.4byte	.LASF27
- 288 0015 28020000 		.4byte	.LASF28
+ 287 0011 43010000 		.4byte	.LASF27
+ 288 0015 53020000 		.4byte	.LASF28
  289 0019 00000000 		.4byte	.Ldebug_ranges0+0
  290 001d 00000000 		.4byte	0
  291 0021 00000000 		.4byte	.Ldebug_line0
@@ -635,7 +635,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  297 0030 03       		.uleb128 0x3
  298 0031 04       		.byte	0x4
  299 0032 07       		.byte	0x7
- 300 0033 D3010000 		.4byte	.LASF0
+ 300 0033 C7010000 		.4byte	.LASF0
  301 0037 04       		.uleb128 0x4
  302 0038 04       		.byte	0x4
  303 0039 05       		.byte	0x5
@@ -643,35 +643,35 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  305 003e 03       		.uleb128 0x3
  306 003f 08       		.byte	0x8
  307 0040 05       		.byte	0x5
- 308 0041 1A020000 		.4byte	.LASF1
+ 308 0041 0E020000 		.4byte	.LASF1
  309 0045 03       		.uleb128 0x3
  310 0046 08       		.byte	0x8
  311 0047 04       		.byte	0x4
- 312 0048 C4020000 		.4byte	.LASF2
+ 312 0048 CC020000 		.4byte	.LASF2
  313 004c 03       		.uleb128 0x3
  314 004d 01       		.byte	0x1
  315 004e 06       		.byte	0x6
- 316 004f D0020000 		.4byte	.LASF3
+ 316 004f D8020000 		.4byte	.LASF3
  317 0053 02       		.uleb128 0x2
  318 0054 00000000 		.4byte	.LASF5
  319 0058 04       		.byte	0x4
  320 0059 1D       		.byte	0x1d
  321 005a 5E000000 		.4byte	0x5e
  322 005e 03       		.uleb128 0x3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 12
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 12
 
 
  323 005f 01       		.byte	0x1
  324 0060 08       		.byte	0x8
- 325 0061 4A000000 		.4byte	.LASF6
+ 325 0061 3E000000 		.4byte	.LASF6
  326 0065 03       		.uleb128 0x3
  327 0066 02       		.byte	0x2
  328 0067 05       		.byte	0x5
- 329 0068 9E020000 		.4byte	.LASF7
+ 329 0068 49020000 		.4byte	.LASF7
  330 006c 03       		.uleb128 0x3
  331 006d 02       		.byte	0x2
  332 006e 07       		.byte	0x7
- 333 006f 6A000000 		.4byte	.LASF8
+ 333 006f 5E000000 		.4byte	.LASF8
  334 0073 02       		.uleb128 0x2
  335 0074 11000000 		.4byte	.LASF9
  336 0078 04       		.byte	0x4
@@ -680,73 +680,73 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  339 007e 03       		.uleb128 0x3
  340 007f 04       		.byte	0x4
  341 0080 05       		.byte	0x5
- 342 0081 BB020000 		.4byte	.LASF10
+ 342 0081 C3020000 		.4byte	.LASF10
  343 0085 02       		.uleb128 0x2
- 344 0086 30010000 		.4byte	.LASF11
+ 344 0086 24010000 		.4byte	.LASF11
  345 008a 04       		.byte	0x4
  346 008b 41       		.byte	0x41
  347 008c 90000000 		.4byte	0x90
  348 0090 03       		.uleb128 0x3
  349 0091 04       		.byte	0x4
  350 0092 07       		.byte	0x7
- 351 0093 58000000 		.4byte	.LASF12
+ 351 0093 4C000000 		.4byte	.LASF12
  352 0097 03       		.uleb128 0x3
  353 0098 08       		.byte	0x8
  354 0099 07       		.byte	0x7
- 355 009a E0010000 		.4byte	.LASF13
+ 355 009a D4010000 		.4byte	.LASF13
  356 009e 03       		.uleb128 0x3
  357 009f 04       		.byte	0x4
  358 00a0 07       		.byte	0x7
- 359 00a1 11020000 		.4byte	.LASF14
+ 359 00a1 05020000 		.4byte	.LASF14
  360 00a5 05       		.uleb128 0x5
  361 00a6 04       		.byte	0x4
  362 00a7 03       		.uleb128 0x3
  363 00a8 01       		.byte	0x1
  364 00a9 08       		.byte	0x8
- 365 00aa 7D020000 		.4byte	.LASF15
+ 365 00aa 28020000 		.4byte	.LASF15
  366 00ae 02       		.uleb128 0x2
  367 00af 30000000 		.4byte	.LASF16
  368 00b3 05       		.byte	0x5
  369 00b4 18       		.byte	0x18
  370 00b5 53000000 		.4byte	0x53
  371 00b9 02       		.uleb128 0x2
- 372 00ba 09020000 		.4byte	.LASF17
+ 372 00ba FD010000 		.4byte	.LASF17
  373 00be 05       		.byte	0x5
  374 00bf 2C       		.byte	0x2c
  375 00c0 73000000 		.4byte	0x73
  376 00c4 02       		.uleb128 0x2
- 377 00c5 B2020000 		.4byte	.LASF18
+ 377 00c5 BA020000 		.4byte	.LASF18
  378 00c9 05       		.byte	0x5
  379 00ca 30       		.byte	0x30
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 13
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 13
 
 
  380 00cb 85000000 		.4byte	0x85
  381 00cf 03       		.uleb128 0x3
  382 00d0 04       		.byte	0x4
  383 00d1 04       		.byte	0x4
- 384 00d2 44000000 		.4byte	.LASF19
+ 384 00d2 38000000 		.4byte	.LASF19
  385 00d6 03       		.uleb128 0x3
  386 00d7 08       		.byte	0x8
  387 00d8 04       		.byte	0x4
- 388 00d9 3B010000 		.4byte	.LASF20
+ 388 00d9 2F010000 		.4byte	.LASF20
  389 00dd 06       		.uleb128 0x6
  390 00de 04       		.byte	0x4
  391 00df AE000000 		.4byte	0xae
  392 00e3 07       		.uleb128 0x7
- 393 00e4 F7010000 		.4byte	.LASF29
+ 393 00e4 EB010000 		.4byte	.LASF29
  394 00e8 02       		.byte	0x2
  395 00e9 98       		.byte	0x98
  396 00ea 03       		.byte	0x3
  397 00eb FB000000 		.4byte	0xfb
  398 00ef 08       		.uleb128 0x8
- 399 00f0 42010000 		.4byte	.LASF30
+ 399 00f0 36010000 		.4byte	.LASF30
  400 00f4 02       		.byte	0x2
  401 00f5 9A       		.byte	0x9a
  402 00f6 C4000000 		.4byte	0xc4
  403 00fa 00       		.byte	0
  404 00fb 09       		.uleb128 0x9
- 405 00fc 91020000 		.4byte	.LASF31
+ 405 00fc 3C020000 		.4byte	.LASF31
  406 0100 01       		.byte	0x1
  407 0101 46       		.byte	0x46
  408 0102 A5000000 		.4byte	0xa5
@@ -756,7 +756,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  412 010f 9C       		.byte	0x9c
  413 0110 42010000 		.4byte	0x142
  414 0114 0A       		.uleb128 0xa
- 415 0115 38000000 		.4byte	.LASF23
+ 415 0115 1C020000 		.4byte	.LASF23
  416 0119 01       		.byte	0x1
  417 011a 46       		.byte	0x46
  418 011b 25000000 		.4byte	0x25
@@ -764,7 +764,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  420 0120 91       		.byte	0x91
  421 0121 6C       		.sleb128 -20
  422 0122 0B       		.uleb128 0xb
- 423 0123 A0010000 		.4byte	.LASF21
+ 423 0123 94010000 		.4byte	.LASF21
  424 0127 01       		.byte	0x1
  425 0128 48       		.byte	0x48
  426 0129 A5000000 		.4byte	0xa5
@@ -772,19 +772,19 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  428 012e 91       		.byte	0x91
  429 012f 74       		.sleb128 -12
  430 0130 0B       		.uleb128 0xb
- 431 0131 82020000 		.4byte	.LASF22
+ 431 0131 2D020000 		.4byte	.LASF22
  432 0135 01       		.byte	0x1
  433 0136 49       		.byte	0x49
  434 0137 DD000000 		.4byte	0xdd
  435 013b 05       		.uleb128 0x5
  436 013c 03       		.byte	0x3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 14
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 14
 
 
- 437 013d 04280000 		.4byte	pucAlignedHeap.12126
+ 437 013d 04280000 		.4byte	pucAlignedHeap.11756
  438 0141 00       		.byte	0
  439 0142 0C       		.uleb128 0xc
- 440 0143 A8020000 		.4byte	.LASF32
+ 440 0143 B0020000 		.4byte	.LASF32
  441 0147 01       		.byte	0x1
  442 0148 7A       		.byte	0x7a
  443 0149 00000000 		.4byte	.LFB137
@@ -818,7 +818,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  471 0185 00       		.byte	0
  472 0186 00       		.byte	0
  473 0187 11       		.uleb128 0x11
- 474 0188 BD010000 		.4byte	.LASF33
+ 474 0188 B1010000 		.4byte	.LASF33
  475 018c 01       		.byte	0x1
  476 018d 86       		.byte	0x86
  477 018e 00000000 		.4byte	.LFB138
@@ -838,14 +838,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  491 01ae AE000000 		.4byte	0xae
  492 01b2 BE010000 		.4byte	0x1be
  493 01b6 14       		.uleb128 0x14
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 15
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 15
 
 
  494 01b7 9E000000 		.4byte	0x9e
  495 01bb FF27     		.2byte	0x27ff
  496 01bd 00       		.byte	0
  497 01be 0B       		.uleb128 0xb
- 498 01bf B6010000 		.4byte	.LASF24
+ 498 01bf AA010000 		.4byte	.LASF24
  499 01c3 01       		.byte	0x1
  500 01c4 3E       		.byte	0x3e
  501 01c5 AD010000 		.4byte	0x1ad
@@ -853,7 +853,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  503 01ca 03       		.byte	0x3
  504 01cb 00000000 		.4byte	ucHeap
  505 01cf 0B       		.uleb128 0xb
- 506 01d0 DC020000 		.4byte	.LASF25
+ 506 01d0 E4020000 		.4byte	.LASF25
  507 01d4 01       		.byte	0x1
  508 01d5 42       		.byte	0x42
  509 01d6 25000000 		.4byte	0x25
@@ -861,7 +861,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  511 01db 03       		.byte	0x3
  512 01dc 00280000 		.4byte	xNextFreeByte
  513 01e0 15       		.uleb128 0x15
- 514 01e1 A9010000 		.4byte	.LASF35
+ 514 01e1 9D010000 		.4byte	.LASF35
  515 01e5 06       		.byte	0x6
  516 01e6 F907     		.2byte	0x7f9
  517 01e8 EC010000 		.4byte	0x1ec
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  548 0019 0B       		.uleb128 0xb
  549 001a 3B       		.uleb128 0x3b
  550 001b 0B       		.uleb128 0xb
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 16
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 16
 
 
  551 001c 49       		.uleb128 0x49
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  605 0052 0B       		.uleb128 0xb
  606 0053 01       		.uleb128 0x1
  607 0054 13       		.uleb128 0x13
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 17
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 17
 
 
  608 0055 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  662 008c 18       		.uleb128 0x18
  663 008d 00       		.byte	0
  664 008e 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 18
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 18
 
 
  665 008f 0B       		.uleb128 0xb
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  719 00c6 00       		.byte	0
  720 00c7 0E       		.uleb128 0xe
  721 00c8 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 19
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 19
 
 
  722 00c9 01       		.byte	0x1
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  776 0100 12       		.uleb128 0x12
  777 0101 2E       		.uleb128 0x2e
  778 0102 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 20
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 20
 
 
  779 0103 3F       		.uleb128 0x3f
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  833 013a 19       		.uleb128 0x19
  834 013b 00       		.byte	0
  835 013c 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 21
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 21
 
 
  836 013d 16       		.uleb128 0x16
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  882      7433325F 
  882      7400
  883              	.LASF34:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 22
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 22
 
 
  884 001b 78506F72 		.ascii	"xPortGetFreeHeapSize\000"
@@ -1269,180 +1269,180 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 1
  885              	.LASF16:
  886 0030 75696E74 		.ascii	"uint8_t\000"
  886      385F7400 
- 887              	.LASF23:
- 888 0038 7857616E 		.ascii	"xWantedSize\000"
- 888      74656453 
- 888      697A6500 
- 889              	.LASF19:
- 890 0044 666C6F61 		.ascii	"float\000"
- 890      7400
- 891              	.LASF6:
- 892 004a 756E7369 		.ascii	"unsigned char\000"
- 892      676E6564 
- 892      20636861 
- 892      7200
- 893              	.LASF12:
- 894 0058 6C6F6E67 		.ascii	"long unsigned int\000"
- 894      20756E73 
- 894      69676E65 
- 894      6420696E 
- 894      7400
- 895              	.LASF8:
- 896 006a 73686F72 		.ascii	"short unsigned int\000"
- 896      7420756E 
- 896      7369676E 
- 896      65642069 
- 896      6E7400
- 897              	.LASF26:
- 898 007d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 898      43313120 
- 898      352E342E 
- 898      31203230 
- 898      31363036 
- 899 00b0 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
- 899      20726576 
- 899      6973696F 
- 899      6E203233 
- 899      37373135 
- 900 00e3 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
- 900      70202D6D 
- 900      6670753D 
- 900      66707634 
- 900      2D73702D 
- 901 0116 65637469 		.ascii	"ections -ffat-lto-objects\000"
- 901      6F6E7320 
- 901      2D666661 
- 901      742D6C74 
- 901      6F2D6F62 
- 902              	.LASF11:
- 903 0130 5F5F7569 		.ascii	"__uint32_t\000"
- 903      6E743332 
- 903      5F7400
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 23
+ 887              	.LASF19:
+ 888 0038 666C6F61 		.ascii	"float\000"
+ 888      7400
+ 889              	.LASF6:
+ 890 003e 756E7369 		.ascii	"unsigned char\000"
+ 890      676E6564 
+ 890      20636861 
+ 890      7200
+ 891              	.LASF12:
+ 892 004c 6C6F6E67 		.ascii	"long unsigned int\000"
+ 892      20756E73 
+ 892      69676E65 
+ 892      6420696E 
+ 892      7400
+ 893              	.LASF8:
+ 894 005e 73686F72 		.ascii	"short unsigned int\000"
+ 894      7420756E 
+ 894      7369676E 
+ 894      65642069 
+ 894      6E7400
+ 895              	.LASF26:
+ 896 0071 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 896      43313120 
+ 896      352E342E 
+ 896      31203230 
+ 896      31363036 
+ 897 00a4 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 897      20726576 
+ 897      6973696F 
+ 897      6E203233 
+ 897      37373135 
+ 898 00d7 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
+ 898      70202D6D 
+ 898      6670753D 
+ 898      66707634 
+ 898      2D73702D 
+ 899 010a 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 899      6F6E7320 
+ 899      2D666661 
+ 899      742D6C74 
+ 899      6F2D6F62 
+ 900              	.LASF11:
+ 901 0124 5F5F7569 		.ascii	"__uint32_t\000"
+ 901      6E743332 
+ 901      5F7400
+ 902              	.LASF20:
+ 903 012f 646F7562 		.ascii	"double\000"
+ 903      6C6500
+ 904              	.LASF30:
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 23
 
 
- 904              	.LASF20:
- 905 013b 646F7562 		.ascii	"double\000"
- 905      6C6500
- 906              	.LASF30:
- 907 0142 756C4E65 		.ascii	"ulNewBASEPRI\000"
- 907      77424153 
- 907      45505249 
- 907      00
- 908              	.LASF27:
- 909 014f 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\rtos\\FreeRTOS\\10.0."
- 909      72617465 
- 909      645F536F 
- 909      75726365 
- 909      5C50536F 
- 910 017d 315C536F 		.ascii	"1\\Source\\portable\\MemMang\\heap_1.c\000"
- 910      75726365 
- 910      5C706F72 
- 910      7461626C 
- 910      655C4D65 
- 911              	.LASF21:
- 912 01a0 70765265 		.ascii	"pvReturn\000"
- 912      7475726E 
+ 905 0136 756C4E65 		.ascii	"ulNewBASEPRI\000"
+ 905      77424153 
+ 905      45505249 
+ 905      00
+ 906              	.LASF27:
+ 907 0143 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\rtos\\FreeRTOS\\10.0."
+ 907      72617465 
+ 907      645F536F 
+ 907      75726365 
+ 907      5C50536F 
+ 908 0171 315C536F 		.ascii	"1\\Source\\portable\\MemMang\\heap_1.c\000"
+ 908      75726365 
+ 908      5C706F72 
+ 908      7461626C 
+ 908      655C4D65 
+ 909              	.LASF21:
+ 910 0194 70765265 		.ascii	"pvReturn\000"
+ 910      7475726E 
+ 910      00
+ 911              	.LASF35:
+ 912 019d 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 912      52784275 
+ 912      66666572 
  912      00
- 913              	.LASF35:
- 914 01a9 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 914      52784275 
- 914      66666572 
- 914      00
- 915              	.LASF24:
- 916 01b6 75634865 		.ascii	"ucHeap\000"
- 916      617000
- 917              	.LASF33:
- 918 01bd 76506F72 		.ascii	"vPortInitialiseBlocks\000"
- 918      74496E69 
- 918      7469616C 
- 918      69736542 
- 918      6C6F636B 
- 919              	.LASF0:
- 920 01d3 756E7369 		.ascii	"unsigned int\000"
- 920      676E6564 
- 920      20696E74 
- 920      00
- 921              	.LASF13:
- 922 01e0 6C6F6E67 		.ascii	"long long unsigned int\000"
- 922      206C6F6E 
- 922      6720756E 
- 922      7369676E 
- 922      65642069 
- 923              	.LASF29:
- 924 01f7 76506F72 		.ascii	"vPortRaiseBASEPRI\000"
- 924      74526169 
- 924      73654241 
- 924      53455052 
- 924      4900
- 925              	.LASF17:
- 926 0209 696E7433 		.ascii	"int32_t\000"
- 926      325F7400 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 24
+ 913              	.LASF24:
+ 914 01aa 75634865 		.ascii	"ucHeap\000"
+ 914      617000
+ 915              	.LASF33:
+ 916 01b1 76506F72 		.ascii	"vPortInitialiseBlocks\000"
+ 916      74496E69 
+ 916      7469616C 
+ 916      69736542 
+ 916      6C6F636B 
+ 917              	.LASF0:
+ 918 01c7 756E7369 		.ascii	"unsigned int\000"
+ 918      676E6564 
+ 918      20696E74 
+ 918      00
+ 919              	.LASF13:
+ 920 01d4 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 920      206C6F6E 
+ 920      6720756E 
+ 920      7369676E 
+ 920      65642069 
+ 921              	.LASF29:
+ 922 01eb 76506F72 		.ascii	"vPortRaiseBASEPRI\000"
+ 922      74526169 
+ 922      73654241 
+ 922      53455052 
+ 922      4900
+ 923              	.LASF17:
+ 924 01fd 696E7433 		.ascii	"int32_t\000"
+ 924      325F7400 
+ 925              	.LASF14:
+ 926 0205 73697A65 		.ascii	"sizetype\000"
+ 926      74797065 
+ 926      00
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 24
 
 
- 927              	.LASF14:
- 928 0211 73697A65 		.ascii	"sizetype\000"
- 928      74797065 
- 928      00
- 929              	.LASF1:
- 930 021a 6C6F6E67 		.ascii	"long long int\000"
- 930      206C6F6E 
- 930      6720696E 
- 930      7400
- 931              	.LASF28:
- 932 0228 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
- 932      73657273 
- 932      5C737469 
- 932      6A6E5C44 
- 932      726F7062 
- 933 0254 43204372 		.ascii	"C Creator\\RTOS DAQ\\IoT_Generic_DAQ.cydsn\000"
- 933      6561746F 
- 933      725C5254 
- 933      4F532044 
- 933      41515C49 
- 934              	.LASF15:
- 935 027d 63686172 		.ascii	"char\000"
- 935      00
- 936              	.LASF22:
- 937 0282 70756341 		.ascii	"pucAlignedHeap\000"
- 937      6C69676E 
- 937      65644865 
- 937      617000
- 938              	.LASF31:
- 939 0291 7076506F 		.ascii	"pvPortMalloc\000"
- 939      72744D61 
- 939      6C6C6F63 
- 939      00
- 940              	.LASF7:
- 941 029e 73686F72 		.ascii	"short int\000"
- 941      7420696E 
- 941      7400
+ 927              	.LASF1:
+ 928 020e 6C6F6E67 		.ascii	"long long int\000"
+ 928      206C6F6E 
+ 928      6720696E 
+ 928      7400
+ 929              	.LASF23:
+ 930 021c 7857616E 		.ascii	"xWantedSize\000"
+ 930      74656453 
+ 930      697A6500 
+ 931              	.LASF15:
+ 932 0228 63686172 		.ascii	"char\000"
+ 932      00
+ 933              	.LASF22:
+ 934 022d 70756341 		.ascii	"pucAlignedHeap\000"
+ 934      6C69676E 
+ 934      65644865 
+ 934      617000
+ 935              	.LASF31:
+ 936 023c 7076506F 		.ascii	"pvPortMalloc\000"
+ 936      72744D61 
+ 936      6C6C6F63 
+ 936      00
+ 937              	.LASF7:
+ 938 0249 73686F72 		.ascii	"short int\000"
+ 938      7420696E 
+ 938      7400
+ 939              	.LASF28:
+ 940 0253 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
+ 940      73657273 
+ 940      5C737469 
+ 940      6A6E5C44 
+ 940      726F7062 
+ 941 027f 43204372 		.ascii	"C Creator\\Data Acquisition\\IoT_Generic_DAQ.cydsn\000"
+ 941      6561746F 
+ 941      725C4461 
+ 941      74612041 
+ 941      63717569 
  942              	.LASF32:
- 943 02a8 76506F72 		.ascii	"vPortFree\000"
+ 943 02b0 76506F72 		.ascii	"vPortFree\000"
  943      74467265 
  943      6500
  944              	.LASF18:
- 945 02b2 75696E74 		.ascii	"uint32_t\000"
+ 945 02ba 75696E74 		.ascii	"uint32_t\000"
  945      33325F74 
  945      00
  946              	.LASF10:
- 947 02bb 6C6F6E67 		.ascii	"long int\000"
+ 947 02c3 6C6F6E67 		.ascii	"long int\000"
  947      20696E74 
  947      00
  948              	.LASF2:
- 949 02c4 6C6F6E67 		.ascii	"long double\000"
+ 949 02cc 6C6F6E67 		.ascii	"long double\000"
  949      20646F75 
  949      626C6500 
  950              	.LASF3:
- 951 02d0 7369676E 		.ascii	"signed char\000"
+ 951 02d8 7369676E 		.ascii	"signed char\000"
  951      65642063 
  951      68617200 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccMJnrp3.s 			page 25
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccE83CFz.s 			page 25
 
 
  952              	.LASF25:
- 953 02dc 784E6578 		.ascii	"xNextFreeByte\000"
+ 953 02e4 784E6578 		.ascii	"xNextFreeByte\000"
  953      74467265 
  953      65427974 
  953      6500

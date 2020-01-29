@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
   27:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** ****************************************************************************//**
   28:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** *
   29:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** * Initializes the counter in the TCPWM block for the QuadDec operation.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 2
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 2
 
 
   30:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
   58 0020 1B05     		lsls	r3, r3, #20
   59 0022 03F44013 		and	r3, r3, #3145728
   60 0026 43F04072 		orr	r2, r3, #50331648
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 3
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 3
 
 
   61 002a F968     		ldr	r1, [r7, #12]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  103 0072 03F59073 		add	r3, r3, #288
  104 0076 1A60     		str	r2, [r3]
  105              	.L3:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 4
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 4
 
 
   63:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c ****         }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  143 00ba 1846     		mov	r0, r3
  144 00bc 1C37     		adds	r7, r7, #28
  145              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 5
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 5
 
 
  146 00be BD46     		mov	sp, r7
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  176 0002 85B0     		sub	sp, sp, #20
  177              		.cfi_def_cfa_offset 24
  178 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 6
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 6
 
 
  179              		.cfi_def_cfa_register 7
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  227 0066 1344     		add	r3, r3, r2
  228 0068 03F58C73 		add	r3, r3, #280
  229 006c 4FF0FF32 		mov	r2, #-1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 7
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 7
 
 
  230 0070 1A60     		str	r2, [r3]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  116:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c ****         TCPWM_CNT_TR_CTRL0(base, cntNum) = CY_TCPWM_CNT_TR_CTRL0_DEFAULT;
  276              		.loc 1 116 0
  277 00ce FA68     		ldr	r2, [r7, #12]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 8
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 8
 
 
  278 00d0 BB68     		ldr	r3, [r7, #8]
@@ -463,31 +463,31 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  315 000c 07010000 		.4byte	.LASF58
  316 0010 0C       		.byte	0xc
  317 0011 1E000000 		.4byte	.LASF59
- 318 0015 D5020000 		.4byte	.LASF60
+ 318 0015 36020000 		.4byte	.LASF60
  319 0019 00000000 		.4byte	.Ldebug_ranges0+0
  320 001d 00000000 		.4byte	0
  321 0021 00000000 		.4byte	.Ldebug_line0
  322 0025 02       		.uleb128 0x2
  323 0026 01       		.byte	0x1
  324 0027 06       		.byte	0x6
- 325 0028 6A020000 		.4byte	.LASF0
+ 325 0028 C7020000 		.4byte	.LASF0
  326 002c 02       		.uleb128 0x2
  327 002d 01       		.byte	0x1
  328 002e 08       		.byte	0x8
- 329 002f 4C020000 		.4byte	.LASF1
+ 329 002f A9020000 		.4byte	.LASF1
  330 0033 02       		.uleb128 0x2
  331 0034 02       		.byte	0x2
  332 0035 05       		.byte	0x5
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 9
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 9
 
 
  333 0036 65000000 		.4byte	.LASF2
  334 003a 02       		.uleb128 0x2
  335 003b 02       		.byte	0x2
  336 003c 07       		.byte	0x7
- 337 003d 2A030000 		.4byte	.LASF3
+ 337 003d 32030000 		.4byte	.LASF3
  338 0041 03       		.uleb128 0x3
- 339 0042 D9030000 		.4byte	.LASF5
+ 339 0042 E1030000 		.4byte	.LASF5
  340 0046 02       		.byte	0x2
  341 0047 3F       		.byte	0x3f
  342 0048 4C000000 		.4byte	0x4c
@@ -503,7 +503,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  352 005e 02       		.uleb128 0x2
  353 005f 04       		.byte	0x4
  354 0060 07       		.byte	0x7
- 355 0061 99030000 		.4byte	.LASF7
+ 355 0061 A1030000 		.4byte	.LASF7
  356 0065 02       		.uleb128 0x2
  357 0066 08       		.byte	0x8
  358 0067 05       		.byte	0x5
@@ -511,7 +511,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  360 006c 02       		.uleb128 0x2
  361 006d 08       		.byte	0x8
  362 006e 07       		.byte	0x7
- 363 006f 7F020000 		.4byte	.LASF9
+ 363 006f DC020000 		.4byte	.LASF9
  364 0073 04       		.uleb128 0x4
  365 0074 04       		.byte	0x4
  366 0075 05       		.byte	0x5
@@ -519,14 +519,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  368 007a 02       		.uleb128 0x2
  369 007b 04       		.byte	0x4
  370 007c 07       		.byte	0x7
- 371 007d AA020000 		.4byte	.LASF10
+ 371 007d 07030000 		.4byte	.LASF10
  372 0081 03       		.uleb128 0x3
- 373 0082 49030000 		.4byte	.LASF11
+ 373 0082 51030000 		.4byte	.LASF11
  374 0086 03       		.byte	0x3
  375 0087 2C       		.byte	0x2c
  376 0088 41000000 		.4byte	0x41
  377 008c 03       		.uleb128 0x3
- 378 008d 96020000 		.4byte	.LASF12
+ 378 008d F3020000 		.4byte	.LASF12
  379 0091 03       		.byte	0x3
  380 0092 30       		.byte	0x30
  381 0093 53000000 		.4byte	0x53
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  387 009f 8C000000 		.4byte	0x8c
  388 00a3 06       		.uleb128 0x6
  389 00a4 9E000000 		.4byte	0x9e
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 10
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 10
 
 
  390 00a8 02       		.uleb128 0x2
@@ -558,7 +558,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  404 00c2 22       		.byte	0x22
  405 00c3 87010000 		.4byte	0x187
  406 00c7 0A       		.uleb128 0xa
- 407 00c8 5A020000 		.4byte	.LASF15
+ 407 00c8 B7020000 		.4byte	.LASF15
  408 00cc 04       		.byte	0x4
  409 00cd 23       		.byte	0x23
  410 00ce 9E000000 		.4byte	0x9e
@@ -570,7 +570,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  416 00da A3000000 		.4byte	0xa3
  417 00de 04       		.byte	0x4
  418 00df 0A       		.uleb128 0xa
- 419 00e0 FA030000 		.4byte	.LASF17
+ 419 00e0 02040000 		.4byte	.LASF17
  420 00e4 04       		.byte	0x4
  421 00e5 25       		.byte	0x25
  422 00e6 9E000000 		.4byte	0x9e
@@ -598,12 +598,12 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  444 0113 04       		.byte	0x4
  445 0114 29       		.byte	0x29
  446 0115 9E000000 		.4byte	0x9e
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 11
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 11
 
 
  447 0119 18       		.byte	0x18
  448 011a 0A       		.uleb128 0xa
- 449 011b 02040000 		.4byte	.LASF21
+ 449 011b 0A040000 		.4byte	.LASF21
  450 011f 04       		.byte	0x4
  451 0120 2A       		.byte	0x2a
  452 0121 A3000000 		.4byte	0xa3
@@ -627,25 +627,25 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  470 0145 9E000000 		.4byte	0x9e
  471 0149 28       		.byte	0x28
  472 014a 0A       		.uleb128 0xa
- 473 014b 85030000 		.4byte	.LASF25
+ 473 014b 8D030000 		.4byte	.LASF25
  474 014f 04       		.byte	0x4
  475 0150 2E       		.byte	0x2e
  476 0151 A3000000 		.4byte	0xa3
  477 0155 2C       		.byte	0x2c
  478 0156 0A       		.uleb128 0xa
- 479 0157 80030000 		.4byte	.LASF26
+ 479 0157 88030000 		.4byte	.LASF26
  480 015b 04       		.byte	0x4
  481 015c 2F       		.byte	0x2f
  482 015d 9E000000 		.4byte	0x9e
  483 0161 30       		.byte	0x30
  484 0162 0A       		.uleb128 0xa
- 485 0163 76020000 		.4byte	.LASF27
+ 485 0163 D3020000 		.4byte	.LASF27
  486 0167 04       		.byte	0x4
  487 0168 30       		.byte	0x30
  488 0169 9E000000 		.4byte	0x9e
  489 016d 34       		.byte	0x34
  490 016e 0A       		.uleb128 0xa
- 491 016f CB020000 		.4byte	.LASF28
+ 491 016f 28030000 		.4byte	.LASF28
  492 0173 04       		.byte	0x4
  493 0174 31       		.byte	0x31
  494 0175 9E000000 		.4byte	0x9e
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  501 0185 3C       		.byte	0x3c
  502 0186 00       		.byte	0
  503 0187 03       		.uleb128 0x3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 12
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 12
 
 
  504 0188 84000000 		.4byte	.LASF30
@@ -671,13 +671,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  511 0196 38       		.byte	0x38
  512 0197 15020000 		.4byte	0x215
  513 019b 0A       		.uleb128 0xa
- 514 019c 5A020000 		.4byte	.LASF15
+ 514 019c B7020000 		.4byte	.LASF15
  515 01a0 04       		.byte	0x4
  516 01a1 39       		.byte	0x39
  517 01a2 9E000000 		.4byte	0x9e
  518 01a6 00       		.byte	0
  519 01a7 0A       		.uleb128 0xa
- 520 01a8 F1030000 		.4byte	.LASF31
+ 520 01a8 F9030000 		.4byte	.LASF31
  521 01ac 04       		.byte	0x4
  522 01ad 3A       		.byte	0x3a
  523 01ae 9E000000 		.4byte	0x9e
@@ -701,7 +701,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  541 01d2 9E000000 		.4byte	0x9e
  542 01d6 10       		.byte	0x10
  543 01d7 0A       		.uleb128 0xa
- 544 01d8 C2020000 		.4byte	.LASF35
+ 544 01d8 1F030000 		.4byte	.LASF35
  545 01dc 04       		.byte	0x4
  546 01dd 3E       		.byte	0x3e
  547 01de 9E000000 		.4byte	0x9e
@@ -713,16 +713,16 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  553 01ea 9E000000 		.4byte	0x9e
  554 01ee 18       		.byte	0x18
  555 01ef 0A       		.uleb128 0xa
- 556 01f0 5F020000 		.4byte	.LASF37
+ 556 01f0 BC020000 		.4byte	.LASF37
  557 01f4 04       		.byte	0x4
  558 01f5 40       		.byte	0x40
  559 01f6 A3000000 		.4byte	0xa3
  560 01fa 1C       		.byte	0x1c
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 13
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 13
 
 
  561 01fb 0A       		.uleb128 0xa
- 562 01fc 02040000 		.4byte	.LASF21
+ 562 01fc 0A040000 		.4byte	.LASF21
  563 0200 04       		.byte	0x4
  564 0201 41       		.byte	0x41
  565 0202 1A020000 		.4byte	0x21a
@@ -751,14 +751,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  588 0235 43       		.byte	0x43
  589 0236 92010000 		.4byte	0x192
  590 023a 0E       		.uleb128 0xe
- 591 023b 2D040000 		.4byte	.LASF39
+ 591 023b 35040000 		.4byte	.LASF39
  592 023f 05       		.byte	0x5
  593 0240 4206     		.2byte	0x642
  594 0242 2F020000 		.4byte	0x22f
  595 0246 02       		.uleb128 0x2
  596 0247 01       		.byte	0x1
  597 0248 08       		.byte	0x8
- 598 0249 44030000 		.4byte	.LASF40
+ 598 0249 4C030000 		.4byte	.LASF40
  599 024d 02       		.uleb128 0x2
  600 024e 04       		.byte	0x4
  601 024f 04       		.byte	0x4
@@ -766,7 +766,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  603 0254 02       		.uleb128 0x2
  604 0255 08       		.byte	0x8
  605 0256 04       		.byte	0x4
- 606 0257 AB030000 		.4byte	.LASF42
+ 606 0257 B3030000 		.4byte	.LASF42
  607 025b 0F       		.uleb128 0xf
  608 025c 04       		.byte	0x4
  609 025d 7A000000 		.4byte	0x7a
@@ -777,25 +777,25 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  614 0269 C3000000 		.4byte	.LASF43
  615 026d 00       		.byte	0
  616 026e 11       		.uleb128 0x11
- 617 026f 51030000 		.4byte	.LASF44
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 14
+ 617 026f 59030000 		.4byte	.LASF44
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 14
 
 
  618 0273 0100B600 		.4byte	0xb60001
  619 0277 00       		.byte	0
  620 0278 0E       		.uleb128 0xe
- 621 0279 0B040000 		.4byte	.LASF45
+ 621 0279 13040000 		.4byte	.LASF45
  622 027d 06       		.byte	0x6
  623 027e 7601     		.2byte	0x176
  624 0280 5B020000 		.4byte	0x25b
  625 0284 12       		.uleb128 0x12
- 626 0285 64030000 		.4byte	.LASF61
+ 626 0285 6C030000 		.4byte	.LASF61
  627 0289 20       		.byte	0x20
  628 028a 07       		.byte	0x7
  629 028b 2E       		.byte	0x2e
  630 028c F1020000 		.4byte	0x2f1
  631 0290 0A       		.uleb128 0xa
- 632 0291 B7020000 		.4byte	.LASF46
+ 632 0291 14030000 		.4byte	.LASF46
  633 0295 07       		.byte	0x7
  634 0296 31       		.byte	0x31
  635 0297 8C000000 		.4byte	0x8c
@@ -807,19 +807,19 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  641 02a3 8C000000 		.4byte	0x8c
  642 02a7 04       		.byte	0x4
  643 02a8 0A       		.uleb128 0xa
- 644 02a9 CA030000 		.4byte	.LASF48
+ 644 02a9 D2030000 		.4byte	.LASF48
  645 02ad 07       		.byte	0x7
  646 02ae 35       		.byte	0x35
  647 02af 8C000000 		.4byte	0x8c
  648 02b3 08       		.byte	0x8
  649 02b4 0A       		.uleb128 0xa
- 650 02b5 9F020000 		.4byte	.LASF49
+ 650 02b5 FC020000 		.4byte	.LASF49
  651 02b9 07       		.byte	0x7
  652 02ba 37       		.byte	0x37
  653 02bb 8C000000 		.4byte	0x8c
  654 02bf 0C       		.byte	0xc
  655 02c0 0A       		.uleb128 0xa
- 656 02c1 E3030000 		.4byte	.LASF50
+ 656 02c1 EB030000 		.4byte	.LASF50
  657 02c5 07       		.byte	0x7
  658 02c6 39       		.byte	0x39
  659 02c7 8C000000 		.4byte	0x8c
@@ -831,14 +831,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  665 02d3 8C000000 		.4byte	0x8c
  666 02d7 14       		.byte	0x14
  667 02d8 0A       		.uleb128 0xa
- 668 02d9 8F030000 		.4byte	.LASF52
+ 668 02d9 97030000 		.4byte	.LASF52
  669 02dd 07       		.byte	0x7
  670 02de 3D       		.byte	0x3d
  671 02df 8C000000 		.4byte	0x8c
  672 02e3 18       		.byte	0x18
  673 02e4 0A       		.uleb128 0xa
  674 02e5 BA010000 		.4byte	.LASF53
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 15
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 15
 
 
  675 02e9 07       		.byte	0x7
@@ -852,7 +852,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  683 02f7 41       		.byte	0x41
  684 02f8 84020000 		.4byte	0x284
  685 02fc 13       		.uleb128 0x13
- 686 02fd 36020000 		.4byte	.LASF62
+ 686 02fd 93020000 		.4byte	.LASF62
  687 0301 01       		.byte	0x1
  688 0302 2F       		.byte	0x2f
  689 0303 78020000 		.4byte	0x278
@@ -862,7 +862,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  693 0310 9C       		.byte	0x9c
  694 0311 4E030000 		.4byte	0x34e
  695 0315 14       		.uleb128 0x14
- 696 0316 38040000 		.4byte	.LASF55
+ 696 0316 40040000 		.4byte	.LASF55
  697 031a 01       		.byte	0x1
  698 031b 2F       		.byte	0x2f
  699 031c 4E030000 		.4byte	0x34e
@@ -886,7 +886,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  717 033d 91       		.byte	0x91
  718 033e 64       		.sleb128 -28
  719 033f 15       		.uleb128 0x15
- 720 0340 3D030000 		.4byte	.LASF63
+ 720 0340 45030000 		.4byte	.LASF63
  721 0344 01       		.byte	0x1
  722 0345 32       		.byte	0x32
  723 0346 78020000 		.4byte	0x278
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  729 034f 04       		.byte	0x4
  730 0350 3A020000 		.4byte	0x23a
  731 0354 16       		.uleb128 0x16
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 16
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 16
 
 
  732 0355 04       		.byte	0x4
@@ -906,7 +906,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  734 035a 06       		.uleb128 0x6
  735 035b F1020000 		.4byte	0x2f1
  736 035f 17       		.uleb128 0x17
- 737 0360 B2030000 		.4byte	.LASF64
+ 737 0360 BA030000 		.4byte	.LASF64
  738 0364 01       		.byte	0x1
  739 0365 64       		.byte	0x64
  740 0366 00000000 		.4byte	.LFB152
@@ -915,7 +915,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  743 036f 9C       		.byte	0x9c
  744 0370 9F030000 		.4byte	0x39f
  745 0374 14       		.uleb128 0x14
- 746 0375 38040000 		.4byte	.LASF55
+ 746 0375 40040000 		.4byte	.LASF55
  747 0379 01       		.byte	0x1
  748 037a 64       		.byte	0x64
  749 037b 4E030000 		.4byte	0x34e
@@ -940,7 +940,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  768 039d 6C       		.sleb128 -20
  769 039e 00       		.byte	0
  770 039f 18       		.uleb128 0x18
- 771 03a0 20040000 		.4byte	.LASF65
+ 771 03a0 28040000 		.4byte	.LASF65
  772 03a4 08       		.byte	0x8
  773 03a5 F907     		.2byte	0x7f9
  774 03a7 AB030000 		.4byte	0x3ab
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  786 0006 0B       		.uleb128 0xb
  787 0007 03       		.uleb128 0x3
  788 0008 0E       		.uleb128 0xe
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 17
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 17
 
 
  789 0009 1B       		.uleb128 0x1b
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  843 003f 00       		.byte	0
  844 0040 49       		.uleb128 0x49
  845 0041 13       		.uleb128 0x13
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 18
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 18
 
 
  846 0042 00       		.byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  900 0078 0B       		.uleb128 0xb
  901 0079 3B       		.uleb128 0x3b
  902 007a 0B       		.uleb128 0xb
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 19
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 19
 
 
  903 007b 49       		.uleb128 0x49
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  957 00b1 3A       		.uleb128 0x3a
  958 00b2 0B       		.uleb128 0xb
  959 00b3 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 20
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 20
 
 
  960 00b4 05       		.uleb128 0x5
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  1014 00ea 01       		.uleb128 0x1
  1015 00eb 12       		.uleb128 0x12
  1016 00ec 06       		.uleb128 0x6
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 21
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 21
 
 
  1017 00ed 40       		.uleb128 0x40
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  1071 0124 3A       		.uleb128 0x3a
  1072 0125 0B       		.uleb128 0xb
  1073 0126 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 22
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 22
 
 
  1074 0127 0B       		.uleb128 0xb
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  1128 0014 00000000 		.4byte	0
  1129              		.section	.debug_line,"",%progbits
  1130              	.Ldebug_line0:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 23
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 23
 
 
  1131 0000 8F020000 		.section	.debug_str,"MS",%progbits,1
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  1152      00
  1153              	.LASF24:
  1154 00ba 54525F43 		.ascii	"TR_CTRL2\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 24
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 24
 
 
  1154      54524C32 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  1175 01c4 434D445F 		.ascii	"CMD_CAPTURE\000"
  1175      43415054 
  1175      55524500 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 25
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 25
 
 
  1176              	.LASF47:
@@ -1480,177 +1480,177 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 1
  1195 022a 6C6F6E67 		.ascii	"long double\000"
  1195      20646F75 
  1195      626C6500 
- 1196              	.LASF62:
- 1197 0236 43795F54 		.ascii	"Cy_TCPWM_QuadDec_Init\000"
- 1197      4350574D 
- 1197      5F517561 
- 1197      64446563 
- 1197      5F496E69 
- 1198              	.LASF1:
- 1199 024c 756E7369 		.ascii	"unsigned char\000"
- 1199      676E6564 
- 1199      20636861 
- 1199      7200
- 1200              	.LASF15:
- 1201 025a 4354524C 		.ascii	"CTRL\000"
- 1201      00
- 1202              	.LASF37:
- 1203 025f 494E5452 		.ascii	"INTR_CAUSE\000"
- 1203      5F434155 
- 1203      534500
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 26
+ 1196              	.LASF60:
+ 1197 0236 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
+ 1197      73657273 
+ 1197      5C737469 
+ 1197      6A6E5C44 
+ 1197      726F7062 
+ 1198 0262 43204372 		.ascii	"C Creator\\Data Acquisition\\IoT_Generic_DAQ.cydsn\000"
+ 1198      6561746F 
+ 1198      725C4461 
+ 1198      74612041 
+ 1198      63717569 
+ 1199              	.LASF62:
+ 1200 0293 43795F54 		.ascii	"Cy_TCPWM_QuadDec_Init\000"
+ 1200      4350574D 
+ 1200      5F517561 
+ 1200      64446563 
+ 1200      5F496E69 
+ 1201              	.LASF1:
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 26
 
 
- 1204              	.LASF0:
- 1205 026a 7369676E 		.ascii	"signed char\000"
- 1205      65642063 
- 1205      68617200 
- 1206              	.LASF27:
- 1207 0276 494E5452 		.ascii	"INTR_SET\000"
- 1207      5F534554 
- 1207      00
- 1208              	.LASF9:
- 1209 027f 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1209      206C6F6E 
- 1209      6720756E 
- 1209      7369676E 
- 1209      65642069 
- 1210              	.LASF12:
- 1211 0296 75696E74 		.ascii	"uint32_t\000"
- 1211      33325F74 
- 1211      00
- 1212              	.LASF49:
- 1213 029f 696E6465 		.ascii	"indexInput\000"
- 1213      78496E70 
- 1213      757400
- 1214              	.LASF10:
- 1215 02aa 756E7369 		.ascii	"unsigned int\000"
- 1215      676E6564 
- 1215      20696E74 
- 1215      00
- 1216              	.LASF46:
- 1217 02b7 7265736F 		.ascii	"resolution\000"
- 1217      6C757469 
- 1217      6F6E00
- 1218              	.LASF35:
- 1219 02c2 434D445F 		.ascii	"CMD_STOP\000"
- 1219      53544F50 
- 1219      00
- 1220              	.LASF28:
- 1221 02cb 494E5452 		.ascii	"INTR_MASK\000"
- 1221      5F4D4153 
- 1221      4B00
- 1222              	.LASF60:
- 1223 02d5 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
- 1223      73657273 
- 1223      5C737469 
- 1223      6A6E5C44 
- 1223      726F7062 
- 1224 0301 43204372 		.ascii	"C Creator\\RTOS DAQ\\IoT_Generic_DAQ.cydsn\000"
- 1224      6561746F 
- 1224      725C5254 
- 1224      4F532044 
- 1224      41515C49 
+ 1202 02a9 756E7369 		.ascii	"unsigned char\000"
+ 1202      676E6564 
+ 1202      20636861 
+ 1202      7200
+ 1203              	.LASF15:
+ 1204 02b7 4354524C 		.ascii	"CTRL\000"
+ 1204      00
+ 1205              	.LASF37:
+ 1206 02bc 494E5452 		.ascii	"INTR_CAUSE\000"
+ 1206      5F434155 
+ 1206      534500
+ 1207              	.LASF0:
+ 1208 02c7 7369676E 		.ascii	"signed char\000"
+ 1208      65642063 
+ 1208      68617200 
+ 1209              	.LASF27:
+ 1210 02d3 494E5452 		.ascii	"INTR_SET\000"
+ 1210      5F534554 
+ 1210      00
+ 1211              	.LASF9:
+ 1212 02dc 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1212      206C6F6E 
+ 1212      6720756E 
+ 1212      7369676E 
+ 1212      65642069 
+ 1213              	.LASF12:
+ 1214 02f3 75696E74 		.ascii	"uint32_t\000"
+ 1214      33325F74 
+ 1214      00
+ 1215              	.LASF49:
+ 1216 02fc 696E6465 		.ascii	"indexInput\000"
+ 1216      78496E70 
+ 1216      757400
+ 1217              	.LASF10:
+ 1218 0307 756E7369 		.ascii	"unsigned int\000"
+ 1218      676E6564 
+ 1218      20696E74 
+ 1218      00
+ 1219              	.LASF46:
+ 1220 0314 7265736F 		.ascii	"resolution\000"
+ 1220      6C757469 
+ 1220      6F6E00
+ 1221              	.LASF35:
+ 1222 031f 434D445F 		.ascii	"CMD_STOP\000"
+ 1222      53544F50 
+ 1222      00
+ 1223              	.LASF28:
+ 1224 0328 494E5452 		.ascii	"INTR_MASK\000"
+ 1224      5F4D4153 
+ 1224      4B00
  1225              	.LASF3:
- 1226 032a 73686F72 		.ascii	"short unsigned int\000"
+ 1226 0332 73686F72 		.ascii	"short unsigned int\000"
  1226      7420756E 
  1226      7369676E 
  1226      65642069 
  1226      6E7400
  1227              	.LASF63:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 27
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 27
 
 
- 1228 033d 73746174 		.ascii	"status\000"
+ 1228 0345 73746174 		.ascii	"status\000"
  1228      757300
  1229              	.LASF40:
- 1230 0344 63686172 		.ascii	"char\000"
+ 1230 034c 63686172 		.ascii	"char\000"
  1230      00
  1231              	.LASF11:
- 1232 0349 696E7433 		.ascii	"int32_t\000"
+ 1232 0351 696E7433 		.ascii	"int32_t\000"
  1232      325F7400 
  1233              	.LASF44:
- 1234 0351 43595F54 		.ascii	"CY_TCPWM_BAD_PARAM\000"
+ 1234 0359 43595F54 		.ascii	"CY_TCPWM_BAD_PARAM\000"
  1234      4350574D 
  1234      5F424144 
  1234      5F504152 
  1234      414D00
  1235              	.LASF61:
- 1236 0364 63795F73 		.ascii	"cy_stc_tcpwm_quaddec_config\000"
+ 1236 036c 63795F73 		.ascii	"cy_stc_tcpwm_quaddec_config\000"
  1236      74635F74 
  1236      6370776D 
  1236      5F717561 
  1236      64646563 
  1237              	.LASF26:
- 1238 0380 494E5452 		.ascii	"INTR\000"
+ 1238 0388 494E5452 		.ascii	"INTR\000"
  1238      00
  1239              	.LASF25:
- 1240 0385 52455345 		.ascii	"RESERVED1\000"
+ 1240 038d 52455345 		.ascii	"RESERVED1\000"
  1240      52564544 
  1240      3100
  1241              	.LASF52:
- 1242 038f 70686941 		.ascii	"phiAInput\000"
+ 1242 0397 70686941 		.ascii	"phiAInput\000"
  1242      496E7075 
  1242      7400
  1243              	.LASF7:
- 1244 0399 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1244 03a1 6C6F6E67 		.ascii	"long unsigned int\000"
  1244      20756E73 
  1244      69676E65 
  1244      6420696E 
  1244      7400
  1245              	.LASF42:
- 1246 03ab 646F7562 		.ascii	"double\000"
+ 1246 03b3 646F7562 		.ascii	"double\000"
  1246      6C6500
  1247              	.LASF64:
- 1248 03b2 43795F54 		.ascii	"Cy_TCPWM_QuadDec_DeInit\000"
+ 1248 03ba 43795F54 		.ascii	"Cy_TCPWM_QuadDec_DeInit\000"
  1248      4350574D 
  1248      5F517561 
  1248      64446563 
  1248      5F446549 
  1249              	.LASF48:
- 1250 03ca 696E6465 		.ascii	"indexInputMode\000"
+ 1250 03d2 696E6465 		.ascii	"indexInputMode\000"
  1250      78496E70 
  1250      75744D6F 
  1250      646500
  1251              	.LASF5:
- 1252 03d9 5F5F696E 		.ascii	"__int32_t\000"
+ 1252 03e1 5F5F696E 		.ascii	"__int32_t\000"
  1252      7433325F 
  1252      7400
  1253              	.LASF50:
- 1254 03e3 73746F70 		.ascii	"stopInputMode\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccFH5Slf.s 			page 28
+ 1254 03eb 73746F70 		.ascii	"stopInputMode\000"
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\cccWGFq6.s 			page 28
 
 
  1254      496E7075 
  1254      744D6F64 
  1254      6500
  1255              	.LASF31:
- 1256 03f1 4354524C 		.ascii	"CTRL_CLR\000"
+ 1256 03f9 4354524C 		.ascii	"CTRL_CLR\000"
  1256      5F434C52 
  1256      00
  1257              	.LASF17:
- 1258 03fa 434F554E 		.ascii	"COUNTER\000"
+ 1258 0402 434F554E 		.ascii	"COUNTER\000"
  1258      54455200 
  1259              	.LASF21:
- 1260 0402 52455345 		.ascii	"RESERVED\000"
+ 1260 040a 52455345 		.ascii	"RESERVED\000"
  1260      52564544 
  1260      00
  1261              	.LASF45:
- 1262 040b 63795F65 		.ascii	"cy_en_tcpwm_status_t\000"
+ 1262 0413 63795F65 		.ascii	"cy_en_tcpwm_status_t\000"
  1262      6E5F7463 
  1262      70776D5F 
  1262      73746174 
  1262      75735F74 
  1263              	.LASF65:
- 1264 0420 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1264 0428 49544D5F 		.ascii	"ITM_RxBuffer\000"
  1264      52784275 
  1264      66666572 
  1264      00
  1265              	.LASF39:
- 1266 042d 54435057 		.ascii	"TCPWM_Type\000"
+ 1266 0435 54435057 		.ascii	"TCPWM_Type\000"
  1266      4D5F5479 
  1266      706500
  1267              	.LASF55:
- 1268 0438 62617365 		.ascii	"base\000"
+ 1268 0440 62617365 		.ascii	"base\000"
  1268      00
  1269              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

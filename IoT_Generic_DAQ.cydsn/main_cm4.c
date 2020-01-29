@@ -82,6 +82,7 @@ int main(void){
     configureDMA2();
     configureDMA3();
     configureUARTDMA();
+    configureI2CDMA();
     
     initI2C();
     
@@ -92,7 +93,7 @@ int main(void){
     
     
     // Create tasks for analog channels. Reduce priority for lower speeds
-    xTaskCreate(ADCSampleTask, "ADCSampleTask0", 100, (void*) &channel0, 5, NULL);
+    //xTaskCreate(ADCSampleTask, "ADCSampleTask0", 100, (void*) &channel0, 5, NULL);
     //xTaskCreate(ADCSampleTask, "ADCSampleTask1", 100, (void*) &channel1, 5, NULL);
     //xTaskCreate(ADCSampleTask, "ADCSampleTask2", 100, (void*) &channel2, 5, NULL);
     //xTaskCreate(ADCSampleTask, "ADCSampleTask3", 100, (void*) &channel3, 5, NULL);
@@ -100,7 +101,7 @@ int main(void){
     
     // Create tasks for digital sensors.
     //xTaskCreate(acceleroTask, "acceleroTask", 100, (void*) &masterTransferCfg, 6, NULL);
-    //xTaskCreate(Si7021Task, "Si7021Task", 100, (void*) &masterTransferCfg, 6, NULL);
+    xTaskCreate(Si7021Task, "Si7021Task", 100, (void*) &masterTransferCfg, 6, NULL);
     vTaskStartScheduler();
     
     for(;;);

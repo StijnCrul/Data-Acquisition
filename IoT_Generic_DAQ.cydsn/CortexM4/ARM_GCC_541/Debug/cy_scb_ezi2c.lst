@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   28:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \defgroup group_scb_ezi2c  EZI2C (SCB)
   29:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \defgroup group_scb_i2c    I2C (SCB)
   30:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \defgroup group_scb_spi    SPI (SCB)
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 2
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 2
 
 
   31:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \defgroup group_scb_uart   UART (SCB)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   85:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *******************************************************************************
   86:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \section group_scb_common_changelog Changelog
   87:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *******************************************************************************
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 3
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 3
 
 
   88:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * <table class="doxtable">
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  142:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #ifdef CY_IP_MXSCB
  143:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
  144:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #if defined(__cplusplus)
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 4
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 4
 
 
  145:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** extern "C" {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  199:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** __STATIC_INLINE void     Cy_SCB_ClearSlaveInterrupt    (CySCB_Type *base, uint32_t interruptMask);
  200:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** __STATIC_INLINE void     Cy_SCB_SetSlaveInterrupt      (CySCB_Type *base, uint32_t interruptMask);
  201:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 5
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 5
 
 
  202:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** __STATIC_INLINE uint32_t Cy_SCB_GetI2CInterruptStatus(CySCB_Type const *base);
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  256:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /** SCB driver identifier */
  257:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_ID           CY_PDL_DRV_ID(0x2AU)
  258:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 6
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 6
 
 
  259:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /** Position for SCB driver sub mode */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  313:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /** An attempt to write to a full TX FIFO */
  314:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_TX_INTR_OVERFLOW        SCB_INTR_TX_OVERFLOW_Msk
  315:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 7
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 7
 
 
  316:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /** An attempt to read from an empty TX FIFO */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  370:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * I2C slave lost arbitration: the value driven on the SDA line is not the same
  371:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * as the value observed on the SDA line
  372:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 8
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 8
 
 
  373:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_SLAVE_INTR_I2C_ARB_LOST      SCB_INTR_S_I2C_ARB_LOST_Msk
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  427:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_MASTER_INTR_I2C_BUS_ERROR   SCB_INTR_M_I2C_BUS_ERROR_Msk
  428:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
  429:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /**
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 9
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 9
 
 
  430:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * The SPI master transfer is complete: all data elements transferred from the
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  484:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****                                      _VAL2FLD(SCB_I2C_CFG_SDA_OUT_FILT2_TRIM, 2UL))
  485:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
  486:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_SPI_CTRL_DEF_VAL     _VAL2FLD(SCB_SPI_CTRL_MODE, 3UL)
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 10
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 10
 
 
  487:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_UART_CTRL_DEF_VAL    _VAL2FLD(SCB_UART_CTRL_MODE, 3UL)
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  541:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****                                                  SCB_UART_RX_CTRL_PARITY_Msk)
  542:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_UART_RX_CTRL_SET_PARITY_Pos      SCB_UART_RX_CTRL_PARITY_Pos
  543:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 11
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 11
 
 
  544:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** #define CY_SCB_UART_TX_CTRL_SET_PARITY_Msk      (SCB_UART_TX_CTRL_PARITY_ENABLED_Msk | \
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  598:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
  599:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /**
  600:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \addtogroup group_scb_common_functions
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 12
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 12
 
 
  601:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \{
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   61 0000 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\"
   61      72617465 
   61      645F536F 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 13
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 13
 
 
   61      75726365 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   91              		.loc 1 640 0 is_stmt 0 discriminator 1
   92 0018 4FF42071 		mov	r1, #640
   93 001c 0848     		ldr	r0, .L5
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 14
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 14
 
 
   94 001e FFF7FEFF 		bl	Cy_SysLib_AssertFailed
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  662:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** }
  663:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
  664:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 15
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 15
 
 
  665:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /*******************************************************************************
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  700:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     SCB_RX_FIFO_CTRL(base) &= (uint32_t) ~SCB_RX_FIFO_CTRL_CLEAR_Msk;
  146              		.loc 1 700 0
  147 0018 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 16
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 16
 
 
  148 001a D3F80433 		ldr	r3, [r3, #772]
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  727:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /*******************************************************************************
  728:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * Function Name: Cy_SCB_SetTxFifoLevel
  729:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** ****************************************************************************//**
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 17
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 17
 
 
  730:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  784:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     return _FLD2VAL(SCB_TX_FIFO_STATUS_SR_VALID, SCB_TX_FIFO_STATUS(base));
  785:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** }
  786:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 18
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 18
 
 
  787:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  192 000e 43F48032 		orr	r2, r3, #65536
  193 0012 7B68     		ldr	r3, [r7, #4]
  194 0014 C3F80422 		str	r2, [r3, #516]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 19
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 19
 
 
  825:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     SCB_TX_FIFO_CTRL(base) &= (uint32_t) ~SCB_TX_FIFO_CTRL_CLEAR_Msk;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  849:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     if (byteMode)
  850:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     {
  851:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****         SCB_CTRL(base) |=  SCB_CTRL_BYTE_MODE_Msk;
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 20
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 20
 
 
  852:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     }
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  906:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * Function Name: Cy_SCB_SetRxInterruptMask
  907:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** ****************************************************************************//**
  908:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 21
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 21
 
 
  909:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * Writes the RX interrupt mask register. This register configures which bits
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  262              	.L12:
  263 0032 00BF     		.align	2
  264              	.L11:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 22
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 22
 
 
  265 0034 00000000 		.word	.LC0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  276              		.loc 1 968 0
  277              		.cfi_startproc
  278              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 23
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 23
 
 
  279              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  989:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *  - CY_SCB_INTR_RX_NOT_EMPTY interrupt source is not cleared when the
  990:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *    RX FIFO is not empty.
  991:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *  - CY_SCB_INTR_RX_FULL interrupt source is not cleared when the
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 24
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 24
 
 
  992:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *    RX FIFO is full.
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  357              		.cfi_endproc
  358              	.LFE183:
  359              		.size	Cy_SCB_ClearRxInterrupt, .-Cy_SCB_ClearRxInterrupt
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 25
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 25
 
 
  360              		.section	.text.Cy_SCB_SetRxInterrupt,"ax",%progbits
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  393 0022 7B68     		ldr	r3, [r7, #4]
  394 0024 3A68     		ldr	r2, [r7]
  395 0026 C3F8C42F 		str	r2, [r3, #4036]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 26
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 26
 
 
 1023:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** }
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1055:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
 1056:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \param base
 1057:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * The pointer to the SCB instance.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 27
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 27
 
 
 1058:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  460              	.LFE186:
  461              		.size	Cy_SCB_SetTxInterruptMask, .-Cy_SCB_SetTxInterruptMask
  462              		.section	.text.Cy_SCB_GetTxInterruptStatusMasked,"ax",%progbits
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 28
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 28
 
 
  463              		.align	2
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  474 0000 80B4     		push	{r7}
  475              		.cfi_def_cfa_offset 4
  476              		.cfi_offset 7, -4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 29
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 29
 
 
  477 0002 83B0     		sub	sp, sp, #12
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1138:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *    TX FIFO is empty. Put data into the TX FIFO before clearing it.
 1139:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
 1140:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *******************************************************************************/
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 30
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 30
 
 
 1141:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** __STATIC_INLINE void Cy_SCB_ClearTxInterrupt(CySCB_Type *base, uint32_t interruptMask)
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  553              		.section	.text.Cy_SCB_SetSlaveInterruptMask,"ax",%progbits
  554              		.align	2
  555              		.thumb
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 31
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 31
 
 
  556              		.thumb_func
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1198:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
 1199:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * Writes the master interrupt mask register. This register specifies which bits
 1200:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * from the master interrupt request register can trigger an interrupt event.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 32
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 32
 
 
 1201:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1255:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * See \ref group_scb_common_macros_master_intr for the set of constants.
 1256:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
 1257:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *******************************************************************************/
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 33
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 33
 
 
 1258:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** __STATIC_INLINE uint32_t Cy_SCB_GetMasterInterruptStatusMasked(CySCB_Type const *base)
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1312:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
 1313:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * Returns the slave interrupt request register. This register contains the current
 1314:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * status of the slave interrupt sources.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 34
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 34
 
 
 1315:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  578 0014 002B     		cmp	r3, #0
  579 0016 04D0     		beq	.L34
  580              		.loc 1 1350 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 35
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 35
 
 
  581 0018 40F24651 		movw	r1, #1350
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1375:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** }
 1376:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
 1377:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 36
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 36
 
 
 1378:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /*******************************************************************************
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  642              		.align	2
  643              		.thumb
  644              		.thumb_func
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 37
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 37
 
 
  645              		.type	Cy_SCB_ClearSlaveInterrupt, %function
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  677              		.loc 1 1422 0
  678 002a 7B68     		ldr	r3, [r7, #4]
  679 002c D3F8403F 		ldr	r3, [r3, #3904]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 38
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 38
 
 
 1423:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** }
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1455:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \param base
 1456:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * The pointer to the SCB instance.
 1457:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 39
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 39
 
 
 1458:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \return
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  725              	.L44:
 1489:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
 1490:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     SCB_INTR_I2C_EC_MASK(base) = interruptMask;
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 40
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 40
 
 
  726              		.loc 1 1490 0 is_stmt 1
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1519:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * Returns the I2C interrupt masked request register. This register contains
 1520:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * a logical AND of corresponding bits from I2C interrupt request and mask
 1521:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * registers.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 41
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 41
 
 
 1522:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * This function is intended to be used in the interrupt service routine to
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1539:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** /*******************************************************************************
 1540:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * Function Name: Cy_SCB_ClearI2CInterrupt
 1541:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** ****************************************************************************//**
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 42
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 42
 
 
 1542:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  825              		.cfi_def_cfa_register 13
  826              		@ sp needed
  827 0032 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 43
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 43
 
 
  828              	.L52:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1600:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** {
 1601:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     CY_ASSERT_L2(CY_SCB_IS_INTR_VALID(interruptMask, CY_SCB_SPI_INTR_MASK));
 1602:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 44
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 44
 
 
 1603:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     SCB_INTR_SPI_EC_MASK(base) = interruptMask;
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1657:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
 1658:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \param base
 1659:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * The pointer to the SCB instance.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 45
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 45
 
 
 1660:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1690:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     return (_FLD2BOOL(SCB_CTRL_BYTE_MODE, SCB_CTRL(base)) ?
  864              		.loc 1 1690 0 is_stmt 1 discriminator 1
  865 0016 00E0     		b	.L56
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 46
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 46
 
 
  866              	.L54:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1721:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * The pointer to the SCB instance.
 1722:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** *
 1723:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * \return
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 47
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 47
 
 
 1724:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** * If true, the TX data width is a byte (8 bits). Otherwise, false.
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1751:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h **** 
 1752:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_common.h ****     SCB_CTRL(base) |= (uint32_t)  SCB_CTRL_ENABLED_Msk;
  918              		.loc 1 1752 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 48
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 48
 
 
  919 0020 7B68     		ldr	r3, [r7, #4]
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  952              		@ link register save eliminated.
  953 0000 80B4     		push	{r7}
  954              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 49
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 49
 
 
  955              		.cfi_offset 7, -4
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   21:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * cy_scb_ezi2c.h. You can also include cy_pdl.h (ModusToolbox only) to get access 
   22:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * to all functions and declarations in the PDL.
   23:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 50
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 50
 
 
   24:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * I2C - The Inter-Integrated Circuit (I2C) bus is an industry-standard.
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   78:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *
   79:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** ********************************************************************************
   80:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * \subsection group_scb_ezi2c_pins Assign and Configure Pins
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 51
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 51
 
 
   81:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** ********************************************************************************
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  135:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *
  136:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** ********************************************************************************
  137:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * \section group_scb_ezi2c_use_cases Common Use Cases 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 52
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 52
 
 
  138:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** ********************************************************************************
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  192:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *
  193:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * The EZI2C configured to support two addresses can wakeup the device on 
  194:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * address match to NACK not supported address. This happens because the 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 53
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 53
 
 
  195:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * hardware address-match-logic uses address bit masking to support to two 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  249:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *     <td>There shall be no unreachable code.</td>
  250:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *     <td>The SCB block parameters can be a constant false or true depending on
  251:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *         the selected device and cause code to be unreachable.</td>
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 54
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 54
 
 
  252:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *   </tr>
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  306:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *     <td></td>
  307:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *   </tr>
  308:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * </table>
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 55
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 55
 
 
  309:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** *
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  363:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** /** \cond INTERNAL */
  364:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** /** EZI2C slave FSM states */
  365:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** typedef enum
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 56
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 56
 
 
  366:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** {
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  420:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h ****     /** \cond INTERNAL */
  421:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h ****     volatile cy_en_scb_ezi2c_state_t state;  /**< The driver state */
  422:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h ****     volatile uint32_t status;                /**< The slave status */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 57
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 57
 
 
  423:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  477:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** 
  478:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** uint32_t Cy_SCB_EZI2C_GetActivity(CySCB_Type const *base, cy_stc_scb_ezi2c_context_t *context);
  479:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 58
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 58
 
 
  480:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** void Cy_SCB_EZI2C_Interrupt(CySCB_Type *base, cy_stc_scb_ezi2c_context_t *context);
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  534:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * The buffer content was modified.
  535:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * The error condition status bit must be checked to ensure that the Write
  536:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** * transfer was completed successfully.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 59
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 59
 
 
  537:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** */
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  591:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** #define CY_SCB_EZI2C_IS_NUM_OF_ADDR_VALID(numAddr)  ( (CY_SCB_EZI2C_ONE_ADDRESS   == (numAddr)) || 
  592:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h ****                                                       (CY_SCB_EZI2C_TWO_ADDRESSES == (numAddr)) )
  593:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 60
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 60
 
 
  594:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.h **** #define CY_SCB_EZI2C_IS_SUB_ADDR_SIZE_VALID(subAddrSize)    ( (CY_SCB_EZI2C_SUB_ADDR8_BITS  == (sub
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1013 001a 5DF8047B 		ldr	r7, [sp], #4
  1014              		.cfi_restore 7
  1015              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 61
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 61
 
 
  1016 001e 7047     		bx	lr
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   29:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** static void HandleAddress     (CySCB_Type *base, cy_stc_scb_ezi2c_context_t *context);
   30:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** static void UpdateRxFifoLevel (CySCB_Type *base, uint32_t bufSize);
   31:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** static void HandleDataReceive (CySCB_Type *base, cy_stc_scb_ezi2c_context_t *context);
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 62
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 62
 
 
   32:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** static void HandleDataTransmit(CySCB_Type *base, cy_stc_scb_ezi2c_context_t *context);
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1053              		.loc 3 66 0 is_stmt 0 discriminator 1
  1054 0012 BB68     		ldr	r3, [r7, #8]
  1055 0014 002B     		cmp	r3, #0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 63
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 63
 
 
  1056 0016 02D0     		beq	.L62
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1102 005c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  1103 005e 002B     		cmp	r3, #0
  1104 0060 07D0     		beq	.L68
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 64
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 64
 
 
  1105              		.loc 3 74 0 is_stmt 0 discriminator 1
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
   78:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                  _BOOL2FLD(SCB_CTRL_EC_AM_MODE, config->enableWakeFromSleep) |
  1154              		.loc 3 78 0 is_stmt 1
  1155 00aa 1343     		orrs	r3, r3, r2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 65
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 65
 
 
  1156              		.loc 3 79 0
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1192 00ea BB68     		ldr	r3, [r7, #8]
  1193 00ec 5B78     		ldrb	r3, [r3, #1]	@ zero_extendqisi2
  1194 00ee 7A68     		ldr	r2, [r7, #4]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 66
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 66
 
 
  1195 00f0 1946     		mov	r1, r3
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1235 013e FB68     		ldr	r3, [r7, #12]
  1236 0140 40F25112 		movw	r2, #337
  1237 0144 C3F8482F 		str	r2, [r3, #3912]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 67
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 67
 
 
  111:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1276 0180 0023     		movs	r3, #0
  1277              	.L64:
  127:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** }
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 68
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 68
 
 
  1278              		.loc 3 127 0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1315              		.cfi_def_cfa_register 7
  1316 0006 7860     		str	r0, [r7, #4]
  145:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     /* Return the block registers into the default state */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 69
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 69
 
 
  146:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     SCB_CTRL(base)     = CY_SCB_CTRL_DEF_VAL;
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1357              		.loc 3 159 0
  1358 005a 7B68     		ldr	r3, [r7, #4]
  1359 005c 0022     		movs	r2, #0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 70
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 70
 
 
  1360 005e C3F8882F 		str	r2, [r3, #3976]
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  179:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * allocated by the user. The structure is used during the EZI2C operation for
  180:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * internal configuration and data retention. The user must not modify anything
  181:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * in this structure.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 71
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 71
 
 
  182:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** *
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1433 002c 7047     		bx	lr
  1434              		.cfi_endproc
  1435              	.LFE221:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 72
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 72
 
 
  1436              		.size	Cy_SCB_EZI2C_Disable, .-Cy_SCB_EZI2C_Disable
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  243:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** {
  1445              		.loc 3 243 0
  1446              		.cfi_startproc
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 73
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 73
 
 
  1447              		@ args = 0, pretend = 0, frame = 24
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1490              		.loc 3 254 0
  1491 004c 0021     		movs	r1, #0
  1492 004e 3869     		ldr	r0, [r7, #16]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 74
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 74
 
 
  1493 0050 FFF7FEFF 		bl	Cy_SCB_SetSlaveInterruptMask
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1520              	.L91:
  282:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 }
  283:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 75
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 75
 
 
  284:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 retStatus = CY_SYSPM_SUCCESS;
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1547 00b2 3869     		ldr	r0, [r7, #16]
  1548 00b4 FFF7FEFF 		bl	Cy_SCB_EZI2C_Enable
  1549              	.L95:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 76
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 76
 
 
  311:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****             }
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  342:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 * does not have access to the clock.
  343:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 */
  344:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****             }
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 77
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 77
 
 
  345:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  371:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 /* The SCB is NOT wakeup-capable: enable the slave to operate */
  372:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 Cy_SCB_EZI2C_Enable(locBase);
  1601              		.loc 3 372 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 78
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 78
 
 
  1602 0110 3869     		ldr	r0, [r7, #16]
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  390:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** *
  391:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * This function handles the transition of the EZI2C SCB block into Hibernate
  392:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * mode. It prevents the device from entering Hibernate mode if the EZI2C slave 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 79
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 79
 
 
  393:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * is actively communicating.
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  421:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
  422:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     switch (mode)
  1665              		.loc 3 422 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 80
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 80
 
 
  1666 001c FB78     		ldrb	r3, [r7, #3]	@ zero_extendqisi2
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  441:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****             }
  442:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
  443:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****             /* Restore the slave interrupt sources */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 81
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 81
 
 
  444:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****             Cy_SCB_SetSlaveInterruptMask(locBase, CY_SCB_EZI2C_SLAVE_INTR);
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  473:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     return (retStatus);
  1727              		.loc 3 473 0
  1728 008a 7B69     		ldr	r3, [r7, #20]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 82
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 82
 
 
  474:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** }
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1757              		.cfi_def_cfa_offset 8
  1758              		.cfi_offset 7, -8
  1759              		.cfi_offset 14, -4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 83
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 83
 
 
  1760 0002 84B0     		sub	sp, sp, #16
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1799              		.thumb_func
  1800              		.type	Cy_SCB_EZI2C_SetAddress1, %function
  1801              	Cy_SCB_EZI2C_SetAddress1:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 84
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 84
 
 
  1802              	.LFB225:
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1831 0024 FA7A     		ldrb	r2, [r7, #11]	@ zero_extendqisi2
  1832 0026 9A42     		cmp	r2, r3
  1833 0028 04D1     		bne	.L119
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 85
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 85
 
 
  1834              		.loc 3 539 0 is_stmt 0 discriminator 1
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  548:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
  549:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** /*******************************************************************************
  550:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * Function Name: Cy_SCB_EZI2C_GetAddress1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 86
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 86
 
 
  551:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** ****************************************************************************//**
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1910              		.size	Cy_SCB_EZI2C_GetAddress1, .-Cy_SCB_EZI2C_GetAddress1
  1911 001a 00BF     		.section	.text.Cy_SCB_EZI2C_SetBuffer1,"ax",%progbits
  1912              		.align	2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 87
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 87
 
 
  1913              		.global	Cy_SCB_EZI2C_SetBuffer1
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1928              		.cfi_def_cfa_offset 24
  1929 0004 00AF     		add	r7, sp, #0
  1930              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 88
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 88
 
 
  1931 0006 F860     		str	r0, [r7, #12]
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  1975              		.cfi_def_cfa_register 13
  1976              		@ sp needed
  1977 004e 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 89
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 89
 
 
  1978              	.L128:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2005 0006 F860     		str	r0, [r7, #12]
  2006 0008 0B46     		mov	r3, r1
  2007 000a 7A60     		str	r2, [r7, #4]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 90
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 90
 
 
  2008 000c FB72     		strb	r3, [r7, #11]
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2055              		.thumb
  2056              		.thumb_func
  2057              		.type	Cy_SCB_EZI2C_GetAddress2, %function
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 91
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 91
 
 
  2058              	Cy_SCB_EZI2C_GetAddress2:
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2084 0014 5DF8047B 		ldr	r7, [sp], #4
  2085              		.cfi_restore 7
  2086              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 92
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 92
 
 
  2087 0018 7047     		bx	lr
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2102              		@ frame_needed = 1, uses_anonymous_args = 0
  2103 0000 80B5     		push	{r7, lr}
  2104              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 93
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 93
 
 
  2105              		.cfi_offset 7, -8
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  734:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** }
  2150              		.loc 3 734 0
  2151 0048 00BF     		nop
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 94
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 94
 
 
  2152 004a 1037     		adds	r7, r7, #16
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2184              		.cfi_def_cfa_register 7
  2185 0006 7860     		str	r0, [r7, #4]
  2186 0008 3960     		str	r1, [r7]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 95
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 95
 
 
  757:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     uint32_t slaveIntrStatus;
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2219 0048 7868     		ldr	r0, [r7, #4]
  2220 004a FFF7FEFF 		bl	Cy_SCB_ClearSlaveInterrupt
  779:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 96
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 96
 
 
  780:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         /* Trigger the stop handling to complete the transaction */
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2256 008c 3968     		ldr	r1, [r7]
  2257 008e 7868     		ldr	r0, [r7, #4]
  2258 0090 FFF7FEFF 		bl	HandleDataReceive
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 97
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 97
 
 
  798:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2292 00d0 0121     		movs	r1, #1
  2293 00d2 7868     		ldr	r0, [r7, #4]
  2294 00d4 FFF7FEFF 		bl	Cy_SCB_ClearI2CInterrupt
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 98
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 98
 
 
  819:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         Cy_SCB_ClearSlaveInterrupt(base, CY_SCB_SLAVE_INTR_I2C_ADDR_MATCH);
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  834:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * Function Name: HandleErrors
  835:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** ****************************************************************************//**
  836:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** *
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 99
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 99
 
 
  837:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * Handles an error conditions.
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2365              		.loc 3 859 0
  2366 002c 00BF     		nop
  2367 002e 0837     		adds	r7, r7, #8
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 100
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 100
 
 
  2368              		.cfi_def_cfa_offset 8
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2399 000c FB60     		str	r3, [r7, #12]
  883:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     context->addr1Active = true;
  2400              		.loc 3 883 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 101
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 101
 
 
  2401 000e 3B68     		ldr	r3, [r7]
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  897:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 context->addr1Active = false;
  2442              		.loc 3 897 0
  2443 0054 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 102
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 102
 
 
  2444 0056 0022     		movs	r2, #0
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2475 008a 012B     		cmp	r3, #1
  2476 008c 4AD1     		bne	.L162
  921:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     {
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 103
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 103
 
 
  922:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         context->status |= CY_SCB_EZI2C_STATUS_BUSY;
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  937:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****             {
  938:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 context->curBuf  = &context->buf2[context->baseAddr2];
  2516              		.loc 3 938 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 104
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 104
 
 
  2517 00d2 3B68     		ldr	r3, [r7]
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2551 0108 9B6A     		ldr	r3, [r3, #40]
  2552 010a 01E0     		b	.L161
  2553              	.L160:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 105
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 105
 
 
  949:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  972:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** static void UpdateRxFifoLevel(CySCB_Type *base, uint32_t bufSize)
  973:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** {
  2588              		.loc 3 973 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 106
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 106
 
 
  2589              		.cfi_startproc
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  983:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     else
  984:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     {
  985:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         /* Prepare to end the transaction: after the FIFO becomes full, NACK the next byte.
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 107
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 107
 
 
  986:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         * The NACKed byte is dropped by the hardware.
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2678              		.type	HandleDataReceive, %function
  2679              	HandleDataReceive:
  2680              	.LFB235:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 108
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 108
 
 
  996:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1018:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         case CY_SCB_EZI2C_STATE_RX_OFFSET_MSB:
 1019:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         case CY_SCB_EZI2C_STATE_RX_OFFSET_LSB:
 1020:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         {
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 109
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 109
 
 
 1021:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****             /* Default actions: compare the base address and ACK it */
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2748              	.L177:
 1040:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 }
 1041:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 else
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 110
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 110
 
 
 1042:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 {
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2781              		.loc 3 1063 0
  2782 0098 3B68     		ldr	r3, [r7]
  2783 009a BA69     		ldr	r2, [r7, #24]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 111
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 111
 
 
  2784 009c 5A61     		str	r2, [r3, #20]
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2820 00ca 40F09D80 		bne	.L197
 1082:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 {
 1083:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                     /* Prepare the buffer for a write */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 112
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 112
 
 
 1084:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                     if (context->addr1Active)
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2865 0110 DA61     		str	r2, [r3, #28]
 1093:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                         context->bufSize = ((context->baseAddr2 < context->buf2rwBondary) ?
  2866              		.loc 3 1093 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 113
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 113
 
 
  2867 0112 3B68     		ldr	r3, [r7]
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1108:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
 1109:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                         context->state = CY_SCB_EZI2C_STATE_RX_DATA1;
 1110:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                     }
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 114
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 114
 
 
 1111:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****                 }
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2943 0178 7B68     		ldr	r3, [r7, #4]
  2944 017a 0122     		movs	r2, #1
  2945 017c DA66     		str	r2, [r3, #108]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 115
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 115
 
 
 1125:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  2981 01b0 7868     		ldr	r0, [r7, #4]
  2982 01b2 FFF7FEFF 		bl	Cy_SCB_SetRxInterruptMask
  2983              	.LBE8:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 116
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 116
 
 
  2984              		.loc 3 1141 0
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3022              		.loc 3 1157 0
  3023 01f8 3B68     		ldr	r3, [r7]
  3024 01fa DB68     		ldr	r3, [r3, #12]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 117
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 117
 
 
  3025 01fc 5A1C     		adds	r2, r3, #1
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1179:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * configuration and data retention. The user must not modify anything
 1180:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** * in this structure.
 1181:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** *
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 118
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 118
 
 
 1182:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** *******************************************************************************/
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1191:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     }
 1192:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** 
 1193:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     if (0UL == context->bufSize)
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 119
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 119
 
 
  3102              		.loc 3 1193 0
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1219:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c **** {
  3131              		.loc 3 1219 0
  3132              		.cfi_startproc
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 120
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 120
 
 
  3133              		@ args = 0, pretend = 0, frame = 8
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
 1236:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         SCB_I2C_CTRL(base) &= (uint32_t) ~(SCB_I2C_CTRL_S_READY_DATA_ACK_Msk |
  3171              		.loc 3 1236 0
  3172 0038 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 121
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 121
 
 
  3173 003a 1B6E     		ldr	r3, [r3, #96]
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3215 007a 5268     		ldr	r2, [r2, #4]
  3216 007c 1A43     		orrs	r2, r2, r3
  3217 007e 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 122
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 122
 
 
  3218 0080 5A60     		str	r2, [r3, #4]
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3260 00b8 BD46     		mov	sp, r7
  3261              		.cfi_def_cfa_register 13
  3262              		@ sp needed
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 123
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 123
 
 
  3263 00ba 80BD     		pop	{r7, pc}
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3292 0010 08D0     		beq	.L217
 1282:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****     {
 1283:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         /* If (addr1 and addr2) bits match - mask bit equals 1; otherwise 0 */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 124
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 124
 
 
 1284:Generated_Source\PSoC6\pdl\drivers\peripheral\scb/cy_scb_ezi2c.c ****         addrMask  = (uint32_t) ~((uint32_t) context->address1 ^ (uint32_t) context->address2);
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3337              		.file 7 "Generated_Source\\PSoC6\\pdl\\devices/psoc6/include/ip/cyip_scb.h"
  3338              		.file 8 "Generated_Source\\PSoC6\\pdl\\devices/psoc6/include/psoc6_01_config.h"
  3339              		.file 9 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/syslib/cy_syslib.h"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 125
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 125
 
 
  3340              		.file 10 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/syspm/cy_syspm.h"
@@ -7450,26 +7450,26 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3346 0006 00000000 		.4byte	.Ldebug_abbrev0
  3347 000a 04       		.byte	0x4
  3348 000b 01       		.uleb128 0x1
- 3349 000c A2120000 		.4byte	.LASF306
+ 3349 000c AA120000 		.4byte	.LASF306
  3350 0010 0C       		.byte	0xc
  3351 0011 16050000 		.4byte	.LASF307
- 3352 0015 EB0C0000 		.4byte	.LASF308
+ 3352 0015 530A0000 		.4byte	.LASF308
  3353 0019 48000000 		.4byte	.Ldebug_ranges0+0x48
  3354 001d 00000000 		.4byte	0
  3355 0021 00000000 		.4byte	.Ldebug_line0
  3356 0025 02       		.uleb128 0x2
  3357 0026 01       		.byte	0x1
  3358 0027 06       		.byte	0x6
- 3359 0028 33110000 		.4byte	.LASF0
+ 3359 0028 3B110000 		.4byte	.LASF0
  3360 002c 03       		.uleb128 0x3
- 3361 002d D00D0000 		.4byte	.LASF2
+ 3361 002d D80D0000 		.4byte	.LASF2
  3362 0031 04       		.byte	0x4
  3363 0032 1D       		.byte	0x1d
  3364 0033 37000000 		.4byte	0x37
  3365 0037 02       		.uleb128 0x2
  3366 0038 01       		.byte	0x1
  3367 0039 08       		.byte	0x8
- 3368 003a 960F0000 		.4byte	.LASF1
+ 3368 003a 9E0F0000 		.4byte	.LASF1
  3369 003e 03       		.uleb128 0x3
  3370 003f 04090000 		.4byte	.LASF3
  3371 0043 04       		.byte	0x4
@@ -7487,7 +7487,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3383 005b 02       		.uleb128 0x2
  3384 005c 02       		.byte	0x2
  3385 005d 07       		.byte	0x7
- 3386 005e 8E0A0000 		.4byte	.LASF6
+ 3386 005e EB0A0000 		.4byte	.LASF6
  3387 0062 03       		.uleb128 0x3
  3388 0063 EA070000 		.4byte	.LASF7
  3389 0067 04       		.byte	0x4
@@ -7496,19 +7496,19 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3392 006d 02       		.uleb128 0x2
  3393 006e 04       		.byte	0x4
  3394 006f 05       		.byte	0x5
- 3395 0070 690C0000 		.4byte	.LASF8
+ 3395 0070 C60C0000 		.4byte	.LASF8
  3396 0074 03       		.uleb128 0x3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 126
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 126
 
 
- 3397 0075 BA0F0000 		.4byte	.LASF9
+ 3397 0075 C20F0000 		.4byte	.LASF9
  3398 0079 04       		.byte	0x4
  3399 007a 41       		.byte	0x41
  3400 007b 7F000000 		.4byte	0x7f
  3401 007f 02       		.uleb128 0x2
  3402 0080 04       		.byte	0x4
  3403 0081 07       		.byte	0x7
- 3404 0082 B30E0000 		.4byte	.LASF10
+ 3404 0082 BB0E0000 		.4byte	.LASF10
  3405 0086 02       		.uleb128 0x2
  3406 0087 08       		.byte	0x8
  3407 0088 05       		.byte	0x5
@@ -7536,12 +7536,12 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3429 00b3 20       		.byte	0x20
  3430 00b4 3E000000 		.4byte	0x3e
  3431 00b8 03       		.uleb128 0x3
- 3432 00b9 7F0F0000 		.4byte	.LASF16
+ 3432 00b9 870F0000 		.4byte	.LASF16
  3433 00bd 05       		.byte	0x5
  3434 00be 24       		.byte	0x24
  3435 00bf 50000000 		.4byte	0x50
  3436 00c3 03       		.uleb128 0x3
- 3437 00c4 0C0F0000 		.4byte	.LASF17
+ 3437 00c4 140F0000 		.4byte	.LASF17
  3438 00c8 05       		.byte	0x5
  3439 00c9 2C       		.byte	0x2c
  3440 00ca 62000000 		.4byte	0x62
@@ -7553,12 +7553,12 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3446 00d9 02       		.uleb128 0x2
  3447 00da 08       		.byte	0x8
  3448 00db 04       		.byte	0x4
- 3449 00dc D40A0000 		.4byte	.LASF19
+ 3449 00dc 310B0000 		.4byte	.LASF19
  3450 00e0 05       		.uleb128 0x5
  3451 00e1 CE000000 		.4byte	0xce
  3452 00e5 06       		.uleb128 0x6
  3453 00e6 E0000000 		.4byte	0xe0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 127
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 127
 
 
  3454 00ea 07       		.uleb128 0x7
@@ -7571,7 +7571,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3461 00fa 02       		.uleb128 0x2
  3462 00fb 04       		.byte	0x4
  3463 00fc 07       		.byte	0x7
- 3464 00fd 920B0000 		.4byte	.LASF20
+ 3464 00fd EF0B0000 		.4byte	.LASF20
  3465 0101 07       		.uleb128 0x7
  3466 0102 E5000000 		.4byte	0xe5
  3467 0106 11010000 		.4byte	0x111
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3508 0162 E5000000 		.4byte	0xe5
  3509 0166 71010000 		.4byte	0x171
  3510 016a 08       		.uleb128 0x8
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 128
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 128
 
 
  3511 016b FA000000 		.4byte	0xfa
@@ -7654,7 +7654,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3541 01a4 CE000000 		.4byte	0xce
  3542 01a8 0C       		.byte	0xc
  3543 01a9 0A       		.uleb128 0xa
- 3544 01aa 030B0000 		.4byte	.LASF25
+ 3544 01aa 600B0000 		.4byte	.LASF25
  3545 01ae 06       		.byte	0x6
  3546 01af 3B       		.byte	0x3b
  3547 01b0 CE000000 		.4byte	0xce
@@ -7672,13 +7672,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3559 01c8 CE000000 		.4byte	0xce
  3560 01cc 18       		.byte	0x18
  3561 01cd 0A       		.uleb128 0xa
- 3562 01ce 2F120000 		.4byte	.LASF28
+ 3562 01ce 37120000 		.4byte	.LASF28
  3563 01d2 06       		.byte	0x6
  3564 01d3 3E       		.byte	0x3e
  3565 01d4 CE000000 		.4byte	0xce
  3566 01d8 1C       		.byte	0x1c
  3567 01d9 0A       		.uleb128 0xa
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 129
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 129
 
 
  3568 01da CA080000 		.4byte	.LASF29
@@ -7693,7 +7693,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3577 01ec CE000000 		.4byte	0xce
  3578 01f0 24       		.byte	0x24
  3579 01f1 0A       		.uleb128 0xa
- 3580 01f2 720C0000 		.4byte	.LASF31
+ 3580 01f2 CF0C0000 		.4byte	.LASF31
  3581 01f6 06       		.byte	0x6
  3582 01f7 43       		.byte	0x43
  3583 01f8 A2000000 		.4byte	0xa2
@@ -7705,40 +7705,40 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3589 0204 A2000000 		.4byte	0xa2
  3590 0208 29       		.byte	0x29
  3591 0209 0A       		.uleb128 0xa
- 3592 020a 680B0000 		.4byte	.LASF33
+ 3592 020a C50B0000 		.4byte	.LASF33
  3593 020e 06       		.byte	0x6
  3594 020f 45       		.byte	0x45
  3595 0210 A2000000 		.4byte	0xa2
  3596 0214 2A       		.byte	0x2a
  3597 0215 0A       		.uleb128 0xa
- 3598 0216 CB0C0000 		.4byte	.LASF34
+ 3598 0216 280D0000 		.4byte	.LASF34
  3599 021a 06       		.byte	0x6
  3600 021b 46       		.byte	0x46
  3601 021c A2000000 		.4byte	0xa2
  3602 0220 2B       		.byte	0x2b
  3603 0221 0A       		.uleb128 0xa
- 3604 0222 9E0C0000 		.4byte	.LASF35
+ 3604 0222 FB0C0000 		.4byte	.LASF35
  3605 0226 06       		.byte	0x6
  3606 0227 47       		.byte	0x47
  3607 0228 A2000000 		.4byte	0xa2
  3608 022c 2C       		.byte	0x2c
  3609 022d 0A       		.uleb128 0xa
- 3610 022e A60E0000 		.4byte	.LASF36
+ 3610 022e AE0E0000 		.4byte	.LASF36
  3611 0232 06       		.byte	0x6
  3612 0233 48       		.byte	0x48
  3613 0234 A2000000 		.4byte	0xa2
  3614 0238 2D       		.byte	0x2d
  3615 0239 0A       		.uleb128 0xa
- 3616 023a 6B130000 		.4byte	.LASF37
+ 3616 023a 73130000 		.4byte	.LASF37
  3617 023e 06       		.byte	0x6
  3618 023f 49       		.byte	0x49
  3619 0240 A2000000 		.4byte	0xa2
  3620 0244 2E       		.byte	0x2e
  3621 0245 0A       		.uleb128 0xa
- 3622 0246 09120000 		.4byte	.LASF38
+ 3622 0246 11120000 		.4byte	.LASF38
  3623 024a 06       		.byte	0x6
  3624 024b 4A       		.byte	0x4a
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 130
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 130
 
 
  3625 024c A2000000 		.4byte	0xa2
@@ -7756,7 +7756,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3637 0264 A2000000 		.4byte	0xa2
  3638 0268 31       		.byte	0x31
  3639 0269 0A       		.uleb128 0xa
- 3640 026a 54110000 		.4byte	.LASF41
+ 3640 026a 5C110000 		.4byte	.LASF41
  3641 026e 06       		.byte	0x6
  3642 026f 4F       		.byte	0x4f
  3643 0270 A2000000 		.4byte	0xa2
@@ -7792,13 +7792,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3673 02ac AD000000 		.4byte	0xad
  3674 02b0 3A       		.byte	0x3a
  3675 02b1 0A       		.uleb128 0xa
- 3676 02b2 62120000 		.4byte	.LASF47
+ 3676 02b2 6A120000 		.4byte	.LASF47
  3677 02b6 06       		.byte	0x6
  3678 02b7 55       		.byte	0x55
  3679 02b8 A2000000 		.4byte	0xa2
  3680 02bc 3C       		.byte	0x3c
  3681 02bd 0A       		.uleb128 0xa
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 131
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 131
 
 
  3682 02be C4050000 		.4byte	.LASF48
@@ -7807,7 +7807,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3685 02c4 A2000000 		.4byte	0xa2
  3686 02c8 3D       		.byte	0x3d
  3687 02c9 0A       		.uleb128 0xa
- 3688 02ca 5A0B0000 		.4byte	.LASF49
+ 3688 02ca B70B0000 		.4byte	.LASF49
  3689 02ce 06       		.byte	0x6
  3690 02cf 57       		.byte	0x57
  3691 02d0 A2000000 		.4byte	0xa2
@@ -7831,7 +7831,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3709 02f4 A2000000 		.4byte	0xa2
  3710 02f8 41       		.byte	0x41
  3711 02f9 0A       		.uleb128 0xa
- 3712 02fa 14110000 		.4byte	.LASF53
+ 3712 02fa 1C110000 		.4byte	.LASF53
  3713 02fe 06       		.byte	0x6
  3714 02ff 5B       		.byte	0x5b
  3715 0300 A2000000 		.4byte	0xa2
@@ -7849,7 +7849,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3727 0318 A2000000 		.4byte	0xa2
  3728 031c 44       		.byte	0x44
  3729 031d 0A       		.uleb128 0xa
- 3730 031e D90C0000 		.4byte	.LASF56
+ 3730 031e 360D0000 		.4byte	.LASF56
  3731 0322 06       		.byte	0x6
  3732 0323 5E       		.byte	0x5e
  3733 0324 CE000000 		.4byte	0xce
@@ -7858,13 +7858,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3736 032a F0020000 		.4byte	.LASF57
  3737 032e 06       		.byte	0x6
  3738 032f 5F       		.byte	0x5f
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 132
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 132
 
 
  3739 0330 CE000000 		.4byte	0xce
  3740 0334 4C       		.byte	0x4c
  3741 0335 0A       		.uleb128 0xa
- 3742 0336 DF100000 		.4byte	.LASF58
+ 3742 0336 E7100000 		.4byte	.LASF58
  3743 033a 06       		.byte	0x6
  3744 033b 60       		.byte	0x60
  3745 033c A2000000 		.4byte	0xa2
@@ -7906,7 +7906,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3781 0384 A2000000 		.4byte	0xa2
  3782 0388 56       		.byte	0x56
  3783 0389 0A       		.uleb128 0xa
- 3784 038a 38120000 		.4byte	.LASF65
+ 3784 038a 40120000 		.4byte	.LASF65
  3785 038e 06       		.byte	0x6
  3786 038f 67       		.byte	0x67
  3787 0390 A2000000 		.4byte	0xa2
@@ -7918,16 +7918,16 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3793 039c A2000000 		.4byte	0xa2
  3794 03a0 58       		.byte	0x58
  3795 03a1 0A       		.uleb128 0xa
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 133
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 133
 
 
- 3796 03a2 78120000 		.4byte	.LASF67
+ 3796 03a2 80120000 		.4byte	.LASF67
  3797 03a6 06       		.byte	0x6
  3798 03a7 69       		.byte	0x69
  3799 03a8 A2000000 		.4byte	0xa2
  3800 03ac 59       		.byte	0x59
  3801 03ad 0A       		.uleb128 0xa
- 3802 03ae 3F110000 		.4byte	.LASF68
+ 3802 03ae 47110000 		.4byte	.LASF68
  3803 03b2 06       		.byte	0x6
  3804 03b3 6E       		.byte	0x6e
  3805 03b4 B8000000 		.4byte	0xb8
@@ -7945,7 +7945,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3817 03cc A2000000 		.4byte	0xa2
  3818 03d0 5E       		.byte	0x5e
  3819 03d1 0A       		.uleb128 0xa
- 3820 03d2 6F110000 		.4byte	.LASF71
+ 3820 03d2 77110000 		.4byte	.LASF71
  3821 03d6 06       		.byte	0x6
  3822 03d7 71       		.byte	0x71
  3823 03d8 A2000000 		.4byte	0xa2
@@ -7963,13 +7963,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3835 03f0 CE000000 		.4byte	0xce
  3836 03f4 64       		.byte	0x64
  3837 03f5 0A       		.uleb128 0xa
- 3838 03f6 76130000 		.4byte	.LASF74
+ 3838 03f6 7E130000 		.4byte	.LASF74
  3839 03fa 06       		.byte	0x6
  3840 03fb 76       		.byte	0x76
  3841 03fc B8000000 		.4byte	0xb8
  3842 0400 68       		.byte	0x68
  3843 0401 0A       		.uleb128 0xa
- 3844 0402 0C0B0000 		.4byte	.LASF75
+ 3844 0402 690B0000 		.4byte	.LASF75
  3845 0406 06       		.byte	0x6
  3846 0407 77       		.byte	0x77
  3847 0408 B8000000 		.4byte	0xb8
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3850 040e 7E090000 		.4byte	.LASF76
  3851 0412 06       		.byte	0x6
  3852 0413 78       		.byte	0x78
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 134
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 134
 
 
  3853 0414 B8000000 		.4byte	0xb8
@@ -8014,13 +8014,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3883 0450 A2000000 		.4byte	0xa2
  3884 0454 73       		.byte	0x73
  3885 0455 0A       		.uleb128 0xa
- 3886 0456 D90B0000 		.4byte	.LASF82
+ 3886 0456 360C0000 		.4byte	.LASF82
  3887 045a 06       		.byte	0x6
  3888 045b 80       		.byte	0x80
  3889 045c B8000000 		.4byte	0xb8
  3890 0460 74       		.byte	0x74
  3891 0461 0A       		.uleb128 0xa
- 3892 0462 7B0A0000 		.4byte	.LASF83
+ 3892 0462 D80A0000 		.4byte	.LASF83
  3893 0466 06       		.byte	0x6
  3894 0467 81       		.byte	0x81
  3895 0468 B8000000 		.4byte	0xb8
@@ -8038,16 +8038,16 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3907 0480 B8000000 		.4byte	0xb8
  3908 0484 7A       		.byte	0x7a
  3909 0485 0A       		.uleb128 0xa
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 135
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 135
 
 
- 3910 0486 1E0E0000 		.4byte	.LASF86
+ 3910 0486 260E0000 		.4byte	.LASF86
  3911 048a 06       		.byte	0x6
  3912 048b 86       		.byte	0x86
  3913 048c A2000000 		.4byte	0xa2
  3914 0490 7C       		.byte	0x7c
  3915 0491 0A       		.uleb128 0xa
- 3916 0492 D90F0000 		.4byte	.LASF87
+ 3916 0492 E10F0000 		.4byte	.LASF87
  3917 0496 06       		.byte	0x6
  3918 0497 87       		.byte	0x87
  3919 0498 A2000000 		.4byte	0xa2
@@ -8089,16 +8089,16 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3955 04e0 CE000000 		.4byte	0xce
  3956 04e4 8C       		.byte	0x8c
  3957 04e5 0A       		.uleb128 0xa
- 3958 04e6 C40B0000 		.4byte	.LASF94
+ 3958 04e6 210C0000 		.4byte	.LASF94
  3959 04ea 06       		.byte	0x6
  3960 04eb 90       		.byte	0x90
  3961 04ec CE000000 		.4byte	0xce
  3962 04f0 90       		.byte	0x90
  3963 04f1 0A       		.uleb128 0xa
- 3964 04f2 BB0D0000 		.4byte	.LASF95
+ 3964 04f2 C30D0000 		.4byte	.LASF95
  3965 04f6 06       		.byte	0x6
  3966 04f7 91       		.byte	0x91
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 136
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 136
 
 
  3967 04f8 CE000000 		.4byte	0xce
@@ -8110,7 +8110,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3973 0504 CE000000 		.4byte	0xce
  3974 0508 98       		.byte	0x98
  3975 0509 0A       		.uleb128 0xa
- 3976 050a 560E0000 		.4byte	.LASF97
+ 3976 050a 5E0E0000 		.4byte	.LASF97
  3977 050e 06       		.byte	0x6
  3978 050f 93       		.byte	0x93
  3979 0510 CE000000 		.4byte	0xce
@@ -8128,13 +8128,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  3991 0528 B8000000 		.4byte	0xb8
  3992 052c A4       		.byte	0xa4
  3993 052d 0A       		.uleb128 0xa
- 3994 052e AF0B0000 		.4byte	.LASF100
+ 3994 052e 0C0C0000 		.4byte	.LASF100
  3995 0532 06       		.byte	0x6
  3996 0533 96       		.byte	0x96
  3997 0534 B8000000 		.4byte	0xb8
  3998 0538 A6       		.byte	0xa6
  3999 0539 0A       		.uleb128 0xa
- 4000 053a F00E0000 		.4byte	.LASF101
+ 4000 053a F80E0000 		.4byte	.LASF101
  4001 053e 06       		.byte	0x6
  4002 053f 97       		.byte	0x97
  4003 0540 B8000000 		.4byte	0xb8
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4021 0564 B8000000 		.4byte	0xb8
  4022 0568 AE       		.byte	0xae
  4023 0569 0A       		.uleb128 0xa
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 137
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 137
 
 
  4024 056a 11030000 		.4byte	.LASF105
@@ -8167,7 +8167,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4027 0570 B8000000 		.4byte	0xb8
  4028 0574 B0       		.byte	0xb0
  4029 0575 0A       		.uleb128 0xa
- 4030 0576 C50F0000 		.4byte	.LASF106
+ 4030 0576 CD0F0000 		.4byte	.LASF106
  4031 057a 06       		.byte	0x6
  4032 057b 9E       		.byte	0x9e
  4033 057c CE000000 		.4byte	0xce
@@ -8212,22 +8212,22 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4072 05d2 21       		.byte	0x21
  4073 05d3 52090000 		.4byte	0x952
  4074 05d7 0A       		.uleb128 0xa
- 4075 05d8 86130000 		.4byte	.LASF108
+ 4075 05d8 8E130000 		.4byte	.LASF108
  4076 05dc 07       		.byte	0x7
  4077 05dd 22       		.byte	0x22
  4078 05de E0000000 		.4byte	0xe0
  4079 05e2 00       		.byte	0
  4080 05e3 0A       		.uleb128 0xa
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 138
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 138
 
 
- 4081 05e4 71120000 		.4byte	.LASF109
+ 4081 05e4 79120000 		.4byte	.LASF109
  4082 05e8 07       		.byte	0x7
  4083 05e9 23       		.byte	0x23
  4084 05ea E5000000 		.4byte	0xe5
  4085 05ee 04       		.byte	0x4
  4086 05ef 0A       		.uleb128 0xa
- 4087 05f0 97110000 		.4byte	.LASF110
+ 4087 05f0 9F110000 		.4byte	.LASF110
  4088 05f4 07       		.byte	0x7
  4089 05f5 24       		.byte	0x24
  4090 05f6 E0000000 		.4byte	0xe0
@@ -8245,25 +8245,25 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4102 060e 57090000 		.4byte	0x957
  4103 0612 10       		.byte	0x10
  4104 0613 0A       		.uleb128 0xa
- 4105 0614 330E0000 		.4byte	.LASF113
+ 4105 0614 3B0E0000 		.4byte	.LASF113
  4106 0618 07       		.byte	0x7
  4107 0619 27       		.byte	0x27
  4108 061a E0000000 		.4byte	0xe0
  4109 061e 20       		.byte	0x20
  4110 061f 0A       		.uleb128 0xa
- 4111 0620 550F0000 		.4byte	.LASF114
+ 4111 0620 5D0F0000 		.4byte	.LASF114
  4112 0624 07       		.byte	0x7
  4113 0625 28       		.byte	0x28
  4114 0626 E5000000 		.4byte	0xe5
  4115 062a 24       		.byte	0x24
  4116 062b 0A       		.uleb128 0xa
- 4117 062c 58120000 		.4byte	.LASF115
+ 4117 062c 60120000 		.4byte	.LASF115
  4118 0630 07       		.byte	0x7
  4119 0631 29       		.byte	0x29
  4120 0632 61090000 		.4byte	0x961
  4121 0636 28       		.byte	0x28
  4122 0637 0A       		.uleb128 0xa
- 4123 0638 4A110000 		.4byte	.LASF116
+ 4123 0638 52110000 		.4byte	.LASF116
  4124 063c 07       		.byte	0x7
  4125 063d 2A       		.byte	0x2a
  4126 063e E0000000 		.4byte	0xe0
@@ -8278,13 +8278,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4135 0650 3E030000 		.4byte	.LASF118
  4136 0654 07       		.byte	0x7
  4137 0655 2C       		.byte	0x2c
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 139
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 139
 
 
  4138 0656 E0000000 		.4byte	0xe0
  4139 065a 48       		.byte	0x48
  4140 065b 0A       		.uleb128 0xa
- 4141 065c 910D0000 		.4byte	.LASF119
+ 4141 065c 990D0000 		.4byte	.LASF119
  4142 0660 07       		.byte	0x7
  4143 0661 2D       		.byte	0x2d
  4144 0662 E5000000 		.4byte	0xe5
@@ -8296,31 +8296,31 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4150 066e E0000000 		.4byte	0xe0
  4151 0672 50       		.byte	0x50
  4152 0673 0A       		.uleb128 0xa
- 4153 0674 EB0B0000 		.4byte	.LASF121
+ 4153 0674 480C0000 		.4byte	.LASF121
  4154 0678 07       		.byte	0x7
  4155 0679 2F       		.byte	0x2f
  4156 067a 6B090000 		.4byte	0x96b
  4157 067e 54       		.byte	0x54
  4158 067f 0A       		.uleb128 0xa
- 4159 0680 9D0E0000 		.4byte	.LASF122
+ 4159 0680 A50E0000 		.4byte	.LASF122
  4160 0684 07       		.byte	0x7
  4161 0685 30       		.byte	0x30
  4162 0686 E0000000 		.4byte	0xe0
  4163 068a 60       		.byte	0x60
  4164 068b 0A       		.uleb128 0xa
- 4165 068c 7F0C0000 		.4byte	.LASF123
+ 4165 068c DC0C0000 		.4byte	.LASF123
  4166 0690 07       		.byte	0x7
  4167 0691 31       		.byte	0x31
  4168 0692 E5000000 		.4byte	0xe5
  4169 0696 64       		.byte	0x64
  4170 0697 0A       		.uleb128 0xa
- 4171 0698 010E0000 		.4byte	.LASF124
+ 4171 0698 090E0000 		.4byte	.LASF124
  4172 069c 07       		.byte	0x7
  4173 069d 32       		.byte	0x32
  4174 069e E0000000 		.4byte	0xe0
  4175 06a2 68       		.byte	0x68
  4176 06a3 0A       		.uleb128 0xa
- 4177 06a4 A50B0000 		.4byte	.LASF125
+ 4177 06a4 020C0000 		.4byte	.LASF125
  4178 06a8 07       		.byte	0x7
  4179 06a9 33       		.byte	0x33
  4180 06aa E0000000 		.4byte	0xe0
@@ -8332,13 +8332,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4186 06b6 E0000000 		.4byte	0xe0
  4187 06ba 70       		.byte	0x70
  4188 06bb 0A       		.uleb128 0xa
- 4189 06bc F50B0000 		.4byte	.LASF127
+ 4189 06bc 520C0000 		.4byte	.LASF127
  4190 06c0 07       		.byte	0x7
  4191 06c1 35       		.byte	0x35
  4192 06c2 85090000 		.4byte	0x985
  4193 06c6 74       		.byte	0x74
  4194 06c7 0D       		.uleb128 0xd
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 140
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 140
 
 
  4195 06c8 D2070000 		.4byte	.LASF128
@@ -8347,19 +8347,19 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4198 06ce E0000000 		.4byte	0xe0
  4199 06d2 0001     		.2byte	0x100
  4200 06d4 0D       		.uleb128 0xd
- 4201 06d5 FF0B0000 		.4byte	.LASF129
+ 4201 06d5 5C0C0000 		.4byte	.LASF129
  4202 06d9 07       		.byte	0x7
  4203 06da 37       		.byte	0x37
  4204 06db 8F090000 		.4byte	0x98f
  4205 06df 0401     		.2byte	0x104
  4206 06e1 0D       		.uleb128 0xd
- 4207 06e2 F0100000 		.4byte	.LASF130
+ 4207 06e2 F8100000 		.4byte	.LASF130
  4208 06e6 07       		.byte	0x7
  4209 06e7 38       		.byte	0x38
  4210 06e8 E0000000 		.4byte	0xe0
  4211 06ec 0002     		.2byte	0x200
  4212 06ee 0D       		.uleb128 0xd
- 4213 06ef DA0D0000 		.4byte	.LASF131
+ 4213 06ef E20D0000 		.4byte	.LASF131
  4214 06f3 07       		.byte	0x7
  4215 06f4 39       		.byte	0x39
  4216 06f5 E0000000 		.4byte	0xe0
@@ -8371,25 +8371,25 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4222 0702 E5000000 		.4byte	0xe5
  4223 0706 0802     		.2byte	0x208
  4224 0708 0D       		.uleb128 0xd
- 4225 0709 090C0000 		.4byte	.LASF133
+ 4225 0709 660C0000 		.4byte	.LASF133
  4226 070d 07       		.byte	0x7
  4227 070e 3B       		.byte	0x3b
  4228 070f 99090000 		.4byte	0x999
  4229 0713 0C02     		.2byte	0x20c
  4230 0715 0D       		.uleb128 0xd
- 4231 0716 58100000 		.4byte	.LASF134
+ 4231 0716 60100000 		.4byte	.LASF134
  4232 071a 07       		.byte	0x7
  4233 071b 3C       		.byte	0x3c
  4234 071c E0000000 		.4byte	0xe0
  4235 0720 4002     		.2byte	0x240
  4236 0722 0D       		.uleb128 0xd
- 4237 0723 130C0000 		.4byte	.LASF135
+ 4237 0723 700C0000 		.4byte	.LASF135
  4238 0727 07       		.byte	0x7
  4239 0728 3D       		.byte	0x3d
  4240 0729 A3090000 		.4byte	0x9a3
  4241 072d 4402     		.2byte	0x244
  4242 072f 0D       		.uleb128 0xd
- 4243 0730 4E0E0000 		.4byte	.LASF136
+ 4243 0730 560E0000 		.4byte	.LASF136
  4244 0734 07       		.byte	0x7
  4245 0735 3E       		.byte	0x3e
  4246 0736 E0000000 		.4byte	0xe0
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4249 073d D9010000 		.4byte	.LASF137
  4250 0741 07       		.byte	0x7
  4251 0742 3F       		.byte	0x3f
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 141
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 141
 
 
  4252 0743 E0000000 		.4byte	0xe0
@@ -8410,7 +8410,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4258 0750 E5000000 		.4byte	0xe5
  4259 0754 0803     		.2byte	0x308
  4260 0756 0D       		.uleb128 0xd
- 4261 0757 1D0C0000 		.4byte	.LASF139
+ 4261 0757 7A0C0000 		.4byte	.LASF139
  4262 075b 07       		.byte	0x7
  4263 075c 41       		.byte	0x41
  4264 075d E5000000 		.4byte	0xe5
@@ -8422,7 +8422,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4270 076a E0000000 		.4byte	0xe0
  4271 076e 1003     		.2byte	0x310
  4272 0770 0D       		.uleb128 0xd
- 4273 0771 270C0000 		.4byte	.LASF141
+ 4273 0771 840C0000 		.4byte	.LASF141
  4274 0775 07       		.byte	0x7
  4275 0776 43       		.byte	0x43
  4276 0777 AD090000 		.4byte	0x9ad
@@ -8440,25 +8440,25 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4288 0791 E5000000 		.4byte	0xe5
  4289 0795 4403     		.2byte	0x344
  4290 0797 0D       		.uleb128 0xd
- 4291 0798 310C0000 		.4byte	.LASF144
+ 4291 0798 8E0C0000 		.4byte	.LASF144
  4292 079c 07       		.byte	0x7
  4293 079d 46       		.byte	0x46
  4294 079e B7090000 		.4byte	0x9b7
  4295 07a2 4803     		.2byte	0x348
  4296 07a4 0D       		.uleb128 0xd
- 4297 07a5 63130000 		.4byte	.LASF145
+ 4297 07a5 6B130000 		.4byte	.LASF145
  4298 07a9 07       		.byte	0x7
  4299 07aa 47       		.byte	0x47
  4300 07ab BC090000 		.4byte	0x9bc
  4301 07af 0004     		.2byte	0x400
  4302 07b1 0D       		.uleb128 0xd
- 4303 07b2 EA0F0000 		.4byte	.LASF146
+ 4303 07b2 F20F0000 		.4byte	.LASF146
  4304 07b6 07       		.byte	0x7
  4305 07b7 48       		.byte	0x48
  4306 07b8 C6090000 		.4byte	0x9c6
  4307 07bc 000C     		.2byte	0xc00
  4308 07be 0D       		.uleb128 0xd
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 142
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 142
 
 
  4309 07bf AA010000 		.4byte	.LASF147
@@ -8467,7 +8467,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4312 07c5 E5000000 		.4byte	0xe5
  4313 07c9 000E     		.2byte	0xe00
  4314 07cb 0D       		.uleb128 0xd
- 4315 07cc F50F0000 		.4byte	.LASF148
+ 4315 07cc FD0F0000 		.4byte	.LASF148
  4316 07d0 07       		.byte	0x7
  4317 07d1 4A       		.byte	0x4a
  4318 07d2 D0090000 		.4byte	0x9d0
@@ -8479,13 +8479,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4324 07df E0000000 		.4byte	0xe0
  4325 07e3 800E     		.2byte	0xe80
  4326 07e5 0D       		.uleb128 0xd
- 4327 07e6 00100000 		.4byte	.LASF150
+ 4327 07e6 08100000 		.4byte	.LASF150
  4328 07ea 07       		.byte	0x7
  4329 07eb 4C       		.byte	0x4c
  4330 07ec E5000000 		.4byte	0xe5
  4331 07f0 840E     		.2byte	0xe84
  4332 07f2 0D       		.uleb128 0xd
- 4333 07f3 F20A0000 		.4byte	.LASF151
+ 4333 07f3 4F0B0000 		.4byte	.LASF151
  4334 07f7 07       		.byte	0x7
  4335 07f8 4D       		.byte	0x4d
  4336 07f9 E0000000 		.4byte	0xe0
@@ -8497,7 +8497,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4342 0806 E5000000 		.4byte	0xe5
  4343 080a 8C0E     		.2byte	0xe8c
  4344 080c 0D       		.uleb128 0xd
- 4345 080d 0B100000 		.4byte	.LASF153
+ 4345 080d 13100000 		.4byte	.LASF153
  4346 0811 07       		.byte	0x7
  4347 0812 4F       		.byte	0x4f
  4348 0813 DA090000 		.4byte	0x9da
@@ -8509,34 +8509,34 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4354 0820 E0000000 		.4byte	0xe0
  4355 0824 C00E     		.2byte	0xec0
  4356 0826 0D       		.uleb128 0xd
- 4357 0827 16100000 		.4byte	.LASF155
+ 4357 0827 1E100000 		.4byte	.LASF155
  4358 082b 07       		.byte	0x7
  4359 082c 51       		.byte	0x51
  4360 082d E5000000 		.4byte	0xe5
  4361 0831 C40E     		.2byte	0xec4
  4362 0833 0D       		.uleb128 0xd
- 4363 0834 720B0000 		.4byte	.LASF156
+ 4363 0834 CF0B0000 		.4byte	.LASF156
  4364 0838 07       		.byte	0x7
  4365 0839 52       		.byte	0x52
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 143
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 143
 
 
  4366 083a E0000000 		.4byte	0xe0
  4367 083e C80E     		.2byte	0xec8
  4368 0840 0D       		.uleb128 0xd
- 4369 0841 0B0E0000 		.4byte	.LASF157
+ 4369 0841 130E0000 		.4byte	.LASF157
  4370 0845 07       		.byte	0x7
  4371 0846 53       		.byte	0x53
  4372 0847 E5000000 		.4byte	0xe5
  4373 084b CC0E     		.2byte	0xecc
  4374 084d 0D       		.uleb128 0xd
- 4375 084e 21100000 		.4byte	.LASF158
+ 4375 084e 29100000 		.4byte	.LASF158
  4376 0852 07       		.byte	0x7
  4377 0853 54       		.byte	0x54
  4378 0854 E4090000 		.4byte	0x9e4
  4379 0858 D00E     		.2byte	0xed0
  4380 085a 0D       		.uleb128 0xd
- 4381 085b E90E0000 		.4byte	.LASF159
+ 4381 085b F10E0000 		.4byte	.LASF159
  4382 085f 07       		.byte	0x7
  4383 0860 55       		.byte	0x55
  4384 0861 E0000000 		.4byte	0xe0
@@ -8548,7 +8548,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4390 086e E0000000 		.4byte	0xe0
  4391 0872 040F     		.2byte	0xf04
  4392 0874 0D       		.uleb128 0xd
- 4393 0875 270F0000 		.4byte	.LASF161
+ 4393 0875 2F0F0000 		.4byte	.LASF161
  4394 0879 07       		.byte	0x7
  4395 087a 57       		.byte	0x57
  4396 087b E0000000 		.4byte	0xe0
@@ -8560,13 +8560,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4402 0888 E5000000 		.4byte	0xe5
  4403 088c 0C0F     		.2byte	0xf0c
  4404 088e 0D       		.uleb128 0xd
- 4405 088f 2C100000 		.4byte	.LASF163
+ 4405 088f 34100000 		.4byte	.LASF163
  4406 0893 07       		.byte	0x7
  4407 0894 59       		.byte	0x59
  4408 0895 EE090000 		.4byte	0x9ee
  4409 0899 100F     		.2byte	0xf10
  4410 089b 0D       		.uleb128 0xd
- 4411 089c 050F0000 		.4byte	.LASF164
+ 4411 089c 0D0F0000 		.4byte	.LASF164
  4412 08a0 07       		.byte	0x7
  4413 08a1 5A       		.byte	0x5a
  4414 08a2 E0000000 		.4byte	0xe0
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4420 08af E0000000 		.4byte	0xe0
  4421 08b3 440F     		.2byte	0xf44
  4422 08b5 0D       		.uleb128 0xd
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 144
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 144
 
 
  4423 08b6 FF070000 		.4byte	.LASF166
@@ -8593,13 +8593,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4432 08c9 E5000000 		.4byte	0xe5
  4433 08cd 4C0F     		.2byte	0xf4c
  4434 08cf 0D       		.uleb128 0xd
- 4435 08d0 37100000 		.4byte	.LASF168
+ 4435 08d0 3F100000 		.4byte	.LASF168
  4436 08d4 07       		.byte	0x7
  4437 08d5 5E       		.byte	0x5e
  4438 08d6 F8090000 		.4byte	0x9f8
  4439 08da 500F     		.2byte	0xf50
  4440 08dc 0D       		.uleb128 0xd
- 4441 08dd 890D0000 		.4byte	.LASF169
+ 4441 08dd 910D0000 		.4byte	.LASF169
  4442 08e1 07       		.byte	0x7
  4443 08e2 5F       		.byte	0x5f
  4444 08e3 E0000000 		.4byte	0xe0
@@ -8617,34 +8617,34 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4456 08fd E0000000 		.4byte	0xe0
  4457 0901 880F     		.2byte	0xf88
  4458 0903 0D       		.uleb128 0xd
- 4459 0904 BC0C0000 		.4byte	.LASF172
+ 4459 0904 190D0000 		.4byte	.LASF172
  4460 0908 07       		.byte	0x7
  4461 0909 62       		.byte	0x62
  4462 090a E5000000 		.4byte	0xe5
  4463 090e 8C0F     		.2byte	0xf8c
  4464 0910 0D       		.uleb128 0xd
- 4465 0911 42100000 		.4byte	.LASF173
+ 4465 0911 4A100000 		.4byte	.LASF173
  4466 0915 07       		.byte	0x7
  4467 0916 63       		.byte	0x63
  4468 0917 020A0000 		.4byte	0xa02
  4469 091b 900F     		.2byte	0xf90
  4470 091d 0D       		.uleb128 0xd
- 4471 091e 530A0000 		.4byte	.LASF174
+ 4471 091e B00A0000 		.4byte	.LASF174
  4472 0922 07       		.byte	0x7
  4473 0923 64       		.byte	0x64
  4474 0924 E0000000 		.4byte	0xe0
  4475 0928 C00F     		.2byte	0xfc0
  4476 092a 0D       		.uleb128 0xd
- 4477 092b 4C120000 		.4byte	.LASF175
+ 4477 092b 54120000 		.4byte	.LASF175
  4478 092f 07       		.byte	0x7
  4479 0930 65       		.byte	0x65
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 145
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 145
 
 
  4480 0931 E0000000 		.4byte	0xe0
  4481 0935 C40F     		.2byte	0xfc4
  4482 0937 0D       		.uleb128 0xd
- 4483 0938 62110000 		.4byte	.LASF176
+ 4483 0938 6A110000 		.4byte	.LASF176
  4484 093c 07       		.byte	0x7
  4485 093d 66       		.byte	0x66
  4486 093e E0000000 		.4byte	0xe0
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4534 09b2 05       		.uleb128 0x5
  4535 09b3 AD050000 		.4byte	0x5ad
  4536 09b7 06       		.uleb128 0x6
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 146
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 146
 
 
  4537 09b8 B2090000 		.4byte	0x9b2
@@ -8743,7 +8743,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4576 0a18 4F06     		.2byte	0x64f
  4577 0a1a 070A0000 		.4byte	0xa07
  4578 0a1e 0E       		.uleb128 0xe
- 4579 0a1f 5A0D0000 		.4byte	.LASF180
+ 4579 0a1f 620D0000 		.4byte	.LASF180
  4580 0a23 09       		.byte	0x9
  4581 0a24 F601     		.2byte	0x1f6
  4582 0a26 2A0A0000 		.4byte	0xa2a
@@ -8758,10 +8758,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4591 0a38 02       		.uleb128 0x2
  4592 0a39 08       		.byte	0x8
  4593 0a3a 04       		.byte	0x4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 147
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 147
 
 
- 4594 0a3b 28120000 		.4byte	.LASF183
+ 4594 0a3b 30120000 		.4byte	.LASF183
  4595 0a3f 0F       		.uleb128 0xf
  4596 0a40 04       		.byte	0x4
  4597 0a41 9B000000 		.4byte	0x9b
@@ -8772,7 +8772,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4602 0a4d 96050000 		.4byte	.LASF184
  4603 0a51 00       		.byte	0
  4604 0a52 11       		.uleb128 0x11
- 4605 0a53 20110000 		.4byte	.LASF185
+ 4605 0a53 28110000 		.4byte	.LASF185
  4606 0a57 01004200 		.4byte	0x420001
  4607 0a5b 11       		.uleb128 0x11
  4608 0a5c 41070000 		.4byte	.LASF186
@@ -8784,7 +8784,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4614 0a6e B0070000 		.4byte	.LASF188
  4615 0a72 04004200 		.4byte	0x420004
  4616 0a76 11       		.uleb128 0x11
- 4617 0a77 880F0000 		.4byte	.LASF189
+ 4617 0a77 900F0000 		.4byte	.LASF189
  4618 0a7b FF004200 		.4byte	0x4200ff
  4619 0a7f 00       		.byte	0
  4620 0a80 0E       		.uleb128 0xe
@@ -8799,26 +8799,26 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4629 0a93 BC05     		.2byte	0x5bc
  4630 0a95 B20A0000 		.4byte	0xab2
  4631 0a99 10       		.uleb128 0x10
- 4632 0a9a BC130000 		.4byte	.LASF191
+ 4632 0a9a C4130000 		.4byte	.LASF191
  4633 0a9e 01       		.byte	0x1
  4634 0a9f 10       		.uleb128 0x10
  4635 0aa0 81030000 		.4byte	.LASF192
  4636 0aa4 02       		.byte	0x2
  4637 0aa5 10       		.uleb128 0x10
- 4638 0aa6 A00D0000 		.4byte	.LASF193
+ 4638 0aa6 A80D0000 		.4byte	.LASF193
  4639 0aaa 04       		.byte	0x4
  4640 0aab 10       		.uleb128 0x10
- 4641 0aac A2130000 		.4byte	.LASF194
+ 4641 0aac AA130000 		.4byte	.LASF194
  4642 0ab0 08       		.byte	0x8
  4643 0ab1 00       		.byte	0
  4644 0ab2 0E       		.uleb128 0xe
- 4645 0ab3 4D0C0000 		.4byte	.LASF195
+ 4645 0ab3 AA0C0000 		.4byte	.LASF195
  4646 0ab7 0A       		.byte	0xa
  4647 0ab8 CB05     		.2byte	0x5cb
  4648 0aba 8C0A0000 		.4byte	0xa8c
  4649 0abe 12       		.uleb128 0x12
  4650 0abf 08       		.byte	0x8
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 148
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 148
 
 
  4651 0ac0 0A       		.byte	0xa
@@ -8857,7 +8857,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4684 0b04 83000000 		.4byte	.LASF199
  4685 0b08 00       		.byte	0
  4686 0b09 11       		.uleb128 0x11
- 4687 0b0a 8B130000 		.4byte	.LASF200
+ 4687 0b0a 93130000 		.4byte	.LASF200
  4688 0b0e 0100AA00 		.4byte	0xaa0001
  4689 0b12 00       		.byte	0
  4690 0b13 0E       		.uleb128 0xe
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4705 0b33 93080000 		.4byte	.LASF203
  4706 0b37 01       		.byte	0x1
  4707 0b38 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 149
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 149
 
 
  4708 0b39 0E       		.uleb128 0xe
@@ -8914,10 +8914,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4738 0b79 36010000 		.4byte	.LASF208
  4739 0b7d 00       		.byte	0
  4740 0b7e 10       		.uleb128 0x10
- 4741 0b7f E3110000 		.4byte	.LASF209
+ 4741 0b7f EB110000 		.4byte	.LASF209
  4742 0b83 01       		.byte	0x1
  4743 0b84 10       		.uleb128 0x10
- 4744 0b85 1E0B0000 		.4byte	.LASF210
+ 4744 0b85 7B0B0000 		.4byte	.LASF210
  4745 0b89 02       		.byte	0x2
  4746 0b8a 10       		.uleb128 0x10
  4747 0b8b 7F040000 		.4byte	.LASF211
@@ -8926,7 +8926,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4750 0b91 370A0000 		.4byte	.LASF212
  4751 0b95 04       		.byte	0x4
  4752 0b96 10       		.uleb128 0x10
- 4753 0b97 C50E0000 		.4byte	.LASF213
+ 4753 0b97 CD0E0000 		.4byte	.LASF213
  4754 0b9b 05       		.byte	0x5
  4755 0b9c 10       		.uleb128 0x10
  4756 0b9d DB060000 		.4byte	.LASF214
@@ -8938,28 +8938,28 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4762 0ba9 7601     		.2byte	0x176
  4763 0bab 6B0B0000 		.4byte	0xb6b
  4764 0baf 16       		.uleb128 0x16
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 150
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 150
 
 
- 4765 0bb0 6C0E0000 		.4byte	.LASF223
+ 4765 0bb0 740E0000 		.4byte	.LASF223
  4766 0bb4 05       		.byte	0x5
  4767 0bb5 02       		.byte	0x2
  4768 0bb6 8501     		.2byte	0x185
  4769 0bb8 FE0B0000 		.4byte	0xbfe
  4770 0bbc 13       		.uleb128 0x13
- 4771 0bbd 3B0C0000 		.4byte	.LASF216
+ 4771 0bbd 980C0000 		.4byte	.LASF216
  4772 0bc1 02       		.byte	0x2
  4773 0bc2 8801     		.2byte	0x188
  4774 0bc4 390B0000 		.4byte	0xb39
  4775 0bc8 00       		.byte	0
  4776 0bc9 13       		.uleb128 0x13
- 4777 0bca F8100000 		.4byte	.LASF217
+ 4777 0bca 00110000 		.4byte	.LASF217
  4778 0bce 02       		.byte	0x2
  4779 0bcf 8B01     		.2byte	0x18b
  4780 0bd1 A2000000 		.4byte	0xa2
  4781 0bd5 01       		.byte	0x1
  4782 0bd6 13       		.uleb128 0x13
- 4783 0bd7 06110000 		.4byte	.LASF218
+ 4783 0bd7 0E110000 		.4byte	.LASF218
  4784 0bdb 02       		.byte	0x2
  4785 0bdc 8E01     		.2byte	0x18e
  4786 0bde A2000000 		.4byte	0xa2
@@ -8982,23 +8982,23 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4803 0c00 02       		.byte	0x2
  4804 0c01 47060000 		.4byte	.LASF221
  4805 0c05 0E       		.uleb128 0xe
- 4806 0c06 C5100000 		.4byte	.LASF222
+ 4806 0c06 CD100000 		.4byte	.LASF222
  4807 0c0a 02       		.byte	0x2
  4808 0c0b 9901     		.2byte	0x199
  4809 0c0d AF0B0000 		.4byte	0xbaf
  4810 0c11 16       		.uleb128 0x16
- 4811 0c12 840E0000 		.4byte	.LASF224
+ 4811 0c12 8C0E0000 		.4byte	.LASF224
  4812 0c16 3C       		.byte	0x3c
  4813 0c17 02       		.byte	0x2
  4814 0c18 A201     		.2byte	0x1a2
  4815 0c1a FC0C0000 		.4byte	0xcfc
  4816 0c1e 13       		.uleb128 0x13
- 4817 0c1f 52100000 		.4byte	.LASF225
+ 4817 0c1f 5A100000 		.4byte	.LASF225
  4818 0c23 02       		.byte	0x2
  4819 0c24 A501     		.2byte	0x1a5
  4820 0c26 FC0C0000 		.4byte	0xcfc
  4821 0c2a 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 151
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 151
 
 
  4822 0c2b 13       		.uleb128 0x13
@@ -9008,19 +9008,19 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4826 0c33 E0000000 		.4byte	0xe0
  4827 0c37 04       		.byte	0x4
  4828 0c38 13       		.uleb128 0x13
- 4829 0c39 AA0C0000 		.4byte	.LASF227
+ 4829 0c39 070D0000 		.4byte	.LASF227
  4830 0c3d 02       		.byte	0x2
  4831 0c3e A801     		.2byte	0x1a8
  4832 0c40 A2000000 		.4byte	0xa2
  4833 0c44 08       		.byte	0x8
  4834 0c45 13       		.uleb128 0x13
- 4835 0c46 B30C0000 		.4byte	.LASF228
+ 4835 0c46 100D0000 		.4byte	.LASF228
  4836 0c4a 02       		.byte	0x2
  4837 0c4b A901     		.2byte	0x1a9
  4838 0c4d A2000000 		.4byte	0xa2
  4839 0c51 09       		.byte	0x9
  4840 0c52 13       		.uleb128 0x13
- 4841 0c53 5B0A0000 		.4byte	.LASF229
+ 4841 0c53 B80A0000 		.4byte	.LASF229
  4842 0c57 02       		.byte	0x2
  4843 0c58 AA01     		.2byte	0x1aa
  4844 0c5a 5F0B0000 		.4byte	0xb5f
@@ -9032,13 +9032,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4850 0c67 CE000000 		.4byte	0xce
  4851 0c6b 0C       		.byte	0xc
  4852 0c6c 13       		.uleb128 0x13
- 4853 0c6d 670A0000 		.4byte	.LASF230
+ 4853 0c6d C40A0000 		.4byte	.LASF230
  4854 0c71 02       		.byte	0x2
  4855 0c72 AD01     		.2byte	0x1ad
  4856 0c74 CE000000 		.4byte	0xce
  4857 0c78 10       		.byte	0x10
  4858 0c79 13       		.uleb128 0x13
- 4859 0c7a 710A0000 		.4byte	.LASF231
+ 4859 0c7a CE0A0000 		.4byte	.LASF231
  4860 0c7e 02       		.byte	0x2
  4861 0c7f AE01     		.2byte	0x1ae
  4862 0c81 CE000000 		.4byte	0xce
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4876 0ca0 13       		.uleb128 0x13
  4877 0ca1 98000000 		.4byte	.LASF234
  4878 0ca5 02       		.byte	0x2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 152
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 152
 
 
  4879 0ca6 B201     		.2byte	0x1b2
@@ -9071,7 +9071,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4886 0cb5 010D0000 		.4byte	0xd01
  4887 0cb9 24       		.byte	0x24
  4888 0cba 13       		.uleb128 0x13
- 4889 0cbb 1F120000 		.4byte	.LASF236
+ 4889 0cbb 27120000 		.4byte	.LASF236
  4890 0cbf 02       		.byte	0x2
  4891 0cc0 B501     		.2byte	0x1b5
  4892 0cc2 CE000000 		.4byte	0xce
@@ -9095,7 +9095,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4910 0ce9 CE000000 		.4byte	0xce
  4911 0ced 34       		.byte	0x34
  4912 0cee 13       		.uleb128 0x13
- 4913 0cef D5110000 		.4byte	.LASF240
+ 4913 0cef DD110000 		.4byte	.LASF240
  4914 0cf3 02       		.byte	0x2
  4915 0cf4 BA01     		.2byte	0x1ba
  4916 0cf6 CE000000 		.4byte	0xce
@@ -9107,7 +9107,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4922 0d02 04       		.byte	0x4
  4923 0d03 A2000000 		.4byte	0xa2
  4924 0d07 0E       		.uleb128 0xe
- 4925 0d08 3F0B0000 		.4byte	.LASF241
+ 4925 0d08 9C0B0000 		.4byte	.LASF241
  4926 0d0c 02       		.byte	0x2
  4927 0d0d BC01     		.2byte	0x1bc
  4928 0d0f 110C0000 		.4byte	0xc11
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4933 0d1b CE000000 		.4byte	0xce
  4934 0d1f 00000000 		.4byte	.LFB166
  4935 0d23 1A000000 		.4byte	.LFE166-.LFB166
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 153
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 153
 
 
  4936 0d27 01       		.uleb128 0x1
@@ -9139,7 +9139,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4951 0d43 06       		.uleb128 0x6
  4952 0d44 120A0000 		.4byte	0xa12
  4953 0d48 1A       		.uleb128 0x1a
- 4954 0d49 A40F0000 		.4byte	.LASF243
+ 4954 0d49 AC0F0000 		.4byte	.LASF243
  4955 0d4d 01       		.byte	0x1
  4956 0d4e 7E02     		.2byte	0x27e
  4957 0d50 00000000 		.4byte	.LFB167
@@ -9168,7 +9168,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4980 0d7e 04       		.byte	0x4
  4981 0d7f 120A0000 		.4byte	0xa12
  4982 0d83 1B       		.uleb128 0x1b
- 4983 0d84 63100000 		.4byte	.LASF244
+ 4983 0d84 6B100000 		.4byte	.LASF244
  4984 0d88 01       		.byte	0x1
  4985 0d89 B902     		.2byte	0x2b9
  4986 0d8b 00000000 		.4byte	.LFB170
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  4990 0d95 A90D0000 		.4byte	0xda9
  4991 0d99 19       		.uleb128 0x19
  4992 0d9a 34040000 		.4byte	.LASF196
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 154
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 154
 
 
  4993 0d9e 01       		.byte	0x1
@@ -9207,7 +9207,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5016 0dcd 74       		.sleb128 -12
  5017 0dce 00       		.byte	0
  5018 0dcf 1A       		.uleb128 0x1a
- 5019 0dd0 E70D0000 		.4byte	.LASF246
+ 5019 0dd0 EF0D0000 		.4byte	.LASF246
  5020 0dd4 01       		.byte	0x1
  5021 0dd5 9803     		.2byte	0x398
  5022 0dd7 00000000 		.4byte	.LFB180
@@ -9224,7 +9224,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5033 0df2 91       		.byte	0x91
  5034 0df3 74       		.sleb128 -12
  5035 0df4 19       		.uleb128 0x19
- 5036 0df5 55130000 		.4byte	.LASF247
+ 5036 0df5 5D130000 		.4byte	.LASF247
  5037 0df9 01       		.byte	0x1
  5038 0dfa 9803     		.2byte	0x398
  5039 0dfc CE000000 		.4byte	0xce
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5047 0e0a C703     		.2byte	0x3c7
  5048 0e0c CE000000 		.4byte	0xce
  5049 0e10 00000000 		.4byte	.LFB182
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 155
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 155
 
 
  5050 0e14 1A000000 		.4byte	.LFE182-.LFB182
@@ -9255,7 +9255,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5061 0e2c 74       		.sleb128 -12
  5062 0e2d 00       		.byte	0
  5063 0e2e 1A       		.uleb128 0x1a
- 5064 0e2f A10A0000 		.4byte	.LASF250
+ 5064 0e2f FE0A0000 		.4byte	.LASF250
  5065 0e33 01       		.byte	0x1
  5066 0e34 E303     		.2byte	0x3e3
  5067 0e36 00000000 		.4byte	.LFB183
@@ -9272,7 +9272,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5078 0e51 91       		.byte	0x91
  5079 0e52 74       		.sleb128 -12
  5080 0e53 19       		.uleb128 0x19
- 5081 0e54 55130000 		.4byte	.LASF247
+ 5081 0e54 5D130000 		.4byte	.LASF247
  5082 0e58 01       		.byte	0x1
  5083 0e59 E303     		.2byte	0x3e3
  5084 0e5b CE000000 		.4byte	0xce
@@ -9298,10 +9298,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5104 0e86 91       		.byte	0x91
  5105 0e87 74       		.sleb128 -12
  5106 0e88 19       		.uleb128 0x19
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 156
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 156
 
 
- 5107 0e89 55130000 		.4byte	.LASF247
+ 5107 0e89 5D130000 		.4byte	.LASF247
  5108 0e8d 01       		.byte	0x1
  5109 0e8e FA03     		.2byte	0x3fa
  5110 0e90 CE000000 		.4byte	0xce
@@ -9310,7 +9310,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5113 0e96 70       		.sleb128 -16
  5114 0e97 00       		.byte	0
  5115 0e98 1A       		.uleb128 0x1a
- 5116 0e99 400D0000 		.4byte	.LASF252
+ 5116 0e99 480D0000 		.4byte	.LASF252
  5117 0e9d 01       		.byte	0x1
  5118 0e9e 2804     		.2byte	0x428
  5119 0ea0 00000000 		.4byte	.LFB186
@@ -9327,7 +9327,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5130 0ebb 91       		.byte	0x91
  5131 0ebc 74       		.sleb128 -12
  5132 0ebd 19       		.uleb128 0x19
- 5133 0ebe 55130000 		.4byte	.LASF247
+ 5133 0ebe 5D130000 		.4byte	.LASF247
  5134 0ec2 01       		.byte	0x1
  5135 0ec3 2804     		.2byte	0x428
  5136 0ec5 CE000000 		.4byte	0xce
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5161 0ef8 4D060000 		.4byte	.LASF254
  5162 0efc 01       		.byte	0x1
  5163 0efd 7504     		.2byte	0x475
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 157
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 157
 
 
  5164 0eff 00000000 		.4byte	.LFB189
@@ -9375,7 +9375,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5175 0f1a 91       		.byte	0x91
  5176 0f1b 74       		.sleb128 -12
  5177 0f1c 19       		.uleb128 0x19
- 5178 0f1d 55130000 		.4byte	.LASF247
+ 5178 0f1d 5D130000 		.4byte	.LASF247
  5179 0f21 01       		.byte	0x1
  5180 0f22 7504     		.2byte	0x475
  5181 0f24 CE000000 		.4byte	0xce
@@ -9401,7 +9401,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5201 0f4f 91       		.byte	0x91
  5202 0f50 74       		.sleb128 -12
  5203 0f51 19       		.uleb128 0x19
- 5204 0f52 55130000 		.4byte	.LASF247
+ 5204 0f52 5D130000 		.4byte	.LASF247
  5205 0f56 01       		.byte	0x1
  5206 0f57 4405     		.2byte	0x544
  5207 0f59 CE000000 		.4byte	0xce
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5218 0f71 1A000000 		.4byte	.LFE200-.LFB200
  5219 0f75 01       		.uleb128 0x1
  5220 0f76 9C       		.byte	0x9c
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 158
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 158
 
 
  5221 0f77 8B0F0000 		.4byte	0xf8b
@@ -9449,7 +9449,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5246 0fae 91       		.byte	0x91
  5247 0faf 74       		.sleb128 -12
  5248 0fb0 19       		.uleb128 0x19
- 5249 0fb1 55130000 		.4byte	.LASF247
+ 5249 0fb1 5D130000 		.4byte	.LASF247
  5250 0fb5 01       		.byte	0x1
  5251 0fb6 8905     		.2byte	0x589
  5252 0fb8 CE000000 		.4byte	0xce
@@ -9458,7 +9458,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5255 0fbe 70       		.sleb128 -16
  5256 0fbf 00       		.byte	0
  5257 0fc0 1A       		.uleb128 0x1a
- 5258 0fc1 B90A0000 		.4byte	.LASF258
+ 5258 0fc1 160B0000 		.4byte	.LASF258
  5259 0fc5 01       		.byte	0x1
  5260 0fc6 CE05     		.2byte	0x5ce
  5261 0fc8 00000000 		.4byte	.LFB204
@@ -9475,10 +9475,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5272 0fe3 91       		.byte	0x91
  5273 0fe4 74       		.sleb128 -12
  5274 0fe5 19       		.uleb128 0x19
- 5275 0fe6 55130000 		.4byte	.LASF247
+ 5275 0fe6 5D130000 		.4byte	.LASF247
  5276 0fea 01       		.byte	0x1
  5277 0feb CE05     		.2byte	0x5ce
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 159
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 159
 
 
  5278 0fed CE000000 		.4byte	0xce
@@ -9487,7 +9487,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5281 0ff3 70       		.sleb128 -16
  5282 0ff4 00       		.byte	0
  5283 0ff5 18       		.uleb128 0x18
- 5284 0ff6 76100000 		.4byte	.LASF259
+ 5284 0ff6 7E100000 		.4byte	.LASF259
  5285 0ffa 01       		.byte	0x1
  5286 0ffb FD05     		.2byte	0x5fd
  5287 0ffd CE000000 		.4byte	0xce
@@ -9523,7 +9523,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5317 1042 91       		.byte	0x91
  5318 1043 74       		.sleb128 -12
  5319 1044 19       		.uleb128 0x19
- 5320 1045 55130000 		.4byte	.LASF247
+ 5320 1045 5D130000 		.4byte	.LASF247
  5321 1049 01       		.byte	0x1
  5322 104a 1106     		.2byte	0x611
  5323 104c CE000000 		.4byte	0xce
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5332 105c CE000000 		.4byte	0xce
  5333 1060 00000000 		.4byte	.LFB213
  5334 1064 26000000 		.4byte	.LFE213-.LFB213
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 160
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 160
 
 
  5335 1068 01       		.uleb128 0x1
@@ -9554,7 +9554,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5345 107c 74       		.sleb128 -12
  5346 107d 00       		.byte	0
  5347 107e 1B       		.uleb128 0x1b
- 5348 107f 8A0C0000 		.4byte	.LASF262
+ 5348 107f E70C0000 		.4byte	.LASF262
  5349 1083 01       		.byte	0x1
  5350 1084 D006     		.2byte	0x6d0
  5351 1086 00000000 		.4byte	.LFB216
@@ -9572,7 +9572,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5363 10a2 74       		.sleb128 -12
  5364 10a3 00       		.byte	0
  5365 10a4 18       		.uleb128 0x18
- 5366 10a5 8C120000 		.4byte	.LASF263
+ 5366 10a5 94120000 		.4byte	.LASF263
  5367 10a9 01       		.byte	0x1
  5368 10aa EC06     		.2byte	0x6ec
  5369 10ac CE000000 		.4byte	0xce
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5389 10da 20000000 		.4byte	.LFE218-.LFB218
  5390 10de 01       		.uleb128 0x1
  5391 10df 9C       		.byte	0x9c
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 161
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 161
 
 
  5392 10e0 F4100000 		.4byte	0x10f4
@@ -9612,7 +9612,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5400 10f2 74       		.sleb128 -12
  5401 10f3 00       		.byte	0
  5402 10f4 1C       		.uleb128 0x1c
- 5403 10f5 85110000 		.4byte	.LASF268
+ 5403 10f5 8D110000 		.4byte	.LASF268
  5404 10f9 03       		.byte	0x3
  5405 10fa 3E       		.byte	0x3e
  5406 10fb 130B0000 		.4byte	0xb13
@@ -9630,7 +9630,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5418 1119 91       		.byte	0x91
  5419 111a 74       		.sleb128 -12
  5420 111b 1D       		.uleb128 0x1d
- 5421 111c 8B0B0000 		.4byte	.LASF265
+ 5421 111c E80B0000 		.4byte	.LASF265
  5422 1120 03       		.byte	0x3
  5423 1121 3E       		.byte	0x3e
  5424 1122 38110000 		.4byte	0x1138
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5446 114a F7040000 		.4byte	.LASF266
  5447 114e 03       		.byte	0x3
  5448 114f 8F       		.byte	0x8f
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 162
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 162
 
 
  5449 1150 00000000 		.4byte	.LFB220
@@ -9676,7 +9676,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5461 116b 74       		.sleb128 -12
  5462 116c 00       		.byte	0
  5463 116d 1E       		.uleb128 0x1e
- 5464 116e B0100000 		.4byte	.LASF267
+ 5464 116e B8100000 		.4byte	.LASF267
  5465 1172 03       		.byte	0x3
  5466 1173 BE       		.byte	0xbe
  5467 1174 00000000 		.4byte	.LFB221
@@ -9702,7 +9702,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5487 119d 70       		.sleb128 -16
  5488 119e 00       		.byte	0
  5489 119f 1C       		.uleb128 0x1c
- 5490 11a0 600F0000 		.4byte	.LASF269
+ 5490 11a0 680F0000 		.4byte	.LASF269
  5491 11a4 03       		.byte	0x3
  5492 11a5 F2       		.byte	0xf2
  5493 11a6 800A0000 		.4byte	0xa80
@@ -9712,13 +9712,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5497 11b3 9C       		.byte	0x9c
  5498 11b4 FF110000 		.4byte	0x11ff
  5499 11b8 1D       		.uleb128 0x1d
- 5500 11b9 610D0000 		.4byte	.LASF270
+ 5500 11b9 690D0000 		.4byte	.LASF270
  5501 11bd 03       		.byte	0x3
  5502 11be F2       		.byte	0xf2
  5503 11bf F00A0000 		.4byte	0xaf0
  5504 11c3 02       		.uleb128 0x2
  5505 11c4 91       		.byte	0x91
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 163
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 163
 
 
  5506 11c5 64       		.sleb128 -28
@@ -9731,7 +9731,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5513 11d2 91       		.byte	0x91
  5514 11d3 63       		.sleb128 -29
  5515 11d4 1F       		.uleb128 0x1f
- 5516 11d5 830B0000 		.4byte	.LASF272
+ 5516 11d5 E00B0000 		.4byte	.LASF272
  5517 11d9 03       		.byte	0x3
  5518 11da F4       		.byte	0xf4
  5519 11db 7D0D0000 		.4byte	0xd7d
@@ -9739,7 +9739,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5521 11e0 91       		.byte	0x91
  5522 11e1 70       		.sleb128 -16
  5523 11e2 1F       		.uleb128 0x1f
- 5524 11e3 4A0F0000 		.4byte	.LASF273
+ 5524 11e3 520F0000 		.4byte	.LASF273
  5525 11e7 03       		.byte	0x3
  5526 11e8 F5       		.byte	0xf5
  5527 11e9 43110000 		.4byte	0x1143
@@ -9747,7 +9747,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5529 11ee 91       		.byte	0x91
  5530 11ef 6C       		.sleb128 -20
  5531 11f0 1F       		.uleb128 0x1f
- 5532 11f1 9B0B0000 		.4byte	.LASF274
+ 5532 11f1 F80B0000 		.4byte	.LASF274
  5533 11f5 03       		.byte	0x3
  5534 11f6 F7       		.byte	0xf7
  5535 11f7 800A0000 		.4byte	0xa80
@@ -9766,7 +9766,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5548 1214 9C       		.byte	0x9c
  5549 1215 65120000 		.4byte	0x1265
  5550 1219 19       		.uleb128 0x19
- 5551 121a 610D0000 		.4byte	.LASF270
+ 5551 121a 690D0000 		.4byte	.LASF270
  5552 121e 03       		.byte	0x3
  5553 121f 9F01     		.2byte	0x19f
  5554 1221 F00A0000 		.4byte	0xaf0
@@ -9778,14 +9778,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5560 122d 03       		.byte	0x3
  5561 122e 9F01     		.2byte	0x19f
  5562 1230 B20A0000 		.4byte	0xab2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 164
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 164
 
 
  5563 1234 02       		.uleb128 0x2
  5564 1235 91       		.byte	0x91
  5565 1236 63       		.sleb128 -29
  5566 1237 21       		.uleb128 0x21
- 5567 1238 830B0000 		.4byte	.LASF272
+ 5567 1238 E00B0000 		.4byte	.LASF272
  5568 123c 03       		.byte	0x3
  5569 123d A101     		.2byte	0x1a1
  5570 123f 7D0D0000 		.4byte	0xd7d
@@ -9793,7 +9793,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5572 1244 91       		.byte	0x91
  5573 1245 70       		.sleb128 -16
  5574 1246 21       		.uleb128 0x21
- 5575 1247 4A0F0000 		.4byte	.LASF273
+ 5575 1247 520F0000 		.4byte	.LASF273
  5576 124b 03       		.byte	0x3
  5577 124c A201     		.2byte	0x1a2
  5578 124e 43110000 		.4byte	0x1143
@@ -9801,7 +9801,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5580 1253 91       		.byte	0x91
  5581 1254 6C       		.sleb128 -20
  5582 1255 21       		.uleb128 0x21
- 5583 1256 9B0B0000 		.4byte	.LASF274
+ 5583 1256 F80B0000 		.4byte	.LASF274
  5584 125a 03       		.byte	0x3
  5585 125b A401     		.2byte	0x1a4
  5586 125d 800A0000 		.4byte	0xa80
@@ -9836,9 +9836,9 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5615 129b 91       		.byte	0x91
  5616 129c 68       		.sleb128 -24
  5617 129d 21       		.uleb128 0x21
- 5618 129e 15120000 		.4byte	.LASF277
+ 5618 129e 1D120000 		.4byte	.LASF277
  5619 12a2 03       		.byte	0x3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 165
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 165
 
 
  5620 12a3 F401     		.2byte	0x1f4
@@ -9847,7 +9847,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5623 12aa 91       		.byte	0x91
  5624 12ab 74       		.sleb128 -12
  5625 12ac 21       		.uleb128 0x21
- 5626 12ad 9B0B0000 		.4byte	.LASF274
+ 5626 12ad F80B0000 		.4byte	.LASF274
  5627 12b1 03       		.byte	0x3
  5628 12b2 F501     		.2byte	0x1f5
  5629 12b4 CE000000 		.4byte	0xce
@@ -9873,7 +9873,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5649 12df 91       		.byte	0x91
  5650 12e0 74       		.sleb128 -12
  5651 12e1 19       		.uleb128 0x19
- 5652 12e2 4D100000 		.4byte	.LASF279
+ 5652 12e2 55100000 		.4byte	.LASF279
  5653 12e6 03       		.byte	0x3
  5654 12e7 1802     		.2byte	0x218
  5655 12e9 A2000000 		.4byte	0xa2
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5674 1310 1A000000 		.4byte	.LFE226-.LFB226
  5675 1314 01       		.uleb128 0x1
  5676 1315 9C       		.byte	0x9c
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 166
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 166
 
 
  5677 1316 39130000 		.4byte	0x1339
@@ -9925,7 +9925,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5698 133f 06       		.uleb128 0x6
  5699 1340 070D0000 		.4byte	0xd07
  5700 1344 22       		.uleb128 0x22
- 5701 1345 A5110000 		.4byte	.LASF281
+ 5701 1345 AD110000 		.4byte	.LASF281
  5702 1349 03       		.byte	0x3
  5703 134a 6302     		.2byte	0x263
  5704 134c 00000000 		.4byte	.LFB227
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5731 1385 91       		.byte	0x91
  5732 1386 6C       		.sleb128 -20
  5733 1387 19       		.uleb128 0x19
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 167
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 167
 
 
  5734 1388 EA090000 		.4byte	.LASF284
@@ -9995,7 +9995,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5765 13c9 91       		.byte	0x91
  5766 13ca 74       		.sleb128 -12
  5767 13cb 19       		.uleb128 0x19
- 5768 13cc 4D100000 		.4byte	.LASF279
+ 5768 13cc 55100000 		.4byte	.LASF279
  5769 13d0 03       		.byte	0x3
  5770 13d1 8902     		.2byte	0x289
  5771 13d3 A2000000 		.4byte	0xa2
@@ -10012,13 +10012,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5782 13e8 6C       		.sleb128 -20
  5783 13e9 00       		.byte	0
  5784 13ea 23       		.uleb128 0x23
- 5785 13eb 700D0000 		.4byte	.LASF286
+ 5785 13eb 780D0000 		.4byte	.LASF286
  5786 13ef 03       		.byte	0x3
  5787 13f0 A702     		.2byte	0x2a7
  5788 13f2 CE000000 		.4byte	0xce
  5789 13f6 00000000 		.4byte	.LFB229
  5790 13fa 1A000000 		.4byte	.LFE229-.LFB229
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 168
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 168
 
 
  5791 13fe 01       		.uleb128 0x1
@@ -10042,7 +10042,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5809 1421 70       		.sleb128 -16
  5810 1422 00       		.byte	0
  5811 1423 22       		.uleb128 0x22
- 5812 1424 BD110000 		.4byte	.LASF287
+ 5812 1424 C5110000 		.4byte	.LASF287
  5813 1428 03       		.byte	0x3
  5814 1429 D202     		.2byte	0x2d2
  5815 142b 00000000 		.4byte	.LFB230
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5845 1467 EA090000 		.4byte	.LASF284
  5846 146b 03       		.byte	0x3
  5847 146c D202     		.2byte	0x2d2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 169
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 169
 
 
  5848 146e CE000000 		.4byte	0xce
@@ -10095,7 +10095,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5859 1483 00       		.sleb128 0
  5860 1484 00       		.byte	0
  5861 1485 22       		.uleb128 0x22
- 5862 1486 99100000 		.4byte	.LASF288
+ 5862 1486 A1100000 		.4byte	.LASF288
  5863 148a 03       		.byte	0x3
  5864 148b F302     		.2byte	0x2f3
  5865 148d 00000000 		.4byte	.LFB231
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5902 14da 9C       		.byte	0x9c
  5903 14db FE140000 		.4byte	0x14fe
  5904 14df 19       		.uleb128 0x19
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 170
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 170
 
 
  5905 14e0 34040000 		.4byte	.LASF196
@@ -10194,11 +10194,11 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5955 1542 1C000000 		.4byte	.LBB2
  5956 1546 60000000 		.4byte	.LBE2-.LBB2
  5957 154a 21       		.uleb128 0x21
- 5958 154b E10E0000 		.4byte	.LASF292
+ 5958 154b E90E0000 		.4byte	.LASF292
  5959 154f 03       		.byte	0x3
  5960 1550 7803     		.2byte	0x378
  5961 1552 CE000000 		.4byte	0xce
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 171
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 171
 
 
  5962 1556 02       		.uleb128 0x2
@@ -10207,7 +10207,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5965 1559 00       		.byte	0
  5966 155a 00       		.byte	0
  5967 155b 1A       		.uleb128 0x1a
- 5968 155c E00A0000 		.4byte	.LASF293
+ 5968 155c 3D0B0000 		.4byte	.LASF293
  5969 1560 03       		.byte	0x3
  5970 1561 CC03     		.2byte	0x3cc
  5971 1563 00000000 		.4byte	.LFB234
@@ -10240,7 +10240,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  5998 159c 91       		.byte	0x91
  5999 159d 74       		.sleb128 -12
  6000 159e 21       		.uleb128 0x21
- 6001 159f 450E0000 		.4byte	.LASF294
+ 6001 159f 4D0E0000 		.4byte	.LASF294
  6002 15a3 03       		.byte	0x3
  6003 15a4 CF03     		.2byte	0x3cf
  6004 15a6 CE000000 		.4byte	0xce
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6016 15bf 9C       		.byte	0x9c
  6017 15c0 52160000 		.4byte	0x1652
  6018 15c4 19       		.uleb128 0x19
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 172
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 172
 
 
  6019 15c5 34040000 		.4byte	.LASF196
@@ -10280,7 +10280,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6035 15e3 00000000 		.4byte	.Ldebug_ranges0+0
  6036 15e7 1F160000 		.4byte	0x161f
  6037 15eb 21       		.uleb128 0x21
- 6038 15ec FB110000 		.4byte	.LASF296
+ 6038 15ec 03120000 		.4byte	.LASF296
  6039 15f0 03       		.byte	0x3
  6040 15f1 FE03     		.2byte	0x3fe
  6041 15f3 FE0B0000 		.4byte	0xbfe
@@ -10288,7 +10288,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6043 15f8 91       		.byte	0x91
  6044 15f9 77       		.sleb128 -9
  6045 15fa 21       		.uleb128 0x21
- 6046 15fb FC0E0000 		.4byte	.LASF297
+ 6046 15fb 040F0000 		.4byte	.LASF297
  6047 15ff 03       		.byte	0x3
  6048 1600 0104     		.2byte	0x401
  6049 1602 CE000000 		.4byte	0xce
@@ -10311,14 +10311,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6066 1620 30000000 		.4byte	.Ldebug_ranges0+0x30
  6067 1624 38160000 		.4byte	0x1638
  6068 1628 21       		.uleb128 0x21
- 6069 1629 330F0000 		.4byte	.LASF298
+ 6069 1629 3B0F0000 		.4byte	.LASF298
  6070 162d 03       		.byte	0x3
  6071 162e 5E04     		.2byte	0x45e
  6072 1630 CE000000 		.4byte	0xce
  6073 1634 02       		.uleb128 0x2
  6074 1635 91       		.byte	0x91
  6075 1636 68       		.sleb128 -24
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 173
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 173
 
 
  6076 1637 00       		.byte	0
@@ -10336,7 +10336,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6088 1650 00       		.byte	0
  6089 1651 00       		.byte	0
  6090 1652 1A       		.uleb128 0x1a
- 6091 1653 140F0000 		.4byte	.LASF300
+ 6091 1653 1C0F0000 		.4byte	.LASF300
  6092 1657 03       		.byte	0x3
  6093 1658 9F04     		.2byte	0x49f
  6094 165a 00000000 		.4byte	.LFB236
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6130 16a5 03       		.byte	0x3
  6131 16a6 C204     		.2byte	0x4c2
  6132 16a8 00000000 		.4byte	.LFB237
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 174
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 174
 
 
  6133 16ac BC000000 		.4byte	.LFE237-.LFB237
@@ -10403,7 +10403,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6152 16d3 70       		.sleb128 -16
  6153 16d4 00       		.byte	0
  6154 16d5 1B       		.uleb128 0x1b
- 6155 16d6 380F0000 		.4byte	.LASF302
+ 6155 16d6 400F0000 		.4byte	.LASF302
  6156 16da 03       		.byte	0x3
  6157 16db FC04     		.2byte	0x4fc
  6158 16dd 00000000 		.4byte	.LFB238
@@ -10428,7 +10428,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6177 1707 91       		.byte	0x91
  6178 1708 68       		.sleb128 -24
  6179 1709 21       		.uleb128 0x21
- 6180 170a 3C0E0000 		.4byte	.LASF303
+ 6180 170a 440E0000 		.4byte	.LASF303
  6181 170e 03       		.byte	0x3
  6182 170f FE04     		.2byte	0x4fe
  6183 1711 CE000000 		.4byte	0xce
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6187 1718 00       		.byte	0
  6188 1719 28       		.uleb128 0x28
  6189 171a 79000000 		.4byte	.LASF304
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 175
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 175
 
 
  6190 171e 06       		.byte	0x6
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6244 0024 0B       		.uleb128 0xb
  6245 0025 3B       		.uleb128 0x3b
  6246 0026 0B       		.uleb128 0xb
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 176
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 176
 
 
  6247 0027 49       		.uleb128 0x49
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6301 005d 3B       		.uleb128 0x3b
  6302 005e 0B       		.uleb128 0xb
  6303 005f 01       		.uleb128 0x1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 177
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 177
 
 
  6304 0060 13       		.uleb128 0x13
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6358 0096 00       		.byte	0
  6359 0097 0E       		.uleb128 0xe
  6360 0098 16       		.uleb128 0x16
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 178
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 178
 
 
  6361 0099 00       		.byte	0
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6415 00cf 13       		.uleb128 0x13
  6416 00d0 00       		.byte	0
  6417 00d1 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 179
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 179
 
 
  6418 00d2 13       		.uleb128 0x13
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6472 0108 05       		.uleb128 0x5
  6473 0109 49       		.uleb128 0x49
  6474 010a 13       		.uleb128 0x13
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 180
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 180
 
 
  6475 010b 38       		.uleb128 0x38
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6529 0142 19       		.uleb128 0x19
  6530 0143 11       		.uleb128 0x11
  6531 0144 01       		.uleb128 0x1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 181
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 181
 
 
  6532 0145 12       		.uleb128 0x12
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6586 017d 9642     		.uleb128 0x2116
  6587 017f 19       		.uleb128 0x19
  6588 0180 01       		.uleb128 0x1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 182
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 182
 
 
  6589 0181 13       		.uleb128 0x13
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6643 01b8 02       		.uleb128 0x2
  6644 01b9 18       		.uleb128 0x18
  6645 01ba 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 183
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 183
 
 
  6646 01bb 00       		.byte	0
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6700 01f2 27       		.uleb128 0x27
  6701 01f3 19       		.uleb128 0x19
  6702 01f4 11       		.uleb128 0x11
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 184
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 184
 
 
  6703 01f5 01       		.uleb128 0x1
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6757 022d 0B       		.uleb128 0xb
  6758 022e 01       		.byte	0x1
  6759 022f 11       		.uleb128 0x11
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 185
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 185
 
 
  6760 0230 01       		.uleb128 0x1
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6814 0266 00       		.byte	0
  6815 0267 00       		.byte	0
  6816              		.section	.debug_aranges,"",%progbits
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 186
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 186
 
 
  6817 0000 5C010000 		.4byte	0x15c
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6871 00cc 2E000000 		.4byte	.LFE221-.LFB221
  6872 00d0 00000000 		.4byte	.LFB222
  6873 00d4 2C010000 		.4byte	.LFE222-.LFB222
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 187
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 187
 
 
  6874 00d8 00000000 		.4byte	.LFB223
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6928 0048 00000000 		.4byte	.LFB166
  6929 004c 1A000000 		.4byte	.LFE166
  6930 0050 00000000 		.4byte	.LFB167
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 188
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 188
 
 
  6931 0054 44000000 		.4byte	.LFE167
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  6985 012c 1A000000 		.4byte	.LFE226
  6986 0130 00000000 		.4byte	.LFB227
  6987 0134 54000000 		.4byte	.LFE227
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 189
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 189
 
 
  6988 0138 00000000 		.4byte	.LFB228
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7024      5A493243 
  7024      5F536574 
  7024      41646472 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 190
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 190
 
 
  7025              	.LASF198:
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7046      75735F74 
  7047              	.LASF171:
  7048 0120 494E5452 		.ascii	"INTR_TX_MASK\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 191
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 191
 
 
  7048      5F54585F 
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7069              	.LASF137:
  7070 01d9 52585F46 		.ascii	"RX_FIFO_CTRL\000"
  7070      49464F5F 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 192
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 192
 
 
  7070      4354524C 
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7092      7420696E 
  7092      7400
  7093              	.LASF299:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 193
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 193
 
 
  7094 02aa 6E756D54 		.ascii	"numToCopy\000"
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7116      4354524C 
  7116      00
  7117              	.LASF79:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 194
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 194
 
 
  7118 034b 70657269 		.ascii	"periDivCmdTypeSelPos\000"
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7138      6500
  7139              	.LASF182:
  7140 03f9 666C6F61 		.ascii	"float\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 195
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 195
 
 
  7140      7400
@@ -11698,7 +11698,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7162      7369676E 
  7162      65642069 
  7163              	.LASF85:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 196
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 196
 
 
  7164 04b7 70657269 		.ascii	"periDiv24_5CtlOffset\000"
@@ -11758,7 +11758,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7185 0574 43795F53 		.ascii	"Cy_SCB_GetRxInterruptStatusMasked\000"
  7185      43425F47 
  7185      65745278 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 197
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 197
 
 
  7185      496E7465 
@@ -11818,7 +11818,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7205      72727570 
  7206              	.LASF221:
  7207 0647 5F426F6F 		.ascii	"_Bool\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 198
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 198
 
 
  7207      6C00
@@ -11878,7 +11878,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7229      6C655374 
  7229      6F7000
  7230              	.LASF232:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 199
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 199
 
 
  7231 0701 61646472 		.ascii	"addr1Active\000"
@@ -11938,7 +11938,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7249      43454C45 
  7249      4400
  7250              	.LASF22:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 200
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 200
 
 
  7251 07c2 666C6173 		.ascii	"flashcBase\000"
@@ -11998,7 +11998,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7275      6D644469 
  7275      7653656C 
  7275      4D736B00 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 201
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 201
 
 
  7276              	.LASF257:
@@ -12058,7 +12058,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7299      5F464C4F 
  7299      575F4354 
  7299      524C00
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 202
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 202
 
 
  7300              	.LASF206:
@@ -12118,7 +12118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7322              	.LASF40:
  7323 09df 63707573 		.ascii	"cpussIpcNr\000"
  7323      73497063 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 203
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 203
 
 
  7323      4E7200
@@ -12153,452 +12153,452 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7335      5A493243 
  7335      5F535441 
  7335      54455F52 
- 7336              	.LASF174:
- 7337 0a53 494E5452 		.ascii	"INTR_RX\000"
- 7337      5F525800 
- 7338              	.LASF229:
- 7339 0a5b 73756241 		.ascii	"subAddrSize\000"
- 7339      64647253 
- 7339      697A6500 
- 7340              	.LASF230:
- 7341 0a67 62617365 		.ascii	"baseAddr1\000"
- 7341      41646472 
- 7341      3100
- 7342              	.LASF231:
- 7343 0a71 62617365 		.ascii	"baseAddr2\000"
- 7343      41646472 
- 7343      3200
- 7344              	.LASF83:
- 7345 0a7b 70657269 		.ascii	"periDiv16CtlOffset\000"
- 7345      44697631 
- 7345      3643746C 
- 7345      4F666673 
- 7345      657400
- 7346              	.LASF6:
- 7347 0a8e 73686F72 		.ascii	"short unsigned int\000"
- 7347      7420756E 
- 7347      7369676E 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 204
+ 7336              	.LASF308:
+ 7337 0a53 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
+ 7337      73657273 
+ 7337      5C737469 
+ 7337      6A6E5C44 
+ 7337      726F7062 
+ 7338 0a7f 43204372 		.ascii	"C Creator\\Data Acquisition\\IoT_Generic_DAQ.cydsn\000"
+ 7338      6561746F 
+ 7338      725C4461 
+ 7338      74612041 
+ 7338      63717569 
+ 7339              	.LASF174:
+ 7340 0ab0 494E5452 		.ascii	"INTR_RX\000"
+ 7340      5F525800 
+ 7341              	.LASF229:
+ 7342 0ab8 73756241 		.ascii	"subAddrSize\000"
+ 7342      64647253 
+ 7342      697A6500 
+ 7343              	.LASF230:
+ 7344 0ac4 62617365 		.ascii	"baseAddr1\000"
+ 7344      41646472 
+ 7344      3100
+ 7345              	.LASF231:
+ 7346 0ace 62617365 		.ascii	"baseAddr2\000"
+ 7346      41646472 
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 204
 
 
- 7347      65642069 
- 7347      6E7400
- 7348              	.LASF250:
- 7349 0aa1 43795F53 		.ascii	"Cy_SCB_ClearRxInterrupt\000"
- 7349      43425F43 
- 7349      6C656172 
- 7349      5278496E 
- 7349      74657272 
- 7350              	.LASF258:
- 7351 0ab9 43795F53 		.ascii	"Cy_SCB_SetI2CInterruptMask\000"
- 7351      43425F53 
- 7351      65744932 
- 7351      43496E74 
- 7351      65727275 
- 7352              	.LASF19:
- 7353 0ad4 6C6F6E67 		.ascii	"long double\000"
- 7353      20646F75 
- 7353      626C6500 
- 7354              	.LASF293:
- 7355 0ae0 55706461 		.ascii	"UpdateRxFifoLevel\000"
- 7355      74655278 
- 7355      4669666F 
- 7355      4C657665 
- 7355      6C00
- 7356              	.LASF151:
- 7357 0af2 494E5452 		.ascii	"INTR_I2C_EC_MASK\000"
- 7357      5F493243 
- 7357      5F45435F 
- 7357      4D41534B 
- 7357      00
- 7358              	.LASF25:
- 7359 0b03 70726F74 		.ascii	"protBase\000"
- 7359      42617365 
- 7359      00
- 7360              	.LASF75:
- 7361 0b0c 70657269 		.ascii	"periTrCmdGrSelMsk\000"
- 7361      5472436D 
- 7361      64477253 
- 7361      656C4D73 
- 7361      6B00
- 7362              	.LASF210:
- 7363 0b1e 43595F53 		.ascii	"CY_SCB_EZI2C_STATE_RX_OFFSET_MSB\000"
- 7363      43425F45 
- 7363      5A493243 
- 7363      5F535441 
- 7363      54455F52 
- 7364              	.LASF241:
- 7365 0b3f 63795F73 		.ascii	"cy_stc_scb_ezi2c_context_t\000"
- 7365      74635F73 
- 7365      63625F65 
- 7365      7A693263 
- 7365      5F636F6E 
- 7366              	.LASF49:
- 7367 0b5a 73727373 		.ascii	"srssNumHfroot\000"
- 7367      4E756D48 
- 7367      66726F6F 
- 7367      7400
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 205
+ 7346      3200
+ 7347              	.LASF83:
+ 7348 0ad8 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 7348      44697631 
+ 7348      3643746C 
+ 7348      4F666673 
+ 7348      657400
+ 7349              	.LASF6:
+ 7350 0aeb 73686F72 		.ascii	"short unsigned int\000"
+ 7350      7420756E 
+ 7350      7369676E 
+ 7350      65642069 
+ 7350      6E7400
+ 7351              	.LASF250:
+ 7352 0afe 43795F53 		.ascii	"Cy_SCB_ClearRxInterrupt\000"
+ 7352      43425F43 
+ 7352      6C656172 
+ 7352      5278496E 
+ 7352      74657272 
+ 7353              	.LASF258:
+ 7354 0b16 43795F53 		.ascii	"Cy_SCB_SetI2CInterruptMask\000"
+ 7354      43425F53 
+ 7354      65744932 
+ 7354      43496E74 
+ 7354      65727275 
+ 7355              	.LASF19:
+ 7356 0b31 6C6F6E67 		.ascii	"long double\000"
+ 7356      20646F75 
+ 7356      626C6500 
+ 7357              	.LASF293:
+ 7358 0b3d 55706461 		.ascii	"UpdateRxFifoLevel\000"
+ 7358      74655278 
+ 7358      4669666F 
+ 7358      4C657665 
+ 7358      6C00
+ 7359              	.LASF151:
+ 7360 0b4f 494E5452 		.ascii	"INTR_I2C_EC_MASK\000"
+ 7360      5F493243 
+ 7360      5F45435F 
+ 7360      4D41534B 
+ 7360      00
+ 7361              	.LASF25:
+ 7362 0b60 70726F74 		.ascii	"protBase\000"
+ 7362      42617365 
+ 7362      00
+ 7363              	.LASF75:
+ 7364 0b69 70657269 		.ascii	"periTrCmdGrSelMsk\000"
+ 7364      5472436D 
+ 7364      64477253 
+ 7364      656C4D73 
+ 7364      6B00
+ 7365              	.LASF210:
+ 7366 0b7b 43595F53 		.ascii	"CY_SCB_EZI2C_STATE_RX_OFFSET_MSB\000"
+ 7366      43425F45 
+ 7366      5A493243 
+ 7366      5F535441 
+ 7366      54455F52 
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 205
 
 
- 7368              	.LASF33:
- 7369 0b68 64775665 		.ascii	"dwVersion\000"
- 7369      7273696F 
- 7369      6E00
- 7370              	.LASF156:
- 7371 0b72 494E5452 		.ascii	"INTR_SPI_EC_MASK\000"
- 7371      5F535049 
- 7371      5F45435F 
- 7371      4D41534B 
- 7371      00
- 7372              	.LASF272:
- 7373 0b83 6C6F6342 		.ascii	"locBase\000"
- 7373      61736500 
- 7374              	.LASF265:
- 7375 0b8b 636F6E66 		.ascii	"config\000"
- 7375      696700
- 7376              	.LASF20:
- 7377 0b92 73697A65 		.ascii	"sizetype\000"
- 7377      74797065 
- 7377      00
- 7378              	.LASF274:
- 7379 0b9b 72657453 		.ascii	"retStatus\000"
- 7379      74617475 
- 7379      7300
- 7380              	.LASF125:
- 7381 0ba5 4932435F 		.ascii	"I2C_S_CMD\000"
- 7381      535F434D 
- 7381      4400
- 7382              	.LASF100:
- 7383 0baf 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
- 7383      73436D34 
- 7383      4E6D6943 
- 7383      746C4F66 
- 7383      66736574 
- 7384              	.LASF94:
- 7385 0bc4 63707573 		.ascii	"cpussCm0StatusOffset\000"
- 7385      73436D30 
- 7385      53746174 
- 7385      75734F66 
- 7385      66736574 
- 7386              	.LASF82:
- 7387 0bd9 70657269 		.ascii	"periDiv8CtlOffset\000"
- 7387      44697638 
- 7387      43746C4F 
- 7387      66667365 
- 7387      7400
- 7388              	.LASF121:
- 7389 0beb 52455345 		.ascii	"RESERVED2\000"
- 7389      52564544 
- 7389      3200
- 7390              	.LASF127:
- 7391 0bf5 52455345 		.ascii	"RESERVED3\000"
- 7391      52564544 
- 7391      3300
- 7392              	.LASF129:
- 7393 0bff 52455345 		.ascii	"RESERVED4\000"
- 7393      52564544 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 206
+ 7367              	.LASF241:
+ 7368 0b9c 63795F73 		.ascii	"cy_stc_scb_ezi2c_context_t\000"
+ 7368      74635F73 
+ 7368      63625F65 
+ 7368      7A693263 
+ 7368      5F636F6E 
+ 7369              	.LASF49:
+ 7370 0bb7 73727373 		.ascii	"srssNumHfroot\000"
+ 7370      4E756D48 
+ 7370      66726F6F 
+ 7370      7400
+ 7371              	.LASF33:
+ 7372 0bc5 64775665 		.ascii	"dwVersion\000"
+ 7372      7273696F 
+ 7372      6E00
+ 7373              	.LASF156:
+ 7374 0bcf 494E5452 		.ascii	"INTR_SPI_EC_MASK\000"
+ 7374      5F535049 
+ 7374      5F45435F 
+ 7374      4D41534B 
+ 7374      00
+ 7375              	.LASF272:
+ 7376 0be0 6C6F6342 		.ascii	"locBase\000"
+ 7376      61736500 
+ 7377              	.LASF265:
+ 7378 0be8 636F6E66 		.ascii	"config\000"
+ 7378      696700
+ 7379              	.LASF20:
+ 7380 0bef 73697A65 		.ascii	"sizetype\000"
+ 7380      74797065 
+ 7380      00
+ 7381              	.LASF274:
+ 7382 0bf8 72657453 		.ascii	"retStatus\000"
+ 7382      74617475 
+ 7382      7300
+ 7383              	.LASF125:
+ 7384 0c02 4932435F 		.ascii	"I2C_S_CMD\000"
+ 7384      535F434D 
+ 7384      4400
+ 7385              	.LASF100:
+ 7386 0c0c 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 7386      73436D34 
+ 7386      4E6D6943 
+ 7386      746C4F66 
+ 7386      66736574 
+ 7387              	.LASF94:
+ 7388 0c21 63707573 		.ascii	"cpussCm0StatusOffset\000"
+ 7388      73436D30 
+ 7388      53746174 
+ 7388      75734F66 
+ 7388      66736574 
+ 7389              	.LASF82:
+ 7390 0c36 70657269 		.ascii	"periDiv8CtlOffset\000"
+ 7390      44697638 
+ 7390      43746C4F 
+ 7390      66667365 
+ 7390      7400
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 206
 
 
- 7393      3400
- 7394              	.LASF133:
- 7395 0c09 52455345 		.ascii	"RESERVED5\000"
- 7395      52564544 
- 7395      3500
- 7396              	.LASF135:
- 7397 0c13 52455345 		.ascii	"RESERVED6\000"
- 7397      52564544 
- 7397      3600
- 7398              	.LASF139:
- 7399 0c1d 52455345 		.ascii	"RESERVED7\000"
- 7399      52564544 
- 7399      3700
- 7400              	.LASF141:
- 7401 0c27 52455345 		.ascii	"RESERVED8\000"
- 7401      52564544 
- 7401      3800
- 7402              	.LASF144:
- 7403 0c31 52455345 		.ascii	"RESERVED9\000"
- 7403      52564544 
- 7403      3900
- 7404              	.LASF216:
- 7405 0c3b 6E756D62 		.ascii	"numberOfAddresses\000"
- 7405      65724F66 
- 7405      41646472 
- 7405      65737365 
- 7405      7300
- 7406              	.LASF195:
- 7407 0c4d 63795F65 		.ascii	"cy_en_syspm_callback_mode_t\000"
- 7407      6E5F7379 
- 7407      73706D5F 
- 7407      63616C6C 
- 7407      6261636B 
- 7408              	.LASF8:
- 7409 0c69 6C6F6E67 		.ascii	"long int\000"
- 7409      20696E74 
- 7409      00
- 7410              	.LASF31:
- 7411 0c72 63707573 		.ascii	"cpussVersion\000"
- 7411      73566572 
- 7411      73696F6E 
- 7411      00
- 7412              	.LASF123:
- 7413 0c7f 4932435F 		.ascii	"I2C_STATUS\000"
- 7413      53544154 
- 7413      555300
- 7414              	.LASF262:
- 7415 0c8a 43795F53 		.ascii	"Cy_SCB_FwBlockReset\000"
- 7415      43425F46 
- 7415      77426C6F 
- 7415      636B5265 
- 7415      73657400 
- 7416              	.LASF35:
- 7417 0c9e 6770696F 		.ascii	"gpioVersion\000"
- 7417      56657273 
- 7417      696F6E00 
- 7418              	.LASF227:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 207
+ 7391              	.LASF121:
+ 7392 0c48 52455345 		.ascii	"RESERVED2\000"
+ 7392      52564544 
+ 7392      3200
+ 7393              	.LASF127:
+ 7394 0c52 52455345 		.ascii	"RESERVED3\000"
+ 7394      52564544 
+ 7394      3300
+ 7395              	.LASF129:
+ 7396 0c5c 52455345 		.ascii	"RESERVED4\000"
+ 7396      52564544 
+ 7396      3400
+ 7397              	.LASF133:
+ 7398 0c66 52455345 		.ascii	"RESERVED5\000"
+ 7398      52564544 
+ 7398      3500
+ 7399              	.LASF135:
+ 7400 0c70 52455345 		.ascii	"RESERVED6\000"
+ 7400      52564544 
+ 7400      3600
+ 7401              	.LASF139:
+ 7402 0c7a 52455345 		.ascii	"RESERVED7\000"
+ 7402      52564544 
+ 7402      3700
+ 7403              	.LASF141:
+ 7404 0c84 52455345 		.ascii	"RESERVED8\000"
+ 7404      52564544 
+ 7404      3800
+ 7405              	.LASF144:
+ 7406 0c8e 52455345 		.ascii	"RESERVED9\000"
+ 7406      52564544 
+ 7406      3900
+ 7407              	.LASF216:
+ 7408 0c98 6E756D62 		.ascii	"numberOfAddresses\000"
+ 7408      65724F66 
+ 7408      41646472 
+ 7408      65737365 
+ 7408      7300
+ 7409              	.LASF195:
+ 7410 0caa 63795F65 		.ascii	"cy_en_syspm_callback_mode_t\000"
+ 7410      6E5F7379 
+ 7410      73706D5F 
+ 7410      63616C6C 
+ 7410      6261636B 
+ 7411              	.LASF8:
+ 7412 0cc6 6C6F6E67 		.ascii	"long int\000"
+ 7412      20696E74 
+ 7412      00
+ 7413              	.LASF31:
+ 7414 0ccf 63707573 		.ascii	"cpussVersion\000"
+ 7414      73566572 
+ 7414      73696F6E 
+ 7414      00
+ 7415              	.LASF123:
+ 7416 0cdc 4932435F 		.ascii	"I2C_STATUS\000"
+ 7416      53544154 
+ 7416      555300
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 207
 
 
- 7419 0caa 61646472 		.ascii	"address1\000"
- 7419      65737331 
- 7419      00
- 7420              	.LASF228:
- 7421 0cb3 61646472 		.ascii	"address2\000"
- 7421      65737332 
- 7421      00
- 7422              	.LASF172:
- 7423 0cbc 494E5452 		.ascii	"INTR_TX_MASKED\000"
- 7423      5F54585F 
- 7423      4D41534B 
- 7423      454400
- 7424              	.LASF34:
- 7425 0ccb 666C6173 		.ascii	"flashcVersion\000"
- 7425      68635665 
- 7425      7273696F 
- 7425      6E00
- 7426              	.LASF56:
- 7427 0cd9 70726F74 		.ascii	"protBusMasterMask\000"
- 7427      4275734D 
- 7427      61737465 
- 7427      724D6173 
- 7427      6B00
- 7428              	.LASF308:
- 7429 0ceb 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
- 7429      73657273 
- 7429      5C737469 
- 7429      6A6E5C44 
- 7429      726F7062 
- 7430 0d17 43204372 		.ascii	"C Creator\\RTOS DAQ\\IoT_Generic_DAQ.cydsn\000"
- 7430      6561746F 
- 7430      725C5254 
- 7430      4F532044 
- 7430      41515C49 
+ 7417              	.LASF262:
+ 7418 0ce7 43795F53 		.ascii	"Cy_SCB_FwBlockReset\000"
+ 7418      43425F46 
+ 7418      77426C6F 
+ 7418      636B5265 
+ 7418      73657400 
+ 7419              	.LASF35:
+ 7420 0cfb 6770696F 		.ascii	"gpioVersion\000"
+ 7420      56657273 
+ 7420      696F6E00 
+ 7421              	.LASF227:
+ 7422 0d07 61646472 		.ascii	"address1\000"
+ 7422      65737331 
+ 7422      00
+ 7423              	.LASF228:
+ 7424 0d10 61646472 		.ascii	"address2\000"
+ 7424      65737332 
+ 7424      00
+ 7425              	.LASF172:
+ 7426 0d19 494E5452 		.ascii	"INTR_TX_MASKED\000"
+ 7426      5F54585F 
+ 7426      4D41534B 
+ 7426      454400
+ 7427              	.LASF34:
+ 7428 0d28 666C6173 		.ascii	"flashcVersion\000"
+ 7428      68635665 
+ 7428      7273696F 
+ 7428      6E00
+ 7429              	.LASF56:
+ 7430 0d36 70726F74 		.ascii	"protBusMasterMask\000"
+ 7430      4275734D 
+ 7430      61737465 
+ 7430      724D6173 
+ 7430      6B00
  7431              	.LASF252:
- 7432 0d40 43795F53 		.ascii	"Cy_SCB_SetTxInterruptMask\000"
+ 7432 0d48 43795F53 		.ascii	"Cy_SCB_SetTxInterruptMask\000"
  7432      43425F53 
  7432      65745478 
  7432      496E7465 
  7432      72727570 
  7433              	.LASF180:
- 7434 0d5a 63686172 		.ascii	"char_t\000"
+ 7434 0d62 63686172 		.ascii	"char_t\000"
  7434      5F7400
  7435              	.LASF270:
- 7436 0d61 63616C6C 		.ascii	"callbackParams\000"
+ 7436 0d69 63616C6C 		.ascii	"callbackParams\000"
  7436      6261636B 
  7436      50617261 
  7436      6D7300
  7437              	.LASF286:
- 7438 0d70 43795F53 		.ascii	"Cy_SCB_EZI2C_GetAddress2\000"
+ 7438 0d78 43795F53 		.ascii	"Cy_SCB_EZI2C_GetAddress2\000"
  7438      43425F45 
  7438      5A493243 
  7438      5F476574 
  7438      41646472 
  7439              	.LASF169:
- 7440 0d89 494E5452 		.ascii	"INTR_TX\000"
+ 7440 0d91 494E5452 		.ascii	"INTR_TX\000"
  7440      5F545800 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 208
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 208
 
 
  7441              	.LASF119:
- 7442 0d91 55415254 		.ascii	"UART_RX_STATUS\000"
+ 7442 0d99 55415254 		.ascii	"UART_RX_STATUS\000"
  7442      5F52585F 
  7442      53544154 
  7442      555300
  7443              	.LASF193:
- 7444 0da0 43595F53 		.ascii	"CY_SYSPM_BEFORE_TRANSITION\000"
+ 7444 0da8 43595F53 		.ascii	"CY_SYSPM_BEFORE_TRANSITION\000"
  7444      5953504D 
  7444      5F424546 
  7444      4F52455F 
  7444      5452414E 
  7445              	.LASF95:
- 7446 0dbb 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
+ 7446 0dc3 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
  7446      73436D34 
  7446      50777243 
  7446      746C4F66 
  7446      66736574 
  7447              	.LASF2:
- 7448 0dd0 5F5F7569 		.ascii	"__uint8_t\000"
+ 7448 0dd8 5F5F7569 		.ascii	"__uint8_t\000"
  7448      6E74385F 
  7448      7400
  7449              	.LASF131:
- 7450 0dda 54585F46 		.ascii	"TX_FIFO_CTRL\000"
+ 7450 0de2 54585F46 		.ascii	"TX_FIFO_CTRL\000"
  7450      49464F5F 
  7450      4354524C 
  7450      00
  7451              	.LASF246:
- 7452 0de7 43795F53 		.ascii	"Cy_SCB_SetRxInterruptMask\000"
+ 7452 0def 43795F53 		.ascii	"Cy_SCB_SetRxInterruptMask\000"
  7452      43425F53 
  7452      65745278 
  7452      496E7465 
  7452      72727570 
  7453              	.LASF124:
- 7454 0e01 4932435F 		.ascii	"I2C_M_CMD\000"
+ 7454 0e09 4932435F 		.ascii	"I2C_M_CMD\000"
  7454      4D5F434D 
  7454      4400
  7455              	.LASF157:
- 7456 0e0b 494E5452 		.ascii	"INTR_SPI_EC_MASKED\000"
+ 7456 0e13 494E5452 		.ascii	"INTR_SPI_EC_MASKED\000"
  7456      5F535049 
  7456      5F45435F 
  7456      4D41534B 
  7456      454400
  7457              	.LASF86:
- 7458 0e1e 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
+ 7458 0e26 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
  7458      50727449 
  7458      6E747243 
  7458      66674F66 
  7458      66736574 
  7459              	.LASF113:
- 7460 0e33 5350495F 		.ascii	"SPI_CTRL\000"
+ 7460 0e3b 5350495F 		.ascii	"SPI_CTRL\000"
  7460      4354524C 
  7460      00
  7461              	.LASF303:
- 7462 0e3c 61646472 		.ascii	"addrMask\000"
+ 7462 0e44 61646472 		.ascii	"addrMask\000"
  7462      4D61736B 
  7462      00
  7463              	.LASF294:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 209
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 209
 
 
- 7464 0e45 6669666F 		.ascii	"fifoSize\000"
+ 7464 0e4d 6669666F 		.ascii	"fifoSize\000"
  7464      53697A65 
  7464      00
  7465              	.LASF136:
- 7466 0e4e 52585F43 		.ascii	"RX_CTRL\000"
+ 7466 0e56 52585F43 		.ascii	"RX_CTRL\000"
  7466      54524C00 
  7467              	.LASF97:
- 7468 0e56 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ 7468 0e5e 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
  7468      73547269 
  7468      6D526F6D 
  7468      43746C4F 
  7468      66667365 
  7469              	.LASF223:
- 7470 0e6c 63795F73 		.ascii	"cy_stc_scb_ezi2c_config\000"
+ 7470 0e74 63795F73 		.ascii	"cy_stc_scb_ezi2c_config\000"
  7470      74635F73 
  7470      63625F65 
  7470      7A693263 
  7470      5F636F6E 
  7471              	.LASF224:
- 7472 0e84 63795F73 		.ascii	"cy_stc_scb_ezi2c_context\000"
+ 7472 0e8c 63795F73 		.ascii	"cy_stc_scb_ezi2c_context\000"
  7472      74635F73 
  7472      63625F65 
  7472      7A693263 
  7472      5F636F6E 
  7473              	.LASF122:
- 7474 0e9d 4932435F 		.ascii	"I2C_CTRL\000"
+ 7474 0ea5 4932435F 		.ascii	"I2C_CTRL\000"
  7474      4354524C 
  7474      00
  7475              	.LASF36:
- 7476 0ea6 6873696F 		.ascii	"hsiomVersion\000"
+ 7476 0eae 6873696F 		.ascii	"hsiomVersion\000"
  7476      6D566572 
  7476      73696F6E 
  7476      00
  7477              	.LASF10:
- 7478 0eb3 6C6F6E67 		.ascii	"long unsigned int\000"
+ 7478 0ebb 6C6F6E67 		.ascii	"long unsigned int\000"
  7478      20756E73 
  7478      69676E65 
  7478      6420696E 
  7478      7400
  7479              	.LASF213:
- 7480 0ec5 43595F53 		.ascii	"CY_SCB_EZI2C_STATE_RX_DATA1\000"
+ 7480 0ecd 43595F53 		.ascii	"CY_SCB_EZI2C_STATE_RX_DATA1\000"
  7480      43425F45 
  7480      5A493243 
  7480      5F535441 
  7480      54455F52 
  7481              	.LASF292:
- 7482 0ee1 61646472 		.ascii	"address\000"
+ 7482 0ee9 61646472 		.ascii	"address\000"
  7482      65737300 
  7483              	.LASF159:
- 7484 0ee9 494E5452 		.ascii	"INTR_M\000"
+ 7484 0ef1 494E5452 		.ascii	"INTR_M\000"
  7484      5F4D00
  7485              	.LASF101:
- 7486 0ef0 63707573 		.ascii	"cpussRomCtl\000"
+ 7486 0ef8 63707573 		.ascii	"cpussRomCtl\000"
  7486      73526F6D 
  7486      43746C00 
  7487              	.LASF297:
- 7488 0efc 62617365 		.ascii	"baseAddr\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 210
+ 7488 0f04 62617365 		.ascii	"baseAddr\000"
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 210
 
 
  7488      41646472 
  7488      00
  7489              	.LASF164:
- 7490 0f05 494E5452 		.ascii	"INTR_S\000"
+ 7490 0f0d 494E5452 		.ascii	"INTR_S\000"
  7490      5F5300
  7491              	.LASF17:
- 7492 0f0c 696E7433 		.ascii	"int32_t\000"
+ 7492 0f14 696E7433 		.ascii	"int32_t\000"
  7492      325F7400 
  7493              	.LASF300:
- 7494 0f14 48616E64 		.ascii	"HandleDataTransmit\000"
+ 7494 0f1c 48616E64 		.ascii	"HandleDataTransmit\000"
  7494      6C654461 
  7494      74615472 
  7494      616E736D 
  7494      697400
  7495              	.LASF161:
- 7496 0f27 494E5452 		.ascii	"INTR_M_MASK\000"
+ 7496 0f2f 494E5452 		.ascii	"INTR_M_MASK\000"
  7496      5F4D5F4D 
  7496      41534B00 
  7497              	.LASF298:
- 7498 0f33 62797465 		.ascii	"byte\000"
+ 7498 0f3b 62797465 		.ascii	"byte\000"
  7498      00
  7499              	.LASF302:
- 7500 0f38 55706461 		.ascii	"UpdateAddressMask\000"
+ 7500 0f40 55706461 		.ascii	"UpdateAddressMask\000"
  7500      74654164 
  7500      64726573 
  7500      734D6173 
  7500      6B00
  7501              	.LASF273:
- 7502 0f4a 6C6F6343 		.ascii	"locContext\000"
+ 7502 0f52 6C6F6343 		.ascii	"locContext\000"
  7502      6F6E7465 
  7502      787400
  7503              	.LASF114:
- 7504 0f55 5350495F 		.ascii	"SPI_STATUS\000"
+ 7504 0f5d 5350495F 		.ascii	"SPI_STATUS\000"
  7504      53544154 
  7504      555300
  7505              	.LASF269:
- 7506 0f60 43795F53 		.ascii	"Cy_SCB_EZI2C_DeepSleepCallback\000"
+ 7506 0f68 43795F53 		.ascii	"Cy_SCB_EZI2C_DeepSleepCallback\000"
  7506      43425F45 
  7506      5A493243 
  7506      5F446565 
  7506      70536C65 
  7507              	.LASF16:
- 7508 0f7f 75696E74 		.ascii	"uint16_t\000"
+ 7508 0f87 75696E74 		.ascii	"uint16_t\000"
  7508      31365F74 
  7508      00
  7509              	.LASF189:
- 7510 0f88 43595F53 		.ascii	"CY_SYSPM_FAIL\000"
+ 7510 0f90 43595F53 		.ascii	"CY_SYSPM_FAIL\000"
  7510      5953504D 
  7510      5F464149 
  7510      4C00
  7511              	.LASF1:
- 7512 0f96 756E7369 		.ascii	"unsigned char\000"
+ 7512 0f9e 756E7369 		.ascii	"unsigned char\000"
  7512      676E6564 
  7512      20636861 
  7512      7200
  7513              	.LASF243:
- 7514 0fa4 43795F53 		.ascii	"Cy_SCB_SetRxFifoLevel\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 211
+ 7514 0fac 43795F53 		.ascii	"Cy_SCB_SetRxFifoLevel\000"
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 211
 
 
  7514      43425F53 
@@ -12606,316 +12606,316 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 1
  7514      4669666F 
  7514      4C657665 
  7515              	.LASF9:
- 7516 0fba 5F5F7569 		.ascii	"__uint32_t\000"
+ 7516 0fc2 5F5F7569 		.ascii	"__uint32_t\000"
  7516      6E743332 
  7516      5F7400
  7517              	.LASF106:
- 7518 0fc5 6970634C 		.ascii	"ipcLockStatusOffset\000"
+ 7518 0fcd 6970634C 		.ascii	"ipcLockStatusOffset\000"
  7518      6F636B53 
  7518      74617475 
  7518      734F6666 
  7518      73657400 
  7519              	.LASF87:
- 7520 0fd9 6770696F 		.ascii	"gpioPrtCfgOffset\000"
+ 7520 0fe1 6770696F 		.ascii	"gpioPrtCfgOffset\000"
  7520      50727443 
  7520      66674F66 
  7520      66736574 
  7520      00
  7521              	.LASF146:
- 7522 0fea 52455345 		.ascii	"RESERVED10\000"
+ 7522 0ff2 52455345 		.ascii	"RESERVED10\000"
  7522      52564544 
  7522      313000
  7523              	.LASF148:
- 7524 0ff5 52455345 		.ascii	"RESERVED11\000"
+ 7524 0ffd 52455345 		.ascii	"RESERVED11\000"
  7524      52564544 
  7524      313100
  7525              	.LASF150:
- 7526 1000 52455345 		.ascii	"RESERVED12\000"
+ 7526 1008 52455345 		.ascii	"RESERVED12\000"
  7526      52564544 
  7526      313200
  7527              	.LASF153:
- 7528 100b 52455345 		.ascii	"RESERVED13\000"
+ 7528 1013 52455345 		.ascii	"RESERVED13\000"
  7528      52564544 
  7528      313300
  7529              	.LASF155:
- 7530 1016 52455345 		.ascii	"RESERVED14\000"
+ 7530 101e 52455345 		.ascii	"RESERVED14\000"
  7530      52564544 
  7530      313400
  7531              	.LASF158:
- 7532 1021 52455345 		.ascii	"RESERVED15\000"
+ 7532 1029 52455345 		.ascii	"RESERVED15\000"
  7532      52564544 
  7532      313500
  7533              	.LASF163:
- 7534 102c 52455345 		.ascii	"RESERVED16\000"
+ 7534 1034 52455345 		.ascii	"RESERVED16\000"
  7534      52564544 
  7534      313600
  7535              	.LASF168:
- 7536 1037 52455345 		.ascii	"RESERVED17\000"
+ 7536 103f 52455345 		.ascii	"RESERVED17\000"
  7536      52564544 
  7536      313700
  7537              	.LASF173:
- 7538 1042 52455345 		.ascii	"RESERVED18\000"
+ 7538 104a 52455345 		.ascii	"RESERVED18\000"
  7538      52564544 
  7538      313800
  7539              	.LASF279:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 212
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 212
 
 
- 7540 104d 61646472 		.ascii	"addr\000"
+ 7540 1055 61646472 		.ascii	"addr\000"
  7540      00
  7541              	.LASF225:
- 7542 1052 73746174 		.ascii	"state\000"
+ 7542 105a 73746174 		.ascii	"state\000"
  7542      6500
  7543              	.LASF134:
- 7544 1058 54585F46 		.ascii	"TX_FIFO_WR\000"
+ 7544 1060 54585F46 		.ascii	"TX_FIFO_WR\000"
  7544      49464F5F 
  7544      575200
  7545              	.LASF244:
- 7546 1063 43795F53 		.ascii	"Cy_SCB_ClearRxFifo\000"
+ 7546 106b 43795F53 		.ascii	"Cy_SCB_ClearRxFifo\000"
  7546      43425F43 
  7546      6C656172 
  7546      52784669 
  7546      666F00
  7547              	.LASF259:
- 7548 1076 43795F53 		.ascii	"Cy_SCB_GetI2CInterruptStatusMasked\000"
+ 7548 107e 43795F53 		.ascii	"Cy_SCB_GetI2CInterruptStatusMasked\000"
  7548      43425F47 
  7548      65744932 
  7548      43496E74 
  7548      65727275 
  7549              	.LASF288:
- 7550 1099 43795F53 		.ascii	"Cy_SCB_EZI2C_Interrupt\000"
+ 7550 10a1 43795F53 		.ascii	"Cy_SCB_EZI2C_Interrupt\000"
  7550      43425F45 
  7550      5A493243 
  7550      5F496E74 
  7550      65727275 
  7551              	.LASF267:
- 7552 10b0 43795F53 		.ascii	"Cy_SCB_EZI2C_Disable\000"
+ 7552 10b8 43795F53 		.ascii	"Cy_SCB_EZI2C_Disable\000"
  7552      43425F45 
  7552      5A493243 
  7552      5F446973 
  7552      61626C65 
  7553              	.LASF222:
- 7554 10c5 63795F73 		.ascii	"cy_stc_scb_ezi2c_config_t\000"
+ 7554 10cd 63795F73 		.ascii	"cy_stc_scb_ezi2c_config_t\000"
  7554      74635F73 
  7554      63625F65 
  7554      7A693263 
  7554      5F636F6E 
  7555              	.LASF58:
- 7556 10df 666C6173 		.ascii	"flashRwwRequired\000"
+ 7556 10e7 666C6173 		.ascii	"flashRwwRequired\000"
  7556      68527777 
  7556      52657175 
  7556      69726564 
  7556      00
  7557              	.LASF130:
- 7558 10f0 54585F43 		.ascii	"TX_CTRL\000"
+ 7558 10f8 54585F43 		.ascii	"TX_CTRL\000"
  7558      54524C00 
  7559              	.LASF217:
- 7560 10f8 736C6176 		.ascii	"slaveAddress1\000"
+ 7560 1100 736C6176 		.ascii	"slaveAddress1\000"
  7560      65416464 
  7560      72657373 
  7560      3100
  7561              	.LASF218:
- 7562 1106 736C6176 		.ascii	"slaveAddress2\000"
+ 7562 110e 736C6176 		.ascii	"slaveAddress2\000"
  7562      65416464 
  7562      72657373 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 213
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 213
 
 
  7562      3200
  7563              	.LASF53:
- 7564 1114 65704D6F 		.ascii	"epMonitorNr\000"
+ 7564 111c 65704D6F 		.ascii	"epMonitorNr\000"
  7564      6E69746F 
  7564      724E7200 
  7565              	.LASF185:
- 7566 1120 43595F53 		.ascii	"CY_SYSPM_BAD_PARAM\000"
+ 7566 1128 43595F53 		.ascii	"CY_SYSPM_BAD_PARAM\000"
  7566      5953504D 
  7566      5F424144 
  7566      5F504152 
  7566      414D00
  7567              	.LASF0:
- 7568 1133 7369676E 		.ascii	"signed char\000"
+ 7568 113b 7369676E 		.ascii	"signed char\000"
  7568      65642063 
  7568      68617200 
  7569              	.LASF68:
- 7570 113f 64774368 		.ascii	"dwChOffset\000"
+ 7570 1147 64774368 		.ascii	"dwChOffset\000"
  7570      4F666673 
  7570      657400
  7571              	.LASF116:
- 7572 114a 55415254 		.ascii	"UART_CTRL\000"
+ 7572 1152 55415254 		.ascii	"UART_CTRL\000"
  7572      5F435452 
  7572      4C00
  7573              	.LASF41:
- 7574 1154 63707573 		.ascii	"cpussIpcIrqNr\000"
+ 7574 115c 63707573 		.ascii	"cpussIpcIrqNr\000"
  7574      73497063 
  7574      4972714E 
  7574      7200
  7575              	.LASF176:
- 7576 1162 494E5452 		.ascii	"INTR_RX_MASK\000"
+ 7576 116a 494E5452 		.ascii	"INTR_RX_MASK\000"
  7576      5F52585F 
  7576      4D41534B 
  7576      00
  7577              	.LASF71:
- 7578 116f 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 7578 1177 64774368 		.ascii	"dwChCtlPreemptablePos\000"
  7578      43746C50 
  7578      7265656D 
  7578      70746162 
  7578      6C65506F 
  7579              	.LASF268:
- 7580 1185 43795F53 		.ascii	"Cy_SCB_EZI2C_Init\000"
+ 7580 118d 43795F53 		.ascii	"Cy_SCB_EZI2C_Init\000"
  7580      43425F45 
  7580      5A493243 
  7580      5F496E69 
  7580      7400
  7581              	.LASF110:
- 7582 1197 434D445F 		.ascii	"CMD_RESP_CTRL\000"
+ 7582 119f 434D445F 		.ascii	"CMD_RESP_CTRL\000"
  7582      52455350 
  7582      5F435452 
  7582      4C00
  7583              	.LASF281:
- 7584 11a5 43795F53 		.ascii	"Cy_SCB_EZI2C_SetBuffer1\000"
+ 7584 11ad 43795F53 		.ascii	"Cy_SCB_EZI2C_SetBuffer1\000"
  7584      43425F45 
  7584      5A493243 
  7584      5F536574 
  7584      42756666 
  7585              	.LASF287:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 214
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 214
 
 
- 7586 11bd 43795F53 		.ascii	"Cy_SCB_EZI2C_SetBuffer2\000"
+ 7586 11c5 43795F53 		.ascii	"Cy_SCB_EZI2C_SetBuffer2\000"
  7586      43425F45 
  7586      5A493243 
  7586      5F536574 
  7586      42756666 
  7587              	.LASF240:
- 7588 11d5 62756632 		.ascii	"buf2rwBondary\000"
+ 7588 11dd 62756632 		.ascii	"buf2rwBondary\000"
  7588      7277426F 
  7588      6E646172 
  7588      7900
  7589              	.LASF209:
- 7590 11e3 43595F53 		.ascii	"CY_SCB_EZI2C_STATE_ADDR\000"
+ 7590 11eb 43595F53 		.ascii	"CY_SCB_EZI2C_STATE_ADDR\000"
  7590      43425F45 
  7590      5A493243 
  7590      5F535441 
  7590      54455F41 
  7591              	.LASF296:
- 7592 11fb 63686563 		.ascii	"checkBaseAddr\000"
+ 7592 1203 63686563 		.ascii	"checkBaseAddr\000"
  7592      6B426173 
  7592      65416464 
  7592      7200
  7593              	.LASF38:
- 7594 1209 70657269 		.ascii	"periVersion\000"
+ 7594 1211 70657269 		.ascii	"periVersion\000"
  7594      56657273 
  7594      696F6E00 
  7595              	.LASF277:
- 7596 1215 696E7472 		.ascii	"intrState\000"
+ 7596 121d 696E7472 		.ascii	"intrState\000"
  7596      53746174 
  7596      6500
  7597              	.LASF236:
- 7598 121f 62756631 		.ascii	"buf1Size\000"
+ 7598 1227 62756631 		.ascii	"buf1Size\000"
  7598      53697A65 
  7598      00
  7599              	.LASF183:
- 7600 1228 646F7562 		.ascii	"double\000"
+ 7600 1230 646F7562 		.ascii	"double\000"
  7600      6C6500
  7601              	.LASF28:
- 7602 122f 70617373 		.ascii	"passBase\000"
+ 7602 1237 70617373 		.ascii	"passBase\000"
  7602      42617365 
  7602      00
  7603              	.LASF65:
- 7604 1238 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
+ 7604 1240 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
  7604      6843746C 
  7604      4D61696E 
  7604      57733246 
  7604      72657100 
  7605              	.LASF175:
- 7606 124c 494E5452 		.ascii	"INTR_RX_SET\000"
+ 7606 1254 494E5452 		.ascii	"INTR_RX_SET\000"
  7606      5F52585F 
  7606      53455400 
  7607              	.LASF115:
- 7608 1258 52455345 		.ascii	"RESERVED1\000"
+ 7608 1260 52455345 		.ascii	"RESERVED1\000"
  7608      52564544 
  7608      3100
  7609              	.LASF47:
- 7610 1262 73727373 		.ascii	"srssNumClkpath\000"
+ 7610 126a 73727373 		.ascii	"srssNumClkpath\000"
  7610      4E756D43 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 215
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 215
 
 
  7610      6C6B7061 
  7610      746800
  7611              	.LASF109:
- 7612 1271 53544154 		.ascii	"STATUS\000"
+ 7612 1279 53544154 		.ascii	"STATUS\000"
  7612      555300
  7613              	.LASF67:
- 7614 1278 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
+ 7614 1280 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
  7614      6843746C 
  7614      4D61696E 
  7614      57733446 
  7614      72657100 
  7615              	.LASF263:
- 7616 128c 43795F53 		.ascii	"Cy_SCB_GetRxFifoLevel\000"
+ 7616 1294 43795F53 		.ascii	"Cy_SCB_GetRxFifoLevel\000"
  7616      43425F47 
  7616      65745278 
  7616      4669666F 
  7616      4C657665 
  7617              	.LASF306:
- 7618 12a2 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 7618 12aa 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  7618      43313120 
  7618      352E342E 
  7618      31203230 
  7618      31363036 
- 7619 12d5 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 7619 12dd 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
  7619      20726576 
  7619      6973696F 
  7619      6E203233 
  7619      37373135 
- 7620 1308 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
+ 7620 1310 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
  7620      70202D6D 
  7620      6670753D 
  7620      66707634 
  7620      2D73702D 
- 7621 133b 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 7621 1343 65637469 		.ascii	"ections -ffat-lto-objects\000"
  7621      6F6E7320 
  7621      2D666661 
  7621      742D6C74 
  7621      6F2D6F62 
  7622              	.LASF247:
- 7623 1355 696E7465 		.ascii	"interruptMask\000"
+ 7623 135d 696E7465 		.ascii	"interruptMask\000"
  7623      72727570 
  7623      744D6173 
  7623      6B00
  7624              	.LASF145:
- 7625 1363 455A5F44 		.ascii	"EZ_DATA\000"
+ 7625 136b 455A5F44 		.ascii	"EZ_DATA\000"
  7625      41544100 
  7626              	.LASF37:
- 7627 136b 69706356 		.ascii	"ipcVersion\000"
+ 7627 1373 69706356 		.ascii	"ipcVersion\000"
  7627      65727369 
  7627      6F6E00
  7628              	.LASF74:
- 7629 1376 70657269 		.ascii	"periTrCmdOffset\000"
+ 7629 137e 70657269 		.ascii	"periTrCmdOffset\000"
  7629      5472436D 
  7629      644F6666 
  7629      73657400 
  7630              	.LASF108:
- 7631 1386 4354524C 		.ascii	"CTRL\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cclKrTIe.s 			page 216
+ 7631 138e 4354524C 		.ascii	"CTRL\000"
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccQpkD0Q.s 			page 216
 
 
  7631      00
  7632              	.LASF200:
- 7633 138b 43595F53 		.ascii	"CY_SCB_EZI2C_BAD_PARAM\000"
+ 7633 1393 43595F53 		.ascii	"CY_SCB_EZI2C_BAD_PARAM\000"
  7633      43425F45 
  7633      5A493243 
  7633      5F424144 
  7633      5F504152 
  7634              	.LASF194:
- 7635 13a2 43595F53 		.ascii	"CY_SYSPM_AFTER_TRANSITION\000"
+ 7635 13aa 43595F53 		.ascii	"CY_SYSPM_AFTER_TRANSITION\000"
  7635      5953504D 
  7635      5F414654 
  7635      45525F54 
  7635      52414E53 
  7636              	.LASF191:
- 7637 13bc 43595F53 		.ascii	"CY_SYSPM_CHECK_READY\000"
+ 7637 13c4 43595F53 		.ascii	"CY_SYSPM_CHECK_READY\000"
  7637      5953504D 
  7637      5F434845 
  7637      434B5F52 

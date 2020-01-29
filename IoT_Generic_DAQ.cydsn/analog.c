@@ -58,7 +58,7 @@ void initADC(){
 void ADCTask(){
     // Variables for creating a periodic function using delayUntil
     TickType_t xLastWakeTime ;
-    const TickType_t xFrequency = 10000;
+    const TickType_t xFrequency = 100000;
     
     int16_t newReading = 0;
 

@@ -2,7 +2,7 @@
 --	Conversion of IoT_Generic_DAQ.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Mon Dec 09 11:43:51 2019
+--	Wed Jan 29 15:12:16 2020
 --
 
 USE cypress.cypress.all;
@@ -435,6 +435,7 @@ TERMINAL Net_1204 : bit;
 TERMINAL Net_585 : bit;
 TERMINAL Net_587 : bit;
 TERMINAL Net_589 : bit;
+SIGNAL Net_1735 : bit;
 SIGNAL tmpFB_0__O_0_net_0 : bit;
 SIGNAL tmpIO_0__O_0_net_0 : bit;
 TERMINAL tmpSIOVREF__O_0_net_0 : bit;
@@ -488,7 +489,7 @@ SIGNAL tmpFB_1__O_6_net_0 : bit;
 SIGNAL tmpIO_1__O_6_net_1 : bit;
 SIGNAL tmpIO_1__O_6_net_0 : bit;
 TERMINAL tmpSIOVREF__O_6_net_0 : bit;
-SIGNAL Net_1329 : bit;
+SIGNAL Net_1643 : bit;
 SIGNAL tmpFB_0__O_8_net_0 : bit;
 SIGNAL tmpIO_0__O_8_net_0 : bit;
 TERMINAL tmpSIOVREF__O_8_net_0 : bit;
@@ -503,10 +504,10 @@ SIGNAL Net_1324 : bit;
 SIGNAL Net_1320 : bit;
 SIGNAL Net_1308 : bit;
 SIGNAL Net_1383 : bit;
-SIGNAL Net_1643 : bit;
 SIGNAL Net_1334 : bit;
 SIGNAL Net_1325 : bit;
 SIGNAL Net_1327 : bit;
+SIGNAL Net_1733 : bit;
 SIGNAL Net_1331 : bit;
 SIGNAL Net_1429 : bit;
 SIGNAL Net_1367 : bit;
@@ -526,12 +527,12 @@ SIGNAL \T0:count\ : bit;
 SIGNAL \T0:reload\ : bit;
 SIGNAL \T0:stop\ : bit;
 SIGNAL \T0:start\ : bit;
-SIGNAL Net_1492 : bit;
+SIGNAL Net_1730 : bit;
 SIGNAL s0 : bit;
-SIGNAL Net_1524 : bit;
+SIGNAL Net_1729 : bit;
 SIGNAL \T0:Net_1\ : bit;
 SIGNAL \T0:Net_2\ : bit;
-SIGNAL Net_1490 : bit;
+SIGNAL Net_1728 : bit;
 SIGNAL \T2:capture\ : bit;
 SIGNAL \T2:count\ : bit;
 SIGNAL \T2:reload\ : bit;
@@ -574,7 +575,6 @@ SIGNAL r2 : bit;
 SIGNAL cy_srff_4 : bit;
 SIGNAL r3 : bit;
 SIGNAL \I2CDMA:tr_in\ : bit;
-SIGNAL Net_1626 : bit;
 SIGNAL Net_1628 : bit;
 SIGNAL \MODULE_1:g1:a0:newa_1\ : bit;
 SIGNAL MODIN1_1 : bit;
@@ -2222,11 +2222,11 @@ O_0:cy_mxs40_gpio_v1_0
 		id=>"600c5e9b-9cf3-4b68-9226-ad70057a197f",
 		drive_mode=>"6",
 		ibuf_enabled=>"0",
-		init_dr_st=>"0",
+		init_dr_st=>"1",
 		input_sync=>"0",
 		intr_mode=>"0",
 		io_voltage=>"",
-		output_conn=>"0",
+		output_conn=>"1",
 		oe_conn=>"0",
 		output_sync=>"0",
 		oe_sync=>"0",
@@ -2241,7 +2241,7 @@ O_0:cy_mxs40_gpio_v1_0
 		use_annotation=>"0",
 		hotswap_needed=>"0")
 	PORT MAP(oe=>(one),
-		y=>(zero),
+		y=>Net_1735,
 		fb=>(tmpFB_0__O_0_net_0),
 		analog=>(open),
 		io=>(tmpIO_0__O_0_net_0),
@@ -2534,7 +2534,7 @@ O_8:cy_mxs40_gpio_v1_0
 		use_annotation=>"0",
 		hotswap_needed=>"0")
 	PORT MAP(oe=>(one),
-		y=>Net_1329,
+		y=>Net_1643,
 		fb=>(tmpFB_0__O_8_net_0),
 		analog=>(open),
 		io=>(tmpIO_0__O_8_net_0),
@@ -2619,7 +2619,7 @@ ADC_DMA_INT_2:cy_mxs40_isr_v1_0
 	GENERIC MAP(cy_registers=>"",
 		priority=>"11")
 	PORT MAP(tr_in=>Net_1328,
-		tr_out=>Net_1329,
+		tr_out=>Net_1733,
 		interrupt=>Net_1331);
 ADC_DMA_INT_3:cy_mxs40_isr_v1_0
 	GENERIC MAP(cy_registers=>"",
@@ -2663,12 +2663,12 @@ UART_DMA_INT:cy_mxs40_isr_v1_0
 		reload=>zero,
 		stop=>zero,
 		start=>zero,
-		tr_underflow=>Net_1492,
+		tr_underflow=>Net_1730,
 		tr_compare_match=>s0,
-		tr_overflow=>Net_1524,
+		tr_overflow=>Net_1729,
 		line_compl=>\T0:Net_1\,
 		line=>\T0:Net_2\,
-		interrupt=>Net_1490);
+		interrupt=>Net_1728);
 \T2:TCPWM\:cy_mxs40_tcpwm_v1_0
 	GENERIC MAP(cy_registers=>"",
 		width=>16,
@@ -2715,7 +2715,7 @@ SRClk:cy_clock_v1_0
 	GENERIC MAP(cy_registers=>"",
 		priority=>"11")
 	PORT MAP(tr_in=>zero,
-		tr_out=>Net_1626,
+		tr_out=>Net_1735,
 		interrupt=>Net_1628);
 I2C_DMA_INT:cy_mxs40_isr_v1_0
 	GENERIC MAP(cy_registers=>"",

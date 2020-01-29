@@ -13,11 +13,12 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Data Acquisition\IoT_Generic_DAQ">
 <ExpandedNodeIds>
 <v>Data Acquisition</v>
 <v>Data Acquisition\IoT_Generic_DAQ</v>
 <v>Data Acquisition\IoT_Generic_DAQ\TopDesign</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Pins</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Analog</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\DMA</v>
@@ -73,6 +74,8 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\Si7021.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\wait.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files\cy_ble_config.h</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files\cyapicallbacks.h</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files\stdio_user.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files\stdio_user.h</v>
@@ -84,6 +87,13 @@
 <v>Data Acquisition\IoT_Generic_DAQ</v>
 <v>Data Acquisition\IoT_Generic_DAQ\TopDesign</v>
 <v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Pins</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Analog</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\DMA</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Clocks</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Interrupts</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\System</v>
+<v>Data Acquisition\IoT_Generic_DAQ\IoT_Generic_DAQ.cydwr\Directives</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM0p (Core 0)</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\ARM GCC Generic</v>
@@ -118,6 +128,11 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CM4 (Core 1)\Source Files\wait.c</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Shared Files</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files\cy_ble_config.h</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files\cyapicallbacks.h</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files\stdio_user.c</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files\stdio_user.h</v>
+<v>Data Acquisition\IoT_Generic_DAQ\Shared Files\system_psoc6.h</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Generated_Source</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -152,6 +167,7 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADCDMA_2.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADCDMA_3.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADCSOCCounter.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_dma.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
@@ -217,6 +233,7 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files\analog.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files\blink.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files\croutine.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_dma.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
@@ -298,6 +315,7 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADCDMA_2.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADCDMA_3.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADCSOCCounter.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_dma.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
@@ -336,6 +354,21 @@
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\mI2C.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
 <v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm0plus.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\T0.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\T1.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\T2.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\T3.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\Listing Files\UARTDMA.lst</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\IoT_Generic_DAQ.elf</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\IoT_Generic_DAQ.hex</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM0p\ARM_GCC_541\Debug\IoT_Generic_DAQ.map</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM4</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug</v>
+<v>Data Acquisition\IoT_Generic_DAQ\CortexM4\ARM_GCC_541\Debug\Listing Files</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -348,7 +381,7 @@
 <v>Data Acquisition</v>
 <v>Data Acquisition\IoT_Generic_DAQ</v>
 <v>Data Acquisition\IoT_Generic_DAQ\PSoC 6 Architecture TRM</v>
-<v>Data Acquisition\IoT_Generic_DAQ\PSoC 62 Family Datasheet</v>
+<v>Data Acquisition\IoT_Generic_DAQ\PSoC 63 Family Datasheet</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Peripheral Driver Library</v>
 <v>Data Acquisition\IoT_Generic_DAQ\System Reference Guides</v>
 <v>Data Acquisition\IoT_Generic_DAQ\AMuxHw_v1_50.pdf</v>
@@ -384,7 +417,7 @@
 <v>Data Acquisition</v>
 <v>Data Acquisition\IoT_Generic_DAQ</v>
 <v>Data Acquisition\IoT_Generic_DAQ\PSoC 6 Architecture TRM</v>
-<v>Data Acquisition\IoT_Generic_DAQ\PSoC 62 Family Datasheet</v>
+<v>Data Acquisition\IoT_Generic_DAQ\PSoC 63 Family Datasheet</v>
 <v>Data Acquisition\IoT_Generic_DAQ\Peripheral Driver Library</v>
 <v>Data Acquisition\IoT_Generic_DAQ\System Reference Guides</v>
 <v>Data Acquisition\IoT_Generic_DAQ\AMuxHw_v1_50.pdf</v>
@@ -429,9 +462,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\IoT_Generic_DAQ.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\IoT_Generic_DAQ.cydsn\main_cm4.c" />
 <name v=".\IoT_Generic_DAQ.cydsn\IoT_Generic_DAQ.cydwr" />
+<name v=".\IoT_Generic_DAQ.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -439,7 +472,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1594, 830" SelectedTabbedMdiWindow="d679a005-cbeb-4eea-bb14-0844e1a6a013"><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\TopDesign\TopDesign.cysch" Guid="45173a76-f31b-4dc7-819c-93b5f4538845" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9c7a3359-5237-454d-aa7f-9b2256a73ea0" /><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\main_cm4.c" Guid="5c70328f-ef2a-4a44-ab31-d6920230c547" /><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\IoT_Generic_DAQ.cydwr" Guid="d679a005-cbeb-4eea-bb14-0844e1a6a013" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1335, 989" SelectedTabbedMdiWindow="5c70328f-ef2a-4a44-ab31-d6920230c547"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9c7a3359-5237-454d-aa7f-9b2256a73ea0" /><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\main_cm4.c" Guid="5c70328f-ef2a-4a44-ab31-d6920230c547" /><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\IoT_Generic_DAQ.cydwr" Guid="d679a005-cbeb-4eea-bb14-0844e1a6a013" /></TabbedMdiContainer><TabbedMdiContainer Size="1338, 989" SelectedTabbedMdiWindow="45173a76-f31b-4dc7-819c-93b5f4538845"><DocumentWindow Key="C:\Users\stijn\Dropbox\Work\PhD\Projects\PSoC Creator\Data Acquisition\IoT_Generic_DAQ.cydsn\TopDesign\TopDesign.cysch" Guid="45173a76-f31b-4dc7-819c-93b5f4538845" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

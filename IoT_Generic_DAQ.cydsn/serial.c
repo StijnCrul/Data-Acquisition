@@ -73,7 +73,9 @@ void selectUARTDMADescriptors(int sensor){
     	                    Cy_DMA_Channel_Enable(UARTDMA_HW, UARTDMA_DW_CHANNEL);
                             sending = true;
                             break;
-            case RHT:       Cy_DMA_Channel_SetDescriptor(UARTDMA_HW, UARTDMA_DW_CHANNEL, &UARTDMA_Descriptor_Temp_Command);     // set descriptor to send i2c data
+            case RHT:       //Cy_DMA_Channel_SetDescriptor(UARTDMA_HW, UARTDMA_DW_CHANNEL, &UARTDMA_Descriptor_Analog0_Command);
+    	                    //Cy_DMA_Channel_Enable(UARTDMA_HW, UARTDMA_DW_CHANNEL);
+                            Cy_DMA_Channel_SetDescriptor(UARTDMA_HW, UARTDMA_DW_CHANNEL, &UARTDMA_Descriptor_Temp_Command);     // set descriptor to send i2c data
     	                    Cy_DMA_Channel_Enable(UARTDMA_HW, UARTDMA_DW_CHANNEL);
                             sending = true;
                             break;
@@ -156,7 +158,7 @@ void configureUARTDMA(){
     }
     
     // Initialize the DMA channel 
-    channelConfig.descriptor  = &UARTDMA_Descriptor_Analog0_Command;
+    channelConfig.descriptor  = &UARTDMA_Descriptor_Temp_Command;
     channelConfig.preemptable = UARTDMA_PREEMPTABLE;
     channelConfig.priority    = UARTDMA_PRIORITY;
     channelConfig.enable      = false;

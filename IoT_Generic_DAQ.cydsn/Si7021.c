@@ -164,7 +164,7 @@ void Si7021Task(void *masterTransfer){
     masterTransferCfg = *(cy_stc_scb_i2c_master_xfer_config_t *) masterTransfer;
     
     TickType_t xLastWakeTime;
-    const TickType_t xFrequency = 60000;
+    const TickType_t xFrequency = 50000;
       
     xLastWakeTime = xTaskGetTickCount();    
     

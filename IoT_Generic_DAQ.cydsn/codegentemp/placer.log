@@ -6,7 +6,7 @@
 
 #Build Date:         Dec  5 2017 15:35:27
 
-#File Generated:     Dec 9 2019 11:44:02
+#File Generated:     Jan 29 2020 15:12:28
 
 #Purpose:            
 
@@ -14,7 +14,7 @@
 
 #***************************************************************************
 
-Executing : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjplacer.exe --proj-name IoT_Generic_DAQ --netlist-vh2 IoT_Generic_DAQ_p.vh2 --arch p6_udb2x6 --arch-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\arch/udbdsi2_2x6_12.cydata --ip-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/ip_blocks.cydata --rrg-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/route_arch-rrg.cydata --irq-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/irqconn.cydata --drq-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/triggerconn.cydata --dsi-conn-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/dsiconn.cydata --pins-file pins_124-BGA.xml --lib-file IoT_Generic_DAQ_p.lib --sdc-file IoT_Generic_DAQ.sdc --io-pcf IoT_Generic_DAQ.pci --outdir .
+Executing : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjplacer.exe --proj-name IoT_Generic_DAQ --netlist-vh2 IoT_Generic_DAQ_p.vh2 --arch p6_udb2x6 --arch-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\arch/udbdsi2_2x6_12.cydata --ip-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/ip_blocks.cydata --rrg-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/route_arch-rrg.cydata --irq-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/irqconn.cydata --drq-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/triggerconn.cydata --dsi-conn-file C:\Users\stijn\OneDrive\Documenten\PSoC Creator\4.2\Devices\psoc6/0/dsiconn.cydata --pins-file pins_116-BGA-BLE.xml --lib-file IoT_Generic_DAQ_p.lib --sdc-file IoT_Generic_DAQ.sdc --io-pcf IoT_Generic_DAQ.pci --outdir .
 
 		Softjin Techologies Placer, Version 1.1
 
@@ -55,7 +55,7 @@ Design Statistics after Packing
 Device Utilization Summary after Packing
     Macrocells                  :	17/96
     UDBS                        :	3/12
-    IOs                         :	24/104
+    IOs                         :	24/96
 
 
 D2088: Phase 3, elapsed time : 0.0 (sec)
@@ -135,7 +135,7 @@ Final Design Statistics
 
 Device Utilization Summary
     Macrocells                  :	17/96
-    IOs                         :	24/104
+    IOs                         :	24/96
 
 
 
@@ -163,7 +163,7 @@ Clock: CyFLL                | Frequency: N/A       | Target: 100.0 MHz
 Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
 Clock: CyIMO                | Frequency: N/A       | Target:   8.0 MHz
 Clock: CyPeriClk_App        | Frequency: N/A       | Target:  50.0 MHz
-Clock: SRClk_App            | Frequency: 153.5 MHz | Target:  27.0 MHz
+Clock: SRClk_App            | Frequency: 167.6 MHz | Target:  27.0 MHz
 Clock: UART_SCBCLK          | Frequency: N/A       | Target:   5.6 MHz
 Clock: mI2C_SCBCLK          | Frequency: N/A       | Target:   8.3 MHz
 
@@ -176,5 +176,5 @@ D2088: Phase 8, elapsed time : 0.0 (sec)
 
 D2054: Placement of the design completed successfully
 
-I2076: Total run-time: 1.0 sec.
+I2076: Total run-time: 0.8 sec.
 

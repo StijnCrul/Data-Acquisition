@@ -26,7 +26,7 @@ extern "C" {
 #endif
 
 #define UARTDMA_DW_BLOCK       (0u)
-#define UARTDMA_DW_CHANNEL     (2u)
+#define UARTDMA_DW_CHANNEL     (3u)
 #define UARTDMA_HW             (DW0)
 #define UARTDMA_INTR_MASK      (CY_DMA_INTR_MASK)
 

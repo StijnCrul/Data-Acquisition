@@ -28,12 +28,12 @@ uint8_t T0_initVar = 0U;
 */ 
 cy_stc_tcpwm_counter_config_t const T0_config =
 {
-        .period = 1133UL,
+        .period = 1100UL,
         .clockPrescaler = 0UL,
         .runMode = 0UL,
         .countDirection = 0UL,
         .compareOrCapture = 0UL,
-        .compare0 = 1133UL,
+        .compare0 = 1100UL,
         .compare1 = 16384UL,
         .enableCompareSwap = false,
         .interruptSources = 0UL,

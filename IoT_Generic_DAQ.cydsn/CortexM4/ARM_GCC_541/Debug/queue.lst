@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
   26:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c ****  */
   27:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
   28:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** #include <stdlib.h>
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 2
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 2
 
 
   29:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** #include <string.h>
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
   83:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** /*
   84:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c ****  * Definition of the queue used by the scheduler.
   85:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c ****  * Items are queued by copy, not reference.  See the following link for the
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 3
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 3
 
 
   86:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c ****  * rationale: http://www.freertos.org/Embedded-RTOS-Queues.html
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  140:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	typedef struct QUEUE_REGISTRY_ITEM
  141:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	{
  142:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		const char *pcQueueName; /*lint !e971 Unqualified char types are allowed for strings and single c
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 4
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 4
 
 
  143:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		QueueHandle_t xHandle;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  197:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	 */
  198:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	static BaseType_t prvNotifyQueueSetContainer( const Queue_t * const pxQueue, const BaseType_t xCop
  199:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** #endif
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 5
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 5
 
 
  200:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
   35              		.cfi_def_cfa_offset 8
   36              		.cfi_offset 7, -8
   37              		.cfi_offset 14, -4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 6
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 6
 
 
   38 0002 84B0     		sub	sp, sp, #16
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
   36:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** /*-----------------------------------------------------------
   37:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h ****  * Port specific definitions.
   38:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h ****  *
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 7
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 7
 
 
   39:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h ****  * The settings in this file configure FreeRTOS correctly for the
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
   93:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** #define portYIELD_FROM_ISR( x ) portEND_SWITCHING_ISR( x )
   94:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** /*-----------------------------------------------------------*/
   95:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 8
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 8
 
 
   96:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** /* Critical section management. */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  150:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** /*-----------------------------------------------------------*/
  151:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** 
  152:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** portFORCE_INLINE static void vPortRaiseBASEPRI( void )
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 9
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 9
 
 
  153:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** {
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
   97 0054 FB68     		ldr	r3, [r7, #12]
   98 0056 DB6B     		ldr	r3, [r3, #60]
   99 0058 013B     		subs	r3, r3, #1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 10
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 10
 
 
  100 005a F968     		ldr	r1, [r7, #12]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  139              	@ 273 "Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\queue.c" 1
  140 00a2 BFF36F8F 		isb
  141              	@ 0 "" 2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 11
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 11
 
 
  142              		.thumb
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  172 00cc 04ED00E0 		.word	-536810236
  173              		.cfi_endproc
  174              	.LFE136:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 12
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 12
 
 
  175              		.size	xQueueGenericReset, .-xQueueGenericReset
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  343:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			prvInitialiseNewQueue( uxQueueLength, uxItemSize, pucQueueStorage, ucQueueType, pxNewQueue );
  344:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
  345:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		else
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 13
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 13
 
 
  346:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  219              	.LBE93:
  220              	.LBE92:
  221              		.loc 1 364 0 discriminator 1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 14
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 14
 
 
  222 0026 FEE7     		b	.L11
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  388:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				/* Queues can be created either statically or dynamically, so
  389:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				note this task was created dynamically in case it is later
  390:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				deleted. */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 15
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 15
 
 
  391:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				pxNewQueue->ucStaticallyAllocated = pdFALSE;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  288              		.cfi_def_cfa_offset 8
  289              		.cfi_offset 7, -8
  290              		.cfi_offset 14, -4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 16
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 16
 
 
  291 0002 84B0     		sub	sp, sp, #16
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  322              		.loc 1 432 0
  323 002e 0121     		movs	r1, #1
  324 0030 B869     		ldr	r0, [r7, #24]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 17
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 17
 
 
  325 0032 FFF7FEFF 		bl	xQueueGenericReset
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  467:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
  468:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			/* Start with the semaphore in the expected state. */
  469:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			( void ) xQueueGenericSend( pxNewQueue, NULL, ( TickType_t ) 0U, queueSEND_TO_BACK );
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 18
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 18
 
 
  470:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  524:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		calling task is the mutex holder, but not a good way of determining the
  525:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		identity of the mutex holder, as the holder may change between the
  526:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		following critical section exiting and the function returning. */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 19
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 19
 
 
  527:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		taskENTER_CRITICAL();
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  581:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		/* If this is the task that holds the mutex then pxMutexHolder will not
  582:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		change outside of this task.  If this task does not hold the mutex then
  583:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		pxMutexHolder can never coincidentally equal the tasks handle, and as
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 20
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 20
 
 
  584:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		this is the only condition we are interested in it does not matter if
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  638:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
  639:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		traceTAKE_MUTEX_RECURSIVE( pxMutex );
  640:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 21
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 21
 
 
  641:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		if( pxMutex->pxMutexHolder == ( void * ) xTaskGetCurrentTaskHandle() ) /*lint !e961 Cast is not r
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  695:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** /*-----------------------------------------------------------*/
  696:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
  697:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** #if( ( configUSE_COUNTING_SEMAPHORES == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 22
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 22
 
 
  698:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  730:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
  731:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	configASSERT( pxQueue );
  367              		.loc 1 731 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 23
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 23
 
 
  368 0016 3B6B     		ldr	r3, [r7, #48]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  421              	@ 0 "" 2
  422              		.thumb
  423              		.syntax unified
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 24
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 24
 
 
  424 0058 3B62     		str	r3, [r7, #32]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  474 008e 002B     		cmp	r3, #0
  475 0090 02D1     		bne	.L32
  476              		.loc 1 736 0 is_stmt 0 discriminator 2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 25
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 25
 
 
  477 0092 7B68     		ldr	r3, [r7, #4]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  515 00bc 9A6B     		ldr	r2, [r3, #56]
  516 00be 3B6B     		ldr	r3, [r7, #48]
  517 00c0 DB6B     		ldr	r3, [r3, #60]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 26
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 26
 
 
  518 00c2 9A42     		cmp	r2, r3
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  794:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 							/* This path is a special case that will only get
  795:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 							executed if the task was holding multiple mutexes
  796:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 							and the mutexes were given back in an order that is
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 27
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 27
 
 
  797:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 							different to that in which they were taken. */
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  823:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 						}
  824:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					}
  825:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					else if( xYieldRequired != pdFALSE )
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 28
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 28
 
 
  559              		.loc 1 825 0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  850:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
  851:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					/* Return to the original privilege level before exiting
  852:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					the function. */
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 29
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 29
 
 
  853:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					traceQUEUE_SEND_FAILED( pxQueue );
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  619 0160 83F84420 		strb	r2, [r3, #68]
  620              	.L44:
  621              		.loc 1 876 0 discriminator 3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 30
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 30
 
 
  622 0164 3B6B     		ldr	r3, [r7, #48]
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  894:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				ready list into the ready list - so it is feasible that this
  895:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				task is already in a ready list before it yields - in which
  896:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				case the yield will not cause a context switch unless there
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 31
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 31
 
 
  897:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				is also a higher priority task in the pending ready list. */
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  692 01e6 0023     		movs	r3, #0
  693              	.L51:
  918:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 32
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 32
 
 
  919:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	}
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  737 0012 3B6B     		ldr	r3, [r7, #48]
  738 0014 002B     		cmp	r3, #0
  739 0016 09D1     		bne	.L55
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 33
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 33
 
 
  740              	.LBB102:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  793 0054 BB61     		str	r3, [r7, #24]
  794              	.L61:
  795              	.LBE105:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 34
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 34
 
 
  796              	.LBE104:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  941:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	Only FreeRTOS functions that end in FromISR can be called from interrupts
  942:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	that have been assigned a priority at or (logically) below the maximum
  943:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	system call	interrupt priority.  FreeRTOS maintains a separate interrupt
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 35
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 35
 
 
  944:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	safe API to ensure interrupt entry is as fast and as simple as possible.
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  948:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
  949:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	/* Similar to xQueueGenericSend, except without blocking if there is no room
  950:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	in the queue.  Also don't directly wake a task that was blocked on a queue
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 36
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 36
 
 
  951:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	read, instead return a flag to say whether a context switch is required or
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  977:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 						if( prvNotifyQueueSetContainer( pxQueue, xCopyPosition ) != pdFALSE )
  978:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 						{
  979:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 							/* The queue is a member of a queue set, and posting
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 37
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 37
 
 
  980:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 							to the queue set caused a higher priority task to
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  895              		.loc 1 1028 0
  896 00dc 3B6B     		ldr	r3, [r7, #48]
  897 00de 2433     		adds	r3, r3, #36
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 38
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 38
 
 
  898 00e0 1846     		mov	r0, r3
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1060:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			xReturn = pdPASS;
  921              		.loc 1 1060 0
  922 010a 0123     		movs	r3, #1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 39
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 39
 
 
  923 010c 7B63     		str	r3, [r7, #52]
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  959              		.section	.text.xQueueGiveFromISR,"ax",%progbits
  960              		.align	2
  961              		.global	xQueueGiveFromISR
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 40
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 40
 
 
  962              		.thumb
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1000              		.syntax unified
  1001 0024 3B61     		str	r3, [r7, #16]
  1002              	.L76:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 41
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 41
 
 
  1003              	.LBE114:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1047              	.L80:
  1048              		.loc 1 1095 0 discriminator 4
  1049 0058 0023     		movs	r3, #0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 42
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 42
 
 
  1050              	.L81:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1086              	
  1087              	@ 0 "" 2
  1088              		.thumb
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 43
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 43
 
 
  1089              		.syntax unified
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1135:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			be done when the queue is unlocked later. */
 1136:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			if( cTxLock == queueUNLOCKED )
  1119              		.loc 1 1136 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 44
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 44
 
 
  1120 00b4 97F92330 		ldrsb	r3, [r7, #35]
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1188:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				}
 1189:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				#else /* configUSE_QUEUE_SETS */
 1190:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 45
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 45
 
 
 1191:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					if( listLIST_IS_EMPTY( &( pxQueue->xTasksWaitingToReceive ) ) == pdFALSE )
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1222:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				pxQueue->cTxLock = ( int8_t ) ( cTxLock + 1 );
  1146              		.loc 1 1222 0
  1147 00e4 97F82330 		ldrb	r3, [r7, #35]	@ zero_extendqisi2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 46
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 46
 
 
  1148 00e8 0133     		adds	r3, r3, #1
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1188 0110 80BD     		pop	{r7, pc}
  1189              		.cfi_endproc
  1190              	.LFE141:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 47
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 47
 
 
  1191              		.size	xQueueGiveFromISR, .-xQueueGiveFromISR
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1234              	
  1235              	@ 0 "" 2
  1236              		.thumb
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 48
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 48
 
 
  1237              		.syntax unified
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1252:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	/* Cannot block if the scheduler is suspended. */
 1253:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	#if ( ( INCLUDE_xTaskGetSchedulerState == 1 ) || ( configUSE_TIMERS == 1 ) )
 1254:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 49
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 49
 
 
 1255:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		configASSERT( !( ( xTaskGetSchedulerState() == taskSCHEDULER_SUSPENDED ) && ( xTicksToWait != 0 )
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1326 0088 FFF7FEFF 		bl	vPortEnterCritical
  1327              	.LBB131:
 1267:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 50
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 50
 
 
 1268:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			const UBaseType_t uxMessagesWaiting = pxQueue->uxMessagesWaiting;
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1363              	@ 1286 "Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\queue.c" 1
  1364 00c8 BFF34F8F 		dsb
  1365              	@ 0 "" 2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 51
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 51
 
 
  1366              	@ 1286 "Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source\queue.c" 1
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1315:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					vTaskInternalSetTimeOutState( &xTimeOut );
  1392              		.loc 1 1315 0
  1393 00ec 07F11003 		add	r3, r7, #16
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 52
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 52
 
 
  1394 00f0 1846     		mov	r0, r3
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1334:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		if( xTaskCheckForTimeOut( &xTimeOut, &xTicksToWait ) == pdFALSE )
  1430              		.loc 1 1334 0 is_stmt 1 discriminator 6
  1431 0136 3A1D     		adds	r2, r7, #4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 53
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 53
 
 
  1432 0138 07F11003 		add	r3, r7, #16
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1346:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				}
 1347:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				else
 1348:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 54
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 54
 
 
 1349:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					mtCOVERAGE_TEST_MARKER();
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1499              		.cfi_def_cfa_offset 8
  1500 01b0 BD46     		mov	sp, r7
  1501              		.cfi_def_cfa_register 13
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 55
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 55
 
 
  1502              		@ sp needed
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1542 0016 09D1     		bne	.L118
  1543              	.LBB132:
  1544              	.LBB133:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 56
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 56
 
 
  156:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** 	(
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1588              		.loc 1 1401 0
  1589 0048 FFF7FEFF 		bl	xTaskGetSchedulerState
  1590 004c 0346     		mov	r3, r0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 57
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 57
 
 
  1591 004e 002B     		cmp	r3, #0
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1415:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			number of messages in the queue is the semaphore's count value. */
 1416:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			const UBaseType_t uxSemaphoreCount = pxQueue->uxMessagesWaiting;
  1631              		.loc 1 1416 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 58
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 58
 
 
  1632 007a 3B6A     		ldr	r3, [r7, #32]
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1655 00a2 002B     		cmp	r3, #0
  1656 00a4 07D0     		beq	.L128
 1448:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 59
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 59
 
 
 1449:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 						queueYIELD_IF_USING_PREEMPTION();
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1479:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					taskEXIT_CRITICAL();
  1681              		.loc 1 1479 0
  1682 00c4 FFF7FEFF 		bl	vPortExitCritical
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 60
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 60
 
 
 1480:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					traceQUEUE_RECEIVE_FAILED( pxQueue );
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1713 00fc 0022     		movs	r2, #0
  1714 00fe 83F84420 		strb	r2, [r3, #68]
  1715              	.L132:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 61
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 61
 
 
  1716              		.loc 1 1503 0 discriminator 3
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1530:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				}
 1531:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				#endif
 1532:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 62
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 62
 
 
 1533:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				vTaskPlaceOnEventList( &( pxQueue->xTasksWaitingToReceive ), xTicksToWait );
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1550:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			}
 1551:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
 1552:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		else
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 63
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 63
 
 
 1553:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1593:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				mtCOVERAGE_TEST_MARKER();
 1594:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			}
 1595:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 64
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 64
 
 
 1596:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	}
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1606:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
 1607:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	/* Check the pointer is not NULL. */
 1608:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	configASSERT( ( pxQueue ) );
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 65
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 65
 
 
  1839              		.loc 1 1608 0
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1887              	@ 156 "Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h" 1
  1888 0046 4FF03F03 			mov r3, #63												
  1889 004a 83F31188 		msr basepri, r3											
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 66
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 66
 
 
  1890 004e BFF36F8F 		isb														
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  1938              	.LBE144:
  1939              	.LBE143:
  1940              		.loc 1 1617 0 discriminator 3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 67
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 67
 
 
  1941 0086 FEE7     		b	.L153
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1647:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				/* The data is being left in the queue, so see if there are
 1648:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				any other tasks waiting for the data. */
 1649:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				if( listLIST_IS_EMPTY( &( pxQueue->xTasksWaitingToReceive ) ) == pdFALSE )
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 68
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 68
 
 
  1966              		.loc 1 1649 0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1671:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				if( xTicksToWait == ( TickType_t ) 0 )
  1999              		.loc 1 1671 0
  2000 00dc 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 69
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 69
 
 
  2001 00de 002B     		cmp	r3, #0
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2026              		.loc 1 1700 0
  2027 0106 FFF7FEFF 		bl	vPortEnterCritical
  2028 010a 3B6B     		ldr	r3, [r7, #48]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 70
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 70
 
 
  2029 010c 93F84430 		ldrb	r3, [r3, #68]
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1711:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				prvUnlockQueue( pxQueue );
  2073              		.loc 1 1711 0
  2074 0168 386B     		ldr	r0, [r7, #48]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 71
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 71
 
 
  2075 016a FFF7FEFF 		bl	prvUnlockQueue
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2106              		.loc 1 1734 0
  2107 019c FFF7FEFF 		bl	xTaskResumeAll
 1735:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 72
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 72
 
 
 1736:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			if( prvIsQueueEmpty( pxQueue ) != pdFALSE )
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2146              		.cfi_offset 7, -8
  2147              		.cfi_offset 14, -4
  2148 0002 8EB0     		sub	sp, sp, #56
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 73
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 73
 
 
  2149              		.cfi_def_cfa_offset 64
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2196              		.loc 1 1757 0 discriminator 4
  2197 003c 0023     		movs	r3, #0
  2198              	.L173:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 74
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 74
 
 
  2199              		.loc 1 1757 0 discriminator 6
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2235              	@ 0 "" 2
  2236              		.thumb
  2237              		.syntax unified
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 75
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 75
 
 
  2238 006e FA61     		str	r2, [r7, #28]
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2271 00a0 B3F1FF3F 		cmp	r3, #-1
  2272 00a4 12D1     		bne	.L178
 1794:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 76
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 76
 
 
 1795:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				if( listLIST_IS_EMPTY( &( pxQueue->xTasksWaitingToSend ) ) == pdFALSE )
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2297 00cc 97F82330 		ldrb	r3, [r7, #35]	@ zero_extendqisi2
  2298 00d0 0133     		adds	r3, r3, #1
  2299 00d2 DBB2     		uxtb	r3, r3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 77
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 77
 
 
  2300 00d4 5AB2     		sxtb	r2, r3
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2340              	.LFE145:
  2341              		.size	xQueueReceiveFromISR, .-xQueueReceiveFromISR
  2342 00fa 00BF     		.section	.text.xQueuePeekFromISR,"ax",%progbits
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 78
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 78
 
 
  2343              		.align	2
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2386              	.LBE157:
  2387              	.LBE156:
  2388              		.loc 1 1848 0 discriminator 1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 79
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 79
 
 
  2389 0026 FEE7     		b	.L184
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2439              		.syntax unified
  2440              	@ 156 "Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h" 1
  2441 005c 4FF03F03 			mov r3, #63												
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 80
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 80
 
 
  2442 0060 83F31188 		msr basepri, r3											
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1867:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
 1868:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	uxSavedInterruptStatus = portSET_INTERRUPT_MASK_FROM_ISR();
  2478              		.loc 1 1868 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 81
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 81
 
 
  2479 008e 3B62     		str	r3, [r7, #32]
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2516              		.thumb
  2517              		.syntax unified
  2518              	.LBE165:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 82
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 82
 
 
  2519              	.LBE164:
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2559              	.LBB167:
  156:Generated_Source\PSoC6\pdl\rtos/FreeRTOS/10.0.1/Source/portable/GCC/CM4F/portmacro.h **** 	(
  2560              		.loc 2 156 0 discriminator 1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 83
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 83
 
 
  2561              		.syntax unified
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2606              	.LFB148:
 1909:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** /*-----------------------------------------------------------*/
 1910:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 84
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 84
 
 
 1911:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** UBaseType_t uxQueueSpacesAvailable( const QueueHandle_t xQueue )
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2649              		.loc 1 1921 0
  2650 002a 7B69     		ldr	r3, [r7, #20]
  2651 002c DA6B     		ldr	r2, [r3, #60]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 85
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 85
 
 
  2652 002e 7B69     		ldr	r3, [r7, #20]
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2694 000a 002B     		cmp	r3, #0
  2695 000c 09D1     		bne	.L205
  2696              	.LBB170:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 86
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 86
 
 
  2697              	.LBB171:
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1940:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
 1941:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** void vQueueDelete( QueueHandle_t xQueue )
 1942:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** {
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 87
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 87
 
 
  2744              		.loc 1 1942 0
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1953:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
 1954:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	#if( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 0 ) )
 1955:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 88
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 88
 
 
 1956:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		/* The queue can only have been allocated dynamically - free it
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 1989:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
 1990:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** #endif /* configUSE_TRACE_FACILITY */
 1991:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** /*-----------------------------------------------------------*/
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 89
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 89
 
 
 1992:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2812 0000 80B5     		push	{r7, lr}
  2813              		.cfi_def_cfa_offset 8
  2814              		.cfi_offset 7, -8
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 90
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 90
 
 
  2815              		.cfi_offset 14, -4
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2842 0028 FB68     		ldr	r3, [r7, #12]
  2843 002a 1B6C     		ldr	r3, [r3, #64]
  2844 002c 1A46     		mov	r2, r3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 91
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 91
 
 
  2845 002e B968     		ldr	r1, [r7, #8]
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  2885 0076 DA60     		str	r2, [r3, #12]
 2083:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		if( pxQueue->u.pcReadFrom < pxQueue->pcHead ) /*lint !e946 MISRA exception justified as compariso
  2886              		.loc 1 2083 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 92
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 92
 
 
  2887 0078 FB68     		ldr	r3, [r7, #12]
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2109:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			mtCOVERAGE_TEST_MARKER();
 2110:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
 2111:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	}
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 93
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 93
 
 
 2112:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2122:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	{
 2123:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		pxQueue->u.pcReadFrom += pxQueue->uxItemSize;
  2960              		.loc 1 2123 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 94
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 94
 
 
  2961 0012 7B68     		ldr	r3, [r7, #4]
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3004              		.thumb_func
  3005              		.type	prvUnlockQueue, %function
  3006              	prvUnlockQueue:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 95
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 95
 
 
  3007              	.LFB153:
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2165:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					else
 2166:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					{
 2167:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 						mtCOVERAGE_TEST_MARKER();
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 96
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 96
 
 
 2168:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					}
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2206:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					else
 2207:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					{
 2208:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 						mtCOVERAGE_TEST_MARKER();
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 97
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 97
 
 
 2209:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					}
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3077 005e 11E0     		b	.L226
  3078              	.L230:
 2231:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 98
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 98
 
 
 2232:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			if( listLIST_IS_EMPTY( &( pxQueue->xTasksWaitingToSend ) ) == pdFALSE )
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3112 0092 FF22     		movs	r2, #255
  3113 0094 83F84420 		strb	r2, [r3, #68]
  3114              	.LBE175:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 99
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 99
 
 
 2252:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	}
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3155              		.loc 1 2265 0
  3156 0014 0123     		movs	r3, #1
  3157 0016 FB60     		str	r3, [r7, #12]
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 100
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 100
 
 
  3158 0018 01E0     		b	.L235
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3198              		.cfi_def_cfa_register 7
  3199 0006 7860     		str	r0, [r7, #4]
 2280:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** BaseType_t xReturn;
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 101
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 101
 
 
 2281:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3240              		.loc 1 2293 0
  3241 0036 1846     		mov	r0, r3
  3242 0038 1437     		adds	r7, r7, #20
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 102
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 102
 
 
  3243              		.cfi_def_cfa_offset 4
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3286 001c 01E0     		b	.L245
  3287              	.L244:
 2305:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 103
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 103
 
 
 2306:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		else
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2320:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
 2321:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	configASSERT( xQueue );
  3328              		.loc 1 2321 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 104
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 104
 
 
  3329 0008 7B68     		ldr	r3, [r7, #4]
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3371 003a 1846     		mov	r0, r3
  3372 003c 1437     		adds	r7, r7, #20
  3373              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 105
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 105
 
 
  3374 003e BD46     		mov	sp, r7
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2369:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
 2370:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			if( pxQueue->uxMessagesWaiting < pxQueue->uxLength )
 2371:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 106
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 106
 
 
 2372:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				/* There is room in the queue, copy the data into the queue. */
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2426:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				/* There are no messages in the queue, do we want to block or just
 2427:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				leave with nothing? */
 2428:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				if( xTicksToWait > ( TickType_t ) 0 )
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 107
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 107
 
 
 2429:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				{
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2483:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				}
 2484:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				else
 2485:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 108
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 108
 
 
 2486:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 					mtCOVERAGE_TEST_MARKER();
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2540:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
 2541:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			mtCOVERAGE_TEST_MARKER();
 2542:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 109
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 109
 
 
 2543:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2597:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 			xReturn = pdPASS;
 2598:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		}
 2599:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		else
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 110
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 110
 
 
 2600:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2624:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 				xQueueRegistry[ ux ].xHandle = xQueue;
  3422              		.loc 1 2624 0
  3423 0026 094A     		ldr	r2, .L258
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 111
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 111
 
 
  3424 0028 FB68     		ldr	r3, [r7, #12]
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3466              	pcQueueGetName:
  3467              	.LFB159:
 2635:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 112
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 112
 
 
 2636:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** #endif /* configQUEUE_REGISTRY_SIZE */
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3504 002c 05E0     		b	.L263
  3505              	.L262:
 2648:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 113
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 113
 
 
  3506              		.loc 1 2648 0 discriminator 2
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
 2669:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	void vQueueUnregisterQueue( QueueHandle_t xQueue )
 2670:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 	{
  3544              		.loc 1 2670 0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 114
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 114
 
 
  3545              		.cfi_startproc
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3583              		.loc 1 2686 0
  3584 0034 05E0     		b	.L271
  3585              	.L270:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 115
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 115
 
 
 2675:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		{
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3622              		.loc 1 2702 0
  3623              		.cfi_startproc
  3624              		@ args = 0, pretend = 0, frame = 24
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 116
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 116
 
 
  3625              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3662              	.L277:
  3663              		.loc 1 2719 0 discriminator 6
  3664 0040 FFF7FEFF 		bl	vPortExitCritical
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 117
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 117
 
 
 2720:Generated_Source\PSoC6\pdl\rtos\FreeRTOS\10.0.1\Source/queue.c **** 		if( pxQueue->uxMessagesWaiting == ( UBaseType_t ) 0U )
@@ -7015,13 +7015,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3705 0006 00000000 		.4byte	.Ldebug_abbrev0
  3706 000a 04       		.byte	0x4
  3707 000b 01       		.uleb128 0x1
- 3708 000c 28070000 		.4byte	.LASF121
+ 3708 000c 30070000 		.4byte	.LASF121
  3709 0010 0C       		.byte	0xc
- 3710 0011 1B050000 		.4byte	.LASF122
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 118
+ 3710 0011 23050000 		.4byte	.LASF122
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 118
 
 
- 3711 0015 AD040000 		.4byte	.LASF123
+ 3711 0015 73020000 		.4byte	.LASF123
  3712 0019 00000000 		.4byte	.Ldebug_ranges0+0
  3713 001d 00000000 		.4byte	0
  3714 0021 00000000 		.4byte	.Ldebug_line0
@@ -7033,7 +7033,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3720 0030 03       		.uleb128 0x3
  3721 0031 04       		.byte	0x4
  3722 0032 07       		.byte	0x7
- 3723 0033 67040000 		.4byte	.LASF0
+ 3723 0033 C4040000 		.4byte	.LASF0
  3724 0037 04       		.uleb128 0x4
  3725 0038 04       		.byte	0x4
  3726 0039 05       		.byte	0x5
@@ -7045,7 +7045,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3732 0045 03       		.uleb128 0x3
  3733 0046 08       		.byte	0x8
  3734 0047 04       		.byte	0x4
- 3735 0048 CE050000 		.4byte	.LASF2
+ 3735 0048 D6050000 		.4byte	.LASF2
  3736 004c 02       		.uleb128 0x2
  3737 004d 5C010000 		.4byte	.LASF4
  3738 0051 04       		.byte	0x4
@@ -7056,29 +7056,29 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3743 0059 06       		.byte	0x6
  3744 005a 9A010000 		.4byte	.LASF5
  3745 005e 02       		.uleb128 0x2
- 3746 005f BB050000 		.4byte	.LASF6
+ 3746 005f C3050000 		.4byte	.LASF6
  3747 0063 04       		.byte	0x4
  3748 0064 1D       		.byte	0x1d
  3749 0065 69000000 		.4byte	0x69
  3750 0069 03       		.uleb128 0x3
  3751 006a 01       		.byte	0x1
  3752 006b 08       		.byte	0x8
- 3753 006c 59040000 		.4byte	.LASF7
+ 3753 006c B6040000 		.4byte	.LASF7
  3754 0070 03       		.uleb128 0x3
  3755 0071 02       		.byte	0x2
  3756 0072 05       		.byte	0x5
- 3757 0073 89040000 		.4byte	.LASF8
+ 3757 0073 E6040000 		.4byte	.LASF8
  3758 0077 03       		.uleb128 0x3
  3759 0078 02       		.byte	0x2
  3760 0079 07       		.byte	0x7
- 3761 007a 03030000 		.4byte	.LASF9
+ 3761 007a 60030000 		.4byte	.LASF9
  3762 007e 02       		.uleb128 0x2
- 3763 007f 3C060000 		.4byte	.LASF10
+ 3763 007f 44060000 		.4byte	.LASF10
  3764 0083 04       		.byte	0x4
  3765 0084 3F       		.byte	0x3f
  3766 0085 89000000 		.4byte	0x89
  3767 0089 03       		.uleb128 0x3
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 119
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 119
 
 
  3768 008a 04       		.byte	0x4
@@ -7092,7 +7092,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3776 009b 03       		.uleb128 0x3
  3777 009c 04       		.byte	0x4
  3778 009d 07       		.byte	0x7
- 3779 009e B7020000 		.4byte	.LASF13
+ 3779 009e 14030000 		.4byte	.LASF13
  3780 00a2 03       		.uleb128 0x3
  3781 00a3 08       		.byte	0x8
  3782 00a4 07       		.byte	0x7
@@ -7100,13 +7100,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3784 00a9 03       		.uleb128 0x3
  3785 00aa 04       		.byte	0x4
  3786 00ab 07       		.byte	0x7
- 3787 00ac EE060000 		.4byte	.LASF15
+ 3787 00ac F6060000 		.4byte	.LASF15
  3788 00b0 05       		.uleb128 0x5
  3789 00b1 04       		.byte	0x4
  3790 00b2 03       		.uleb128 0x3
  3791 00b3 01       		.byte	0x1
  3792 00b4 08       		.byte	0x8
- 3793 00b5 ED050000 		.4byte	.LASF16
+ 3793 00b5 F5050000 		.4byte	.LASF16
  3794 00b9 06       		.uleb128 0x6
  3795 00ba 04       		.byte	0x4
  3796 00bb BF000000 		.4byte	0xbf
@@ -7117,32 +7117,32 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3801 00c6 CA000000 		.4byte	0xca
  3802 00ca 08       		.uleb128 0x8
  3803 00cb 02       		.uleb128 0x2
- 3804 00cc 7E060000 		.4byte	.LASF17
+ 3804 00cc 86060000 		.4byte	.LASF17
  3805 00d0 05       		.byte	0x5
  3806 00d1 14       		.byte	0x14
  3807 00d2 4C000000 		.4byte	0x4c
  3808 00d6 02       		.uleb128 0x2
- 3809 00d7 D1060000 		.4byte	.LASF18
+ 3809 00d7 D9060000 		.4byte	.LASF18
  3810 00db 05       		.byte	0x5
  3811 00dc 18       		.byte	0x18
  3812 00dd 5E000000 		.4byte	0x5e
  3813 00e1 02       		.uleb128 0x2
- 3814 00e2 51040000 		.4byte	.LASF19
+ 3814 00e2 AE040000 		.4byte	.LASF19
  3815 00e6 05       		.byte	0x5
  3816 00e7 2C       		.byte	0x2c
  3817 00e8 7E000000 		.4byte	0x7e
  3818 00ec 02       		.uleb128 0x2
- 3819 00ed A0050000 		.4byte	.LASF20
+ 3819 00ed A8050000 		.4byte	.LASF20
  3820 00f1 05       		.byte	0x5
  3821 00f2 30       		.byte	0x30
  3822 00f3 90000000 		.4byte	0x90
  3823 00f7 03       		.uleb128 0x3
  3824 00f8 04       		.byte	0x4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 120
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 120
 
 
  3825 00f9 04       		.byte	0x4
- 3826 00fa 0A040000 		.4byte	.LASF21
+ 3826 00fa 67040000 		.4byte	.LASF21
  3827 00fe 03       		.uleb128 0x3
  3828 00ff 08       		.byte	0x8
  3829 0100 04       		.byte	0x4
@@ -7153,7 +7153,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3834 010b 38       		.byte	0x38
  3835 010c 89000000 		.4byte	0x89
  3836 0110 02       		.uleb128 0x2
- 3837 0111 01080000 		.4byte	.LASF24
+ 3837 0111 09080000 		.4byte	.LASF24
  3838 0115 02       		.byte	0x2
  3839 0116 39       		.byte	0x39
  3840 0117 9B000000 		.4byte	0x9b
@@ -7166,39 +7166,39 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3847 0127 04       		.byte	0x4
  3848 0128 D6000000 		.4byte	0xd6
  3849 012c 09       		.uleb128 0x9
- 3850 012d 1D070000 		.4byte	.LASF32
+ 3850 012d 25070000 		.4byte	.LASF32
  3851 0131 14       		.byte	0x14
  3852 0132 06       		.byte	0x6
  3853 0133 8B       		.byte	0x8b
  3854 0134 75010000 		.4byte	0x175
  3855 0138 0A       		.uleb128 0xa
- 3856 0139 00060000 		.4byte	.LASF26
+ 3856 0139 08060000 		.4byte	.LASF26
  3857 013d 06       		.byte	0x6
  3858 013e 8E       		.byte	0x8e
  3859 013f 1B010000 		.4byte	0x11b
  3860 0143 00       		.byte	0
  3861 0144 0A       		.uleb128 0xa
- 3862 0145 F7060000 		.4byte	.LASF27
+ 3862 0145 FF060000 		.4byte	.LASF27
  3863 0149 06       		.byte	0x6
  3864 014a 8F       		.byte	0x8f
  3865 014b 75010000 		.4byte	0x175
  3866 014f 04       		.byte	0x4
  3867 0150 0A       		.uleb128 0xa
- 3868 0151 D3030000 		.4byte	.LASF28
+ 3868 0151 30040000 		.4byte	.LASF28
  3869 0155 06       		.byte	0x6
  3870 0156 90       		.byte	0x90
  3871 0157 75010000 		.4byte	0x175
  3872 015b 08       		.byte	0x8
  3873 015c 0A       		.uleb128 0xa
- 3874 015d 87020000 		.4byte	.LASF29
+ 3874 015d E4020000 		.4byte	.LASF29
  3875 0161 06       		.byte	0x6
  3876 0162 91       		.byte	0x91
  3877 0163 B0000000 		.4byte	0xb0
  3878 0167 0C       		.byte	0xc
  3879 0168 0A       		.uleb128 0xa
- 3880 0169 1F040000 		.4byte	.LASF30
+ 3880 0169 7C040000 		.4byte	.LASF30
  3881 016d 06       		.byte	0x6
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 121
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 121
 
 
  3882 016e 92       		.byte	0x92
@@ -7209,7 +7209,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3887 0176 04       		.byte	0x4
  3888 0177 2C010000 		.4byte	0x12c
  3889 017b 02       		.uleb128 0x2
- 3890 017c C1030000 		.4byte	.LASF31
+ 3890 017c 1E040000 		.4byte	.LASF31
  3891 0180 06       		.byte	0x6
  3892 0181 95       		.byte	0x95
  3893 0182 2C010000 		.4byte	0x12c
@@ -7220,19 +7220,19 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3898 018d 97       		.byte	0x97
  3899 018e B7010000 		.4byte	0x1b7
  3900 0192 0A       		.uleb128 0xa
- 3901 0193 00060000 		.4byte	.LASF26
+ 3901 0193 08060000 		.4byte	.LASF26
  3902 0197 06       		.byte	0x6
  3903 0198 9A       		.byte	0x9a
  3904 0199 1B010000 		.4byte	0x11b
  3905 019d 00       		.byte	0
  3906 019e 0A       		.uleb128 0xa
- 3907 019f F7060000 		.4byte	.LASF27
+ 3907 019f FF060000 		.4byte	.LASF27
  3908 01a3 06       		.byte	0x6
  3909 01a4 9B       		.byte	0x9b
  3910 01a5 75010000 		.4byte	0x175
  3911 01a9 04       		.byte	0x4
  3912 01aa 0A       		.uleb128 0xa
- 3913 01ab D3030000 		.4byte	.LASF28
+ 3913 01ab 30040000 		.4byte	.LASF28
  3914 01af 06       		.byte	0x6
  3915 01b0 9C       		.byte	0x9c
  3916 01b1 75010000 		.4byte	0x175
@@ -7244,21 +7244,21 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3922 01bd 9E       		.byte	0x9e
  3923 01be 86010000 		.4byte	0x186
  3924 01c2 09       		.uleb128 0x9
- 3925 01c3 6E050000 		.4byte	.LASF35
+ 3925 01c3 76050000 		.4byte	.LASF35
  3926 01c7 14       		.byte	0x14
  3927 01c8 06       		.byte	0x6
  3928 01c9 A3       		.byte	0xa3
  3929 01ca F3010000 		.4byte	0x1f3
  3930 01ce 0A       		.uleb128 0xa
- 3931 01cf A7020000 		.4byte	.LASF36
+ 3931 01cf 04030000 		.4byte	.LASF36
  3932 01d3 06       		.byte	0x6
  3933 01d4 A6       		.byte	0xa6
  3934 01d5 F3010000 		.4byte	0x1f3
  3935 01d9 00       		.byte	0
  3936 01da 0A       		.uleb128 0xa
- 3937 01db 17040000 		.4byte	.LASF37
+ 3937 01db 74040000 		.4byte	.LASF37
  3938 01df 06       		.byte	0x6
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 122
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 122
 
 
  3939 01e0 A7       		.byte	0xa7
@@ -7277,7 +7277,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3952 01f9 04       		.byte	0x4
  3953 01fa 7B010000 		.4byte	0x17b
  3954 01fe 02       		.uleb128 0x2
- 3955 01ff 74050000 		.4byte	.LASF39
+ 3955 01ff 7C050000 		.4byte	.LASF39
  3956 0203 06       		.byte	0x6
  3957 0204 AA       		.byte	0xaa
  3958 0205 C2010000 		.4byte	0x1c2
@@ -7294,7 +7294,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3969 021c 05010000 		.4byte	0x105
  3970 0220 00       		.byte	0
  3971 0221 0A       		.uleb128 0xa
- 3972 0222 97020000 		.4byte	.LASF42
+ 3972 0222 F4020000 		.4byte	.LASF42
  3973 0226 07       		.byte	0x7
  3974 0227 60       		.byte	0x60
  3975 0228 1B010000 		.4byte	0x11b
@@ -7306,7 +7306,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3981 0234 61       		.byte	0x61
  3982 0235 09020000 		.4byte	0x209
  3983 0239 02       		.uleb128 0x2
- 3984 023a 92050000 		.4byte	.LASF44
+ 3984 023a 9A050000 		.4byte	.LASF44
  3985 023e 08       		.byte	0x8
  3986 023f 2E       		.byte	0x2e
  3987 0240 B0000000 		.4byte	0xb0
@@ -7318,13 +7318,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  3993 024c 0D       		.uleb128 0xd
  3994 024d 13020000 		.4byte	.LASF45
  3995 0251 01       		.byte	0x1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 123
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 123
 
 
  3996 0252 60       		.byte	0x60
  3997 0253 63020000 		.4byte	0x263
  3998 0257 0D       		.uleb128 0xd
- 3999 0258 74040000 		.4byte	.LASF46
+ 3999 0258 D1040000 		.4byte	.LASF46
  4000 025c 01       		.byte	0x1
  4001 025d 61       		.byte	0x61
  4002 025e 10010000 		.4byte	0x110
@@ -7333,25 +7333,25 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4005 0264 04       		.byte	0x4
  4006 0265 CB000000 		.4byte	0xcb
  4007 0269 09       		.uleb128 0x9
- 4008 026a 41040000 		.4byte	.LASF47
+ 4008 026a 9E040000 		.4byte	.LASF47
  4009 026e 48       		.byte	0x48
  4010 026f 01       		.byte	0x1
  4011 0270 58       		.byte	0x58
  4012 0271 F8020000 		.4byte	0x2f8
  4013 0275 0A       		.uleb128 0xa
- 4014 0276 80020000 		.4byte	.LASF48
+ 4014 0276 DD020000 		.4byte	.LASF48
  4015 027a 01       		.byte	0x1
  4016 027b 5A       		.byte	0x5a
  4017 027c 63020000 		.4byte	0x263
  4018 0280 00       		.byte	0
  4019 0281 0A       		.uleb128 0xa
- 4020 0282 35060000 		.4byte	.LASF49
+ 4020 0282 3D060000 		.4byte	.LASF49
  4021 0286 01       		.byte	0x1
  4022 0287 5B       		.byte	0x5b
  4023 0288 63020000 		.4byte	0x263
  4024 028c 04       		.byte	0x4
  4025 028d 0A       		.uleb128 0xa
- 4026 028e D9060000 		.4byte	.LASF50
+ 4026 028e E1060000 		.4byte	.LASF50
  4027 0292 01       		.byte	0x1
  4028 0293 5C       		.byte	0x5c
  4029 0294 63020000 		.4byte	0x263
@@ -7363,40 +7363,40 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4035 029e 44020000 		.4byte	0x244
  4036 02a2 0C       		.byte	0xc
  4037 02a3 0A       		.uleb128 0xa
- 4038 02a4 A3060000 		.4byte	.LASF51
+ 4038 02a4 AB060000 		.4byte	.LASF51
  4039 02a8 01       		.byte	0x1
  4040 02a9 64       		.byte	0x64
  4041 02aa FE010000 		.4byte	0x1fe
  4042 02ae 10       		.byte	0x10
  4043 02af 0A       		.uleb128 0xa
- 4044 02b0 9A030000 		.4byte	.LASF52
+ 4044 02b0 F7030000 		.4byte	.LASF52
  4045 02b4 01       		.byte	0x1
  4046 02b5 65       		.byte	0x65
  4047 02b6 FE010000 		.4byte	0x1fe
  4048 02ba 24       		.byte	0x24
  4049 02bb 0A       		.uleb128 0xa
- 4050 02bc A9050000 		.4byte	.LASF53
+ 4050 02bc B1050000 		.4byte	.LASF53
  4051 02c0 01       		.byte	0x1
  4052 02c1 67       		.byte	0x67
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 124
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 124
 
 
  4053 02c2 F3010000 		.4byte	0x1f3
  4054 02c6 38       		.byte	0x38
  4055 02c7 0A       		.uleb128 0xa
- 4056 02c8 7B030000 		.4byte	.LASF54
+ 4056 02c8 D8030000 		.4byte	.LASF54
  4057 02cc 01       		.byte	0x1
  4058 02cd 68       		.byte	0x68
  4059 02ce 10010000 		.4byte	0x110
  4060 02d2 3C       		.byte	0x3c
  4061 02d3 0A       		.uleb128 0xa
- 4062 02d4 E3060000 		.4byte	.LASF55
+ 4062 02d4 EB060000 		.4byte	.LASF55
  4063 02d8 01       		.byte	0x1
  4064 02d9 69       		.byte	0x69
  4065 02da 10010000 		.4byte	0x110
  4066 02de 40       		.byte	0x40
  4067 02df 0A       		.uleb128 0xa
- 4068 02e0 93040000 		.4byte	.LASF56
+ 4068 02e0 F0040000 		.4byte	.LASF56
  4069 02e4 01       		.byte	0x1
  4070 02e5 6B       		.byte	0x6b
  4071 02e6 F8020000 		.4byte	0x2f8
@@ -7411,12 +7411,12 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4080 02f8 0B       		.uleb128 0xb
  4081 02f9 CB000000 		.4byte	0xcb
  4082 02fd 02       		.uleb128 0x2
- 4083 02fe 10040000 		.4byte	.LASF58
+ 4083 02fe 6D040000 		.4byte	.LASF58
  4084 0302 01       		.byte	0x1
  4085 0303 7B       		.byte	0x7b
  4086 0304 69020000 		.4byte	0x269
  4087 0308 02       		.uleb128 0x2
- 4088 0309 84030000 		.4byte	.LASF59
+ 4088 0309 E1030000 		.4byte	.LASF59
  4089 030d 01       		.byte	0x1
  4090 030e 7F       		.byte	0x7f
  4091 030f FD020000 		.4byte	0x2fd
@@ -7427,18 +7427,18 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4096 031a 8C       		.byte	0x8c
  4097 031b 38030000 		.4byte	0x338
  4098 031f 0A       		.uleb128 0xa
- 4099 0320 0B060000 		.4byte	.LASF61
+ 4099 0320 13060000 		.4byte	.LASF61
  4100 0324 01       		.byte	0x1
  4101 0325 8E       		.byte	0x8e
  4102 0326 B9000000 		.4byte	0xb9
  4103 032a 00       		.byte	0
  4104 032b 0A       		.uleb128 0xa
- 4105 032c 2B040000 		.4byte	.LASF62
+ 4105 032c 88040000 		.4byte	.LASF62
  4106 0330 01       		.byte	0x1
  4107 0331 8F       		.byte	0x8f
  4108 0332 39020000 		.4byte	0x239
  4109 0336 04       		.byte	0x4
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 125
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 125
 
 
  4110 0337 00       		.byte	0
@@ -7448,12 +7448,12 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4114 033e 90       		.byte	0x90
  4115 033f 13030000 		.4byte	0x313
  4116 0343 02       		.uleb128 0x2
- 4117 0344 8F060000 		.4byte	.LASF64
+ 4117 0344 97060000 		.4byte	.LASF64
  4118 0348 01       		.byte	0x1
  4119 0349 95       		.byte	0x95
  4120 034a 38030000 		.4byte	0x338
  4121 034e 0F       		.uleb128 0xf
- 4122 034f 3C030000 		.4byte	.LASF67
+ 4122 034f 99030000 		.4byte	.LASF67
  4123 0353 02       		.byte	0x2
  4124 0354 98       		.byte	0x98
  4125 0355 03       		.byte	0x3
@@ -7483,7 +7483,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4149 0388 EC000000 		.4byte	0xec
  4150 038c 00       		.byte	0
  4151 038d 0F       		.uleb128 0xf
- 4152 038e B1030000 		.4byte	.LASF68
+ 4152 038e 0E040000 		.4byte	.LASF68
  4153 0392 02       		.byte	0x2
  4154 0393 BC       		.byte	0xbc
  4155 0394 03       		.byte	0x3
@@ -7495,10 +7495,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4161 03a0 EC000000 		.4byte	0xec
  4162 03a4 00       		.byte	0
  4163 03a5 13       		.uleb128 0x13
- 4164 03a6 DA050000 		.4byte	.LASF71
+ 4164 03a6 E2050000 		.4byte	.LASF71
  4165 03aa 01       		.byte	0x1
  4166 03ab F7       		.byte	0xf7
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 126
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 126
 
 
  4167 03ac 05010000 		.4byte	0x105
@@ -7508,7 +7508,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4171 03b9 9C       		.byte	0x9c
  4172 03ba 0B040000 		.4byte	0x40b
  4173 03be 14       		.uleb128 0x14
- 4174 03bf CC030000 		.4byte	.LASF69
+ 4174 03bf 29040000 		.4byte	.LASF69
  4175 03c3 01       		.byte	0x1
  4176 03c4 F7       		.byte	0xf7
  4177 03c5 39020000 		.4byte	0x239
@@ -7524,7 +7524,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4187 03d8 91       		.byte	0x91
  4188 03d9 68       		.sleb128 -24
  4189 03da 15       		.uleb128 0x15
- 4190 03db C9060000 		.4byte	.LASF75
+ 4190 03db D1060000 		.4byte	.LASF75
  4191 03df 01       		.byte	0x1
  4192 03e0 F9       		.byte	0xf9
  4193 03e1 11040000 		.4byte	0x411
@@ -7554,11 +7554,11 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4217 0411 07       		.uleb128 0x7
  4218 0412 0B040000 		.4byte	0x40b
  4219 0416 19       		.uleb128 0x19
- 4220 0417 5A050000 		.4byte	.LASF72
+ 4220 0417 62050000 		.4byte	.LASF72
  4221 041b 01       		.byte	0x1
  4222 041c 6601     		.2byte	0x166
  4223 041e 39020000 		.4byte	0x239
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 127
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 127
 
 
  4224 0422 00000000 		.4byte	.LFB137
@@ -7567,7 +7567,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4227 042b 9C       		.byte	0x9c
  4228 042c AE040000 		.4byte	0x4ae
  4229 0430 1A       		.uleb128 0x1a
- 4230 0431 8C030000 		.4byte	.LASF73
+ 4230 0431 E9030000 		.4byte	.LASF73
  4231 0435 01       		.byte	0x1
  4232 0436 6601     		.2byte	0x166
  4233 0438 AE040000 		.4byte	0x4ae
@@ -7575,7 +7575,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4235 043d 91       		.byte	0x91
  4236 043e 64       		.sleb128 -28
  4237 043f 1A       		.uleb128 0x1a
- 4238 0440 E3060000 		.4byte	.LASF55
+ 4238 0440 EB060000 		.4byte	.LASF55
  4239 0444 01       		.byte	0x1
  4240 0445 6601     		.2byte	0x166
  4241 0447 AE040000 		.4byte	0x4ae
@@ -7599,7 +7599,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4259 046a 91       		.byte	0x91
  4260 046b 70       		.sleb128 -16
  4261 046c 1B       		.uleb128 0x1b
- 4262 046d B7060000 		.4byte	.LASF77
+ 4262 046d BF060000 		.4byte	.LASF77
  4263 0471 01       		.byte	0x1
  4264 0472 6901     		.2byte	0x169
  4265 0474 25000000 		.4byte	0x25
@@ -7607,7 +7607,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4267 0479 91       		.byte	0x91
  4268 047a 74       		.sleb128 -12
  4269 047b 1B       		.uleb128 0x1b
- 4270 047c 46060000 		.4byte	.LASF78
+ 4270 047c 4E060000 		.4byte	.LASF78
  4271 0480 01       		.byte	0x1
  4272 0481 6A01     		.2byte	0x16a
  4273 0483 26010000 		.4byte	0x126
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4278 048b 4E030000 		.4byte	0x34e
  4279 048f 14000000 		.4byte	.LBB92
  4280 0493 12000000 		.4byte	.LBE92-.LBB92
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 128
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 128
 
 
  4281 0497 01       		.byte	0x1
@@ -7648,7 +7648,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4305 04c9 9C       		.byte	0x9c
  4306 04ca 1A050000 		.4byte	0x51a
  4307 04ce 1A       		.uleb128 0x1a
- 4308 04cf 8C030000 		.4byte	.LASF73
+ 4308 04cf E9030000 		.4byte	.LASF73
  4309 04d3 01       		.byte	0x1
  4310 04d4 9801     		.2byte	0x198
  4311 04d6 AE040000 		.4byte	0x4ae
@@ -7656,7 +7656,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4313 04db 91       		.byte	0x91
  4314 04dc 74       		.sleb128 -12
  4315 04dd 1A       		.uleb128 0x1a
- 4316 04de E3060000 		.4byte	.LASF55
+ 4316 04de EB060000 		.4byte	.LASF55
  4317 04e2 01       		.byte	0x1
  4318 04e3 9801     		.2byte	0x198
  4319 04e5 AE040000 		.4byte	0x4ae
@@ -7664,7 +7664,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4321 04ea 91       		.byte	0x91
  4322 04eb 70       		.sleb128 -16
  4323 04ec 1A       		.uleb128 0x1a
- 4324 04ed 46060000 		.4byte	.LASF78
+ 4324 04ed 4E060000 		.4byte	.LASF78
  4325 04f1 01       		.byte	0x1
  4326 04f2 9801     		.2byte	0x198
  4327 04f4 26010000 		.4byte	0x126
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4335 0503 B3040000 		.4byte	0x4b3
  4336 0507 02       		.uleb128 0x2
  4337 0508 91       		.byte	0x91
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 129
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 129
 
 
  4338 0509 6B       		.sleb128 -21
@@ -7692,7 +7692,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4346 0518 00       		.sleb128 0
  4347 0519 00       		.byte	0
  4348 051a 19       		.uleb128 0x19
- 4349 051b F1020000 		.4byte	.LASF79
+ 4349 051b 4E030000 		.4byte	.LASF79
  4350 051f 01       		.byte	0x1
  4351 0520 D502     		.2byte	0x2d5
  4352 0522 05010000 		.4byte	0x105
@@ -7702,7 +7702,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4356 052f 9C       		.byte	0x9c
  4357 0530 45060000 		.4byte	0x645
  4358 0534 1A       		.uleb128 0x1a
- 4359 0535 CC030000 		.4byte	.LASF69
+ 4359 0535 29040000 		.4byte	.LASF69
  4360 0539 01       		.byte	0x1
  4361 053a D502     		.2byte	0x2d5
  4362 053c 39020000 		.4byte	0x239
@@ -7710,7 +7710,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4364 0541 91       		.byte	0x91
  4365 0542 4C       		.sleb128 -52
  4366 0543 1A       		.uleb128 0x1a
- 4367 0544 FC030000 		.4byte	.LASF80
+ 4367 0544 59040000 		.4byte	.LASF80
  4368 0548 01       		.byte	0x1
  4369 0549 D502     		.2byte	0x2d5
  4370 054b 45060000 		.4byte	0x645
@@ -7726,7 +7726,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4380 055f 91       		.byte	0x91
  4381 0560 44       		.sleb128 -60
  4382 0561 1A       		.uleb128 0x1a
- 4383 0562 F2050000 		.4byte	.LASF82
+ 4383 0562 FA050000 		.4byte	.LASF82
  4384 0566 01       		.byte	0x1
  4385 0567 D502     		.2byte	0x2d5
  4386 0569 4A060000 		.4byte	0x64a
@@ -7734,18 +7734,18 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4388 056e 91       		.byte	0x91
  4389 056f 40       		.sleb128 -64
  4390 0570 1B       		.uleb128 0x1b
- 4391 0571 33040000 		.4byte	.LASF83
+ 4391 0571 90040000 		.4byte	.LASF83
  4392 0575 01       		.byte	0x1
  4393 0576 D702     		.2byte	0x2d7
  4394 0578 05010000 		.4byte	0x105
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 130
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 130
 
 
  4395 057c 02       		.uleb128 0x2
  4396 057d 91       		.byte	0x91
  4397 057e 74       		.sleb128 -12
  4398 057f 1B       		.uleb128 0x1b
- 4399 0580 16030000 		.4byte	.LASF84
+ 4399 0580 73030000 		.4byte	.LASF84
  4400 0584 01       		.byte	0x1
  4401 0585 D702     		.2byte	0x2d7
  4402 0587 05010000 		.4byte	0x105
@@ -7761,7 +7761,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4412 059b 91       		.byte	0x91
  4413 059c 54       		.sleb128 -44
  4414 059d 1B       		.uleb128 0x1b
- 4415 059e C9060000 		.4byte	.LASF75
+ 4415 059e D1060000 		.4byte	.LASF75
  4416 05a2 01       		.byte	0x1
  4417 05a3 D902     		.2byte	0x2d9
  4418 05a5 11040000 		.4byte	0x411
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4449 05f0 18       		.uleb128 0x18
  4450 05f1 5A030000 		.4byte	0x35a
  4451 05f5 02       		.uleb128 0x2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 131
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 131
 
 
  4452 05f6 91       		.byte	0x91
@@ -7854,18 +7854,18 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4502 0664 9C       		.byte	0x9c
  4503 0665 AD070000 		.4byte	0x7ad
  4504 0669 1A       		.uleb128 0x1a
- 4505 066a CC030000 		.4byte	.LASF69
+ 4505 066a 29040000 		.4byte	.LASF69
  4506 066e 01       		.byte	0x1
  4507 066f 9B03     		.2byte	0x39b
  4508 0671 39020000 		.4byte	0x239
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 132
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 132
 
 
  4509 0675 02       		.uleb128 0x2
  4510 0676 91       		.byte	0x91
  4511 0677 4C       		.sleb128 -52
  4512 0678 1A       		.uleb128 0x1a
- 4513 0679 FC030000 		.4byte	.LASF80
+ 4513 0679 59040000 		.4byte	.LASF80
  4514 067d 01       		.byte	0x1
  4515 067e 9B03     		.2byte	0x39b
  4516 0680 45060000 		.4byte	0x645
@@ -7881,7 +7881,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4526 0694 91       		.byte	0x91
  4527 0695 44       		.sleb128 -60
  4528 0696 1A       		.uleb128 0x1a
- 4529 0697 F2050000 		.4byte	.LASF82
+ 4529 0697 FA050000 		.4byte	.LASF82
  4530 069b 01       		.byte	0x1
  4531 069c 9B03     		.2byte	0x39b
  4532 069e 4A060000 		.4byte	0x64a
@@ -7889,7 +7889,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4534 06a3 91       		.byte	0x91
  4535 06a4 40       		.sleb128 -64
  4536 06a5 1B       		.uleb128 0x1b
- 4537 06a6 8F020000 		.4byte	.LASF88
+ 4537 06a6 EC020000 		.4byte	.LASF88
  4538 06aa 01       		.byte	0x1
  4539 06ab 9D03     		.2byte	0x39d
  4540 06ad 05010000 		.4byte	0x105
@@ -7897,7 +7897,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4542 06b2 91       		.byte	0x91
  4543 06b3 74       		.sleb128 -12
  4544 06b4 1B       		.uleb128 0x1b
- 4545 06b5 7B050000 		.4byte	.LASF89
+ 4545 06b5 83050000 		.4byte	.LASF89
  4546 06b9 01       		.byte	0x1
  4547 06ba 9E03     		.2byte	0x39e
  4548 06bc 10010000 		.4byte	0x110
@@ -7905,7 +7905,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4550 06c1 91       		.byte	0x91
  4551 06c2 68       		.sleb128 -24
  4552 06c3 1B       		.uleb128 0x1b
- 4553 06c4 C9060000 		.4byte	.LASF75
+ 4553 06c4 D1060000 		.4byte	.LASF75
  4554 06c8 01       		.byte	0x1
  4555 06c9 9F03     		.2byte	0x39f
  4556 06cb 11040000 		.4byte	0x411
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4563 06db 12000000 		.4byte	.LBE102-.LBB102
  4564 06df 01       		.byte	0x1
  4565 06e0 A103     		.2byte	0x3a1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 133
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 133
 
 
  4566 06e2 F9060000 		.4byte	0x6f9
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4620 0760 1A000000 		.4byte	.LBE109-.LBB109
  4621 0764 18       		.uleb128 0x18
  4622 0765 76030000 		.4byte	0x376
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 134
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 134
 
 
  4623 0769 02       		.uleb128 0x2
@@ -8025,7 +8025,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4664 07b8 07       		.uleb128 0x7
  4665 07b9 CB000000 		.4byte	0xcb
  4666 07bd 19       		.uleb128 0x19
- 4667 07be 9B040000 		.4byte	.LASF90
+ 4667 07be F8040000 		.4byte	.LASF90
  4668 07c2 01       		.byte	0x1
  4669 07c3 3204     		.2byte	0x432
  4670 07c5 05010000 		.4byte	0x105
@@ -8035,10 +8035,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4674 07d2 9C       		.byte	0x9c
  4675 07d3 16090000 		.4byte	0x916
  4676 07d7 1A       		.uleb128 0x1a
- 4677 07d8 CC030000 		.4byte	.LASF69
+ 4677 07d8 29040000 		.4byte	.LASF69
  4678 07dc 01       		.byte	0x1
  4679 07dd 3204     		.2byte	0x432
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 135
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 135
 
 
  4680 07df 39020000 		.4byte	0x239
@@ -8054,7 +8054,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4690 07f3 91       		.byte	0x91
  4691 07f4 40       		.sleb128 -64
  4692 07f5 1B       		.uleb128 0x1b
- 4693 07f6 8F020000 		.4byte	.LASF88
+ 4693 07f6 EC020000 		.4byte	.LASF88
  4694 07fa 01       		.byte	0x1
  4695 07fb 3404     		.2byte	0x434
  4696 07fd 05010000 		.4byte	0x105
@@ -8062,7 +8062,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4698 0802 91       		.byte	0x91
  4699 0803 74       		.sleb128 -12
  4700 0804 1B       		.uleb128 0x1b
- 4701 0805 7B050000 		.4byte	.LASF89
+ 4701 0805 83050000 		.4byte	.LASF89
  4702 0809 01       		.byte	0x1
  4703 080a 3504     		.2byte	0x435
  4704 080c 10010000 		.4byte	0x110
@@ -8070,7 +8070,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4706 0811 91       		.byte	0x91
  4707 0812 68       		.sleb128 -24
  4708 0813 1B       		.uleb128 0x1b
- 4709 0814 C9060000 		.4byte	.LASF75
+ 4709 0814 D1060000 		.4byte	.LASF75
  4710 0818 01       		.byte	0x1
  4711 0819 3604     		.2byte	0x436
  4712 081b 11040000 		.4byte	0x411
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4734 084a 4E030000 		.4byte	0x34e
  4735 084e 30000000 		.4byte	.LBB115
  4736 0852 12000000 		.4byte	.LBE115-.LBB115
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 136
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 136
 
 
  4737 0856 01       		.byte	0x1
@@ -8158,10 +8158,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4791 08cb 70000000 		.4byte	.LBE121-.LBB121
  4792 08cf FC080000 		.4byte	0x8fc
  4793 08d3 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 137
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 137
 
 
- 4794 08d4 A9050000 		.4byte	.LASF53
+ 4794 08d4 B1050000 		.4byte	.LASF53
  4795 08d8 01       		.byte	0x1
  4796 08d9 5B04     		.2byte	0x45b
  4797 08db AE040000 		.4byte	0x4ae
@@ -8195,7 +8195,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4825 0914 00       		.byte	0
  4826 0915 00       		.byte	0
  4827 0916 19       		.uleb128 0x19
- 4828 0917 25030000 		.4byte	.LASF91
+ 4828 0917 82030000 		.4byte	.LASF91
  4829 091b 01       		.byte	0x1
  4830 091c D704     		.2byte	0x4d7
  4831 091e 05010000 		.4byte	0x105
@@ -8205,7 +8205,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4835 092b 9C       		.byte	0x9c
  4836 092c 190A0000 		.4byte	0xa19
  4837 0930 1A       		.uleb128 0x1a
- 4838 0931 CC030000 		.4byte	.LASF69
+ 4838 0931 29040000 		.4byte	.LASF69
  4839 0935 01       		.byte	0x1
  4840 0936 D704     		.2byte	0x4d7
  4841 0938 39020000 		.4byte	0x239
@@ -8213,12 +8213,12 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4843 093d 91       		.byte	0x91
  4844 093e 54       		.sleb128 -44
  4845 093f 1A       		.uleb128 0x1a
- 4846 0940 C5050000 		.4byte	.LASF92
+ 4846 0940 CD050000 		.4byte	.LASF92
  4847 0944 01       		.byte	0x1
  4848 0945 D704     		.2byte	0x4d7
  4849 0947 190A0000 		.4byte	0xa19
  4850 094b 02       		.uleb128 0x2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 138
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 138
 
 
  4851 094c 91       		.byte	0x91
@@ -8232,7 +8232,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4859 095b 91       		.byte	0x91
  4860 095c 4C       		.sleb128 -52
  4861 095d 1B       		.uleb128 0x1b
- 4862 095e 33040000 		.4byte	.LASF83
+ 4862 095e 90040000 		.4byte	.LASF83
  4863 0962 01       		.byte	0x1
  4864 0963 D904     		.2byte	0x4d9
  4865 0965 05010000 		.4byte	0x105
@@ -8248,7 +8248,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4875 0979 91       		.byte	0x91
  4876 097a 58       		.sleb128 -40
  4877 097b 1B       		.uleb128 0x1b
- 4878 097c C9060000 		.4byte	.LASF75
+ 4878 097c D1060000 		.4byte	.LASF75
  4879 0980 01       		.byte	0x1
  4880 0981 DB04     		.2byte	0x4db
  4881 0983 11040000 		.4byte	0x411
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4905 09ba 12000000 		.4byte	.LBE127-.LBB127
  4906 09be 01       		.byte	0x1
  4907 09bf E204     		.2byte	0x4e2
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 139
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 139
 
 
  4908 09c1 D8090000 		.4byte	0x9d8
@@ -8313,7 +8313,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4937 0a00 8C000000 		.4byte	.LBB131
  4938 0a04 6E000000 		.4byte	.LBE131-.LBB131
  4939 0a08 1B       		.uleb128 0x1b
- 4940 0a09 A9050000 		.4byte	.LASF53
+ 4940 0a09 B1050000 		.4byte	.LASF53
  4941 0a0d 01       		.byte	0x1
  4942 0a0e F404     		.2byte	0x4f4
  4943 0a10 AE040000 		.4byte	0x4ae
@@ -8325,7 +8325,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4949 0a19 07       		.uleb128 0x7
  4950 0a1a B0000000 		.4byte	0xb0
  4951 0a1e 19       		.uleb128 0x19
- 4952 0a1f C9020000 		.4byte	.LASF93
+ 4952 0a1f 26030000 		.4byte	.LASF93
  4953 0a23 01       		.byte	0x1
  4954 0a24 6505     		.2byte	0x565
  4955 0a26 05010000 		.4byte	0x105
@@ -8335,10 +8335,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4959 0a33 9C       		.byte	0x9c
  4960 0a34 120B0000 		.4byte	0xb12
  4961 0a38 1A       		.uleb128 0x1a
- 4962 0a39 CC030000 		.4byte	.LASF69
+ 4962 0a39 29040000 		.4byte	.LASF69
  4963 0a3d 01       		.byte	0x1
  4964 0a3e 6505     		.2byte	0x565
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 140
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 140
 
 
  4965 0a40 39020000 		.4byte	0x239
@@ -8354,7 +8354,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4975 0a54 91       		.byte	0x91
  4976 0a55 50       		.sleb128 -48
  4977 0a56 1B       		.uleb128 0x1b
- 4978 0a57 33040000 		.4byte	.LASF83
+ 4978 0a57 90040000 		.4byte	.LASF83
  4979 0a5b 01       		.byte	0x1
  4980 0a5c 6705     		.2byte	0x567
  4981 0a5e 05010000 		.4byte	0x105
@@ -8370,7 +8370,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  4991 0a72 91       		.byte	0x91
  4992 0a73 58       		.sleb128 -40
  4993 0a74 1B       		.uleb128 0x1b
- 4994 0a75 C9060000 		.4byte	.LASF75
+ 4994 0a75 D1060000 		.4byte	.LASF75
  4995 0a79 01       		.byte	0x1
  4996 0a7a 6905     		.2byte	0x569
  4997 0a7c 11040000 		.4byte	0x411
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5019 0aab 4E030000 		.4byte	0x34e
  5020 0aaf 34000000 		.4byte	.LBB134
  5021 0ab3 12000000 		.4byte	.LBE134-.LBB134
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 141
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 141
 
 
  5022 0ab7 01       		.byte	0x1
@@ -8455,10 +8455,10 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5073 0b27 9C       		.byte	0x9c
  5074 0b28 240C0000 		.4byte	0xc24
  5075 0b2c 1A       		.uleb128 0x1a
- 5076 0b2d CC030000 		.4byte	.LASF69
+ 5076 0b2d 29040000 		.4byte	.LASF69
  5077 0b31 01       		.byte	0x1
  5078 0b32 4006     		.2byte	0x640
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 142
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 142
 
 
  5079 0b34 39020000 		.4byte	0x239
@@ -8466,7 +8466,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5081 0b39 91       		.byte	0x91
  5082 0b3a 4C       		.sleb128 -52
  5083 0b3b 1A       		.uleb128 0x1a
- 5084 0b3c C5050000 		.4byte	.LASF92
+ 5084 0b3c CD050000 		.4byte	.LASF92
  5085 0b40 01       		.byte	0x1
  5086 0b41 4006     		.2byte	0x640
  5087 0b43 190A0000 		.4byte	0xa19
@@ -8482,7 +8482,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5097 0b57 91       		.byte	0x91
  5098 0b58 44       		.sleb128 -60
  5099 0b59 1B       		.uleb128 0x1b
- 5100 0b5a 33040000 		.4byte	.LASF83
+ 5100 0b5a 90040000 		.4byte	.LASF83
  5101 0b5e 01       		.byte	0x1
  5102 0b5f 4206     		.2byte	0x642
  5103 0b61 05010000 		.4byte	0x105
@@ -8506,7 +8506,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5121 0b84 91       		.byte	0x91
  5122 0b85 68       		.sleb128 -24
  5123 0b86 1B       		.uleb128 0x1b
- 5124 0b87 C9060000 		.4byte	.LASF75
+ 5124 0b87 D1060000 		.4byte	.LASF75
  5125 0b8b 01       		.byte	0x1
  5126 0b8c 4506     		.2byte	0x645
  5127 0b8e 11040000 		.4byte	0x411
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5133 0b9a 1A000000 		.4byte	.LBB139
  5134 0b9e 12000000 		.4byte	.LBE139-.LBB139
  5135 0ba2 01       		.byte	0x1
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 143
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 143
 
 
  5136 0ba3 4806     		.2byte	0x648
@@ -8571,20 +8571,20 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5183 0c0b 8C000000 		.4byte	.LBB145
  5184 0c0f 72000000 		.4byte	.LBE145-.LBB145
  5185 0c13 1B       		.uleb128 0x1b
- 5186 0c14 A9050000 		.4byte	.LASF53
+ 5186 0c14 B1050000 		.4byte	.LASF53
  5187 0c18 01       		.byte	0x1
  5188 0c19 5E06     		.2byte	0x65e
  5189 0c1b AE040000 		.4byte	0x4ae
  5190 0c1f 02       		.uleb128 0x2
  5191 0c20 91       		.byte	0x91
  5192 0c21 6C       		.sleb128 -20
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 144
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 144
 
 
  5193 0c22 00       		.byte	0
  5194 0c23 00       		.byte	0
  5195 0c24 19       		.uleb128 0x19
- 5196 0c25 4E030000 		.4byte	.LASF97
+ 5196 0c25 AB030000 		.4byte	.LASF97
  5197 0c29 01       		.byte	0x1
  5198 0c2a D606     		.2byte	0x6d6
  5199 0c2c 05010000 		.4byte	0x105
@@ -8594,7 +8594,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5203 0c39 9C       		.byte	0x9c
  5204 0c3a 650D0000 		.4byte	0xd65
  5205 0c3e 1A       		.uleb128 0x1a
- 5206 0c3f CC030000 		.4byte	.LASF69
+ 5206 0c3f 29040000 		.4byte	.LASF69
  5207 0c43 01       		.byte	0x1
  5208 0c44 D606     		.2byte	0x6d6
  5209 0c46 39020000 		.4byte	0x239
@@ -8602,7 +8602,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5211 0c4b 91       		.byte	0x91
  5212 0c4c 4C       		.sleb128 -52
  5213 0c4d 1A       		.uleb128 0x1a
- 5214 0c4e C5050000 		.4byte	.LASF92
+ 5214 0c4e CD050000 		.4byte	.LASF92
  5215 0c52 01       		.byte	0x1
  5216 0c53 D606     		.2byte	0x6d6
  5217 0c55 190A0000 		.4byte	0xa19
@@ -8618,7 +8618,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5227 0c69 91       		.byte	0x91
  5228 0c6a 44       		.sleb128 -60
  5229 0c6b 1B       		.uleb128 0x1b
- 5230 0c6c 8F020000 		.4byte	.LASF88
+ 5230 0c6c EC020000 		.4byte	.LASF88
  5231 0c70 01       		.byte	0x1
  5232 0c71 D806     		.2byte	0x6d8
  5233 0c73 05010000 		.4byte	0x105
@@ -8626,7 +8626,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5235 0c78 91       		.byte	0x91
  5236 0c79 74       		.sleb128 -12
  5237 0c7a 1B       		.uleb128 0x1b
- 5238 0c7b 7B050000 		.4byte	.LASF89
+ 5238 0c7b 83050000 		.4byte	.LASF89
  5239 0c7f 01       		.byte	0x1
  5240 0c80 D906     		.2byte	0x6d9
  5241 0c82 10010000 		.4byte	0x110
@@ -8634,11 +8634,11 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5243 0c87 91       		.byte	0x91
  5244 0c88 68       		.sleb128 -24
  5245 0c89 1B       		.uleb128 0x1b
- 5246 0c8a C9060000 		.4byte	.LASF75
+ 5246 0c8a D1060000 		.4byte	.LASF75
  5247 0c8e 01       		.byte	0x1
  5248 0c8f DA06     		.2byte	0x6da
  5249 0c91 11040000 		.4byte	0x411
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 145
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 145
 
 
  5250 0c95 02       		.uleb128 0x2
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5304 0d10 02       		.uleb128 0x2
  5305 0d11 91       		.byte	0x91
  5306 0d12 50       		.sleb128 -48
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 146
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 146
 
 
  5307 0d13 00       		.byte	0
@@ -8708,7 +8708,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5311 0d1a 74000000 		.4byte	.LBE152-.LBB152
  5312 0d1e 4B0D0000 		.4byte	0xd4b
  5313 0d22 1B       		.uleb128 0x1b
- 5314 0d23 A9050000 		.4byte	.LASF53
+ 5314 0d23 B1050000 		.4byte	.LASF53
  5315 0d27 01       		.byte	0x1
  5316 0d28 F106     		.2byte	0x6f1
  5317 0d2a AE040000 		.4byte	0x4ae
@@ -8719,7 +8719,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5322 0d32 82000000 		.4byte	.LBB153
  5323 0d36 5E000000 		.4byte	.LBE153-.LBB153
  5324 0d3a 1B       		.uleb128 0x1b
- 5325 0d3b 93040000 		.4byte	.LASF56
+ 5325 0d3b F0040000 		.4byte	.LASF56
  5326 0d3f 01       		.byte	0x1
  5327 0d40 F606     		.2byte	0x6f6
  5328 0d42 B8070000 		.4byte	0x7b8
@@ -8752,18 +8752,18 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5355 0d7a 9C       		.byte	0x9c
  5356 0d7b 970E0000 		.4byte	0xe97
  5357 0d7f 1A       		.uleb128 0x1a
- 5358 0d80 CC030000 		.4byte	.LASF69
+ 5358 0d80 29040000 		.4byte	.LASF69
  5359 0d84 01       		.byte	0x1
  5360 0d85 3107     		.2byte	0x731
  5361 0d87 39020000 		.4byte	0x239
  5362 0d8b 02       		.uleb128 0x2
  5363 0d8c 91       		.byte	0x91
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 147
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 147
 
 
  5364 0d8d 4C       		.sleb128 -52
  5365 0d8e 1A       		.uleb128 0x1a
- 5366 0d8f C5050000 		.4byte	.LASF92
+ 5366 0d8f CD050000 		.4byte	.LASF92
  5367 0d93 01       		.byte	0x1
  5368 0d94 3107     		.2byte	0x731
  5369 0d96 190A0000 		.4byte	0xa19
@@ -8771,7 +8771,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5371 0d9b 91       		.byte	0x91
  5372 0d9c 48       		.sleb128 -56
  5373 0d9d 1B       		.uleb128 0x1b
- 5374 0d9e 8F020000 		.4byte	.LASF88
+ 5374 0d9e EC020000 		.4byte	.LASF88
  5375 0da2 01       		.byte	0x1
  5376 0da3 3307     		.2byte	0x733
  5377 0da5 05010000 		.4byte	0x105
@@ -8779,7 +8779,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5379 0daa 91       		.byte	0x91
  5380 0dab 74       		.sleb128 -12
  5381 0dac 1B       		.uleb128 0x1b
- 5382 0dad 7B050000 		.4byte	.LASF89
+ 5382 0dad 83050000 		.4byte	.LASF89
  5383 0db1 01       		.byte	0x1
  5384 0db2 3407     		.2byte	0x734
  5385 0db4 10010000 		.4byte	0x110
@@ -8795,7 +8795,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5395 0dc8 91       		.byte	0x91
  5396 0dc9 64       		.sleb128 -28
  5397 0dca 1B       		.uleb128 0x1b
- 5398 0dcb C9060000 		.4byte	.LASF75
+ 5398 0dcb D1060000 		.4byte	.LASF75
  5399 0dcf 01       		.byte	0x1
  5400 0dd0 3607     		.2byte	0x736
  5401 0dd2 11040000 		.4byte	0x411
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5418 0dfc 91       		.byte	0x91
  5419 0dfd 54       		.sleb128 -44
  5420 0dfe 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 148
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 148
 
 
  5421 0dff 00       		.byte	0
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5475 0e7a 50       		.sleb128 -48
  5476 0e7b 00       		.byte	0
  5477 0e7c 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 149
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 149
 
 
  5478 0e7d 1C       		.uleb128 0x1c
@@ -8905,7 +8905,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5499 0eac 9C       		.byte	0x9c
  5500 0ead F30E0000 		.4byte	0xef3
  5501 0eb1 1A       		.uleb128 0x1a
- 5502 0eb2 CC030000 		.4byte	.LASF69
+ 5502 0eb2 29040000 		.4byte	.LASF69
  5503 0eb6 01       		.byte	0x1
  5504 0eb7 6707     		.2byte	0x767
  5505 0eb9 F30E0000 		.4byte	0xef3
@@ -8913,7 +8913,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5507 0ebe 91       		.byte	0x91
  5508 0ebf 6C       		.sleb128 -20
  5509 0ec0 1B       		.uleb128 0x1b
- 5510 0ec1 33030000 		.4byte	.LASF100
+ 5510 0ec1 90030000 		.4byte	.LASF100
  5511 0ec5 01       		.byte	0x1
  5512 0ec6 6907     		.2byte	0x769
  5513 0ec8 10010000 		.4byte	0x110
@@ -8938,12 +8938,12 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5532 0ef1 00       		.byte	0
  5533 0ef2 00       		.byte	0
  5534 0ef3 07       		.uleb128 0x7
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 150
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 150
 
 
  5535 0ef4 39020000 		.4byte	0x239
  5536 0ef8 19       		.uleb128 0x19
- 5537 0ef9 DB070000 		.4byte	.LASF101
+ 5537 0ef9 E3070000 		.4byte	.LASF101
  5538 0efd 01       		.byte	0x1
  5539 0efe 7707     		.2byte	0x777
  5540 0f00 10010000 		.4byte	0x110
@@ -8953,7 +8953,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5544 0f0d 9C       		.byte	0x9c
  5545 0f0e 630F0000 		.4byte	0xf63
  5546 0f12 1A       		.uleb128 0x1a
- 5547 0f13 CC030000 		.4byte	.LASF69
+ 5547 0f13 29040000 		.4byte	.LASF69
  5548 0f17 01       		.byte	0x1
  5549 0f18 7707     		.2byte	0x777
  5550 0f1a F30E0000 		.4byte	0xef3
@@ -8961,7 +8961,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5552 0f1f 91       		.byte	0x91
  5553 0f20 64       		.sleb128 -28
  5554 0f21 1B       		.uleb128 0x1b
- 5555 0f22 33030000 		.4byte	.LASF100
+ 5555 0f22 90030000 		.4byte	.LASF100
  5556 0f26 01       		.byte	0x1
  5557 0f27 7907     		.2byte	0x779
  5558 0f29 10010000 		.4byte	0x110
@@ -8969,7 +8969,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5560 0f2e 91       		.byte	0x91
  5561 0f2f 70       		.sleb128 -16
  5562 0f30 1B       		.uleb128 0x1b
- 5563 0f31 C9060000 		.4byte	.LASF75
+ 5563 0f31 D1060000 		.4byte	.LASF75
  5564 0f35 01       		.byte	0x1
  5565 0f36 7A07     		.2byte	0x77a
  5566 0f38 0B040000 		.4byte	0x40b
@@ -8994,11 +8994,11 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5585 0f61 00       		.byte	0
  5586 0f62 00       		.byte	0
  5587 0f63 21       		.uleb128 0x21
- 5588 0f64 DE030000 		.4byte	.LASF102
+ 5588 0f64 3B040000 		.4byte	.LASF102
  5589 0f68 01       		.byte	0x1
  5590 0f69 8907     		.2byte	0x789
  5591 0f6b 10010000 		.4byte	0x110
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 151
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 151
 
 
  5592 0f6f 00000000 		.4byte	.LFB149
@@ -9007,7 +9007,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5595 0f78 9C       		.byte	0x9c
  5596 0f79 BF0F0000 		.4byte	0xfbf
  5597 0f7d 1A       		.uleb128 0x1a
- 5598 0f7e CC030000 		.4byte	.LASF69
+ 5598 0f7e 29040000 		.4byte	.LASF69
  5599 0f82 01       		.byte	0x1
  5600 0f83 8907     		.2byte	0x789
  5601 0f85 F30E0000 		.4byte	0xef3
@@ -9015,7 +9015,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5603 0f8a 91       		.byte	0x91
  5604 0f8b 6C       		.sleb128 -20
  5605 0f8c 1B       		.uleb128 0x1b
- 5606 0f8d 33030000 		.4byte	.LASF100
+ 5606 0f8d 90030000 		.4byte	.LASF100
  5607 0f91 01       		.byte	0x1
  5608 0f92 8B07     		.2byte	0x78b
  5609 0f94 10010000 		.4byte	0x110
@@ -9040,7 +9040,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5628 0fbd 00       		.byte	0
  5629 0fbe 00       		.byte	0
  5630 0fbf 22       		.uleb128 0x22
- 5631 0fc0 73020000 		.4byte	.LASF112
+ 5631 0fc0 D0020000 		.4byte	.LASF112
  5632 0fc4 01       		.byte	0x1
  5633 0fc5 9507     		.2byte	0x795
  5634 0fc7 00000000 		.4byte	.LFB150
@@ -9049,7 +9049,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5637 0fd0 9C       		.byte	0x9c
  5638 0fd1 17100000 		.4byte	0x1017
  5639 0fd5 1A       		.uleb128 0x1a
- 5640 0fd6 CC030000 		.4byte	.LASF69
+ 5640 0fd6 29040000 		.4byte	.LASF69
  5641 0fda 01       		.byte	0x1
  5642 0fdb 9507     		.2byte	0x795
  5643 0fdd 39020000 		.4byte	0x239
@@ -9057,8 +9057,8 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5645 0fe2 91       		.byte	0x91
  5646 0fe3 6C       		.sleb128 -20
  5647 0fe4 1B       		.uleb128 0x1b
- 5648 0fe5 C9060000 		.4byte	.LASF75
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 152
+ 5648 0fe5 D1060000 		.4byte	.LASF75
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 152
 
 
  5649 0fe9 01       		.byte	0x1
@@ -9095,7 +9095,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5680 102c 9C       		.byte	0x9c
  5681 102d 7D100000 		.4byte	0x107d
  5682 1031 1A       		.uleb128 0x1a
- 5683 1032 C9060000 		.4byte	.LASF75
+ 5683 1032 D1060000 		.4byte	.LASF75
  5684 1036 01       		.byte	0x1
  5685 1037 F807     		.2byte	0x7f8
  5686 1039 11040000 		.4byte	0x411
@@ -9103,7 +9103,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5688 103e 91       		.byte	0x91
  5689 103f 6C       		.sleb128 -20
  5690 1040 1A       		.uleb128 0x1a
- 5691 1041 FC030000 		.4byte	.LASF80
+ 5691 1041 59040000 		.4byte	.LASF80
  5692 1045 01       		.byte	0x1
  5693 1046 F807     		.2byte	0x7f8
  5694 1048 C4000000 		.4byte	0xc4
@@ -9111,18 +9111,18 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5696 104d 91       		.byte	0x91
  5697 104e 68       		.sleb128 -24
  5698 104f 1A       		.uleb128 0x1a
- 5699 1050 85060000 		.4byte	.LASF103
+ 5699 1050 8D060000 		.4byte	.LASF103
  5700 1054 01       		.byte	0x1
  5701 1055 F807     		.2byte	0x7f8
  5702 1057 4A060000 		.4byte	0x64a
  5703 105b 02       		.uleb128 0x2
  5704 105c 91       		.byte	0x91
  5705 105d 64       		.sleb128 -28
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 153
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 153
 
 
  5706 105e 1B       		.uleb128 0x1b
- 5707 105f 8F020000 		.4byte	.LASF88
+ 5707 105f EC020000 		.4byte	.LASF88
  5708 1063 01       		.byte	0x1
  5709 1064 FA07     		.2byte	0x7fa
  5710 1066 05010000 		.4byte	0x105
@@ -9130,7 +9130,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5712 106b 91       		.byte	0x91
  5713 106c 70       		.sleb128 -16
  5714 106d 1B       		.uleb128 0x1b
- 5715 106e A9050000 		.4byte	.LASF53
+ 5715 106e B1050000 		.4byte	.LASF53
  5716 1072 01       		.byte	0x1
  5717 1073 FB07     		.2byte	0x7fb
  5718 1075 10010000 		.4byte	0x110
@@ -9148,7 +9148,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5730 108e 9C       		.byte	0x9c
  5731 108f B2100000 		.4byte	0x10b2
  5732 1093 1A       		.uleb128 0x1a
- 5733 1094 C9060000 		.4byte	.LASF75
+ 5733 1094 D1060000 		.4byte	.LASF75
  5734 1098 01       		.byte	0x1
  5735 1099 4708     		.2byte	0x847
  5736 109b 11040000 		.4byte	0x411
@@ -9156,7 +9156,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5738 10a0 91       		.byte	0x91
  5739 10a1 74       		.sleb128 -12
  5740 10a2 1A       		.uleb128 0x1a
- 5741 10a3 C5050000 		.4byte	.LASF92
+ 5741 10a3 CD050000 		.4byte	.LASF92
  5742 10a7 01       		.byte	0x1
  5743 10a8 4708     		.2byte	0x847
  5744 10aa 190A0000 		.4byte	0xa19
@@ -9165,7 +9165,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5747 10b0 70       		.sleb128 -16
  5748 10b1 00       		.byte	0
  5749 10b2 1D       		.uleb128 0x1d
- 5750 10b3 17060000 		.4byte	.LASF106
+ 5750 10b3 1F060000 		.4byte	.LASF106
  5751 10b7 01       		.byte	0x1
  5752 10b8 5908     		.2byte	0x859
  5753 10ba 00000000 		.4byte	.LFB153
@@ -9174,11 +9174,11 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5756 10c3 9C       		.byte	0x9c
  5757 10c4 0E110000 		.4byte	0x110e
  5758 10c8 1A       		.uleb128 0x1a
- 5759 10c9 C9060000 		.4byte	.LASF75
+ 5759 10c9 D1060000 		.4byte	.LASF75
  5760 10cd 01       		.byte	0x1
  5761 10ce 5908     		.2byte	0x859
  5762 10d0 11040000 		.4byte	0x411
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 154
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 154
 
 
  5763 10d4 02       		.uleb128 0x2
@@ -9201,7 +9201,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5780 10f5 56000000 		.4byte	.LBB175
  5781 10f9 42000000 		.4byte	.LBE175-.LBB175
  5782 10fd 1B       		.uleb128 0x1b
- 5783 10fe 93040000 		.4byte	.LASF56
+ 5783 10fe F0040000 		.4byte	.LASF56
  5784 1102 01       		.byte	0x1
  5785 1103 B408     		.2byte	0x8b4
  5786 1105 CB000000 		.4byte	0xcb
@@ -9221,7 +9221,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5800 1123 9C       		.byte	0x9c
  5801 1124 47110000 		.4byte	0x1147
  5802 1128 1A       		.uleb128 0x1a
- 5803 1129 C9060000 		.4byte	.LASF75
+ 5803 1129 D1060000 		.4byte	.LASF75
  5804 112d 01       		.byte	0x1
  5805 112e D108     		.2byte	0x8d1
  5806 1130 47110000 		.4byte	0x1147
@@ -9229,7 +9229,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5808 1135 91       		.byte	0x91
  5809 1136 6C       		.sleb128 -20
  5810 1137 1B       		.uleb128 0x1b
- 5811 1138 8F020000 		.4byte	.LASF88
+ 5811 1138 EC020000 		.4byte	.LASF88
  5812 113c 01       		.byte	0x1
  5813 113d D308     		.2byte	0x8d3
  5814 113f 05010000 		.4byte	0x105
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5817 1145 74       		.sleb128 -12
  5818 1146 00       		.byte	0
  5819 1147 06       		.uleb128 0x6
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 155
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 155
 
 
  5820 1148 04       		.byte	0x4
@@ -9256,7 +9256,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5832 1167 9C       		.byte	0x9c
  5833 1168 AE110000 		.4byte	0x11ae
  5834 116c 1A       		.uleb128 0x1a
- 5835 116d CC030000 		.4byte	.LASF69
+ 5835 116d 29040000 		.4byte	.LASF69
  5836 1171 01       		.byte	0x1
  5837 1172 E608     		.2byte	0x8e6
  5838 1174 F30E0000 		.4byte	0xef3
@@ -9264,7 +9264,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5840 1179 91       		.byte	0x91
  5841 117a 6C       		.sleb128 -20
  5842 117b 1B       		.uleb128 0x1b
- 5843 117c 8F020000 		.4byte	.LASF88
+ 5843 117c EC020000 		.4byte	.LASF88
  5844 1180 01       		.byte	0x1
  5845 1181 E808     		.2byte	0x8e8
  5846 1183 05010000 		.4byte	0x105
@@ -9289,7 +9289,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5865 11ac 00       		.byte	0
  5866 11ad 00       		.byte	0
  5867 11ae 23       		.uleb128 0x23
- 5868 11af 63030000 		.4byte	.LASF110
+ 5868 11af C0030000 		.4byte	.LASF110
  5869 11b3 01       		.byte	0x1
  5870 11b4 F808     		.2byte	0x8f8
  5871 11b6 05010000 		.4byte	0x105
@@ -9298,11 +9298,11 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5874 11c2 01       		.uleb128 0x1
  5875 11c3 9C       		.byte	0x9c
  5876 11c4 E7110000 		.4byte	0x11e7
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 156
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 156
 
 
  5877 11c8 1A       		.uleb128 0x1a
- 5878 11c9 C9060000 		.4byte	.LASF75
+ 5878 11c9 D1060000 		.4byte	.LASF75
  5879 11cd 01       		.byte	0x1
  5880 11ce F808     		.2byte	0x8f8
  5881 11d0 47110000 		.4byte	0x1147
@@ -9310,7 +9310,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5883 11d5 91       		.byte	0x91
  5884 11d6 6C       		.sleb128 -20
  5885 11d7 1B       		.uleb128 0x1b
- 5886 11d8 8F020000 		.4byte	.LASF88
+ 5886 11d8 EC020000 		.4byte	.LASF88
  5887 11dc 01       		.byte	0x1
  5888 11dd FA08     		.2byte	0x8fa
  5889 11df 05010000 		.4byte	0x105
@@ -9319,7 +9319,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5892 11e5 74       		.sleb128 -12
  5893 11e6 00       		.byte	0
  5894 11e7 21       		.uleb128 0x21
- 5895 11e8 02050000 		.4byte	.LASF111
+ 5895 11e8 0A050000 		.4byte	.LASF111
  5896 11ec 01       		.byte	0x1
  5897 11ed 0D09     		.2byte	0x90d
  5898 11ef 05010000 		.4byte	0x105
@@ -9329,7 +9329,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5902 11fc 9C       		.byte	0x9c
  5903 11fd 43120000 		.4byte	0x1243
  5904 1201 1A       		.uleb128 0x1a
- 5905 1202 CC030000 		.4byte	.LASF69
+ 5905 1202 29040000 		.4byte	.LASF69
  5906 1206 01       		.byte	0x1
  5907 1207 0D09     		.2byte	0x90d
  5908 1209 F30E0000 		.4byte	0xef3
@@ -9337,7 +9337,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5910 120e 91       		.byte	0x91
  5911 120f 6C       		.sleb128 -20
  5912 1210 1B       		.uleb128 0x1b
- 5913 1211 8F020000 		.4byte	.LASF88
+ 5913 1211 EC020000 		.4byte	.LASF88
  5914 1215 01       		.byte	0x1
  5915 1216 0F09     		.2byte	0x90f
  5916 1218 05010000 		.4byte	0x105
@@ -9358,14 +9358,14 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5931 123d 02       		.uleb128 0x2
  5932 123e 91       		.byte	0x91
  5933 123f 70       		.sleb128 -16
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 157
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 157
 
 
  5934 1240 00       		.byte	0
  5935 1241 00       		.byte	0
  5936 1242 00       		.byte	0
  5937 1243 24       		.uleb128 0x24
- 5938 1244 DD020000 		.4byte	.LASF113
+ 5938 1244 3A030000 		.4byte	.LASF113
  5939 1248 01       		.byte	0x1
  5940 1249 340A     		.2byte	0xa34
  5941 124b 00000000 		.4byte	.LFB158
@@ -9374,7 +9374,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5944 1254 9C       		.byte	0x9c
  5945 1255 86120000 		.4byte	0x1286
  5946 1259 1A       		.uleb128 0x1a
- 5947 125a CC030000 		.4byte	.LASF69
+ 5947 125a 29040000 		.4byte	.LASF69
  5948 125e 01       		.byte	0x1
  5949 125f 340A     		.2byte	0xa34
  5950 1261 39020000 		.4byte	0x239
@@ -9382,7 +9382,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5952 1266 91       		.byte	0x91
  5953 1267 6C       		.sleb128 -20
  5954 1268 1A       		.uleb128 0x1a
- 5955 1269 0B060000 		.4byte	.LASF61
+ 5955 1269 13060000 		.4byte	.LASF61
  5956 126d 01       		.byte	0x1
  5957 126e 340A     		.2byte	0xa34
  5958 1270 B9000000 		.4byte	0xb9
@@ -9399,7 +9399,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5969 1284 74       		.sleb128 -12
  5970 1285 00       		.byte	0
  5971 1286 21       		.uleb128 0x21
- 5972 1287 F2070000 		.4byte	.LASF114
+ 5972 1287 FA070000 		.4byte	.LASF114
  5973 128b 01       		.byte	0x1
  5974 128c 510A     		.2byte	0xa51
  5975 128e B9000000 		.4byte	0xb9
@@ -9409,7 +9409,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5979 129b 9C       		.byte	0x9c
  5980 129c CD120000 		.4byte	0x12cd
  5981 12a0 1A       		.uleb128 0x1a
- 5982 12a1 CC030000 		.4byte	.LASF69
+ 5982 12a1 29040000 		.4byte	.LASF69
  5983 12a5 01       		.byte	0x1
  5984 12a6 510A     		.2byte	0xa51
  5985 12a8 39020000 		.4byte	0x239
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5988 12ae 6C       		.sleb128 -20
  5989 12af 25       		.uleb128 0x25
  5990 12b0 757800   		.ascii	"ux\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 158
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 158
 
 
  5991 12b3 01       		.byte	0x1
@@ -9428,7 +9428,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  5995 12bb 91       		.byte	0x91
  5996 12bc 74       		.sleb128 -12
  5997 12bd 1B       		.uleb128 0x1b
- 5998 12be 72030000 		.4byte	.LASF115
+ 5998 12be CF030000 		.4byte	.LASF115
  5999 12c2 01       		.byte	0x1
  6000 12c3 540A     		.2byte	0xa54
  6001 12c5 B9000000 		.4byte	0xb9
@@ -9437,7 +9437,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6004 12cb 70       		.sleb128 -16
  6005 12cc 00       		.byte	0
  6006 12cd 24       		.uleb128 0x24
- 6007 12ce 68060000 		.4byte	.LASF116
+ 6007 12ce 70060000 		.4byte	.LASF116
  6008 12d2 01       		.byte	0x1
  6009 12d3 6D0A     		.2byte	0xa6d
  6010 12d5 00000000 		.4byte	.LFB160
@@ -9446,7 +9446,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6013 12de 9C       		.byte	0x9c
  6014 12df 01130000 		.4byte	0x1301
  6015 12e3 1A       		.uleb128 0x1a
- 6016 12e4 CC030000 		.4byte	.LASF69
+ 6016 12e4 29040000 		.4byte	.LASF69
  6017 12e8 01       		.byte	0x1
  6018 12e9 6D0A     		.2byte	0xa6d
  6019 12eb 39020000 		.4byte	0x239
@@ -9463,7 +9463,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6030 12ff 74       		.sleb128 -12
  6031 1300 00       		.byte	0
  6032 1301 22       		.uleb128 0x22
- 6033 1302 FE060000 		.4byte	.LASF117
+ 6033 1302 06070000 		.4byte	.LASF117
  6034 1306 01       		.byte	0x1
  6035 1307 8D0A     		.2byte	0xa8d
  6036 1309 00000000 		.4byte	.LFB161
@@ -9472,13 +9472,13 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6039 1312 9C       		.byte	0x9c
  6040 1313 54130000 		.4byte	0x1354
  6041 1317 1A       		.uleb128 0x1a
- 6042 1318 CC030000 		.4byte	.LASF69
+ 6042 1318 29040000 		.4byte	.LASF69
  6043 131c 01       		.byte	0x1
  6044 131d 8D0A     		.2byte	0xa8d
  6045 131f 39020000 		.4byte	0x239
  6046 1323 02       		.uleb128 0x2
  6047 1324 91       		.byte	0x91
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 159
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 159
 
 
  6048 1325 6C       		.sleb128 -20
@@ -9491,7 +9491,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6055 1333 91       		.byte	0x91
  6056 1334 68       		.sleb128 -24
  6057 1335 1A       		.uleb128 0x1a
- 6058 1336 56060000 		.4byte	.LASF118
+ 6058 1336 5E060000 		.4byte	.LASF118
  6059 133a 01       		.byte	0x1
  6060 133b 8D0A     		.2byte	0xa8d
  6061 133d 4A060000 		.4byte	0x64a
@@ -9499,7 +9499,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6063 1342 91       		.byte	0x91
  6064 1343 64       		.sleb128 -28
  6065 1344 1B       		.uleb128 0x1b
- 6066 1345 C9060000 		.4byte	.LASF75
+ 6066 1345 D1060000 		.4byte	.LASF75
  6067 1349 01       		.byte	0x1
  6068 134a 8F0A     		.2byte	0xa8f
  6069 134c 11040000 		.4byte	0x411
@@ -9522,7 +9522,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6086 1373 09       		.byte	0x9
  6087 1374 00       		.byte	0
  6088 1375 29       		.uleb128 0x29
- 6089 1376 26060000 		.4byte	.LASF120
+ 6089 1376 2E060000 		.4byte	.LASF120
  6090 137a 01       		.byte	0x1
  6091 137b 9A       		.byte	0x9a
  6092 137c 65130000 		.4byte	0x1365
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6102 0003 25       		.uleb128 0x25
  6103 0004 0E       		.uleb128 0xe
  6104 0005 13       		.uleb128 0x13
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 160
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 160
 
 
  6105 0006 0B       		.uleb128 0xb
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6159 003c 00       		.byte	0
  6160 003d 06       		.uleb128 0x6
  6161 003e 0F       		.uleb128 0xf
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 161
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 161
 
 
  6162 003f 00       		.byte	0
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6216 0075 00       		.byte	0
  6217 0076 00       		.byte	0
  6218 0077 0C       		.uleb128 0xc
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 162
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 162
 
 
  6219 0078 17       		.uleb128 0x17
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6273 00ae 13       		.uleb128 0x13
  6274 00af 00       		.byte	0
  6275 00b0 00       		.byte	0
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 163
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 163
 
 
  6276 00b1 10       		.uleb128 0x10
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6330 00e7 3B       		.uleb128 0x3b
  6331 00e8 0B       		.uleb128 0xb
  6332 00e9 27       		.uleb128 0x27
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 164
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 164
 
 
  6333 00ea 19       		.uleb128 0x19
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6387 0121 58       		.uleb128 0x58
  6388 0122 0B       		.uleb128 0xb
  6389 0123 59       		.uleb128 0x59
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 165
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 165
 
 
  6390 0124 0B       		.uleb128 0xb
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6444 015b 0B       		.uleb128 0xb
  6445 015c 3B       		.uleb128 0x3b
  6446 015d 05       		.uleb128 0x5
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 166
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 166
 
 
  6447 015e 49       		.uleb128 0x49
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6501 0195 19       		.uleb128 0x19
  6502 0196 01       		.uleb128 0x1
  6503 0197 13       		.uleb128 0x13
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 167
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 167
 
 
  6504 0198 00       		.byte	0
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6558 01ce 11       		.uleb128 0x11
  6559 01cf 01       		.uleb128 0x1
  6560 01d0 12       		.uleb128 0x12
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 168
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 168
 
 
  6561 01d1 06       		.uleb128 0x6
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6615 020a 19       		.uleb128 0x19
  6616 020b 01       		.uleb128 0x1
  6617 020c 13       		.uleb128 0x13
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 169
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 169
 
 
  6618 020d 00       		.byte	0
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6672 0244 19       		.uleb128 0x19
  6673 0245 3C       		.uleb128 0x3c
  6674 0246 19       		.uleb128 0x19
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 170
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 170
 
 
  6675 0247 00       		.byte	0
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6729 0030 00000000 		.4byte	.LFB140
  6730 0034 28010000 		.4byte	.LFE140-.LFB140
  6731 0038 00000000 		.4byte	.LFB141
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 171
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 171
 
 
  6732 003c 12010000 		.4byte	.LFE141-.LFB141
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6786 0024 28010000 		.4byte	.LFE140
  6787 0028 00000000 		.4byte	.LFB141
  6788 002c 12010000 		.4byte	.LFE141
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 172
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 172
 
 
  6789 0030 00000000 		.4byte	.LFB142
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6835      6446726F 
  6836              	.LASF66:
  6837 0019 756C4F72 		.ascii	"ulOriginalBASEPRI\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 173
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 173
 
 
  6837      6967696E 
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6859      75655065 
  6859      656B4672 
  6859      6F6D4953 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 174
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 174
 
 
  6859      5200
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6881      5400
  6882              	.LASF33:
  6883 017c 784D494E 		.ascii	"xMINI_LIST_ITEM\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 175
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 175
 
 
  6883      495F4C49 
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6907 021e 42617365 		.ascii	"BaseType_t\000"
  6907      54797065 
  6907      5F7400
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 176
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 176
 
 
  6908              	.LASF85:
@@ -10526,339 +10526,339 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  6917      72666C6F 
  6917      77436F75 
  6917      6E7400
- 6918              	.LASF112:
- 6919 0273 76517565 		.ascii	"vQueueDelete\000"
- 6919      75654465 
- 6919      6C657465 
- 6919      00
- 6920              	.LASF48:
- 6921 0280 70634865 		.ascii	"pcHead\000"
- 6921      616400
- 6922              	.LASF29:
- 6923 0287 70764F77 		.ascii	"pvOwner\000"
- 6923      6E657200 
- 6924              	.LASF88:
- 6925 028f 78526574 		.ascii	"xReturn\000"
- 6925      75726E00 
- 6926              	.LASF42:
- 6927 0297 7854696D 		.ascii	"xTimeOnEntering\000"
- 6927      654F6E45 
- 6927      6E746572 
- 6927      696E6700 
- 6928              	.LASF36:
- 6929 02a7 75784E75 		.ascii	"uxNumberOfItems\000"
- 6929      6D626572 
- 6929      4F664974 
- 6929      656D7300 
- 6930              	.LASF13:
- 6931 02b7 6C6F6E67 		.ascii	"long unsigned int\000"
- 6931      20756E73 
- 6931      69676E65 
- 6931      6420696E 
- 6931      7400
- 6932              	.LASF93:
- 6933 02c9 78517565 		.ascii	"xQueueSemaphoreTake\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 177
+ 6918              	.LASF123:
+ 6919 0273 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
+ 6919      73657273 
+ 6919      5C737469 
+ 6919      6A6E5C44 
+ 6919      726F7062 
+ 6920 029f 43204372 		.ascii	"C Creator\\Data Acquisition\\IoT_Generic_DAQ.cydsn\000"
+ 6920      6561746F 
+ 6920      725C4461 
+ 6920      74612041 
+ 6920      63717569 
+ 6921              	.LASF112:
+ 6922 02d0 76517565 		.ascii	"vQueueDelete\000"
+ 6922      75654465 
+ 6922      6C657465 
+ 6922      00
+ 6923              	.LASF48:
+ 6924 02dd 70634865 		.ascii	"pcHead\000"
+ 6924      616400
+ 6925              	.LASF29:
+ 6926 02e4 70764F77 		.ascii	"pvOwner\000"
+ 6926      6E657200 
+ 6927              	.LASF88:
+ 6928 02ec 78526574 		.ascii	"xReturn\000"
+ 6928      75726E00 
+ 6929              	.LASF42:
+ 6930 02f4 7854696D 		.ascii	"xTimeOnEntering\000"
+ 6930      654F6E45 
+ 6930      6E746572 
+ 6930      696E6700 
+ 6931              	.LASF36:
+ 6932 0304 75784E75 		.ascii	"uxNumberOfItems\000"
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 177
 
 
- 6933      75655365 
- 6933      6D617068 
- 6933      6F726554 
- 6933      616B6500 
- 6934              	.LASF113:
- 6935 02dd 76517565 		.ascii	"vQueueAddToRegistry\000"
- 6935      75654164 
- 6935      64546F52 
- 6935      65676973 
- 6935      74727900 
- 6936              	.LASF79:
- 6937 02f1 78517565 		.ascii	"xQueueGenericSend\000"
- 6937      75654765 
- 6937      6E657269 
- 6937      6353656E 
- 6937      6400
- 6938              	.LASF9:
- 6939 0303 73686F72 		.ascii	"short unsigned int\000"
- 6939      7420756E 
- 6939      7369676E 
- 6939      65642069 
- 6939      6E7400
- 6940              	.LASF84:
- 6941 0316 78596965 		.ascii	"xYieldRequired\000"
- 6941      6C645265 
- 6941      71756972 
- 6941      656400
- 6942              	.LASF91:
- 6943 0325 78517565 		.ascii	"xQueueReceive\000"
- 6943      75655265 
- 6943      63656976 
- 6943      6500
- 6944              	.LASF100:
- 6945 0333 75785265 		.ascii	"uxReturn\000"
- 6945      7475726E 
- 6945      00
- 6946              	.LASF67:
- 6947 033c 76506F72 		.ascii	"vPortRaiseBASEPRI\000"
- 6947      74526169 
- 6947      73654241 
- 6947      53455052 
- 6947      4900
- 6948              	.LASF97:
- 6949 034e 78517565 		.ascii	"xQueueReceiveFromISR\000"
- 6949      75655265 
- 6949      63656976 
- 6949      6546726F 
- 6949      6D495352 
- 6950              	.LASF110:
- 6951 0363 70727649 		.ascii	"prvIsQueueFull\000"
- 6951      73517565 
- 6951      75654675 
- 6951      6C6C00
- 6952              	.LASF115:
- 6953 0372 70635265 		.ascii	"pcReturn\000"
- 6953      7475726E 
- 6953      00
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 178
+ 6932      6D626572 
+ 6932      4F664974 
+ 6932      656D7300 
+ 6933              	.LASF13:
+ 6934 0314 6C6F6E67 		.ascii	"long unsigned int\000"
+ 6934      20756E73 
+ 6934      69676E65 
+ 6934      6420696E 
+ 6934      7400
+ 6935              	.LASF93:
+ 6936 0326 78517565 		.ascii	"xQueueSemaphoreTake\000"
+ 6936      75655365 
+ 6936      6D617068 
+ 6936      6F726554 
+ 6936      616B6500 
+ 6937              	.LASF113:
+ 6938 033a 76517565 		.ascii	"vQueueAddToRegistry\000"
+ 6938      75654164 
+ 6938      64546F52 
+ 6938      65676973 
+ 6938      74727900 
+ 6939              	.LASF79:
+ 6940 034e 78517565 		.ascii	"xQueueGenericSend\000"
+ 6940      75654765 
+ 6940      6E657269 
+ 6940      6353656E 
+ 6940      6400
+ 6941              	.LASF9:
+ 6942 0360 73686F72 		.ascii	"short unsigned int\000"
+ 6942      7420756E 
+ 6942      7369676E 
+ 6942      65642069 
+ 6942      6E7400
+ 6943              	.LASF84:
+ 6944 0373 78596965 		.ascii	"xYieldRequired\000"
+ 6944      6C645265 
+ 6944      71756972 
+ 6944      656400
+ 6945              	.LASF91:
+ 6946 0382 78517565 		.ascii	"xQueueReceive\000"
+ 6946      75655265 
+ 6946      63656976 
+ 6946      6500
+ 6947              	.LASF100:
+ 6948 0390 75785265 		.ascii	"uxReturn\000"
+ 6948      7475726E 
+ 6948      00
+ 6949              	.LASF67:
+ 6950 0399 76506F72 		.ascii	"vPortRaiseBASEPRI\000"
+ 6950      74526169 
+ 6950      73654241 
+ 6950      53455052 
+ 6950      4900
+ 6951              	.LASF97:
+ 6952 03ab 78517565 		.ascii	"xQueueReceiveFromISR\000"
+ 6952      75655265 
+ 6952      63656976 
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 178
 
 
- 6954              	.LASF54:
- 6955 037b 75784C65 		.ascii	"uxLength\000"
- 6955      6E677468 
- 6955      00
- 6956              	.LASF59:
- 6957 0384 51756575 		.ascii	"Queue_t\000"
- 6957      655F7400 
- 6958              	.LASF73:
- 6959 038c 75785175 		.ascii	"uxQueueLength\000"
- 6959      6575654C 
- 6959      656E6774 
- 6959      6800
- 6960              	.LASF52:
- 6961 039a 78546173 		.ascii	"xTasksWaitingToReceive\000"
- 6961      6B735761 
- 6961      6974696E 
- 6961      67546F52 
- 6961      65636569 
- 6962              	.LASF68:
- 6963 03b1 76506F72 		.ascii	"vPortSetBASEPRI\000"
- 6963      74536574 
- 6963      42415345 
- 6963      50524900 
- 6964              	.LASF31:
- 6965 03c1 4C697374 		.ascii	"ListItem_t\000"
- 6965      4974656D 
- 6965      5F7400
- 6966              	.LASF69:
- 6967 03cc 78517565 		.ascii	"xQueue\000"
- 6967      756500
- 6968              	.LASF28:
- 6969 03d3 70785072 		.ascii	"pxPrevious\000"
- 6969      6576696F 
- 6969      757300
- 6970              	.LASF102:
- 6971 03de 75785175 		.ascii	"uxQueueMessagesWaitingFromISR\000"
- 6971      6575654D 
- 6971      65737361 
- 6971      67657357 
- 6971      61697469 
- 6972              	.LASF80:
- 6973 03fc 70764974 		.ascii	"pvItemToQueue\000"
- 6973      656D546F 
- 6973      51756575 
- 6973      6500
- 6974              	.LASF21:
- 6975 040a 666C6F61 		.ascii	"float\000"
- 6975      7400
- 6976              	.LASF58:
- 6977 0410 78515545 		.ascii	"xQUEUE\000"
- 6977      554500
- 6978              	.LASF37:
- 6979 0417 7078496E 		.ascii	"pxIndex\000"
- 6979      64657800 
- 6980              	.LASF30:
- 6981 041f 7076436F 		.ascii	"pvContainer\000"
- 6981      6E746169 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 179
+ 6952      6546726F 
+ 6952      6D495352 
+ 6953              	.LASF110:
+ 6954 03c0 70727649 		.ascii	"prvIsQueueFull\000"
+ 6954      73517565 
+ 6954      75654675 
+ 6954      6C6C00
+ 6955              	.LASF115:
+ 6956 03cf 70635265 		.ascii	"pcReturn\000"
+ 6956      7475726E 
+ 6956      00
+ 6957              	.LASF54:
+ 6958 03d8 75784C65 		.ascii	"uxLength\000"
+ 6958      6E677468 
+ 6958      00
+ 6959              	.LASF59:
+ 6960 03e1 51756575 		.ascii	"Queue_t\000"
+ 6960      655F7400 
+ 6961              	.LASF73:
+ 6962 03e9 75785175 		.ascii	"uxQueueLength\000"
+ 6962      6575654C 
+ 6962      656E6774 
+ 6962      6800
+ 6963              	.LASF52:
+ 6964 03f7 78546173 		.ascii	"xTasksWaitingToReceive\000"
+ 6964      6B735761 
+ 6964      6974696E 
+ 6964      67546F52 
+ 6964      65636569 
+ 6965              	.LASF68:
+ 6966 040e 76506F72 		.ascii	"vPortSetBASEPRI\000"
+ 6966      74536574 
+ 6966      42415345 
+ 6966      50524900 
+ 6967              	.LASF31:
+ 6968 041e 4C697374 		.ascii	"ListItem_t\000"
+ 6968      4974656D 
+ 6968      5F7400
+ 6969              	.LASF69:
+ 6970 0429 78517565 		.ascii	"xQueue\000"
+ 6970      756500
+ 6971              	.LASF28:
+ 6972 0430 70785072 		.ascii	"pxPrevious\000"
+ 6972      6576696F 
+ 6972      757300
+ 6973              	.LASF102:
+ 6974 043b 75785175 		.ascii	"uxQueueMessagesWaitingFromISR\000"
+ 6974      6575654D 
+ 6974      65737361 
+ 6974      67657357 
+ 6974      61697469 
+ 6975              	.LASF80:
+ 6976 0459 70764974 		.ascii	"pvItemToQueue\000"
+ 6976      656D546F 
+ 6976      51756575 
+ 6976      6500
+ 6977              	.LASF21:
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 179
 
 
- 6981      6E657200 
- 6982              	.LASF62:
- 6983 042b 7848616E 		.ascii	"xHandle\000"
- 6983      646C6500 
- 6984              	.LASF83:
- 6985 0433 78456E74 		.ascii	"xEntryTimeSet\000"
- 6985      72795469 
- 6985      6D655365 
- 6985      7400
- 6986              	.LASF47:
- 6987 0441 51756575 		.ascii	"QueueDefinition\000"
- 6987      65446566 
- 6987      696E6974 
- 6987      696F6E00 
- 6988              	.LASF19:
- 6989 0451 696E7433 		.ascii	"int32_t\000"
- 6989      325F7400 
- 6990              	.LASF7:
- 6991 0459 756E7369 		.ascii	"unsigned char\000"
- 6991      676E6564 
- 6991      20636861 
- 6991      7200
- 6992              	.LASF0:
- 6993 0467 756E7369 		.ascii	"unsigned int\000"
- 6993      676E6564 
- 6993      20696E74 
- 6993      00
- 6994              	.LASF46:
- 6995 0474 75785265 		.ascii	"uxRecursiveCallCount\000"
- 6995      63757273 
- 6995      69766543 
- 6995      616C6C43 
- 6995      6F756E74 
- 6996              	.LASF8:
- 6997 0489 73686F72 		.ascii	"short int\000"
- 6997      7420696E 
- 6997      7400
- 6998              	.LASF56:
- 6999 0493 6352784C 		.ascii	"cRxLock\000"
- 6999      6F636B00 
- 7000              	.LASF90:
- 7001 049b 78517565 		.ascii	"xQueueGiveFromISR\000"
- 7001      75654769 
- 7001      76654672 
- 7001      6F6D4953 
- 7001      5200
- 7002              	.LASF123:
- 7003 04ad 433A5C55 		.ascii	"C:\\Users\\stijn\\Dropbox\\Work\\PhD\\Projects\\PSo"
- 7003      73657273 
- 7003      5C737469 
- 7003      6A6E5C44 
- 7003      726F7062 
- 7004 04d9 43204372 		.ascii	"C Creator\\RTOS DAQ\\IoT_Generic_DAQ.cydsn\000"
- 7004      6561746F 
- 7004      725C5254 
- 7004      4F532044 
- 7004      41515C49 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 180
+ 6978 0467 666C6F61 		.ascii	"float\000"
+ 6978      7400
+ 6979              	.LASF58:
+ 6980 046d 78515545 		.ascii	"xQUEUE\000"
+ 6980      554500
+ 6981              	.LASF37:
+ 6982 0474 7078496E 		.ascii	"pxIndex\000"
+ 6982      64657800 
+ 6983              	.LASF30:
+ 6984 047c 7076436F 		.ascii	"pvContainer\000"
+ 6984      6E746169 
+ 6984      6E657200 
+ 6985              	.LASF62:
+ 6986 0488 7848616E 		.ascii	"xHandle\000"
+ 6986      646C6500 
+ 6987              	.LASF83:
+ 6988 0490 78456E74 		.ascii	"xEntryTimeSet\000"
+ 6988      72795469 
+ 6988      6D655365 
+ 6988      7400
+ 6989              	.LASF47:
+ 6990 049e 51756575 		.ascii	"QueueDefinition\000"
+ 6990      65446566 
+ 6990      696E6974 
+ 6990      696F6E00 
+ 6991              	.LASF19:
+ 6992 04ae 696E7433 		.ascii	"int32_t\000"
+ 6992      325F7400 
+ 6993              	.LASF7:
+ 6994 04b6 756E7369 		.ascii	"unsigned char\000"
+ 6994      676E6564 
+ 6994      20636861 
+ 6994      7200
+ 6995              	.LASF0:
+ 6996 04c4 756E7369 		.ascii	"unsigned int\000"
+ 6996      676E6564 
+ 6996      20696E74 
+ 6996      00
+ 6997              	.LASF46:
+ 6998 04d1 75785265 		.ascii	"uxRecursiveCallCount\000"
+ 6998      63757273 
+ 6998      69766543 
+ 6998      616C6C43 
+ 6998      6F756E74 
+ 6999              	.LASF8:
+ 7000 04e6 73686F72 		.ascii	"short int\000"
+ 7000      7420696E 
+ 7000      7400
+ 7001              	.LASF56:
+ 7002 04f0 6352784C 		.ascii	"cRxLock\000"
+ 7002      6F636B00 
+ 7003              	.LASF90:
+ 7004 04f8 78517565 		.ascii	"xQueueGiveFromISR\000"
+ 7004      75654769 
+ 7004      76654672 
+ 7004      6F6D4953 
+ 7004      5200
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 180
 
 
  7005              	.LASF111:
- 7006 0502 78517565 		.ascii	"xQueueIsQueueFullFromISR\000"
+ 7006 050a 78517565 		.ascii	"xQueueIsQueueFullFromISR\000"
  7006      75654973 
  7006      51756575 
  7006      6546756C 
  7006      6C46726F 
  7007              	.LASF122:
- 7008 051b 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\rtos\\FreeRTOS\\10.0."
+ 7008 0523 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\rtos\\FreeRTOS\\10.0."
  7008      72617465 
  7008      645F536F 
  7008      75726365 
  7008      5C50536F 
- 7009 0549 315C536F 		.ascii	"1\\Source\\queue.c\000"
+ 7009 0551 315C536F 		.ascii	"1\\Source\\queue.c\000"
  7009      75726365 
  7009      5C717565 
  7009      75652E63 
  7009      00
  7010              	.LASF72:
- 7011 055a 78517565 		.ascii	"xQueueGenericCreate\000"
+ 7011 0562 78517565 		.ascii	"xQueueGenericCreate\000"
  7011      75654765 
  7011      6E657269 
  7011      63437265 
  7011      61746500 
  7012              	.LASF35:
- 7013 056e 784C4953 		.ascii	"xLIST\000"
+ 7013 0576 784C4953 		.ascii	"xLIST\000"
  7013      5400
  7014              	.LASF39:
- 7015 0574 4C697374 		.ascii	"List_t\000"
+ 7015 057c 4C697374 		.ascii	"List_t\000"
  7015      5F7400
  7016              	.LASF89:
- 7017 057b 75785361 		.ascii	"uxSavedInterruptStatus\000"
+ 7017 0583 75785361 		.ascii	"uxSavedInterruptStatus\000"
  7017      76656449 
  7017      6E746572 
  7017      72757074 
  7017      53746174 
  7018              	.LASF44:
- 7019 0592 51756575 		.ascii	"QueueHandle_t\000"
+ 7019 059a 51756575 		.ascii	"QueueHandle_t\000"
  7019      6548616E 
  7019      646C655F 
  7019      7400
  7020              	.LASF20:
- 7021 05a0 75696E74 		.ascii	"uint32_t\000"
+ 7021 05a8 75696E74 		.ascii	"uint32_t\000"
  7021      33325F74 
  7021      00
  7022              	.LASF53:
- 7023 05a9 75784D65 		.ascii	"uxMessagesWaiting\000"
+ 7023 05b1 75784D65 		.ascii	"uxMessagesWaiting\000"
  7023      73736167 
  7023      65735761 
  7023      6974696E 
  7023      6700
  7024              	.LASF6:
- 7025 05bb 5F5F7569 		.ascii	"__uint8_t\000"
+ 7025 05c3 5F5F7569 		.ascii	"__uint8_t\000"
  7025      6E74385F 
  7025      7400
  7026              	.LASF92:
- 7027 05c5 70764275 		.ascii	"pvBuffer\000"
+ 7027 05cd 70764275 		.ascii	"pvBuffer\000"
  7027      66666572 
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 181
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 181
 
 
  7027      00
  7028              	.LASF2:
- 7029 05ce 6C6F6E67 		.ascii	"long double\000"
+ 7029 05d6 6C6F6E67 		.ascii	"long double\000"
  7029      20646F75 
  7029      626C6500 
  7030              	.LASF71:
- 7031 05da 78517565 		.ascii	"xQueueGenericReset\000"
+ 7031 05e2 78517565 		.ascii	"xQueueGenericReset\000"
  7031      75654765 
  7031      6E657269 
  7031      63526573 
  7031      657400
  7032              	.LASF16:
- 7033 05ed 63686172 		.ascii	"char\000"
+ 7033 05f5 63686172 		.ascii	"char\000"
  7033      00
  7034              	.LASF82:
- 7035 05f2 78436F70 		.ascii	"xCopyPosition\000"
+ 7035 05fa 78436F70 		.ascii	"xCopyPosition\000"
  7035      79506F73 
  7035      6974696F 
  7035      6E00
  7036              	.LASF26:
- 7037 0600 78497465 		.ascii	"xItemValue\000"
+ 7037 0608 78497465 		.ascii	"xItemValue\000"
  7037      6D56616C 
  7037      756500
  7038              	.LASF61:
- 7039 060b 70635175 		.ascii	"pcQueueName\000"
+ 7039 0613 70635175 		.ascii	"pcQueueName\000"
  7039      6575654E 
  7039      616D6500 
  7040              	.LASF106:
- 7041 0617 70727655 		.ascii	"prvUnlockQueue\000"
+ 7041 061f 70727655 		.ascii	"prvUnlockQueue\000"
  7041      6E6C6F63 
  7041      6B517565 
  7041      756500
  7042              	.LASF120:
- 7043 0626 78517565 		.ascii	"xQueueRegistry\000"
+ 7043 062e 78517565 		.ascii	"xQueueRegistry\000"
  7043      75655265 
  7043      67697374 
  7043      727900
  7044              	.LASF49:
- 7045 0635 70635461 		.ascii	"pcTail\000"
+ 7045 063d 70635461 		.ascii	"pcTail\000"
  7045      696C00
  7046              	.LASF10:
- 7047 063c 5F5F696E 		.ascii	"__int32_t\000"
+ 7047 0644 5F5F696E 		.ascii	"__int32_t\000"
  7047      7433325F 
  7047      7400
  7048              	.LASF78:
- 7049 0646 70756351 		.ascii	"pucQueueStorage\000"
+ 7049 064e 70756351 		.ascii	"pucQueueStorage\000"
  7049      75657565 
  7049      53746F72 
  7049      61676500 
  7050              	.LASF118:
- 7051 0656 78576169 		.ascii	"xWaitIndefinitely\000"
+ 7051 065e 78576169 		.ascii	"xWaitIndefinitely\000"
  7051      74496E64 
  7051      6566696E 
  7051      6974656C 
  7051      7900
  7052              	.LASF116:
- 7053 0668 76517565 		.ascii	"vQueueUnregisterQueue\000"
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 182
+ 7053 0670 76517565 		.ascii	"vQueueUnregisterQueue\000"
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 182
 
 
  7053      7565556E 
@@ -10866,98 +10866,98 @@ ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 1
  7053      73746572 
  7053      51756575 
  7054              	.LASF17:
- 7055 067e 696E7438 		.ascii	"int8_t\000"
+ 7055 0686 696E7438 		.ascii	"int8_t\000"
  7055      5F7400
  7056              	.LASF103:
- 7057 0685 78506F73 		.ascii	"xPosition\000"
+ 7057 068d 78506F73 		.ascii	"xPosition\000"
  7057      6974696F 
  7057      6E00
  7058              	.LASF64:
- 7059 068f 51756575 		.ascii	"QueueRegistryItem_t\000"
+ 7059 0697 51756575 		.ascii	"QueueRegistryItem_t\000"
  7059      65526567 
  7059      69737472 
  7059      79497465 
  7059      6D5F7400 
  7060              	.LASF51:
- 7061 06a3 78546173 		.ascii	"xTasksWaitingToSend\000"
+ 7061 06ab 78546173 		.ascii	"xTasksWaitingToSend\000"
  7061      6B735761 
  7061      6974696E 
  7061      67546F53 
  7061      656E6400 
  7062              	.LASF77:
- 7063 06b7 78517565 		.ascii	"xQueueSizeInBytes\000"
+ 7063 06bf 78517565 		.ascii	"xQueueSizeInBytes\000"
  7063      75655369 
  7063      7A65496E 
  7063      42797465 
  7063      7300
  7064              	.LASF75:
- 7065 06c9 70785175 		.ascii	"pxQueue\000"
+ 7065 06d1 70785175 		.ascii	"pxQueue\000"
  7065      65756500 
  7066              	.LASF18:
- 7067 06d1 75696E74 		.ascii	"uint8_t\000"
+ 7067 06d9 75696E74 		.ascii	"uint8_t\000"
  7067      385F7400 
  7068              	.LASF50:
- 7069 06d9 70635772 		.ascii	"pcWriteTo\000"
+ 7069 06e1 70635772 		.ascii	"pcWriteTo\000"
  7069      69746554 
  7069      6F00
  7070              	.LASF55:
- 7071 06e3 75784974 		.ascii	"uxItemSize\000"
+ 7071 06eb 75784974 		.ascii	"uxItemSize\000"
  7071      656D5369 
  7071      7A6500
  7072              	.LASF15:
- 7073 06ee 73697A65 		.ascii	"sizetype\000"
+ 7073 06f6 73697A65 		.ascii	"sizetype\000"
  7073      74797065 
  7073      00
  7074              	.LASF27:
- 7075 06f7 70784E65 		.ascii	"pxNext\000"
+ 7075 06ff 70784E65 		.ascii	"pxNext\000"
  7075      787400
  7076              	.LASF117:
- 7077 06fe 76517565 		.ascii	"vQueueWaitForMessageRestricted\000"
+ 7077 0706 76517565 		.ascii	"vQueueWaitForMessageRestricted\000"
  7077      75655761 
  7077      6974466F 
  7077      724D6573 
  7077      73616765 
  7078              	.LASF32:
-ARM GAS  C:\Users\stijn\AppData\Local\Temp\cc87lKZf.s 			page 183
+ARM GAS  C:\Users\stijn\AppData\Local\Temp\ccgnBN3s.s 			page 183
 
 
- 7079 071d 784C4953 		.ascii	"xLIST_ITEM\000"
+ 7079 0725 784C4953 		.ascii	"xLIST_ITEM\000"
  7079      545F4954 
  7079      454D00
  7080              	.LASF121:
- 7081 0728 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 7081 0730 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  7081      43313120 
  7081      352E342E 
  7081      31203230 
  7081      31363036 
- 7082 075b 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 7082 0763 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
  7082      20726576 
  7082      6973696F 
  7082      6E203233 
  7082      37373135 
- 7083 078e 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
+ 7083 0796 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
  7083      70202D6D 
  7083      6670753D 
  7083      66707634 
  7083      2D73702D 
- 7084 07c1 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 7084 07c9 65637469 		.ascii	"ections -ffat-lto-objects\000"
  7084      6F6E7320 
  7084      2D666661 
  7084      742D6C74 
  7084      6F2D6F62 
  7085              	.LASF101:
- 7086 07db 75785175 		.ascii	"uxQueueSpacesAvailable\000"
+ 7086 07e3 75785175 		.ascii	"uxQueueSpacesAvailable\000"
  7086      65756553 
  7086      70616365 
  7086      73417661 
  7086      696C6162 
  7087              	.LASF114:
- 7088 07f2 70635175 		.ascii	"pcQueueGetName\000"
+ 7088 07fa 70635175 		.ascii	"pcQueueGetName\000"
  7088      65756547 
  7088      65744E61 
  7088      6D6500
  7089              	.LASF24:
- 7090 0801 55426173 		.ascii	"UBaseType_t\000"
+ 7090 0809 55426173 		.ascii	"UBaseType_t\000"
  7090      65547970 
  7090      655F7400 
  7091              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

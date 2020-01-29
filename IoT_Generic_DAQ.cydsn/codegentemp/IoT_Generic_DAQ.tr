@@ -27,13 +27,13 @@ Clock: ADC_intSarClock  | N/A                    | Target: 1.00 MHz    |
 Clock: CyClk_Fast       | N/A                    | Target: 100.00 MHz  | 
 Clock: CyClk_HF0        | N/A                    | Target: 100.00 MHz  | 
 Clock: CyClk_LF         | N/A                    | Target: 0.03 MHz    | 
-Clock: CyClk_Peri       | Frequency: 540.54 MHz  | Target: 50.00 MHz   | 
+Clock: CyClk_Peri       | Frequency: 552.49 MHz  | Target: 50.00 MHz   | 
 Clock: CyClk_Slow       | N/A                    | Target: 50.00 MHz   | 
 Clock: CyFLL            | N/A                    | Target: 100.00 MHz  | 
 Clock: CyILO            | N/A                    | Target: 0.03 MHz    | 
 Clock: CyIMO            | N/A                    | Target: 8.00 MHz    | 
 Clock: CyPeriClk_App    | N/A                    | Target: 50.00 MHz   | 
-Clock: SRClk_App        | Frequency: 490.20 MHz  | Target: 25.00 MHz   | 
+Clock: SRClk_App        | Frequency: 571.43 MHz  | Target: 25.00 MHz   | 
 Clock: UART_SCBCLK      | N/A                    | Target: 5.56 MHz    | 
 Clock: mI2C_SCBCLK      | N/A                    | Target: 8.33 MHz    | 
 
@@ -48,9 +48,9 @@ Clock: mI2C_SCBCLK      | N/A                    | Target: 8.33 MHz    |
 
 Launch Clock  Capture Clock  Constraint(R-R)  Slack(R-R)  Constraint(R-F)  Slack(R-F)  Constraint(F-F)  Slack(F-F)  Constraint(F-R)  Slack(F-R)  
 ------------  -------------  ---------------  ----------  ---------------  ----------  ---------------  ----------  ---------------  ----------  
-CyClk_Peri    CyClk_Peri     20000            18150       N/A              N/A         N/A              N/A         N/A              N/A         
-SRClk_App     CyClk_Peri     20000            16790       N/A              N/A         N/A              N/A         N/A              N/A         
-SRClk_App     SRClk_App      40000            37960       N/A              N/A         N/A              N/A         N/A              N/A         
+CyClk_Peri    CyClk_Peri     20000            18190       N/A              N/A         N/A              N/A         N/A              N/A         
+SRClk_App     CyClk_Peri     20000            16860       N/A              N/A         N/A              N/A         N/A              N/A         
+SRClk_App     SRClk_App      40000            38250       N/A              N/A         N/A              N/A         N/A              N/A         
 
  =====================================================================
                     End of Clock Relationship Summary
@@ -75,8 +75,8 @@ Port Name  Setup to Clk  Clock Name:Phase
 
 Port Name   Clock to Out  Clock Name:Phase  
 ----------  ------------  ----------------  
-O_6(0)_PAD  4497          SRClk_App:R       
-O_6(1)_PAD  4437          SRClk_App:R       
+O_6(0)_PAD  4337          SRClk_App:R       
+O_6(1)_PAD  4507          SRClk_App:R       
 
 
                          3.3::Pad to Pad
@@ -94,27 +94,27 @@ Port Name (Source)  Port Name (Destination)  Delay
 4.1::Critical Path Report for CyClk_Peri
 ****************************************
 Clock: CyClk_Peri
-Frequency: 540.54 MHz | Target: 50.00 MHz
+Frequency: 552.49 MHz | Target: 50.00 MHz
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : AMuxHw_Decoder_old_id_0/q
 Path End       : AMuxHw_Decoder_one_hot_0/main_3
 Capture Clock  : AMuxHw_Decoder_one_hot_0/clock_0
-Path slack     : 18150p
+Path slack     : 18190p
 
 Capture Clock Arrival Time                               0
 + Clock path delay                                       0
 + Cycle adjust (CyClk_Peri:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                         -1470
+- Setup time                                         -1390
 --------------------------------------------------   ----- 
-End-of-path required time (ps)                       18530
+End-of-path required time (ps)                       18610
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
-+ Data path delay                       380
++ Data path delay                       420
 -------------------------------------   --- 
-End-of-path arrival time (ps)           380
+End-of-path arrival time (ps)           420
  
 Launch Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -125,8 +125,8 @@ AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      
 Data path
 pin name                         model name   delay     AT  slack  edge  Fanout
 -------------------------------  -----------  -----  -----  -----  ----  ------
-AMuxHw_Decoder_old_id_0/q        macrocell9     380    380  18150  RISE       1
-AMuxHw_Decoder_one_hot_0/main_3  macrocell10      0    380  18150  RISE       1
+AMuxHw_Decoder_old_id_0/q        macrocell9     420    420  18190  RISE       1
+AMuxHw_Decoder_one_hot_0/main_3  macrocell10      0    420  18190  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -139,27 +139,27 @@ AMuxHw_Decoder_one_hot_0/clock_0                        macrocell10      0      
 4.2::Critical Path Report for SRClk_App
 ***************************************
 Clock: SRClk_App
-Frequency: 490.20 MHz | Target: 25.00 MHz
+Frequency: 571.43 MHz | Target: 25.00 MHz
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : q1/q
 Path End       : q1/main_4
 Capture Clock  : q1/clock_0
-Path slack     : 37960p
+Path slack     : 38250p
 
 Capture Clock Arrival Time                             0
 + Clock path delay                                     0
 + Cycle adjust (SRClk_App:R#1 vs. SRClk_App:R#2)   40000
-- Setup time                                       -1640
+- Setup time                                       -1200
 ------------------------------------------------   ----- 
-End-of-path required time (ps)                     38360
+End-of-path required time (ps)                     38800
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
-+ Data path delay                       400
++ Data path delay                       550
 -------------------------------------   --- 
-End-of-path arrival time (ps)           400
+End-of-path arrival time (ps)           550
  
 Launch Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -172,8 +172,8 @@ q1/clock_0                                                macrocell15      0    
 Data path
 pin name   model name   delay     AT  slack  edge  Fanout
 ---------  -----------  -----  -----  -----  ----  ------
-q1/q       macrocell15    400    400  37960  RISE       1
-q1/main_4  macrocell15      0    400  37960  RISE       1
+q1/q       macrocell15    550    550  38250  RISE       1
+q1/main_4  macrocell15      0    550  38250  RISE       1
 
 Capture Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -202,20 +202,20 @@ q1/clock_0                                                macrocell15      0    
 Path Begin     : AMuxHw_Decoder_old_id_0/q
 Path End       : AMuxHw_Decoder_one_hot_0/main_3
 Capture Clock  : AMuxHw_Decoder_one_hot_0/clock_0
-Path slack     : 18150p
+Path slack     : 18190p
 
 Capture Clock Arrival Time                               0
 + Clock path delay                                       0
 + Cycle adjust (CyClk_Peri:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                         -1470
+- Setup time                                         -1390
 --------------------------------------------------   ----- 
-End-of-path required time (ps)                       18530
+End-of-path required time (ps)                       18610
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
-+ Data path delay                       380
++ Data path delay                       420
 -------------------------------------   --- 
-End-of-path arrival time (ps)           380
+End-of-path arrival time (ps)           420
  
 Launch Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -226,8 +226,8 @@ AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      
 Data path
 pin name                         model name   delay     AT  slack  edge  Fanout
 -------------------------------  -----------  -----  -----  -----  ----  ------
-AMuxHw_Decoder_old_id_0/q        macrocell9     380    380  18150  RISE       1
-AMuxHw_Decoder_one_hot_0/main_3  macrocell10      0    380  18150  RISE       1
+AMuxHw_Decoder_old_id_0/q        macrocell9     420    420  18190  RISE       1
+AMuxHw_Decoder_one_hot_0/main_3  macrocell10      0    420  18190  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -241,23 +241,23 @@ AMuxHw_Decoder_one_hot_0/clock_0                        macrocell10      0      
 
 ++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-Path Begin     : q2/q
-Path End       : AMuxHw_Decoder_one_hot_0/main_0
+Path Begin     : q3/q
+Path End       : AMuxHw_Decoder_one_hot_0/main_2
 Capture Clock  : AMuxHw_Decoder_one_hot_0/clock_0
-Path slack     : 16790p
+Path slack     : 16860p
 
 Capture Clock Arrival Time                              0
 + Clock path delay                                      0
 + Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1470
+- Setup time                                        -1390
 -------------------------------------------------   ----- 
-End-of-path required time (ps)                      18530
+End-of-path required time (ps)                      18610
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       1740
++ Data path delay                       1750
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           1740
+End-of-path arrival time (ps)           1750
  
 Launch Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -265,15 +265,15 @@ pin name                                                  model name   delay    
 ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
 ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
 ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q2/clock_0                                                macrocell16      0      0  RISE       1
+q3/clock_0                                                macrocell17      0      0  RISE       1
 
 Data path
 pin name                         model name   delay     AT  slack  edge  Fanout
 -------------------------------  -----------  -----  -----  -----  ----  ------
-q2/q                             macrocell16    640    640  16790  RISE       1
-AMuxCtrlW_0/main_1               macrocell6       0    640  16790  RISE       1
-AMuxCtrlW_0/q                    macrocell6    1100   1740  16790  RISE       1
-AMuxHw_Decoder_one_hot_0/main_0  macrocell10      0   1740  16790  RISE       1
+q3/q                             macrocell17    640    640  16860  RISE       1
+AMuxCtrlW_1/main_0               macrocell5       0    640  16860  RISE       1
+AMuxCtrlW_1/q                    macrocell5    1110   1750  16860  RISE       1
+AMuxHw_Decoder_one_hot_0/main_2  macrocell10      0   1750  16860  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -290,20 +290,20 @@ AMuxHw_Decoder_one_hot_0/clock_0                        macrocell10      0      
 Path Begin     : q1/q
 Path End       : q1/main_4
 Capture Clock  : q1/clock_0
-Path slack     : 37960p
+Path slack     : 38250p
 
 Capture Clock Arrival Time                             0
 + Clock path delay                                     0
 + Cycle adjust (SRClk_App:R#1 vs. SRClk_App:R#2)   40000
-- Setup time                                       -1640
+- Setup time                                       -1200
 ------------------------------------------------   ----- 
-End-of-path required time (ps)                     38360
+End-of-path required time (ps)                     38800
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
-+ Data path delay                       400
++ Data path delay                       550
 -------------------------------------   --- 
-End-of-path arrival time (ps)           400
+End-of-path arrival time (ps)           550
  
 Launch Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -316,8 +316,8 @@ q1/clock_0                                                macrocell15      0    
 Data path
 pin name   model name   delay     AT  slack  edge  Fanout
 ---------  -----------  -----  -----  -----  ----  ------
-q1/q       macrocell15    400    400  37960  RISE       1
-q1/main_4  macrocell15      0    400  37960  RISE       1
+q1/q       macrocell15    550    550  38250  RISE       1
+q1/main_4  macrocell15      0    550  38250  RISE       1
 
 Capture Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -339,23 +339,23 @@ q1/clock_0                                                macrocell15      0    
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-Path Begin     : q2/q
-Path End       : AMuxHw_Decoder_one_hot_0/main_0
+Path Begin     : q3/q
+Path End       : AMuxHw_Decoder_one_hot_0/main_2
 Capture Clock  : AMuxHw_Decoder_one_hot_0/clock_0
-Path slack     : 16790p
+Path slack     : 16860p
 
 Capture Clock Arrival Time                              0
 + Clock path delay                                      0
 + Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1470
+- Setup time                                        -1390
 -------------------------------------------------   ----- 
-End-of-path required time (ps)                      18530
+End-of-path required time (ps)                      18610
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       1740
++ Data path delay                       1750
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           1740
+End-of-path arrival time (ps)           1750
  
 Launch Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -363,15 +363,15 @@ pin name                                                  model name   delay    
 ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
 ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
 ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q2/clock_0                                                macrocell16      0      0  RISE       1
+q3/clock_0                                                macrocell17      0      0  RISE       1
 
 Data path
 pin name                         model name   delay     AT  slack  edge  Fanout
 -------------------------------  -----------  -----  -----  -----  ----  ------
-q2/q                             macrocell16    640    640  16790  RISE       1
-AMuxCtrlW_0/main_1               macrocell6       0    640  16790  RISE       1
-AMuxCtrlW_0/q                    macrocell6    1100   1740  16790  RISE       1
-AMuxHw_Decoder_one_hot_0/main_0  macrocell10      0   1740  16790  RISE       1
+q3/q                             macrocell17    640    640  16860  RISE       1
+AMuxCtrlW_1/main_0               macrocell5       0    640  16860  RISE       1
+AMuxCtrlW_1/q                    macrocell5    1110   1750  16860  RISE       1
+AMuxHw_Decoder_one_hot_0/main_2  macrocell10      0   1750  16860  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -383,23 +383,23 @@ AMuxHw_Decoder_one_hot_0/clock_0                        macrocell10      0      
 
 ++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-Path Begin     : q2/q
-Path End       : AMuxHw_Decoder_one_hot_0/main_2
+Path Begin     : q3/q
+Path End       : AMuxHw_Decoder_one_hot_0/main_0
 Capture Clock  : AMuxHw_Decoder_one_hot_0/clock_0
-Path slack     : 16850p
+Path slack     : 17030p
 
 Capture Clock Arrival Time                              0
 + Clock path delay                                      0
 + Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1470
+- Setup time                                        -1390
 -------------------------------------------------   ----- 
-End-of-path required time (ps)                      18530
+End-of-path required time (ps)                      18610
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       1680
++ Data path delay                       1580
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           1680
+End-of-path arrival time (ps)           1580
  
 Launch Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -407,15 +407,15 @@ pin name                                                  model name   delay    
 ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
 ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
 ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q2/clock_0                                                macrocell16      0      0  RISE       1
+q3/clock_0                                                macrocell17      0      0  RISE       1
 
 Data path
 pin name                         model name   delay     AT  slack  edge  Fanout
 -------------------------------  -----------  -----  -----  -----  ----  ------
-q2/q                             macrocell16    640    640  16790  RISE       1
-AMuxCtrlW_1/main_1               macrocell5       0    640  16850  RISE       1
-AMuxCtrlW_1/q                    macrocell5    1040   1680  16850  RISE       1
-AMuxHw_Decoder_one_hot_0/main_2  macrocell10      0   1680  16850  RISE       1
+q3/q                             macrocell17    640    640  16860  RISE       1
+AMuxCtrlW_0/main_0               macrocell6       0    640  17030  RISE       1
+AMuxCtrlW_0/q                    macrocell6     940   1580  17030  RISE       1
+AMuxHw_Decoder_one_hot_0/main_0  macrocell10      0   1580  17030  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -427,17 +427,17 @@ AMuxHw_Decoder_one_hot_0/clock_0                        macrocell10      0      
 
 ++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-Path Begin     : q2/q
-Path End       : AMuxHw_Decoder_old_id_0/main_1
+Path Begin     : q3/q
+Path End       : AMuxHw_Decoder_old_id_0/main_0
 Capture Clock  : AMuxHw_Decoder_old_id_0/clock_0
-Path slack     : 17710p
+Path slack     : 17780p
 
 Capture Clock Arrival Time                              0
 + Clock path delay                                      0
 + Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1650
+- Setup time                                        -1580
 -------------------------------------------------   ----- 
-End-of-path required time (ps)                      18350
+End-of-path required time (ps)                      18420
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
@@ -451,13 +451,13 @@ pin name                                                  model name   delay    
 ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
 ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
 ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q2/clock_0                                                macrocell16      0      0  RISE       1
+q3/clock_0                                                macrocell17      0      0  RISE       1
 
 Data path
 pin name                        model name   delay     AT  slack  edge  Fanout
 ------------------------------  -----------  -----  -----  -----  ----  ------
-q2/q                            macrocell16    640    640  16790  RISE       1
-AMuxHw_Decoder_old_id_0/main_1  macrocell9       0    640  17710  RISE       1
+q3/q                            macrocell17    640    640  16860  RISE       1
+AMuxHw_Decoder_old_id_0/main_0  macrocell9       0    640  17780  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -469,8 +469,8 @@ AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      
 
 ++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-Path Begin     : q2/q
-Path End       : AMuxHw_Decoder_old_id_1/main_1
+Path Begin     : q3/q
+Path End       : AMuxHw_Decoder_old_id_1/main_0
 Capture Clock  : AMuxHw_Decoder_old_id_1/clock_0
 Path slack     : 17860p
 
@@ -493,13 +493,13 @@ pin name                                                  model name   delay    
 ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
 ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
 ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q2/clock_0                                                macrocell16      0      0  RISE       1
+q3/clock_0                                                macrocell17      0      0  RISE       1
 
 Data path
 pin name                        model name   delay     AT  slack  edge  Fanout
 ------------------------------  -----------  -----  -----  -----  ----  ------
-q2/q                            macrocell16    640    640  16790  RISE       1
-AMuxHw_Decoder_old_id_1/main_1  macrocell8       0    640  17860  RISE       1
+q3/q                            macrocell17    640    640  16860  RISE       1
+AMuxHw_Decoder_old_id_1/main_0  macrocell8       0    640  17860  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -514,14 +514,140 @@ AMuxHw_Decoder_old_id_1/clock_0                         macrocell8       0      
 Path Begin     : q1/q
 Path End       : AMuxHw_Decoder_old_id_0/main_2
 Capture Clock  : AMuxHw_Decoder_old_id_0/clock_0
+Path slack     : 17870p
+
+Capture Clock Arrival Time                              0
++ Clock path delay                                      0
++ Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
+- Setup time                                        -1580
+-------------------------------------------------   ----- 
+End-of-path required time (ps)                      18420
+
+Launch Clock Arrival Time                     0
++ Clock path delay                        0
++ Data path delay                       550
+-------------------------------------   --- 
+End-of-path arrival time (ps)           550
+ 
+Launch Clock Path
+pin name                                                  model name   delay     AT  edge  Fanout
+--------------------------------------------------------  -----------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
+q1/clock_0                                                macrocell15      0      0  RISE       1
+
+Data path
+pin name                        model name   delay     AT  slack  edge  Fanout
+------------------------------  -----------  -----  -----  -----  ----  ------
+q1/q                            macrocell15    550    550  16950  RISE       1
+AMuxHw_Decoder_old_id_0/main_2  macrocell9       0    550  17870  RISE       1
+
+Capture Clock Path
+pin name                                                model name   delay     AT  edge  Fanout
+------------------------------------------------------  -----------  -----  -----  ----  ------
+ClockBlock/periclk                                      Clock            0      0  RISE       1
+AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      0  RISE       1
+
+
+
+++++ Path 6 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : q1/q
+Path End       : AMuxHw_Decoder_old_id_1/main_2
+Capture Clock  : AMuxHw_Decoder_old_id_1/clock_0
 Path slack     : 17950p
 
 Capture Clock Arrival Time                              0
 + Clock path delay                                      0
 + Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1650
+- Setup time                                        -1500
 -------------------------------------------------   ----- 
-End-of-path required time (ps)                      18350
+End-of-path required time (ps)                      18500
+
+Launch Clock Arrival Time                     0
++ Clock path delay                        0
++ Data path delay                       550
+-------------------------------------   --- 
+End-of-path arrival time (ps)           550
+ 
+Launch Clock Path
+pin name                                                  model name   delay     AT  edge  Fanout
+--------------------------------------------------------  -----------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
+q1/clock_0                                                macrocell15      0      0  RISE       1
+
+Data path
+pin name                        model name   delay     AT  slack  edge  Fanout
+------------------------------  -----------  -----  -----  -----  ----  ------
+q1/q                            macrocell15    550    550  16950  RISE       1
+AMuxHw_Decoder_old_id_1/main_2  macrocell8       0    550  17950  RISE       1
+
+Capture Clock Path
+pin name                                                model name   delay     AT  edge  Fanout
+------------------------------------------------------  -----------  -----  -----  ----  ------
+ClockBlock/periclk                                      Clock            0      0  RISE       1
+AMuxHw_Decoder_old_id_1/clock_0                         macrocell8       0      0  RISE       1
+
+
+
+++++ Path 7 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : q0/q
+Path End       : AMuxHw_Decoder_old_id_0/main_3
+Capture Clock  : AMuxHw_Decoder_old_id_0/clock_0
+Path slack     : 18000p
+
+Capture Clock Arrival Time                              0
++ Clock path delay                                      0
++ Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
+- Setup time                                        -1580
+-------------------------------------------------   ----- 
+End-of-path required time (ps)                      18420
+
+Launch Clock Arrival Time                     0
++ Clock path delay                        0
++ Data path delay                       420
+-------------------------------------   --- 
+End-of-path arrival time (ps)           420
+ 
+Launch Clock Path
+pin name                                                  model name   delay     AT  edge  Fanout
+--------------------------------------------------------  -----------  -----  -----  ----  ------
+ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
+ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
+ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
+q0/clock_0                                                macrocell14      0      0  RISE       1
+
+Data path
+pin name                        model name   delay     AT  slack  edge  Fanout
+------------------------------  -----------  -----  -----  -----  ----  ------
+q0/q                            macrocell14    420    420  17080  RISE       1
+AMuxHw_Decoder_old_id_0/main_3  macrocell9       0    420  18000  RISE       1
+
+Capture Clock Path
+pin name                                                model name   delay     AT  edge  Fanout
+------------------------------------------------------  -----------  -----  -----  ----  ------
+ClockBlock/periclk                                      Clock            0      0  RISE       1
+AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      0  RISE       1
+
+
+
+++++ Path 8 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : q2/q
+Path End       : AMuxHw_Decoder_old_id_0/main_1
+Capture Clock  : AMuxHw_Decoder_old_id_0/clock_0
+Path slack     : 18020p
+
+Capture Clock Arrival Time                              0
++ Clock path delay                                      0
++ Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
+- Setup time                                        -1580
+-------------------------------------------------   ----- 
+End-of-path required time (ps)                      18420
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
@@ -535,13 +661,13 @@ pin name                                                  model name   delay    
 ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
 ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
 ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q1/clock_0                                                macrocell15      0      0  RISE       1
+q2/clock_0                                                macrocell16      0      0  RISE       1
 
 Data path
 pin name                        model name   delay     AT  slack  edge  Fanout
 ------------------------------  -----------  -----  -----  -----  ----  ------
-q1/q                            macrocell15    400    400  17030  RISE       1
-AMuxHw_Decoder_old_id_0/main_2  macrocell9       0    400  17950  RISE       1
+q2/q                            macrocell16    400    400  17100  RISE       1
+AMuxHw_Decoder_old_id_0/main_1  macrocell9       0    400  18020  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -551,67 +677,25 @@ AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      
 
 
 
-++++ Path 6 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-
-Path Begin     : q3/q
-Path End       : AMuxHw_Decoder_old_id_0/main_0
-Capture Clock  : AMuxHw_Decoder_old_id_0/clock_0
-Path slack     : 17970p
-
-Capture Clock Arrival Time                              0
-+ Clock path delay                                      0
-+ Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1650
--------------------------------------------------   ----- 
-End-of-path required time (ps)                      18350
-
-Launch Clock Arrival Time                     0
-+ Clock path delay                        0
-+ Data path delay                       380
--------------------------------------   --- 
-End-of-path arrival time (ps)           380
- 
-Launch Clock Path
-pin name                                                  model name   delay     AT  edge  Fanout
---------------------------------------------------------  -----------  -----  -----  ----  ------
-ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
-ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
-ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q3/clock_0                                                macrocell17      0      0  RISE       1
-
-Data path
-pin name                        model name   delay     AT  slack  edge  Fanout
-------------------------------  -----------  -----  -----  -----  ----  ------
-q3/q                            macrocell17    380    380  17050  RISE       1
-AMuxHw_Decoder_old_id_0/main_0  macrocell9       0    380  17970  RISE       1
-
-Capture Clock Path
-pin name                                                model name   delay     AT  edge  Fanout
-------------------------------------------------------  -----------  -----  -----  ----  ------
-ClockBlock/periclk                                      Clock            0      0  RISE       1
-AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      0  RISE       1
-
-
-
-++++ Path 7 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++ Path 9 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : q0/q
-Path End       : AMuxHw_Decoder_old_id_0/main_3
-Capture Clock  : AMuxHw_Decoder_old_id_0/clock_0
-Path slack     : 18010p
+Path End       : AMuxHw_Decoder_old_id_1/main_3
+Capture Clock  : AMuxHw_Decoder_old_id_1/clock_0
+Path slack     : 18080p
 
 Capture Clock Arrival Time                              0
 + Clock path delay                                      0
 + Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1650
+- Setup time                                        -1500
 -------------------------------------------------   ----- 
-End-of-path required time (ps)                      18350
+End-of-path required time (ps)                      18500
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
-+ Data path delay                       340
++ Data path delay                       420
 -------------------------------------   --- 
-End-of-path arrival time (ps)           340
+End-of-path arrival time (ps)           420
  
 Launch Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -624,21 +708,21 @@ q0/clock_0                                                macrocell14      0    
 Data path
 pin name                        model name   delay     AT  slack  edge  Fanout
 ------------------------------  -----------  -----  -----  -----  ----  ------
-q0/q                            macrocell14    340    340  17090  RISE       1
-AMuxHw_Decoder_old_id_0/main_3  macrocell9       0    340  18010  RISE       1
+q0/q                            macrocell14    420    420  17080  RISE       1
+AMuxHw_Decoder_old_id_1/main_3  macrocell8       0    420  18080  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
 ------------------------------------------------------  -----------  -----  -----  ----  ------
 ClockBlock/periclk                                      Clock            0      0  RISE       1
-AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      0  RISE       1
+AMuxHw_Decoder_old_id_1/clock_0                         macrocell8       0      0  RISE       1
 
 
 
-++++ Path 8 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++ Path 10 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-Path Begin     : q1/q
-Path End       : AMuxHw_Decoder_old_id_1/main_2
+Path Begin     : q2/q
+Path End       : AMuxHw_Decoder_old_id_1/main_1
 Capture Clock  : AMuxHw_Decoder_old_id_1/clock_0
 Path slack     : 18100p
 
@@ -661,13 +745,13 @@ pin name                                                  model name   delay    
 ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
 ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
 ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q1/clock_0                                                macrocell15      0      0  RISE       1
+q2/clock_0                                                macrocell16      0      0  RISE       1
 
 Data path
 pin name                        model name   delay     AT  slack  edge  Fanout
 ------------------------------  -----------  -----  -----  -----  ----  ------
-q1/q                            macrocell15    400    400  17030  RISE       1
-AMuxHw_Decoder_old_id_1/main_2  macrocell8       0    400  18100  RISE       1
+q2/q                            macrocell16    400    400  17100  RISE       1
+AMuxHw_Decoder_old_id_1/main_1  macrocell8       0    400  18100  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -677,67 +761,25 @@ AMuxHw_Decoder_old_id_1/clock_0                         macrocell8       0      
 
 
 
-++++ Path 9 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-
-Path Begin     : q3/q
-Path End       : AMuxHw_Decoder_old_id_1/main_0
-Capture Clock  : AMuxHw_Decoder_old_id_1/clock_0
-Path slack     : 18120p
-
-Capture Clock Arrival Time                              0
-+ Clock path delay                                      0
-+ Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1500
--------------------------------------------------   ----- 
-End-of-path required time (ps)                      18500
-
-Launch Clock Arrival Time                     0
-+ Clock path delay                        0
-+ Data path delay                       380
--------------------------------------   --- 
-End-of-path arrival time (ps)           380
- 
-Launch Clock Path
-pin name                                                  model name   delay     AT  edge  Fanout
---------------------------------------------------------  -----------  -----  -----  ----  ------
-ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
-ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
-ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q3/clock_0                                                macrocell17      0      0  RISE       1
-
-Data path
-pin name                        model name   delay     AT  slack  edge  Fanout
-------------------------------  -----------  -----  -----  -----  ----  ------
-q3/q                            macrocell17    380    380  17050  RISE       1
-AMuxHw_Decoder_old_id_1/main_0  macrocell8       0    380  18120  RISE       1
-
-Capture Clock Path
-pin name                                                model name   delay     AT  edge  Fanout
-------------------------------------------------------  -----------  -----  -----  ----  ------
-ClockBlock/periclk                                      Clock            0      0  RISE       1
-AMuxHw_Decoder_old_id_1/clock_0                         macrocell8       0      0  RISE       1
-
-
-
-++++ Path 10 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++ Path 11 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : AMuxHw_Decoder_old_id_0/q
 Path End       : AMuxHw_Decoder_one_hot_0/main_3
 Capture Clock  : AMuxHw_Decoder_one_hot_0/clock_0
-Path slack     : 18150p
+Path slack     : 18190p
 
 Capture Clock Arrival Time                               0
 + Clock path delay                                       0
 + Cycle adjust (CyClk_Peri:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                         -1470
+- Setup time                                         -1390
 --------------------------------------------------   ----- 
-End-of-path required time (ps)                       18530
+End-of-path required time (ps)                       18610
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
-+ Data path delay                       380
++ Data path delay                       420
 -------------------------------------   --- 
-End-of-path arrival time (ps)           380
+End-of-path arrival time (ps)           420
  
 Launch Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -748,8 +790,8 @@ AMuxHw_Decoder_old_id_0/clock_0                         macrocell9       0      
 Data path
 pin name                         model name   delay     AT  slack  edge  Fanout
 -------------------------------  -----------  -----  -----  -----  ----  ------
-AMuxHw_Decoder_old_id_0/q        macrocell9     380    380  18150  RISE       1
-AMuxHw_Decoder_one_hot_0/main_3  macrocell10      0    380  18150  RISE       1
+AMuxHw_Decoder_old_id_0/q        macrocell9     420    420  18190  RISE       1
+AMuxHw_Decoder_one_hot_0/main_3  macrocell10      0    420  18190  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -759,61 +801,19 @@ AMuxHw_Decoder_one_hot_0/clock_0                        macrocell10      0      
 
 
 
-++++ Path 11 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-
-Path Begin     : q0/q
-Path End       : AMuxHw_Decoder_old_id_1/main_3
-Capture Clock  : AMuxHw_Decoder_old_id_1/clock_0
-Path slack     : 18160p
-
-Capture Clock Arrival Time                              0
-+ Clock path delay                                      0
-+ Cycle adjust (SRClk_App:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                        -1500
--------------------------------------------------   ----- 
-End-of-path required time (ps)                      18500
-
-Launch Clock Arrival Time                     0
-+ Clock path delay                        0
-+ Data path delay                       340
--------------------------------------   --- 
-End-of-path arrival time (ps)           340
- 
-Launch Clock Path
-pin name                                                  model name   delay     AT  edge  Fanout
---------------------------------------------------------  -----------  -----  -----  ----  ------
-ClockBlock/udb_div_0                                      Clock            0      0  RISE       1
-ClockGenBlock/gen_clk_in_0                                CLK_GEN          0      0  RISE       1
-ClockGenBlock/gen_clk_out_0                               CLK_GEN          0      0  RISE       1
-q0/clock_0                                                macrocell14      0      0  RISE       1
-
-Data path
-pin name                        model name   delay     AT  slack  edge  Fanout
-------------------------------  -----------  -----  -----  -----  ----  ------
-q0/q                            macrocell14    340    340  17090  RISE       1
-AMuxHw_Decoder_old_id_1/main_3  macrocell8       0    340  18160  RISE       1
-
-Capture Clock Path
-pin name                                                model name   delay     AT  edge  Fanout
-------------------------------------------------------  -----------  -----  -----  ----  ------
-ClockBlock/periclk                                      Clock            0      0  RISE       1
-AMuxHw_Decoder_old_id_1/clock_0                         macrocell8       0      0  RISE       1
-
-
-
 ++++ Path 12 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : AMuxHw_Decoder_old_id_1/q
 Path End       : AMuxHw_Decoder_one_hot_0/main_1
 Capture Clock  : AMuxHw_Decoder_one_hot_0/clock_0
-Path slack     : 18210p
+Path slack     : 18290p
 
 Capture Clock Arrival Time                               0
 + Clock path delay                                       0
 + Cycle adjust (CyClk_Peri:R#1 vs. CyClk_Peri:R#2)   20000
-- Setup time                                         -1470
+- Setup time                                         -1390
 --------------------------------------------------   ----- 
-End-of-path required time (ps)                       18530
+End-of-path required time (ps)                       18610
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
@@ -830,8 +830,8 @@ AMuxHw_Decoder_old_id_1/clock_0                         macrocell8       0      
 Data path
 pin name                         model name   delay     AT  slack  edge  Fanout
 -------------------------------  -----------  -----  -----  -----  ----  ------
-AMuxHw_Decoder_old_id_1/q        macrocell8     320    320  18210  RISE       1
-AMuxHw_Decoder_one_hot_0/main_1  macrocell10      0    320  18210  RISE       1
+AMuxHw_Decoder_old_id_1/q        macrocell8     320    320  18290  RISE       1
+AMuxHw_Decoder_one_hot_0/main_1  macrocell10      0    320  18290  RISE       1
 
 Capture Clock Path
 pin name                                                model name   delay     AT  edge  Fanout
@@ -846,20 +846,20 @@ AMuxHw_Decoder_one_hot_0/clock_0                        macrocell10      0      
 Path Begin     : q1/q
 Path End       : q1/main_4
 Capture Clock  : q1/clock_0
-Path slack     : 37960p
+Path slack     : 38250p
 
 Capture Clock Arrival Time                             0
 + Clock path delay                                     0
 + Cycle adjust (SRClk_App:R#1 vs. SRClk_App:R#2)   40000
-- Setup time                                       -1640
+- Setup time                                       -1200
 ------------------------------------------------   ----- 
-End-of-path required time (ps)                     38360
+End-of-path required time (ps)                     38800
 
 Launch Clock Arrival Time                     0
 + Clock path delay                        0
-+ Data path delay                       400
++ Data path delay                       550
 -------------------------------------   --- 
-End-of-path arrival time (ps)           400
+End-of-path arrival time (ps)           550
  
 Launch Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
@@ -872,8 +872,8 @@ q1/clock_0                                                macrocell15      0    
 Data path
 pin name   model name   delay     AT  slack  edge  Fanout
 ---------  -----------  -----  -----  -----  ----  ------
-q1/q       macrocell15    400    400  37960  RISE       1
-q1/main_4  macrocell15      0    400  37960  RISE       1
+q1/q       macrocell15    550    550  38250  RISE       1
+q1/main_4  macrocell15      0    550  38250  RISE       1
 
 Capture Clock Path
 pin name                                                  model name   delay     AT  edge  Fanout
